@@ -1,0 +1,53 @@
+.gaming-main-img {
+            position:absolute;
+            top:104px;
+            left:7px;
+}
+
+.play-gaming-videos{
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.lab-data-gaming {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27.5px;
+  /* 125% */
+  letter-spacing: -0.32px;
+  align-items: center;
+  justify-content: flex-start;
+  display: flex;
+  height: 100%;
+}
+
+
+.text-center {
+  border: none !important;
+}
+
+.headinggame {
+  padding-top: 100px;
+  padding-left: 115px;
+}
+
+.gaming-bg-pink {
+  background-color: #EF7179;
+  ;
+}
+
+.gameimg {
+  background-image: url("../../public/images/gamingdown.png");
+  width: 100%;
+  /* height: fit-content; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gaming-img-section {
+  height: 355px;
+}

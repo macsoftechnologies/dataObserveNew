@@ -1,0 +1,138 @@
+
+.media-main-img{
+  position:absolute;
+  top:28px;
+  left:10px;
+}
+
+.media-entertain-video{
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.headingmedia{
+  padding-top: 195px;
+  padding-left: 115px;
+}
+.mainhead{
+  color: #FFF;
+font-family: Poppins;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 67.2px; /* 120% */
+letter-spacing: -0.32px;
+}
+.subhead{
+  color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.6px; /* 160% */
+letter-spacing: -0.32px;
+}
+.btn{
+  display: inline-flex;
+height: 61.19px;
+padding: 20px 46px 21.19px 48px;
+
+align-items: center;
+gap: 9.16px;
+flex-shrink: 0;
+
+}
+.platforms{
+  color: #050505;
+text-align: center;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px; /* 125% */
+letter-spacing: -0.32px;
+margin-top: 40px;
+}
+.platformspara{
+  color: rgba(0, 0, 0, 0.80);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.6px; /* 160% */
+letter-spacing: -0.32px;
+}
+.case-mainheadname{
+  color: #050505;
+text-align: center;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px; /* 125% */
+letter-spacing: -0.32px; 
+margin-top: 40px;
+}
+.media-case-para{
+  color: rgba(0, 0, 0, 0.80);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.6px; /* 160% */
+letter-spacing: -0.32px;
+}
+
+.mediaimg{
+  /* position: relative; */
+  background-image: url("../../public/images/mediadown.png");
+  width: 100%;
+  /* height: fit-content; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding-left: 12px; */
+}
+.media-img-section{
+  height: 355px;
+  margin-top: 71px;
+}
+.lab-img-section img{
+  width: 100%;
+}
+
+.labimg .lab-data-media{
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  width: 511px;
+height: 367.38px;
+/* padding: 8px; */
+margin-top: -64px ;
+}
+
+.lab-data-media{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 300px;
+}
+
+.media-bg-pink{
+background-color: #EF7179;;
+}
+.media-card-subtitle{
+  color: #FFF;
+}
+.doc{
+  color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 25.6px; /* 182.857% */
+letter-spacing: 1px;
+text-transform: uppercase;
+}

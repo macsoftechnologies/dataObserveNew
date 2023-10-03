@@ -1,0 +1,133 @@
+.main{
+    width: 100%;
+}
+
+.how-we{
+    width: 100%;
+}
+
+.data-science{
+    width: 100%;
+    padding-top: 64px;
+}
+
+
+/* .body-science{
+    width: 100%;
+    height: 675px;
+    background-image: url('../../public/images/main.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+
+.company-play-bg-video{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+
+.body-science{
+            position:absolute;
+            top:39px;
+            left:35px;
+}
+
+.home-company-ourstory{
+    margin-top: 10px;
+}
+.color-black{
+    color: black;
+}
+.home-color{
+    color: #FE5000;
+}
+.journey{
+    color: white;
+    padding-top: 244px;
+    padding-left: 100px;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 500;
+
+}
+.our-story{
+font-size: 28.70px;
+font-family: Poppins;
+font-weight: 400;
+
+}
+
+.marathon{
+    font-family: Poppins;
+    font-weight: 400;
+    padding-top: 84px;
+    text-align: justify;
+}
+
+.marathon-1{
+    font-family: Poppins;
+    font-weight: 400;
+    text-align: justify;
+
+}
+
+.cultivate{
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.cult-page{
+    margin-bottom: 80px;
+    background-color: #F8F8F8;
+    width: 100%;
+    padding-top: 43px;
+}
+.how-we{
+    color: black;
+    font-weight: 400;
+    padding-bottom: 18px;
+}
+
+.target{
+    width: 67px;
+}
+
+.ourpurpose-body{
+    margin-bottom: 84px;
+}
+
+.our-card{
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    
+    border-bottom: 3px solid #FE5000 !important;
+    
+    height: 100%;
+    border-radius: 2px!important;
+    /* margin: 0px 60px 0px 60px; */
+
+    }
+
+    .our-purpose-1{
+        color: black !important;
+        font-size: 25px;
+    }
+
+    .empower-para{
+        color: #707070 !important;
+    }
+
+.data-science-image{
+    width: 54px;
+}
+.data-science-paragraph{
+    padding-left: 24px;
+}
+.global-data{
+    padding-left: 24px;
+    font-size: 28px;
+}
+
+.everyperson-data{
+    margin-bottom: 65px;
+}

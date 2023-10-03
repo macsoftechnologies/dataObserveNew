@@ -1,0 +1,568 @@
+
+/* ....navbar start... */
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    font-weight: 500;
+    border: 1px solid blue;
+}
+
+.logo-main{
+  width: 38px;
+  height: 24px;
+  margin-top: 17px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.logo-text{
+  margin-top: 10px;
+}
+
+
+.data{
+  color: #0046E8;
+font-size: 19.60px;
+font-family: Roboto;
+font-weight: 200;
+line-height: 30.49px;
+letter-spacing: 0.39px;
+word-wrap: break-word;
+cursor: pointer;
+
+
+}
+
+
+.observe{
+  color: #0046E8;
+font-size: 19.60px;
+font-family: Roboto;
+font-weight: 800;
+line-height: 30.49px;
+
+}
+
+.text-dark{
+  font-weight: 500;
+}
+.expertise{
+  margin-left: 50px;
+}
+/* .....navabar end.... */
+
+/* ...slide start.... */
+.slide{
+  width: 100%;
+}
+
+.Homeslide{
+width: 100%;
+height: 675px;
+background-image: url('../../public/images/Homeslide.png');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.homeslide-1{
+  padding-top: 12%;
+  padding-left: 6%;
+}
+
+.home-slide-heading{
+  color: white;
+  font-size: 65px;
+}
+.home-slide-paragraph{
+color: rgba(255, 255, 255, 0.70);
+
+}
+.halfcircle{
+  width: 100%;
+}
+.half{
+  margin-top: -10%;
+}
+
+.allanimation-mainone{
+  border-radius: 153px;
+}
+
+.slide-contact{
+  color: #1A4AB9;
+  padding: 12px 46px 12px 48px;
+  background-color: white;
+  font-weight: 600;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+
+.right-1 {
+  width: 90px;
+  height: 180px;
+  border-radius: 0 12rem 12rem 0;
+  background-color: white;
+  margin-left: 29%;
+  margin-top: 30px;
+  /* color: white; */
+}
+.left-1 {
+  width: 180px;
+  height: 180px;
+  border-radius: 12rem 12rem 12rem 12rem;
+  background-color: white;
+  margin-left: 50%;
+  margin-top: -177px;
+
+}
+
+.circles-1{
+  padding-top: 33%;
+}
+/* ....slide end... */
+
+.customers{
+  text-align: center;
+  margin-top: 37px;
+  font-weight: 700;
+}
+
+/* ....happy .customers images... */
+
+.acco{
+  margin-top: 27px;
+  border-radius: 10px!important;
+  width: 84%;
+}
+
+.happy-customers-images{
+  margin-left: 20px;
+}
+
+/* .genman{
+  margin-left: 2%;
+} */
+
+/* .gen-1{
+  margin-left: 40px;
+  margin-right: 26px;
+} */
+
+/* ....happy .customers images end...  */
+
+/* ....digital transformation....  */
+
+.cloud-head{
+  text-align: center;
+  font-weight: 700;
+}
+/* .box{
+ 
+  margin: 0px!important;
+} */
+
+.arrow{
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-left: 0px !important;
+}
+.arrowtext{
+  font-size: 14px;
+  text-align: center;
+  justify-content: center;
+  max-height: 125px;
+}
+.box-padding{
+  padding: 30px 20px;
+  box-shadow: 2px 2px 35px -18px #323c8d;
+  border-radius: 20px;
+  margin: 25px 0px;
+  height: 100%;
+}
+
+.cloud-top{
+  margin-bottom: 9%;
+}
+
+.boxPad{
+  background-color: white;
+  /* margin-top: 57px; */
+  /* height: fit-content; */
+  padding: 15px;
+  border-radius: 20px;
+  height: 320px;
+  box-shadow: 2px 2px 35px -18px #323c8d;
+}
+
+.down-bot{
+  margin-top: 50px;
+}
+
+/* ....digital transformation end... */
+
+/* .....circles start unleash....  */
+.circle-background{
+  background-color: #EDF5FF;
+  /* padding: 10px 0px 30px 0px; */
+  padding-top: 20px;
+  padding-bottom: 30px;
+  
+}
+
+.right {
+  width: 90px;
+  height: 180px;
+  border-radius: 0 12rem 12rem 0;
+  background-color: #0046E8;
+  margin-left: 41%;
+  margin-top: 30px;
+}
+.left{
+  width: 180px;
+  height: 180px;
+  border-radius: 12rem 12rem 12rem 12rem;
+  background-color: #0046E8;
+  margin-left: 50%;
+  margin-top: -177px;
+
+}
+.unleash{
+  margin-top: 30px;
+  font-weight: 700;
+  /* align-items: center; */
+  text-align: center;
+}
+
+.googlecloud{
+  margin-right: 53px;
+}
+
+/* .....circles start unleash end....  */
+
+
+/* ....cloud partners.. */
+.capability{
+  margin-top: 22px;
+}
+
+.competencies{
+  margin-top: 23px;
+}
+
+.image2{
+  width: 200px;
+  margin-top: 64px;
+}
+
+/* ..cloud partners end... */
+
+/* ...data lake...  */
+
+.datalake{
+  height: 70%;
+  background-color: #EDF5FF;
+}
+.lake-text{
+  text-align: center;
+  padding: 50px 18px 18px 18px;;
+}
+
+.lake-para{
+color: rgba(0, 0, 0, 0.70);
+font-size: 16px;
+font-family: Poppins;
+font-weight: 400;
+line-height: 25.60px;
+text-align: center;
+}
+.flow-chart-img img{
+  width: 100%;
+}
+.datalake-1{
+  margin-top: 18px;
+}
+.contact-us{
+  color: white;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: 25.60px;
+  word-wrap: break-word;
+  text-align: center;
+  justify-content: center;
+  background-color: #1A4AB9;
+  margin-left: 38%;
+  margin-top: 40px;
+  padding: 6px 18px;
+  margin-bottom: 30px;
+  border: 1px solid blue;
+  border-radius: 4px;
+  width: 239px;
+  }
+
+  .data-lake-image{
+    width: 100%;
+  }
+  .datalake-card{
+    width: 100%;
+    background-color: #1A4AB9;
+    border-radius: 15px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+
+  .datalakes-names{
+    color: white;
+  }
+  .datalakes-names li{
+    padding: 20px 0px 20px 0px ;
+    border-bottom: 1px solid #0858bb; 
+    /* width: 10px; */
+  }
+  .lake-pad{
+    padding: 37px 0px 30px 0px;
+  }
+  /* ....data lake end..  */
+
+  /* ....aws images...  */
+  .technology{
+    background-color: #F6F9FF;
+    margin-top: 30px;
+    height: 205px;
+  }
+  .platform{
+    padding-top: 30px;
+    margin-bottom: 22px;
+  }
+
+  .aws{
+    width: 74px;
+    margin-right: 87px;
+  }
+  .databricks{
+    width: 152px;
+    margin-left: -129px;
+  }
+
+  .googlecloud{
+    width: 155px;
+    margin-left: -43px;
+  }
+ 
+  .salesforce{
+    width: 78px;
+    margin-left: 126px;
+  }
+
+  .snowflake{
+width: 147px;
+margin-left: 22px;
+  }
+
+  .tableau{
+width: 94px;
+margin-left: 69px;
+  }
+
+  .azure{
+    margin-left: -28px;
+    width: 99px;
+  }
+  .technology-platform{
+    text-align: center;
+  }
+  .partner{
+    margin-top: 10px;
+  }
+
+  /* ....aws images end...  */
+
+  /* ...talk to us...  */
+
+  .bg-color{
+    background-color: #1A4AB9;
+    height: 418px;
+    padding: 60px 0px 0px 0px;
+  }
+  .card-body-1{
+    background-color: #1A4AB9;
+    border-radius: 10px 10px 0px 0px!important;
+    height: 327px;
+    padding: 67px;
+
+  }
+  .card-1{
+    border-radius: 10px!important;
+  }
+  .title{
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .question{
+    color: white;
+  }
+
+  .fa-envelope{
+    color: white;
+    
+  }
+  .hello{
+    margin: 20px;
+    
+  }
+  .bg-white{
+    padding-top: 30px;
+    border-radius: 13px 13px 0px 0px;
+  }
+  .name{
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+      }
+.contact-us-2{
+      width: 100%;
+      background-color: #0046E8;
+      color: white;
+      border: 1px solid blue;
+      padding: 5px;
+      font-weight: 500;
+      padding: 10px 5px;
+      border-radius: 8px;
+      }
+
+      /* ...talk to us end...   */
+      .full-bg-color{
+        background-color: #F6F9FF;
+        padding: 10px;
+      }
+      .required::after {
+        content: ' *';
+        color: red;
+      }  
+
+  /* ...footer... */
+  .footer {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: black;
+  }
+  .footer .coll {
+   
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 0px 20px 20px 20px;
+  }
+  .footer .coll h1 {
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 15px;
+    line-height: 17px;
+    padding: 20px 0px 5px 0px;
+    color: rgba(255,255,255,0.2);
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.250em;
+  }
+  .footer .coll ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer .coll ul li {
+    color: #999999;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px 0px 5px 0px;
+    cursor: pointer;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+  }
+  .social ul li {
+    display: inline-block;
+    padding-right: 5px !important;
+  }
+  
+  .footer .coll ul li:hover {
+    color: #ffffff;
+    transition: .1s;
+    -webkit-transition: .1s;
+    -moz-transition: .1s;
+  }
+  .clearfix {
+    clear: both;
+  }
+  .footer-data{
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .footer-heading{
+    color: #0046E8!important;
+  }
+  .cloud li{
+    font-size: 8px;
+  }
+  
+  @media only screen and (min-width: 1280px) {
+    .contain {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  }
+  @media only screen and (max-width: 1139px) {
+    .contain .social {
+      width: 1000px;
+      display: block;
+    }
+    .social h1 {
+      margin: 0px;
+    }
+  }
+  @media only screen and (max-width: 950px) {
+    .footer .col {
+      width: 33%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 500px) {
+      .footer .col {
+        width: 50%;
+      }
+      .footer .col h1 {
+        font-size: 14px;
+      }
+      .footer .col ul li {
+        font-size: 13px;
+      }
+  }
+  @media only screen and (max-width: 340px) {
+    .footer .col {
+      width: 100%;
+    }
+  }
+  

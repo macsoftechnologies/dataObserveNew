@@ -1,0 +1,214 @@
+.contact {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-weight: 500;
+  border: 1px solid blue;
+}
+/* .hire {
+  background-image: url("../../public/images/hire.png");
+  height: 400px;
+  width: 100%;
+  
+  font-size: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.talent{
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.logo-main {
+  width: 38px;
+  height: 24px;
+  margin-top: 17px;
+  margin-right: 10px;
+}
+.logo-text {
+  margin-top: 10px;
+}
+
+.data {
+  color: #0046e8;
+  font-size: 19.6px;
+  font-family: Roboto;
+  font-weight: 200;
+  line-height: 30.49px;
+  letter-spacing: 0.39px;
+  word-wrap: break-word;
+}
+.observe {
+  color: #0046e8;
+  font-size: 19.6px;
+  font-family: Roboto;
+  font-weight: 800;
+  line-height: 30.49px;
+}
+.bestprac {
+  background-image: url("../../public/images/bestprac.png");
+  height: 400px;
+  width: 100%;
+  font-size: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}
+.energydo {
+  background-image: url("../../public/images/energydo.png");
+  height: 350px;
+  width: 100%;
+  font-size: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.cocreater {
+  background-image: url("../../public/images/cocreater.jpeg");
+  height: 350px;
+  width: 100%;
+  font-size: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin-top: 70px;
+}
+.botn {
+  background-color: #0046e8;
+  border-radius: 10px;
+  border: none;
+}
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: black;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(255, 255, 255, 0.2);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+}
+.bg-color {
+  background-color: #1a4ab9;
+  height: 418px;
+  padding: 60px 0px 0px 0px;
+}
+.card-body1 {
+  background-color: #1a4ab9;
+  border-radius: 10px 10px 0px 0px !important;
+  height: fit-content;
+  padding: 67px;
+}
+.card {
+  border-radius: 10px !important;
+}
+.expertcardbody1 {
+  background-color: #f6f9ff;
+  padding: 0px 20px 0px 30px !important;
+  width: 380px;
+  border-radius: 30px;
+}
+.title {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+.question {
+  color: white;
+}
+
+.fa-envelope {
+  color: white;
+}
+.hello {
+  margin: 10px;
+}
+.bg-white {
+  padding-top: 30px;
+  border-radius: 13px 13px 0px 0px;
+}
+.name {
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact-us-2 {
+  width: 100%;
+  /* margin-top: 16px; */
+  background-color: #0046e8;
+  color: white;
+  border: 1px solid blue;
+  padding: 5px;
+  font-weight: 500;
+  padding: 10px 5px;
+  border-radius: 8px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.footer-heading {
+  color: #0046e8 !important;
+}
+.cloud-head {
+  text-align: center;
+  font-weight: 700;
+}
+.faq-class {
+  background-color: #1a4ab9;
+  border-radius: 10px 10px 0px 0px !important;
+  border: none;
+  height: fit-content;
+  padding: 67px;
+}

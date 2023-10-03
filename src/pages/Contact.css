@@ -1,0 +1,324 @@
+.contact-bg-color {
+  background-color: #1a4ab9;
+  height: 700px;
+  position: relative;
+}
+
+.name-1 {
+  width: 42%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: #1a4ab9;
+}
+
+.connect-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-us-3 {
+  width: 42%;
+  background-color: white;
+  color: #1a4ab9;
+  border: 1px solid blue;
+  padding: 5px;
+  font-weight: 500;
+  padding: 10px 5px;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+.full-name {
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-weight: 400;
+}
+.connectpage-1 {
+  background-color: #1a4ab9;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  width: 78%;
+}
+
+.full-g {
+  padding-left: 20px;
+}
+
+.contact-overall {
+  padding-top: 6%;
+}
+.pattern {
+  position: absolute;
+
+  left: 0px;
+  bottom: 0px;
+  height: 100px;
+  width: 156px;
+}
+.contact-heading {
+  color: white;
+  font-size: 65px;
+  font-family: Poppins;
+  font-weight: 800;
+  line-height: 78px;
+}
+.contact-paragraph {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+.mobile-number {
+  padding-left: 10px;
+  color: white;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+.contact-phone {
+  font-size: 18px;
+  color: white;
+}
+
+.our-location {
+  text-align: center;
+  color: black;
+  font-size: 44px;
+  font-family: Poppins;
+  font-weight: 700;
+  margin-bottom: 36px;
+}
+.map {
+  width: 100%;
+  margin-bottom: 73px;
+}
+
+.unitedstates-all {
+  background: rgba(1, 187, 138, 0.08);
+  border-radius: 30px;
+  padding: 25px 18px 10px 20px;
+}
+
+.canada-all {
+  background: rgba(255, 215, 3, 0.08);
+  border-radius: 30px;
+  padding: 20px 10px 10px 20px;
+}
+.costa-all {
+  background: rgba(239, 113, 121, 0.08);
+  border-radius: 30px;
+  padding: 20px 10px 10px 20px;
+  margin-top: 32px;
+}
+.nether-all {
+  background: rgba(26, 74, 185, 0.08);
+  border-radius: 30px;
+  padding: 20px 10px 10px 20px;
+}
+
+.india-all {
+  background: rgba(1, 187, 138, 0.08);
+  border-radius: 30px;
+  padding: 20px 10px 10px 20px;
+  margin-top: 32px;
+}
+
+.united-heading {
+  color: #00b686;
+  font-size: 21px;
+  font-weight: 600;
+}
+.canada-heading {
+  color: #ffd703;
+  font-size: 21px;
+  font-weight: 600;
+}
+.virginia-heading {
+  font-size: 17px;
+  font-weight: 600;
+}
+.nevada-heading {
+  font-size: 21px;
+  font-weight: 600;
+}
+.texas {
+  font-size: 21px;
+  font-weight: 600;
+}
+.costa-heading {
+  color: #ef7179;
+  font-size: 21px;
+  font-weight: 600;
+}
+.nether-heading {
+  color: #1a4ab9;
+  font-size: 21px;
+  font-weight: 600;
+}
+.india-heading {
+  color: #00b686;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.sub-states-all {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.agi-para {
+  font-size: 15px;
+}
+
+.overall-padding {
+  margin-bottom: 56px;
+}
+
+.location-pad {
+  margin-top: 64px;
+}
+/* .....grid.... */
+
+.line-bottom {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* .....footer... */
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: black;
+}
+.footer .coll {
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .coll h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(255, 255, 255, 0.2);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: #ff4925;
+}
+
+.footer .coll ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .coll ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .coll ul li:hover {
+  color: #ffffff;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+}
+.clearfix {
+  clear: both;
+}
+.footer-data {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.footer-heading {
+  color: #ff4925 !important;
+}
+.head-footer {
+  color: #ff4925 !important;
+}
+.cloud li {
+  font-size: 8px;
+}
+
+.fb {
+  height: 47px;
+  width: 47px;
+}
+.socialmedia-images {
+  justify-content: space-evenly;
+  margin-bottom: 54px;
+}
+
+.privacy-policy {
+  color: #828282;
+}
+.agilisium {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-img {
+  width: 28%;
+}
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .footer .col {
+    width: 50%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+}

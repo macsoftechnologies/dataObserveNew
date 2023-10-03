@@ -1,0 +1,528 @@
+/* .background{
+    width: 100%;
+    height: 350px;
+    background-image: url('../../public/images/bluecolor-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+} */
+
+
+.people-careers-video{
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.background{
+  position:absolute;
+  top:239px;
+  left:117px;
+}
+
+/* ......circles..... */
+
+.half-clrcles-0{
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-1{
+  background-image: url('../../public/images/circle.png');
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+
+}
+.circle-2{
+  background-image: url('../../public/images/half-circle.png');
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  margin-right: -62px;
+  
+
+}
+
+.circles-both{
+  align-items: center;
+  justify-content: center;
+}
+
+.owner{
+  position: absolute;
+  top: 47%;
+  transform: translateY(-100%);
+  right:54px;
+  color: #fff;
+  font-weight: 600;
+  /* font-size: 20px; */
+
+}
+.team{
+  position: absolute;
+  top: 53%;
+  transform: translateY(-0%);
+  left:60px;
+  color: #fff;
+  font-weight: 600;
+  /* font-size: 20px; */
+
+}
+
+.Empathy-circle{
+position: absolute;
+top: 130px;
+left: 78px;
+color: white;
+font-weight: 600;
+/* font-size: 20px; */
+
+}
+.Dedication-circle{
+position: absolute;
+transform: rotate(270deg);
+    top: 33px;
+    left: 10px;
+    color: #0046E8;
+    font-weight: 600;
+  /* font-size: 20px; */
+
+
+}
+
+.Self-Reliance{
+  position: absolute;
+  color: #0046E8;
+  top: 102%;
+    left: 30%;
+    font-weight: 600;
+    /* font-size: 20px; */
+
+}
+.Leadership{
+  position: absolute;
+  color: #0046E8;
+  top: 78%;
+    left: 99%;
+    font-weight: 600;
+  /* font-size: 20px; */
+
+
+}
+
+.Growth{
+  position: absolute;
+  color: #D3D3D3;
+  left: 97%;
+  top: 13%;
+  /* font-size: 25px; */
+
+}
+
+.Empathy-circle{
+  position: absolute;
+  color: #D3D3D3;
+  top: 102%;
+    left: 75px;
+
+}
+.Teamwork-circle{
+  position: absolute;
+  color: #D3D3D3;
+  top: 75%;
+    left: -8%;
+
+}
+
+.Ownership-circle{
+  position: absolute;
+  color: #D3D3D3;
+  top: 50%;
+    left: -35%;
+
+}
+
+
+
+
+
+
+
+/* ....circle end... */
+
+.people-career{
+color: white;
+}
+.data-observe{
+color: rgba(255, 255, 255, 0.70);
+
+}
+
+.people-data-observe{
+padding-top: 9%;
+}
+
+.life{
+color: #050505;
+font-size: 35px;
+font-family: Poppins;
+font-weight: 700;
+text-align: center;
+margin-top: 40px;
+
+}
+
+.dataobserve-paragraph-1{
+color: rgba(0, 0, 0, 0.80);
+font-size: 16px;
+font-family: Poppins;
+font-weight: 400;
+line-height: 25.60px;
+text-align: center;
+
+}
+
+.paragraph-observe{
+  margin-bottom: 55px;
+}
+
+
+
+.ellipse-2{
+    width: 100px;
+    height: 100px;
+}
+.empower{
+    width: 100%;
+    height: 566px;
+    background-image: url('../../public/images/empower.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5%;
+    border-radius: 34px;
+}
+
+
+
+
+.empathy {
+    width: 200px; 
+    height: 200px; 
+    border-radius: 50%; 
+    background-image: url('../../public/images/bluecolor-background.png');
+    background-size: cover;
+    background-position: center; 
+   
+}
+.bg-black{
+    background-color: blue;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.ellipse-1{
+    margin-left: 130px;
+    height: 156px;
+    width: 154px;
+}
+.card-number{
+    box-shadow: 0px 28px 65px #F1F4F9;
+    background-color: white;
+    /* border-radius: 30px!important;  */
+    margin-top: 10px;
+    max-height: 109px;
+}
+
+
+
+.respect{
+    margin-top: -50px;
+    color: #1A4AB9;
+    font-weight: 600;
+
+}
+.integrity{
+    margin-top: -41px;
+    color: #EF7179;
+    font-weight: 600;
+
+}
+.trust{
+    margin-top: -41px;
+    color: #01BB8A;
+    font-weight: 600;
+
+}
+
+.equality{
+    margin-top: -41px;
+    color: #FFD703;
+    font-weight: 600;
+
+}
+.customer{
+    margin-top: -41px;
+    color: #00B686;
+    font-weight: 600;
+
+}
+
+.innovation{
+    margin-top: -41px;
+    color: #1069D5;
+    font-weight: 600;
+}
+
+.life-2{
+    color: #050505;
+font-size: 35px;
+font-family: Poppins;
+font-weight: 700;
+text-align: center;
+
+}
+.dataobserve-paragraph-2{
+    color: rgba(0, 0, 0, 0.80);
+font-size: 16px;
+font-family: Poppins;
+font-weight: 400;
+line-height: 25.60px;
+text-align: center;
+
+}
+
+.ourvalues-background{
+    background-color: #F6F9FF;
+    padding-top: 30px;
+    padding-bottom: 66px;
+    margin-top: 117px;
+}
+
+
+/* ....digital .... */
+
+
+ 
+  
+  .arrow-1{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+  }
+  .arrowtext-1{
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    max-height: 125px;
+    color: #050505;
+    font-weight: 500;
+  }
+  .box-padding-1{
+    padding: 45px 25px;
+    border-radius: 30px;
+    margin: 25px 0px;
+    background: rgba(26, 74, 185, 0.10); 
+  }
+  .arrow-2{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+  }
+  .arrowtext-2{
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    max-height: 125px;
+    color: #050505;
+    font-weight: 500;
+  }
+  .box-padding-2{
+    padding: 45px 25px;
+    border-radius: 30px;
+    margin: 25px 0px;
+    background: rgba(239, 113, 121, 0.10);
+  }
+  .arrow-3{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+  }
+  .arrowtext-3{
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    max-height: 125px;
+    color: #050505;
+    font-weight: 500;
+  }
+  .box-padding-3{
+    padding: 45px 25px;
+    border-radius: 30px;
+    margin: 25px 0px;
+    background: rgba(1, 187, 138, 0.10); 
+  }
+  .arrow-4{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+  }
+  .arrowtext-4{
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    max-height: 125px;
+    color: #050505;
+    font-weight: 500;
+  }
+  .box-padding-4{
+    padding: 45px 25px;
+    border-radius: 30px;
+    margin: 25px 0px;
+    background: rgba(255, 215, 3, 0.10);
+  }
+
+  .empower{
+    width: 100%;
+  }
+
+  .people-data-observe-1{
+    padding-top: 9%;
+    padding-left: 30px;
+    margin-top: 28px;
+
+    }
+    .people-career-1{
+        color: white;
+        }
+
+ .data-observe-1{
+    color: rgba(255, 255, 255, 0.70);
+            
+}
+
+.check-icons{
+    padding-left: 32px;
+    font-size: 23px;
+    color: white;
+}
+.team-ld{
+    color: white;
+    font-weight: 400;
+}
+
+.che-cir-2{
+    padding: 32px 0px 32px 0px;
+}
+
+.teams-paragraph{
+    margin: 0px 2px 0px -11px;
+}
+
+.inclusion{
+    width: 100%;
+}
+.inclusion-background{
+    background: #F6F9FF; 
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-bottom: 54px;
+}
+
+.all-workforce{
+    padding-top: 65px;
+}
+.view-more{
+    padding: 19px 40px 21px 40px;
+    color: white;
+    background: #1A4AB9;
+    border-radius: 4px;
+    border: 1px solid #1A4AB9;
+    font-size: 17px;
+
+}
+
+.work-para{
+    padding-bottom: 21px;
+    font-weight: 400;
+}
+.inclusive-heading{
+    font-weight: 700;
+    color: black;
+    font-size: 44px;
+}
+
+.joinus{
+    height: 335px;
+   border-radius: 20px;
+    background-image: url('../../public/images/joinus.png');
+    background-size: cover;
+    background-position: center;
+}
+.over-join-us{
+  margin-bottom: 54px;
+}
+.joinus-heading{
+  color: white;
+font-size: 44px;
+font-family: Poppins;
+font-weight: 700;
+
+}
+
+.joinus-paragraph{
+  color: white;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 400;
+  
+}
+.head-paragraph{
+  padding-top: 6%;
+}
+
+.current-opening{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 21px;
+}
+
+.openings{
+  padding: 21px 35px 20px 35px;
+  background-color: white;
+  color: #1A4AB9;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid white;
+  margin: 10px 12px 10px 10px;
+  font-weight: 600;
+
+}
+
+.faq-class{
+  background-color: #1a4ab9;
+  border-radius: 10px 10px 0px 0px !important;
+  height: fit-content;
+  padding: 67px;
+}
+
+

@@ -1,0 +1,447 @@
+.medical{
+  width: 100%;
+}
+.clinical-trails{
+  width: 100%;
+}
+.genomics{
+  width: 100%;
+}
+.mg-right{
+  margin: 0px 10px 10px 0px;
+}
+
+.ghgh{
+  margin-left: 15px;
+}
+
+.platforms{
+  text-align: center;
+  color: #050505;
+text-align: center;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px; /* 125% */
+letter-spacing: -0.32px;
+}
+.platformspara{
+  color: rgba(0, 0, 0, 0.80);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.6px; /* 160% */
+letter-spacing: -0.32px;
+}
+.cntr-text{
+  justify-content: center;
+}
+.boxtext{
+  font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.box{
+  margin: 0px!important;
+}
+
+.case-studies{
+  text-align: center;
+}
+/* .mainimg{
+  width: 100%;
+  height: 675px;
+  background-image: url("../../public/images/industries1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 12px;
+} */
+
+.life-science-video{
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+}
+.mainimg{
+  position:absolute;
+  top:60px;
+  left:16px;
+}
+.indheading{
+  padding-top: 195px;
+  padding-left: 115px;
+
+
+}
+.industies-mainhead{
+  color: #FFF;
+font-family: Poppins;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 67.2px; /* 120% */
+letter-spacing: -0.32px;
+}
+.mainhead{
+  padding-left: 13px;
+  color: #FFF;
+font-family: Poppins;
+font-size: 56px;
+font-style: normal;
+font-weight: 700;
+line-height: 67.2px; /* 120% */
+letter-spacing: -0.32px;
+}
+.subhead{
+  color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.6px; /* 160% */
+letter-spacing: -0.32px;
+}
+.btn{
+  display: inline-flex;
+height: 61.19px;
+padding: 20px 46px 21.19px 48px;
+
+align-items: center;
+gap: 9.16px;
+flex-shrink: 0;
+
+}
+.btninner{
+  margin-left: 70px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: #FF4925;
+font-family: Poppins;
+font-size: 17.6px;
+font-style: normal;
+font-weight: 600;
+line-height: 19.2px; /* 109.091% */
+letter-spacing: -0.32px;
+border-color: white;
+}
+.main-exp{
+  /* margin: 5%; */
+  padding-bottom: 50px;
+  padding-top: 60px;
+}
+.arpng{
+  padding-left: 8px;
+}
+.expertiseind{
+  text-align: center;
+  color: #050505;
+text-align: center;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px; /* 125% */
+letter-spacing: -0.32px;
+
+}
+.exp-para{
+  text-align: center;
+  color: rgba(0, 0, 0, 0.80);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.6px; /* 160% */
+letter-spacing: -0.32px;
+}
+.pharma{
+  color: #1069D5;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 25.6px; /* 106.667% */
+letter-spacing: -0.32px;
+width: 100%;
+}
+.drug-list{
+  list-style-type: none;
+  display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 18px;
+margin-left: -34px;
+color: #000;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 25.6px; /* 142.222% */
+letter-spacing: -0.32px;
+width: 100%;
+}
+.list-border{
+  border-bottom: 1px solid #F1F4FB;
+  display: block;
+  width: 100%;
+}
+
+.drugbox{
+  background-color: white;
+  border-radius: 8px;
+} 
+.industriesexpclass{
+  background-color: #F6F9FF;
+}
+.cs-div{
+  margin-top: 36px;
+}
+.bles-div{
+  padding-top: 8px;
+}
+.case{
+  color: #050505;
+text-align: center;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px; /* 125% */
+letter-spacing: -0.32px;
+}
+.mpara{
+  color: #050505;
+font-family: Poppins;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 52.5px; /* 125% */
+letter-spacing: -0.32px;
+}
+.guidelines{
+  color: rgba(0, 0, 0, 0.70);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.6px; /* 160% */
+letter-spacing: -0.32px;
+}
+.ble-s{
+  color: #050505;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px; /* 130% */
+}
+.bles-data{
+  color: rgba(0, 0, 0, 0.90);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.6px; /* 160% */
+letter-spacing: -0.32px;
+}
+
+.logo-images img{
+  width: 35px;
+}
+
+.testmonials{
+  color: #050505;
+text-align: center;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px; 
+letter-spacing: -0.32px;
+padding-top: 15px;
+}
+.tst-card{
+  width: 100%;
+  height: 500px;
+  background-image: url("../../public/images/tst-card.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 4px;
+  margin-top: 25px;
+}
+.tst-nm{
+  padding-top: 8px;
+  padding-left: 25px;
+}
+
+.nm{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56.65px; /* 103% */
+  letter-spacing: 1.01px;
+
+}
+.nm-para{
+  color: rgba(255, 255, 255, 0.70);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 21.6px; /* 135% */
+letter-spacing: -0.32px;
+}
+
+.tst-heading{
+  color: #FFF;
+font-family: Rubik Glitch;
+font-size: 55px;
+font-style: normal;
+font-weight: 400;
+line-height: 56.65px; /* 103% */
+letter-spacing: 1.01px;
+padding-top: 8px;
+padding-left: 63px;
+}
+
+.tst-para{
+  color: #FFF;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 35.2px; /* 160% */
+padding-top: 30px;
+padding-left: 68px;
+}
+.vishnu{
+  color: #FFF;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 500;
+line-height: 25.51px; /* 150.059% */
+letter-spacing: -0.34px;
+}
+.director{
+  color: rgba(255, 255, 255, 0.60);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 21px; /* 150% */
+letter-spacing: -0.32px;
+}
+.namecard{
+  margin-top: 101px;
+  margin-left: 70px;
+}
+
+.logo-ul li{
+  list-style-type: none;
+  padding-right: 15px;
+}
+
+.logo-ul li img{
+  width: 113.55px;
+height: 27.47px;
+max-width: 113.55px;
+}
+.labimg{
+  position: relative;
+  margin-top: 50px;
+}
+
+.lab-img-section img{
+  width: 100%;
+}
+
+.labimg .lab-data-industries{
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  width: 511px;
+height: 367.38px;
+padding: 8px;
+margin-top: -64px;
+}
+
+.industries-bg-pink{
+background-color: #EF7179;
+}
+.card-title{
+  color: #FFF;
+}
+.card-subtitle{
+  color: #FFF;
+}
+.doc{
+  color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 25.6px; /* 182.857% */
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+.benfits{
+  color: #050505;
+text-align: center;
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 55px; /* 125% */
+letter-spacing: -0.32px;
+margin-top: 45px;
+}
+.benfits-para{
+  color: rgba(0, 0, 0, 0.80);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.6px; /* 160% */
+letter-spacing: -0.32px;
+padding-bottom: 58px ;
+}
+.last-logos{
+  list-style-type: none;
+  padding-right: 15px;
+
+}
+.percentage{
+  color: #050505;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 38.4px; /* 120% */
+}
+.pp-data{
+  color: #050505;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24.8px; /* 155% */
+letter-spacing: -0.32px;
+}
+.down-logo{
+  width: 102px;
+  height: 102px;
+  max-width: 270px;
+}
