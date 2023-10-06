@@ -2,7 +2,8 @@ import React from "react";
 import "./Databi.css";
 import Faq from "../products/Faq";
 import Navbar from "../products/Navbar";
-import databi from "../../src/videos/datanalytics.mp4"
+import Footer from "../products/Footer";
+import databi from "../../src/videos/datanalytics.mp4";
 
 const Databi = () => {
   return (
@@ -10,83 +11,81 @@ const Databi = () => {
       <Navbar />
       <div className="drives">
         <div>
-        <video className="daba-bi-anal" autoPlay loop muted>
-        <source src={databi} type="video/mp4"/>
-      </video>
-      <div
-          style={{
-            display: "inline-flex",
-            minHeight: "1080px",
-            padding: "42px 400px 100px 255px",
-            flexDirection: "column",
-            alignItems: "flex-start",
-            position:"absolute",
-            top:"170px",
-            left:"-121px"
-          }}
-        >
-          <p
+          <video className="daba-bi-anal" autoPlay loop muted>
+            <source src={databi} type="video/mp4" />
+          </video>
+          <div
             style={{
-              color: "white",
-              fontSize: "18px",
-              fontStyle: "normal",
-              fontWeight: "600",
+              display: "inline-flex",
+              minHeight: "1080px",
+              padding: "42px 400px 100px 255px",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              position: "absolute",
+              top: "170px",
+              left: "-121px",
             }}
           >
-            Business Intelligence and Analytics
-          </p>
-          <h4
-            style={{
-              color: "white",
-              fontSize: "32px",
-              fontStyle: "normal",
-              fontWeight: "700",
-              lineHeight: "47px",
-            }}
-          >
-            Drive scalable business growth with Business Intelligence and Data
-            Analytics services
-          </h4>
-          <button
-            style={{
-              display: "flex",
-              height: "61px",
-              maxWidth: "255px",
-              padding: "20px 46px 21px 48px",
-              justifyContent: "center",
-              alignItems: "center",
-              border: "none",
-              marginTop: "70px",
-              borderRadius: "5px",
-            }}
-          >
-            <span
+            <p
               style={{
-                color: "#FF4925",
-                fontSize: "14px",
+                color: "white",
+                fontSize: "18px",
                 fontStyle: "normal",
                 fontWeight: "600",
-                lineHeight: "19px",
               }}
             >
-              Talk to us now
-            </span>
-            <i
-              className="fa fa-long-arrow-right"
+              Business Intelligence and Analytics
+            </p>
+            <h4
               style={{
-                width: "23px",
-                fontSize: "29px",
-                flexShrink: "0",
-                color: "#FF4925",
-                marginLeft: "12px",
+                color: "white",
+                fontSize: "32px",
+                fontStyle: "normal",
+                fontWeight: "700",
+                lineHeight: "47px",
               }}
-              aria-hidden="true"
-            ></i>
-          </button>
+            >
+              Achieve scalable business expansion through our Business
+              Intelligence and Data Analytics services.
+            </h4>
+            <button
+              style={{
+                display: "flex",
+                height: "61px",
+                maxWidth: "255px",
+                padding: "20px 46px 21px 48px",
+                justifyContent: "center",
+                alignItems: "center",
+                border: "none",
+                marginTop: "70px",
+                borderRadius: "5px",
+              }}
+            >
+              <span
+                style={{
+                  color: "#FF4925",
+                  fontSize: "14px",
+                  fontStyle: "normal",
+                  fontWeight: "600",
+                  lineHeight: "19px",
+                }}
+              >
+                Talk to us now
+              </span>
+              <i
+                className="fa fa-long-arrow-right"
+                style={{
+                  width: "23px",
+                  fontSize: "29px",
+                  flexShrink: "0",
+                  color: "#FF4925",
+                  marginLeft: "12px",
+                }}
+                aria-hidden="true"
+              ></i>
+            </button>
+          </div>
         </div>
-        </div>
-      
-       
       </div>
       <div
         style={{
@@ -97,52 +96,75 @@ const Databi = () => {
         }}
       >
         <h4 style={{ textAlign: "center", fontWeight: 700, fontSize: "43px" }}>
-          Our Expertise in Cloud Migration Services
+          Our Expertis in BI and Analytics services
         </h4>
         <p style={{ textAlign: "center", marginTop: "10px", width: "755px" }}>
-          with over 40years of combined industry experience ,our cloud migration
-          services are tailored to set you on the path of operational excellence
-          and holistic growth. we transform organizations of every scale and
-          sizes with robust cloud ecosystems - moving IT infrastructure,
-          applications and processes
+          With a collective industry experience exceeding four decades, our
+          business intelligence and analytics services are custom-designed to
+          guide you toward operational excellence and comprehensive growth.
         </p>
       </div>
-      <div>
-        <div class="card-deck" style={{ margin: "5px 0px 0px 0px" }}>
-          <div class="card" style={{ border: "none" }}>
-            <img
-              src="./images/Group - 1 of 5.png"
-              class="card-img-top"
-              alt="..."
-            />
+      <div className="cloudcards">
+        <div class="ccdiv w-100">
+          <div className="cloudimgcard">
+            <img className="notrepimg" src="/images/dvc.png" alt="" />
+            <div className="cloudcard card">
+              <h1 className="cloudcardheading">
+                Data visualization consulting
+              </h1>
+              <p className="cloudcardpara mb-0">
+                Data Observe's core expertise lies in consulting and our Data
+                visualization capabilities empower organizations to Simplify
+                intricate data and craft compelling narratives through its
+                utilization.
+              </p>
+            </div>
           </div>
-          <div class="card" style={{ border: "none" }}>
-            <img
-              src="./images/Group - 2 of 5.png"
-              class="card-img-top"
-              alt="..."
-            />
+          <div className="cloudimgcard">
+            <img className="notrepimg" src="/images/dap.png" alt="" />
+            <div className="cloudcard card">
+              <h1 className="cloudcardheading">Data Analytics Products</h1>
+              <p className="cloudcardpara mb-0">
+                utilizing our array of advanced tools, we assist in the creation
+                of user-friendly and engaging dashboards that enable
+                organizations to easily monitor key performance indicators and
+                other valuable information
+              </p>
+            </div>
           </div>
-          <div class="card" style={{ border: "none" }}>
-            <img
-              src="./images/Group - 3 of 5.png"
-              class="card-img-top"
-              alt="..."
-            />
+          <div className="cloudimgcard">
+            <img className="notrepimg" src="/images/bim.png" alt="" />
+            <div className="cloudcard card">
+              <h1 className="cloudcardheading">BI Migration</h1>
+              <p className="cloudcardpara mb-0">
+                Effortlessly transfer your data analytics between locations,
+                change formats, or migrate it from your current Business
+                Intelligence environment to a new one without any complications.
+              </p>
+            </div>
           </div>
-          <div class="card" style={{ border: "none" }}>
-            <img
-              src="./images/Group - 4 of 5.png"
-              class="card-img-top"
-              alt="..."
-            />
+          <div className="cloudimgcard">
+            <img className="notrepimg" src="/images/ssbi.png" alt="" />
+            <div className="cloudcard card">
+              <h1 className="cloudcardheading">Self-service BI</h1>
+              <p className="cloudcardpara mb-0">
+                Our self-service Business Intelligence empowers various business
+                teams and departments to independently analyze data and address
+                inquiries without relying on IT teams or submitting formal
+                requests.
+              </p>
+            </div>
           </div>
-          <div class="card" style={{ border: "none" }}>
-            <img
-              src="./images/Group - 5 of 5.png"
-              class="card-img-top"
-              alt="..."
-            />
+          <div className="cloudimgcard">
+            <img className="notrepimg" src="/images/dg.png" alt="" />
+            <div className="cloudcard card">
+              <h1 className="cloudcardheading">Data governance</h1>
+              <p className="cloudcardpara mb-0">
+                At DataObserve, we are committed to democratizing data
+                governance and have implemented a collaborative and
+                purpose-built data governance framework.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -184,7 +206,7 @@ const Databi = () => {
           >
             <div class="col-md-5">
               <img
-                src="./images/video-wp (1).png"
+                src="./images/build.png"
                 className="card-img"
                 alt="..."
                 style={{ width: "350px", marginLeft: "25px" }}
@@ -254,7 +276,7 @@ const Databi = () => {
           }}
         >
           <h3 className="cloud-head">Benefits</h3>
-          <p style={{ width: "700px" }}>
+          <p style={{ width: "700px", textAlign: "center" }}>
             DataObserve is the fastest-growing Business Intelligence & Data
             Analytics company with strong expertise in Data lake solutions, Data
             Warehouse Engineering, Data Migration & Modernization.
@@ -272,11 +294,11 @@ const Databi = () => {
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ width: "53px", height: "80px" }}
+                  // style={{ width: "53px", height: "80px" }}
                 />
                 <h5>Faster analysis and intuitive dashboards</h5>
 
-                <p className="arrowtext text-justify">
+                <p className="arrowtext text-center">
                   Our BI tools extract data from multiple sources and analyze it
                   according to user queries. The intuitive dashboards allow
                   non-technical users to understand the story behind the data
@@ -295,11 +317,11 @@ const Databi = () => {
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ width: "76px", height: "76px" }}
+                  // style={{ width: "76px", height: "76px" }}
                 />
                 <h5>Increased organizational efficiency</h5>
 
-                <p className="arrowtext text-justify">
+                <p className="arrowtext text-center">
                   Business leaders can get a holistic view of the company and
                   identify areas of opportunity with efficient BI. Access to
                   business data helps increase the organizational efficiency of
@@ -318,11 +340,11 @@ const Databi = () => {
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ width: "59px", height: "59px" }}
+                  // style={{ width: "59px", height: "59px" }}
                 />
                 <h5>24*7 support service</h5>
 
-                <p className="arrowtext text-justify">
+                <p className="arrowtext text-center">
                   Facing an issue or stuck with a problem regarding BI and
                   Analytics Services? Connect with our support services at any
                   time of the day, and our experts will help you with your
@@ -341,11 +363,11 @@ const Databi = () => {
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ width: "53px", height: "73px" }}
+                  // style={{ width: "53px", height: "73px" }}
                 />
                 <h5>Improved competitive advantage</h5>
 
-                <p className="arrowtext text-justify">
+                <p className="arrowtext text-center">
                   By analyzing this data, you can gain in-depth market knowledge
                   and stay ahead of your competition. Keep up with industry
                   changes, anticipate customer needs and improve your
@@ -364,11 +386,11 @@ const Databi = () => {
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ width: "53px", height: "73px" }}
+                  // style={{ width: "53px", height: "73px" }}
                 />
                 <h5>Unified and Robust information architecture</h5>
 
-                <p className="arrowtext text-justify">
+                <p className="arrowtext text-center">
                   DataObserve has a unified information architecture that
                   enables experts to address existing complexities and solve
                   them efficiently in this rapidly evolving tech landscape.
@@ -386,11 +408,11 @@ const Databi = () => {
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ height: "73px", width: "63px" }}
+                  // style={{ height: "73px", width: "63px" }}
                 />
                 <h5>Data-driven business decisions</h5>
 
-                <p className="arrowtext text-justify">
+                <p className="arrowtext text-center">
                   Facing an issue or stuck with a problem regarding BI and
                   Analytics Services? Connect with our support services at any
                   time of the day, and our experts will help you with your
@@ -421,17 +443,18 @@ const Databi = () => {
                   <div class="card-body expertcardbody d-flex">
                     <div>
                       <h5 class="card-title" style={{ color: "white" }}>
-                        Make the most out of cloud Capabilities with DataObserve
-                        Advance
+                        Elevate Your Business Decision-Making with Amazon
+                        QuickSight or Microsoft Power BI.
                       </h5>
                       <p
                         class="card-text"
                         style={{ color: "white", width: "500px" }}
                       >
-                        Simplify your cloud-powered business transformation with
-                        a host of DataObserve cloud services, including
-                        consulting, optimization, migration, & modernization.
-                        Our team of cloud experts is here to guide you.
+                        Looking to maximize the potential of Business
+                        Intelligence (BI) in Amazon QuickSight or Microsoft
+                        Power BI? Our team of BI experts is ready to provide
+                        consultation and implement your next QuickSight or Power
+                        BI solution.
                       </p>
                     </div>
                     <div>
@@ -471,7 +494,7 @@ const Databi = () => {
                 className="App-logo"
                 alt="logo"
                 width={100}
-                style={{ height: "73px", width: "63px" }}
+                // style={{ height: "73px", width: "63px" }}
               />
               <h5>High accuracy</h5>
 
@@ -494,7 +517,7 @@ const Databi = () => {
                 className="App-logo"
                 alt="logo"
                 width={100}
-                style={{ height: "73px", width: "63px" }}
+                // style={{ height: "73px", width: "63px" }}
               />
               <h5>Operational intelligence</h5>
 
@@ -517,7 +540,7 @@ const Databi = () => {
                 className="App-logo"
                 alt="logo"
                 width={100}
-                style={{ height: "73px", width: "63px" }}
+                // style={{ height: "73px", width: "63px" }}
               />
               <h5>Cross-platform integration</h5>
 
@@ -536,11 +559,11 @@ const Databi = () => {
               style={{ height: "390px" }}
             >
               <img
-                src="./images/ai.png"
+                src="./images/dataan.png"
                 className="App-logo"
                 alt="logo"
                 width={100}
-                style={{ height: "73px", width: "63px" }}
+                // style={{ height: "73px", width: "63px" }}
               />
               <h5>Power BI</h5>
 
@@ -559,11 +582,11 @@ const Databi = () => {
               style={{ height: "390px" }}
             >
               <img
-                src="./images/secure.png"
+                src="./images/dc.png"
                 className="App-logo"
                 alt="logo"
                 width={100}
-                style={{ height: "73px", width: "63px" }}
+                // style={{ height: "73px", width: "63px" }}
               />
               <h5>Secure on-cloud data</h5>
 
@@ -597,112 +620,582 @@ const Databi = () => {
           </div> */}
         </div>
       </div>
-      <Faq />
-      <div className="bg-color">
-        <div className="container">
-          <div className="row bg-white">
-            <div className="col-md-6 shadow-sm rounded">
-              <div>
-                <div className="card">
-                  <div class="card-body1">
-                    <h5 class="card-title title">Talk to Us</h5>
-                    {/* {/ <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> /} */}
-                    <p className="card-text question">
-                      Got a question? Dont a hesitate to give us a call today or
-                      shoot us an email
+      <div class="card text-center" style={{ border: "0px" }}>
+        {/* {/ <div class="card-header">Featured</div> /} */}
+        <div class="card-body faq-class">
+          <h5 class="card-title" style={{ color: "white" }}>
+            FAQs
+          </h5>
+          <div
+            class="accordion"
+            id="accordionExample"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              justifyContent: "space-around",
+            }}
+          >
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingOne"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      What is Business Intelligence (BI) and how can it benefit
+                      my business?
                     </p>
-                    <i class="fa fa-envelope" aria-hidden="true">
-                      <span classname="hello">hello@dataserve.io</span>
-                    </i>
-                  </div>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Business Intelligence involves the use of data analysis tools
+                  and processes to transform raw data into meaningful insights.
+                  The benefits of BI include improved decision-making, enhanced
+                  operational efficiency, and the ability to identify new
+                  opportunities for growth. It provides a holistic view of your
+                  business data, empowering you to make informed and strategic
+                  decisions.
                 </div>
               </div>
             </div>
-            <div className="col-md-6 shadow-sm">
-              <div>
-                <div>
-                  <form>
-                    <div className="form-group">
-                      <label>Full Name</label>
-                      <input type="text" className="form-control name" />
-                      <label>Work Email</label>
-                      <input type="text" className="form-control name" />
-                      <label>Contact Number</label>
-                      <input type="text" className="form-control name" />
-
-                      <button className="contact-us-2">Contact Us</button>
-                    </div>
-                  </form>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingTwo"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      How can Data Analytics drive scalable business growth?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Data Analytics is the process of examining and interpreting
+                  data to uncover valuable insights and trends. By leveraging
+                  data analytics, businesses can identify growth opportunities,
+                  optimize processes, and enhance customer experiences. It
+                  enables data-driven decision-making, leading to more efficient
+                  operations and a competitive edge in the market.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingThree"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      What types of Business Intelligence and Data Analytics
+                      services do you offer?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Our Business Intelligence and Data Analytics services are
+                  comprehensive and tailored to meet your business needs. We
+                  offer data visualization, predictive analytics, data
+                  warehousing, and business reporting services. Whether you're
+                  looking to gain insights from historical data or predict
+                  future trends, our services are designed to help you harness
+                  the full power of your data.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingFour"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      How can Business Intelligence enhance my decision-making
+                      processes?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseFour"
+                class="collapse"
+                aria-labelledby="headingFour"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Business Intelligence provides real-time insights into key
+                  performance indicators, allowing you to make data-driven
+                  decisions. It facilitates a deeper understanding of market
+                  trends, customer behavior, and operational efficiency. With
+                  BI, you can track your business's performance in real time and
+                  respond quickly to changing market dynamics.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingFive"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      Is my data secure when utilizing Business Intelligence and
+                      Data Analytics services?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseFive"
+                class="collapse"
+                aria-labelledby="headingFiver"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Yes, ensuring the security of your data is a top priority for
+                  us. We implement industry-standard security measures,
+                  including encryption, access controls, and compliance with
+                  data protection regulations. Our team is dedicated to
+                  maintaining the confidentiality and integrity of your data
+                  throughout the analytics process.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingSix"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseSix"
+                    aria-expanded="false"
+                    aria-controls="collapseSix"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      How can Data Analytics contribute to improving customer
+                      experiences?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseSix"
+                class="collapse"
+                aria-labelledby="headingSix"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Absolutely. Our Business Intelligence and Data Analytics
+                  services are designed to seamlessly integrate with your
+                  existing systems and platforms. Whether you use on-premises
+                  solutions or cloud-based services, our team has the expertise
+                  to integrate our analytics solutions into your existing
+                  infrastructure.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingSeven"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseSeven"
+                    aria-expanded="false"
+                    aria-controls="collapseSeven"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      How can Data Analytics contribute to improving customer
+                      experiences?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseSeven"
+                class="collapse"
+                aria-labelledby="headingSeven"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Data Analytics provides valuable insights into customer
+                  behavior, preferences, and feedback. By analyzing this data,
+                  businesses can tailor their products and services to meet
+                  customer expectations. This leads to improved customer
+                  satisfaction, loyalty, and the ability to respond proactively
+                  to changing customer needs.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingEight"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseEight"
+                    aria-expanded="false"
+                    aria-controls="collapseEight"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      What is the typical process for implementing Business
+                      Intelligence and Data Analytics solutions?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseEight"
+                class="collapse"
+                aria-labelledby="headingEight"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  The implementation process begins with a thorough assessment
+                  of your business needs and goals. We then design a customized
+                  solution, implement the necessary tools and technologies, and
+                  provide training to your team. Ongoing support and
+                  optimization are integral parts of our service to ensure you
+                  continually derive maximum value from your BI and Data
+                  Analytics investments.
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* <!-- FOOTER START --> */}
-      <div class="footer">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-3">
-              <div class="col">
-                <h1 className="footer-heading">Company</h1>
-                <ul>
-                  <li>About Us</li>
-                  <li>People and Careers</li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-md-3">
-              <div class="col">
-                <h1 className="footer-heading">Services</h1>
-                <ul>
-                  <li>Cloud transformation</li>
-                  <li>Data Engineering</li>
-                  <li>Data Analytics and BI</li>
-                  <li>AI & Machine Learning</li>
-                  <li>evOps-as-a-service</li>
-                  <li>Application Modernization</li>
-                  <li>Talent as a Service</li>
-                </ul>
-              </div>
-            </div>
 
-            <div className="col-md-3">
-              <div class="col">
-                <h1 className="footer-heading">Industries</h1>
-                <ul>
-                  <li>Life sciences and Pharma</li>
-                  <li>Media & Entertainment</li>
-                  <li>Gaming and gambling</li>
-                </ul>
-                <h1 className="footer-heading">Products</h1>
-                <ul>
-                  <li>Data Observability</li>
-                  <li>Health EM</li>
-                  <li>DataSense</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-md-3">
-              <div class="col">
-                <h1 className="footer-heading">Insights</h1>
-                <ul>
-                  <li>Case Studies</li>
-                  <li>Blogs</li>
-                  <li>Ebooks</li>
-                  <li>Webinars & Videos</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="contain">
-          <div class="clearfix"></div>
-        </div>
-      </div>
-      {/* <!-- END OF FOOTER --> */}
+      <Footer />
     </div>
   );
 };

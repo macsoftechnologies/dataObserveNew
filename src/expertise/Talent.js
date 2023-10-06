@@ -3,6 +3,7 @@ import "./Talent.css";
 import Faq from "../products/Faq";
 import Navbar from "../products/Navbar";
 import talent from "../../src/videos/talent.MOV";
+import Footer from "../../src/products/Footer";
 
 const Talent = () => {
   return (
@@ -10,75 +11,73 @@ const Talent = () => {
       <Navbar />
       <div>
         <div className="hire">
-
           <div>
-          <video className="talent" autoPlay loop muted>
-        <source src={talent} type="video/mp4"/>
-      </video>
-      <div
-          style={{
-            display: "inline-flex",
-            minHeight: "1080px",
-            padding: "42px 400px 100px 255px",
-            flexDirection: "column",
-            alignItems: "flex-start",
-            position:"absolute",
-            top:"170px",
-            left:"-121px"
-          }}
-        >
-          
-          <h4
-            style={{
-              color: "white",
-              fontSize: "32px",
-              fontStyle: "normal",
-              fontWeight: "700",
-              lineHeight: "47px",
-            }}
-          >
-             Hire “Enterprise-grade”<br/> Data & Analytics <br/>experts in next 48
-                hours
-          </h4>
-          <button
-            style={{
-              display: "flex",
-              height: "61px",
-              maxWidth: "255px",
-              padding: "20px 46px 21px 48px",
-              justifyContent: "center",
-              alignItems: "center",
-              border: "none",
-              marginTop: "70px",
-              borderRadius: "5px",
-            }}
-          >
-            <span
+            <video className="talent" autoPlay loop muted>
+              <source src={talent} type="video/mp4" />
+            </video>
+            <div
               style={{
-                color: "#FF4925",
-                fontSize: "14px",
-                fontStyle: "normal",
-                fontWeight: "600",
-                lineHeight: "19px",
+                display: "inline-flex",
+                minHeight: "1080px",
+                padding: "42px 400px 100px 255px",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                position: "absolute",
+                top: "170px",
+                left: "-121px",
               }}
             >
-              Talk to us now
-            </span>
-            <i
-              className="fa fa-long-arrow-right"
-              style={{
-                width: "23px",
-                fontSize: "29px",
-                flexShrink: "0",
-                color: "#FF4925",
-                marginLeft: "12px",
-              }}
-              aria-hidden="true"
-            ></i>
-          </button>
-        </div>
+              <h4
+                style={{
+                  color: "white",
+                  fontSize: "32px",
+                  fontStyle: "normal",
+                  fontWeight: "700",
+                  lineHeight: "47px",
+                }}
+              >
+                Hire “Enterprise-grade”
+                <br /> Data & Analytics <br />
+                experts in next 48 hours
+              </h4>
+              <button
+                style={{
+                  display: "flex",
+                  height: "61px",
+                  maxWidth: "255px",
+                  padding: "20px 46px 21px 48px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  border: "none",
+                  marginTop: "70px",
+                  borderRadius: "5px",
+                }}
+              >
+                <span
+                  style={{
+                    color: "#FF4925",
+                    fontSize: "14px",
+                    fontStyle: "normal",
+                    fontWeight: "600",
+                    lineHeight: "19px",
+                  }}
+                >
+                  Talk to us now
+                </span>
+                <i
+                  className="fa fa-long-arrow-right"
+                  style={{
+                    width: "23px",
+                    fontSize: "29px",
+                    flexShrink: "0",
+                    color: "#FF4925",
+                    marginLeft: "12px",
+                  }}
+                  aria-hidden="true"
+                ></i>
+              </button>
+            </div>
           </div>
-          
         </div>
       </div>
       <div
@@ -165,7 +164,7 @@ const Talent = () => {
                 />
                 <p>Agility</p>
                 <h4>48 Hours</h4>
-                <p className="arrowtext text-justify">
+                <p className="arrowtext text-center">
                   Fast onboarding to hire the Top 3% of Talents
                 </p>
               </div>
@@ -185,7 +184,7 @@ const Talent = () => {
                 />
                 <p>Time saved</p>
                 <h4>85%</h4>
-                <p className="arrowtext text-justify">
+                <p className="arrowtext text-center">
                   interviewing hours saved per recruitment
                 </p>
               </div>
@@ -201,11 +200,11 @@ const Talent = () => {
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ width: "62px", height: "62px" }}
+                  style={{ width: "53px", height: "62px" }}
                 />
                 <p>High retention rate</p>
                 <h4>97%</h4>
-                <p className="arrowtext text-justify">
+                <p className="arrowtext text-center">
                   Engagement success rates
                 </p>
               </div>
@@ -221,11 +220,11 @@ const Talent = () => {
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ width: "62px", height: "62px" }}
+                  style={{ width: "54px", height: "62px" }}
                 />
                 <p>Enterprise Grade Engineers</p>
                 <h4>90%</h4>
-                <p className="arrowtext text-justify">
+                <p className="arrowtext text-center">
                   of our In-house engineers have strong experience in working
                   with Fortune 500s
                 </p>
@@ -242,11 +241,11 @@ const Talent = () => {
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ width: "62px", height: "62px" }}
+                  style={{ width: "53px", height: "62px" }}
                 />
                 <p>Trust & Reliability</p>
                 <h4>100+</h4>
-                <p className="arrowtext text-justify">
+                <p className="arrowtext text-center">
                   Full-time and Contract-to-Hire candidates available.
                 </p>
               </div>
@@ -262,11 +261,11 @@ const Talent = () => {
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ width: "62px", height: "62px" }}
+                  style={{ width: "53px", height: "62px" }}
                 />
                 <p>Global Team</p>
                 <h4>5+</h4>
-                <p className="arrowtext text-justify">
+                <p className="arrowtext text-center">
                   Global delivery centers across the USA, Canada, UK, India,
                   Netherlands, Dubai & Singapore
                 </p>
@@ -275,73 +274,486 @@ const Talent = () => {
           </div>
         </div>
       </div>
-      <div className="bestprac">
+      <section style={{ background: "#1A4AB9", padding: "50px" }}>
         <div className="container">
           <div
-            class="card"
-            style={{
-              background: "none",
-              width: "35%",
-              height: "309px",
-              transform: "translateY(47px)",
-              border: "none",
-            }}
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-ride="carousel"
           >
-            <div class="mt-2 card-body expertcardbody1">
-              <div style={{ marginBottom: "-25px" }}>
-                <img
-                  src="./images/ebook.png"
-                  alt="..."
-                  style={{ width: "70px" }}
-                />
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner" style={{ marginLeft: "11%" }}>
+              <div class="carousel-item active">
+                <div className="container">
+                  <div className="row">
+                    <div
+                      class="col-md-4"
+                      style={{
+                        width: "25%",
+                        marginBottom: "50px",
+                        position: "relative",
+                      }}
+                    >
+                      <div className="talentcarosalbg">
+                        <div style={{ padding: "13px" }}>
+                          <h6 className="talentheading">Steve Stutts</h6>
+                          <p
+                            style={{
+                              fontSize: "25px",
+                              color: "#fff",
+                              opacity: "0.7",
+                              marginBottom: "5px",
+                            }}
+                          >
+                            Python Developer
+                          </p>
+                          <p
+                            style={{
+                              color: "#fff",
+                              fontWeight: "600",
+                            }}
+                          >
+                            Expert IN
+                          </p>
+                          <div>
+                            <button
+                              style={{
+                                backgroundColor: "rgba(255, 255, 255, 0.04)",
+                                borderRadius: "20px",
+                                border: "none",
+                                padding: "6px 18px",
+                                marginRight: "5px",
+                                marginBottom: "5px",
+                              }}
+                            >
+                              <span style={{ color: "#fff", opacity: "0.7" }}>
+                                AWS
+                              </span>
+                            </button>
+                            <button
+                              style={{
+                                backgroundColor: "rgba(255, 255, 255, 0.04)",
+                                borderRadius: "20px",
+                                border: "none",
+                                padding: "6px 18px",
+                                marginRight: "5px",
+                              }}
+                            >
+                              <span style={{ color: "#fff", opacity: "0.7" }}>
+                                TABLEAU
+                              </span>
+                            </button>
+                            <button
+                              style={{
+                                backgroundColor: "rgba(255, 255, 255, 0.04)",
+                                borderRadius: "20px",
+                                border: "none",
+                                padding: "6px 18px",
+                                marginRight: "5px",
+                              }}
+                            >
+                              <span style={{ color: "#fff", opacity: "0.7" }}>
+                                ETL
+                              </span>
+                            </button>
+                            <button
+                              style={{
+                                backgroundColor: "rgba(255, 255, 255, 0.04)",
+                                borderRadius: "20px",
+                                border: "none",
+                                padding: "6px 18px",
+                                marginRight: "5px",
+                              }}
+                            >
+                              <span style={{ color: "#fff", opacity: "0.7" }}>
+                                AWS GLUE
+                              </span>
+                            </button>
+                            <button
+                              style={{
+                                backgroundColor: "rgba(255, 255, 255, 0.04)",
+                                borderRadius: "20px",
+                                border: "none",
+                                padding: "6px 18px",
+                                marginRight: "5px",
+                              }}
+                            >
+                              <span style={{ color: "#fff", opacity: "0.7" }}>
+                                REDSHIFT
+                              </span>
+                            </button>
+                          </div>
+                          <div
+                            className="d-flex"
+                            style={{
+                              marginTop: "15px",
+                              justifyContent: "space-evenly",
+                              alignItems: "center",
+                              display: "flex",
+                            }}
+                          >
+                            <div>
+                              <h6 style={{ fontWeight: "600", color: "white" }}>
+                                EXPERIENCE
+                              </h6>
+                              <p style={{ color: "#fff", opacity: "0.7" }}>
+                                6 +YEARS
+                              </p>
+                            </div>
+                            <div>
+                              <h6 style={{ fontWeight: "600", color: "white" }}>
+                                AVAILABILTY
+                              </h6>
+                              <p style={{ color: "#fff", opacity: "0.7" }}>
+                                Full Time
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <img
+                        src="./images/steves.png"
+                        alt="..."
+                        className="talentimages"
+                      />
+                    </div>
+                  </div>
+                </div>
               </div>
-              <h5
-                class="card-title"
-                style={{
-                  marginTop: "0px",
-                  fontSize: "22px",
-                  fontWeight: "600px",
-                  lineHeight: "27.4px",
-                  letterSpacing: "-0.32px",
-                  color: "#000",
-                }}
-              >
-                Best Practices for Database Migration to AWS - A guide by
-                DataObserve
-              </h5>
-              <h6
-                class="card-subtitle mb-2 text-muted"
-                style={{ fontSize: "14px", marginTop: "0px" }}
-              >
-                Migrating a database to AWS takes time and careful planning. It
-                isn’t just the database that needs migration; everything that
-                uses it will need some changes.
-              </h6>
-              {/* <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p> */}
-              <a
-                href="#"
-                class="card-link"
-                style={{
-                  fontSize: "17px",
-                  color: "#FF4925",
-                  fontWeight: "600",
-                  lineHeight: "25.6px",
-                  letterSpacing: "-0.32px",
-                }}
-              >
-                Download{" "}
-                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-              </a>
-              {/* <a href="#" class="card-link">
-              Another link
-            </a> */}
+              <div class="carousel-item">
+                <div className="container">
+                  <div className="row">
+                    <div
+                      class="col-md-4"
+                      style={{
+                        width: "25%",
+                        marginBottom: "50px",
+                        position: "relative",
+                      }}
+                    >
+                      <div className="talentcarosalbg">
+                        <div style={{ padding: "13px" }}>
+                          <h6
+                            className="talentheading"
+                            style={{ marginBottom: "0px" }}
+                          >
+                            Harish Angal
+                          </h6>
+                          <p
+                            style={{
+                              fontSize: "25px",
+                              color: "#fff",
+                              opacity: "0.7",
+                              marginBottom: "2px",
+                            }}
+                          >
+                            Cloud Expert
+                          </p>
+                          <p
+                            style={{
+                              color: "#fff",
+                              fontWeight: "600",
+                              marginBottom: "0px",
+                            }}
+                          >
+                            Expert IN
+                          </p>
+                          <div>
+                            <button
+                              style={{
+                                backgroundColor: "rgba(255, 255, 255, 0.04)",
+                                borderRadius: "20px",
+                                border: "none",
+                                padding: "6px 18px",
+                                marginRight: "5px",
+                                marginBottom: "5px",
+                              }}
+                            >
+                              <span style={{ color: "#fff", opacity: "0.7" }}>
+                                Azure
+                              </span>
+                            </button>
+                            <button
+                              style={{
+                                backgroundColor: "rgba(255, 255, 255, 0.04)",
+                                borderRadius: "20px",
+                                border: "none",
+                                padding: "6px 18px",
+                                marginRight: "5px",
+                              }}
+                            >
+                              <span style={{ color: "#fff", opacity: "0.7" }}>
+                                Power Bi
+                              </span>
+                            </button>
+                            <button
+                              style={{
+                                backgroundColor: "rgba(255, 255, 255, 0.04)",
+                                borderRadius: "20px",
+                                border: "none",
+                                padding: "6px 18px",
+                                marginRight: "5px",
+                              }}
+                            >
+                              <span style={{ color: "#fff", opacity: "0.7" }}>
+                                ETL/ELT
+                              </span>
+                            </button>
+                            <button
+                              style={{
+                                backgroundColor: "rgba(255, 255, 255, 0.04)",
+                                borderRadius: "20px",
+                                border: "none",
+                                padding: "6px 18px",
+                                marginRight: "5px",
+                              }}
+                            >
+                              <span style={{ color: "#fff", opacity: "0.7" }}>
+                                Azure Stack HCI
+                              </span>
+                            </button>
+                            <button
+                              className="w3-button w3-black w3-round-xlarge"
+                              style={{
+                                backgroundColor: "rgba(255, 255, 255, 0.04)",
+                                borderRadius: "20px",
+                                border: "none",
+                                padding: "6px 18px",
+                              }}
+                            >
+                              <span style={{ color: "#fff", opacity: "0.7" }}>
+                                ADI
+                              </span>
+                            </button>
+                          </div>
+                          <div
+                            className="d-flex"
+                            style={{
+                              marginTop: "15px",
+                              justifyContent: "space-evenly",
+                              alignItems: "center",
+                              display: "flex",
+                            }}
+                          >
+                            <div>
+                              <h6 style={{ fontWeight: "600", color: "white" }}>
+                                EXPERIENCE
+                              </h6>
+                              <p style={{ color: "#fff", opacity: "0.7" }}>
+                                6 +YEARS
+                              </p>
+                            </div>
+                            <div>
+                              <h6 style={{ fontWeight: "600", color: "white" }}>
+                                AVAILABILTY
+                              </h6>
+                              <p style={{ color: "#fff", opacity: "0.7" }}>
+                                Full Time
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <img
+                        src="./images/harish.png"
+                        alt="..."
+                        className="talentimages"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div className="container">
+                  <div className="row">
+                    <div
+                      class="col-md-4"
+                      style={{
+                        width: "25%",
+                        marginBottom: "50px",
+                        position: "relative",
+                      }}
+                    >
+                      <div className="talentcarosalbg">
+                        <div style={{ padding: "13px" }}>
+                          <h6
+                            className="talentheading"
+                            style={{ marginBottom: "0px" }}
+                          >
+                            Gayatri Suniti
+                          </h6>
+                          <p
+                            style={{
+                              fontSize: "25px",
+                              color: "#fff",
+                              opacity: "0.7",
+                              marginBottom: "2px",
+                            }}
+                          >
+                            DevOps Expert
+                          </p>
+                          <p
+                            style={{
+                              color: "#fff",
+                              fontWeight: "600",
+                              marginBottom: "0px",
+                            }}
+                          >
+                            Expert IN
+                          </p>
+                          <div>
+                            <button
+                              style={{
+                                backgroundColor: "rgba(255, 255, 255, 0.04)",
+                                borderRadius: "20px",
+                                border: "none",
+                                padding: "6px 18px",
+                                marginRight: "5px",
+                                marginBottom: "5px",
+                              }}
+                            >
+                              <span style={{ color: "#fff", opacity: "0.7" }}>
+                                Jenkins
+                              </span>
+                            </button>
+                            <button
+                              style={{
+                                backgroundColor: "rgba(255, 255, 255, 0.04)",
+                                borderRadius: "20px",
+                                border: "none",
+                                padding: "6px 18px",
+                                marginRight: "5px",
+                              }}
+                            >
+                              <span style={{ color: "#fff", opacity: "0.7" }}>
+                                Terraform
+                              </span>
+                            </button>
+                            <button
+                              style={{
+                                backgroundColor: "rgba(255, 255, 255, 0.04)",
+                                borderRadius: "20px",
+                                border: "none",
+                                padding: "6px 18px",
+                                marginRight: "5px",
+                              }}
+                            >
+                              <span style={{ color: "#fff", opacity: "0.7" }}>
+                                K8S
+                              </span>
+                            </button>
+                            <button
+                              style={{
+                                backgroundColor: "rgba(255, 255, 255, 0.04)",
+                                borderRadius: "20px",
+                                border: "none",
+                                padding: "6px 18px",
+                                marginRight: "5px",
+                              }}
+                            >
+                              <span style={{ color: "#fff", opacity: "0.7" }}>
+                                GitOps/GitLabs
+                              </span>
+                            </button>
+                            <button
+                              style={{
+                                backgroundColor: "rgba(255, 255, 255, 0.04)",
+                                borderRadius: "20px",
+                                border: "none",
+                                padding: "6px 18px",
+                                marginRight: "5px",
+                              }}
+                            >
+                              <span style={{ color: "#fff", opacity: "0.7" }}>
+                                platform Engg
+                              </span>
+                            </button>
+                          </div>
+                          <div
+                            className="d-flex"
+                            style={{
+                              marginTop: "15px",
+                              justifyContent: "space-evenly",
+                              alignItems: "center",
+                              display: "flex",
+                            }}
+                          >
+                            <div>
+                              <h6 style={{ fontWeight: "600", color: "white" }}>
+                                EXPERIENCE
+                              </h6>
+                              <p style={{ color: "#fff", opacity: "0.7" }}>
+                                6 +YEARS
+                              </p>
+                            </div>
+                            <div>
+                              <h6 style={{ fontWeight: "600", color: "white" }}>
+                                AVAILABILTY
+                              </h6>
+                              <p style={{ color: "#fff", opacity: "0.7" }}>
+                                Full Time
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <img
+                        src="./images/gayatri.png"
+                        alt="..."
+                        className="talentimages"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+            <a
+              class="carousel-control-prev"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
         </div>
-      </div>
+      </section>
       <div
         style={{
           textAlign: "center",
@@ -510,11 +922,11 @@ const Talent = () => {
                     lineHeight: "35px",
                   }}
                 >
-                  From endless computing power, to reduced cycle time and easier
-                  data access, the new efficiency supported by DataObserve
-                  enabled us to produce timely insights about products,
-                  customers, and Vendors and significantly enhance their
-                  experiences.
+                  From limitless computing power to shortened cycle times and
+                  simplified data accessibility, the newfound efficiency
+                  facilitated by DataObserve empowers us to generate timely
+                  insights about products, customers, and vendors, markedly
+                  improving their experiences.
                 </p>
                 <p
                   style={{
@@ -606,6 +1018,11 @@ const Talent = () => {
           }}
         >
           <h2>Talent as a Service</h2>
+          <p className="text-center">
+            Recruit highly skilled employees as needed through a cloud-based
+            platform. These hires will not only perform tasks efficiently but
+            also contribute to cost savings.
+          </p>
           <div className="cocreater mb-5">
             <p
               style={{
@@ -631,7 +1048,7 @@ const Talent = () => {
                 marginLeft: "50%",
               }}
             >
-              Meet Cocreater
+              Meet Docreater
             </h6>
             <button
               className="botn"
@@ -642,118 +1059,589 @@ const Talent = () => {
                 marginLeft: "50%",
               }}
             >
-              Explore CoCreater{" "}
+              Explore DoCreater{" "}
               <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
             </button>
           </div>
         </div>
       </div>
-      <Faq />
-      <div className="bg-color">
-        <div className="container">
-          <div className="row bg-white">
-            <div className="col-md-6 shadow-sm rounded">
-              <div>
-                <div className="card">
-                  <div class="card-body1">
-                    <h5 class="card-title title">Talk to Us</h5>
-                    {/* {/ <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> /} */}
-                    <p className="card-text question">
-                      Got a question? Dont a hesitate to give us a call today or
-                      shoot us an email
+      <div class="card text-center" style={{ border: "0px" }}>
+        {/* {/ <div class="card-header">Featured</div> /} */}
+        <div class="card-body faq-class">
+          <h5 class="card-title" style={{ color: "white" }}>
+            FAQs
+          </h5>
+          <div
+            class="accordion"
+            id="accordionExample"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              justifyContent: "space-around",
+            }}
+          >
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingOne"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      What is Talent as a Service (TaaS) and how can it benefit
+                      my organization?
                     </p>
-                    <i class="fa fa-envelope" aria-hidden="true">
-                      <span classname="hello">hello@dataserve.io</span>
-                    </i>
-                  </div>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Talent as a Service is a model that provides on-demand access
+                  to skilled professionals and expertise. It allows
+                  organizations to quickly scale their teams, access specialized
+                  talent, and address specific project needs without the
+                  long-term commitments of traditional hiring. TaaS enhances
+                  flexibility, efficiency, and agility in workforce management.
                 </div>
               </div>
             </div>
-            <div className="col-md-6 shadow-sm">
-              <div>
-                <div>
-                  <form>
-                    <div className="form-group">
-                      <label>Full Name</label>
-                      <input type="text" className="form-control name" />
-                      <label>Work Email</label>
-                      <input type="text" className="form-control name" />
-                      <label>Contact Number</label>
-                      <input type="text" className="form-control name" />
-
-                      <button className="contact-us-2">Contact Us</button>
-                    </div>
-                  </form>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingTwo"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      How does Talent as a Service help organizations meet their
+                      talent needs?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  TaaS addresses talent needs by providing access to a pool of
+                  pre-vetted, skilled professionals across various domains.
+                  Whether you need developers, designers, project managers, or
+                  other specialists, TaaS allows you to quickly assemble a team
+                  with the right skills for your projects. This flexibility is
+                  especially valuable for organizations with fluctuating
+                  workloads. VHS.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingThree"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      What types of roles and expertise can I find through
+                      Talent as a Service?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Our Talent as a Service offering covers a wide range of roles
+                  and expertise, including but not limited to software
+                  development, UX/UI design, data science, project management,
+                  and more. We work closely with our clients to understand their
+                  specific requirements and provide access to professionals with
+                  the right skills and experience for their projects.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingFour"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      Can Talent as a Service be used for both short-term and
+                      long-term projects?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseFour"
+                class="collapse"
+                aria-labelledby="headingFour"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Yes, TaaS is designed to be flexible and adaptable to the
+                  duration of your projects. Whether you need talent for a
+                  short-term project, a specific phase of development, or an
+                  ongoing basis, we can tailor our services to meet your unique
+                  requirements. This scalability ensures that you only pay for
+                  the talent you need when you need it.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingFive"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      How does Talent as a Service streamline the hiring
+                      process?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseFive"
+                class="collapse"
+                aria-labelledby="headingFiver"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Talent as a Service streamlines the hiring process by
+                  providing access to a curated pool of pre-screened
+                  professionals. Instead of going through lengthy hiring cycles,
+                  you can quickly assemble a team of skilled individuals, saving
+                  time and effort. This agility is particularly beneficial for
+                  organizations facing tight project deadlines or sudden
+                  increases in workload.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingSix"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseSix"
+                    aria-expanded="false"
+                    aria-controls="collapseSix"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      Is the talent provided through Talent as a Service vetted
+                      and qualified?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseSix"
+                class="collapse"
+                aria-labelledby="headingSix"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Yes, we rigorously vet and qualify the professionals in our
+                  talent pool. Our selection process ensures that you have
+                  access to skilled individuals with proven expertise in their
+                  respective fields. We prioritize quality and match the right
+                  talent to your specific project requirements, giving you
+                  confidence in the capabilities of the professionals you work
+                  with.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingSeven"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseSeven"
+                    aria-expanded="false"
+                    aria-controls="collapseSeven"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      How can Talent as a Service contribute to
+                      cost-effectiveness in workforce management?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseSeven"
+                class="collapse"
+                aria-labelledby="headingSeven"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Talent as a Service offers cost-effectiveness by allowing
+                  organizations to scale their workforce without the long-term
+                  financial commitments of traditional hiring. You only pay for
+                  the talent you need for the duration of your project, reducing
+                  overhead costs associated with full-time employees. This
+                  cost-effective model is especially valuable for project-based
+                  work.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingEight"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseEight"
+                    aria-expanded="false"
+                    aria-controls="collapseEight"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      Can Talent as a Service support remote and distributed
+                      work setups?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseEight"
+                class="collapse"
+                aria-labelledby="headingEight"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Absolutely. Talent as a Service is well-suited for remote and
+                  distributed work setups. Our professionals are experienced in
+                  collaborating across various geographical locations. We
+                  provide the necessary tools and communication channels to
+                  ensure seamless collaboration, enabling your team to work
+                  together effectively, regardless of physical location.
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* <!-- FOOTER START --> */}
-      <div class="footer">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-3">
-              <div class="col">
-                <h1 className="footer-heading">Company</h1>
-                <ul>
-                  <li>About Us</li>
-                  <li>People and Careers</li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-md-3">
-              <div class="col">
-                <h1 className="footer-heading">Services</h1>
-                <ul>
-                  <li>Cloud transformation</li>
-                  <li>Data Engineering</li>
-                  <li>Data Analytics and BI</li>
-                  <li>AI & Machine Learning</li>
-                  <li>evOps-as-a-service</li>
-                  <li>Application Modernization</li>
-                  <li>Talent as a Service</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-md-3">
-              <div class="col">
-                <h1 className="footer-heading">Industries</h1>
-                <ul>
-                  <li>Life sciences and Pharma</li>
-                  <li>Media & Entertainment</li>
-                  <li>Gaming and gambling</li>
-                </ul>
-                <h1 className="footer-heading">Products</h1>
-                <ul>
-                  <li>Data Observability</li>
-                  <li>Health EM</li>
-                  <li>DataSense</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-md-3">
-              <div class="col">
-                <h1 className="footer-heading">Insights</h1>
-                <ul>
-                  <li>Case Studies</li>
-                  <li>Blogs</li>
-                  <li>Ebooks</li>
-                  <li>Webinars & Videos</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="contain">
-          <div class="clearfix"></div>
-        </div>
-      </div>
-      {/* <!-- END OF FOOTER --> */}
+      <Footer />
     </div>
   );
 };

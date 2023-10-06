@@ -6,10 +6,57 @@
   font-weight: 500;
   border: 1px solid blue;
 }
-
-
-
-.daba-bi-anal{
+.dvc {
+  background-image: url("../../public/images/dvc.png");
+  height: 351px;
+  width: 100%;
+  font-size: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dap {
+  background-image: url("../../public/images/dap.png");
+  height: 351px;
+  width: 100%;
+  font-size: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bim {
+  background-image: url("../../public/images/bim.png");
+  height: 351px;
+  width: 100%;
+  font-size: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ssbi {
+  background-image: url("../../public/images/ssbi.png");
+  height: 351px;
+  width: 100%;
+  font-size: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dg {
+  background-image: url("../../public/images/dg.png");
+  height: 351px;
+  width: 100%;
+  font-size: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ccondummy {
+  height: 50%;
+  width: 100%;
+  background: none;
+}
+.daba-bi-anal {
   width: 100%;
   object-fit: cover;
   position: relative;
@@ -46,13 +93,13 @@
 .slide {
   width: 100%;
 }
-.faq-class {
+/* .faq-class {
   background-color: #1a4ab9;
   border-radius: 10px 10px 0px 0px !important;
   border: none;
   height: fit-content;
   padding: 67px;
-}
+} */
 .footer {
   width: 100%;
   position: relative;
@@ -118,9 +165,9 @@
   height: fit-content;
   padding: 67px;
 }
-.card {
+/* .card {
   border-radius: 10px !important;
-}
+} */
 .title {
   color: white;
   font-weight: 700;
@@ -292,9 +339,9 @@
   height: 327px;
   padding: 67px;
 }
-.faq-class {
+/* .faq-class {
   background-color: #1a4ab9;
   border-radius: 10px 10px 0px 0px !important;
   height: fit-content;
   padding: 67px;
-}
+} */

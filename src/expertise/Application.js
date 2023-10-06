@@ -2,7 +2,8 @@ import React from "react";
 import "./Application.css";
 import Faq from "../products/Faq";
 import Navbar from "../products/Navbar";
-import digital from "../../src/videos/digitaltransform.mp4"
+import digital from "../../src/videos/digitaltransform.mp4";
+import Footer from "../products/Footer";
 
 const Application = () => {
   return (
@@ -10,86 +11,86 @@ const Application = () => {
       <Navbar />
 
       <div>
-      <video className="digital-transform-video" autoPlay loop muted>
-        <source src={digital} type="video/mp4"/>
-      </video>
-      <div className="enterprise1">
-        <div className="container">
-          <div
-            style={{
-              display: "inline-flex",
-              minHeight: "1080px",
-              flexDirection: "column",
-              alignItems: "flex-start",
-              marginTop: "115px",
-              position:"absolute",
-              top:"150px",
-              left:"10%"
-            }}
-          >
-            <p
+        <video className="digital-transform-video" autoPlay loop muted>
+          <source src={digital} type="video/mp4" />
+        </video>
+        <div className="enterprise1">
+          <div className="container">
+            <div
               style={{
-                color: "white",
-                fontSize: "18px",
-                fontStyle: "normal",
-                fontWeight: "600",
+                display: "inline-flex",
+                minHeight: "1080px",
+                flexDirection: "column",
+                alignItems: "flex-start",
+                marginTop: "115px",
+                position: "absolute",
+                top: "150px",
+                left: "10%",
               }}
             >
-              Application Modernization
-            </p>
-            <h4
-              style={{
-                color: "white",
-                fontSize: "29px",
-                fontStyle: "normal",
-                fontWeight: "700",
-                lineHeight: "44px",
-                paddingRight: "540px",
-              }}
-            >
-              Reinvent your business by modernizing legacy applications that
-              makes you future-ready
-            </h4>
-            <button
-              style={{
-                display: "flex",
-                height: "61px",
-                maxWidth: "255px",
-                padding: "20px 46px 21px 48px",
-                justifyContent: "center",
-                alignItems: "center",
-                border: "none",
-                marginTop: "70px",
-                borderRadius: "5px",
-              }}
-            >
-              <span
+              <p
                 style={{
-                  color: "#FF4925",
-                  fontSize: "14px",
+                  color: "white",
+                  fontSize: "18px",
                   fontStyle: "normal",
                   fontWeight: "600",
-                  lineHeight: "19px",
                 }}
               >
-                Talk to us now
-              </span>{" "}
-              <i
-                className="fa fa-long-arrow-right ml-3"
+                Application Modernization
+              </p>
+              <h4
                 style={{
-                  width: "23px",
+                  color: "white",
                   fontSize: "29px",
-                  flexShrink: "0",
-                  color: "#FF4925",
+                  fontStyle: "normal",
+                  fontWeight: "700",
+                  lineHeight: "44px",
+                  paddingRight: "540px",
                 }}
-                aria-hidden="true"
-              ></i>
-            </button>
+              >
+                Revitalize your business by modernizing legacy applications,
+                ensuring you are prepared for the future.
+              </h4>
+              <button
+                style={{
+                  display: "flex",
+                  height: "61px",
+                  maxWidth: "255px",
+                  padding: "20px 46px 21px 48px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  border: "none",
+                  marginTop: "70px",
+                  borderRadius: "5px",
+                }}
+              >
+                <span
+                  style={{
+                    color: "#FF4925",
+                    fontSize: "14px",
+                    fontStyle: "normal",
+                    fontWeight: "600",
+                    lineHeight: "19px",
+                  }}
+                >
+                  Talk to us now
+                </span>{" "}
+                <i
+                  className="fa fa-long-arrow-right ml-3"
+                  style={{
+                    width: "23px",
+                    fontSize: "29px",
+                    flexShrink: "0",
+                    color: "#FF4925",
+                  }}
+                  aria-hidden="true"
+                ></i>
+              </button>
+            </div>
           </div>
         </div>
       </div>
-      </div>
-     
+
       <div
         style={{
           display: "flex",
@@ -109,41 +110,61 @@ const Application = () => {
         </p>
       </div>
       <div>
-        <div class="card-deck" style={{ margin: "5px 0px 0px 0px" }}>
-          <div class="card" style={{ border: "none" }}>
-            <img
-              src="./images/Group - 1 of 5.png"
-              class="card-img-top"
-              alt="..."
-            />
-          </div>
-          <div class="card" style={{ border: "none" }}>
-            <img
-              src="./images/Group - 2 of 5.png"
-              class="card-img-top"
-              alt="..."
-            />
-          </div>
-          <div class="card" style={{ border: "none" }}>
-            <img
-              src="./images/Group - 3 of 5.png"
-              class="card-img-top"
-              alt="..."
-            />
-          </div>
-          <div class="card" style={{ border: "none" }}>
-            <img
-              src="./images/Group - 4 of 5.png"
-              class="card-img-top"
-              alt="..."
-            />
-          </div>
-          <div class="card" style={{ border: "none" }}>
-            <img
-              src="./images/Group - 5 of 5.png"
-              class="card-img-top"
-              alt="..."
-            />
+        <div className="cloudcards">
+          <div class="ccdiv w-100">
+            <div className="cloudimgcard">
+              <img className="notrepimg" src="/images/dvc.png" alt="" />
+              <div className="cloudcard card">
+                <h1 className="cloudcardheading">Enterprise web apps</h1>
+                <p className="cloudcardpara mb-0">
+                  Revamp your enterprise web app environment, transitioning it
+                  from a legacy and monolithic system into a more agile one.
+                </p>
+              </div>
+            </div>
+            <div className="cloudimgcard">
+              <img className="notrepimg" src="/images/dap.png" alt="" />
+              <div className="cloudcard card">
+                <h1 className="cloudcardheading">Application Migration</h1>
+                <p className="cloudcardpara mb-0">
+                  Relocate your in-house applications to the cloud environment
+                  with minimal disruption to your business operations.
+                </p>
+              </div>
+            </div>
+            <div className="cloudimgcard">
+              <img className="notrepimg" src="/images/bim.png" alt="" />
+              <div className="cloudcard card">
+                <h1 className="cloudcardheading">Re-platform Services</h1>
+                <p className="cloudcardpara mb-0">
+                  Enhance your legacy applications to operate seamlessly on
+                  modern, efficient cloud-based platforms, complete with
+                  seamless optimization for the new environment.
+                </p>
+              </div>
+            </div>
+            <div className="cloudimgcard">
+              <img className="notrepimg" src="/images/ssbi.png" alt="" />
+              <div className="cloudcard card">
+                <h1 className="cloudcardheading">Remediation Services</h1>
+                <p className="cloudcardpara mb-0">
+                  Enhance your legacy applications to operate seamlessly on
+                  modern, efficient cloud-based platforms, complete with
+                  seamless optimization for the new environment.
+                </p>
+              </div>
+            </div>
+            <div className="cloudimgcard">
+              <img className="notrepimg" src="/images/dg.png" alt="" />
+              <div className="cloudcard card">
+                <h1 className="cloudcardheading">Cloud Applications</h1>
+                <p className="cloudcardpara mb-0">
+                  Shorten your time to market and attain scalability through
+                  cloud applications, harnessing the power of cloud-native
+                  computing capabilities.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -185,7 +206,7 @@ const Application = () => {
           >
             <div class="col-md-5">
               <img
-                src="./images/video-wp (1).png"
+                src="./images/build.png"
                 className="card-img"
                 style={{ width: "350px", marginLeft: "25px" }}
                 alt="..."
@@ -255,9 +276,8 @@ const Application = () => {
         >
           <h3 className="cloud-head">Benefits</h3>
           <p style={{ width: "700px" }}>
-            DataObserve is the fastest-growing Business Intelligence & Data
-            Analytics company with strong expertise in Data lake solutions, Data
-            Warehouse Engineering, Data Migration & Modernization.
+            Here are the advantages of teaming up with DataObserve for your
+            application modernization needs:
           </p>
         </div>
         <div className="container mt-3">
@@ -272,11 +292,11 @@ const Application = () => {
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ width: "53px", height: "80px" }}
+                  style={{ width: "69px", height: "70px" }}
                 />
                 <h5>High Technical Expertise</h5>
 
-                <p className="arrowtext text-justify">
+                <p className="arrowtext text-center">
                   Our technical experts have enabled our customers modernize and
                   upgrade their current applications portfolio – as well as
                   unleash the power of cloud-native applications.
@@ -290,15 +310,15 @@ const Application = () => {
                 style={{ height: "350px" }}
               >
                 <img
-                  src="images/personal.png"
+                  src="images/focus.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ width: "76px", height: "76px" }}
+                  style={{ width: "59px", height: "79px" }}
                 />
                 <h5>Focus on organizational goals</h5>
 
-                <p className="arrowtext text-justify">
+                <p className="arrowtext text-center">
                   Our legacy application modernization approach focus on
                   organizational goals and objectives with a detailed
                   feasibility study conducted by our application solution
@@ -313,15 +333,15 @@ const Application = () => {
                 style={{ height: "350px" }}
               >
                 <img
-                  src="./images/automation.png"
+                  src="./images/advancet.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ width: "59px", height: "59px" }}
+                  style={{ width: "59px", height: "79px" }}
                 />
                 <h5>Advanced Technology</h5>
 
-                <p className="arrowtext text-justify">
+                <p className="arrowtext text-center">
                   Leverage the capabilities of the latest technology tools
                   through our strategic partnership in delivering top-level
                   application- focussed cloud services.
@@ -351,17 +371,14 @@ const Application = () => {
                   <div class="card-body expertcardbody d-flex">
                     <div>
                       <h5 class="card-title" style={{ color: "white" }}>
-                        Make the most out of cloud Capabilities with DataObserve
-                        Advance
+                        Modernize Your Applications with Optimal Efficiency
                       </h5>
                       <p
                         class="card-text"
                         style={{ color: "white", width: "500px" }}
                       >
-                        Simplify your cloud-powered business transformation with
-                        a host of DataObserve cloud services, including
-                        consulting, optimization, migration, & modernization.
-                        Our team of cloud experts is here to guide you.
+                        Modernize Your Applications Seamlessly with Zero
+                        Downtime, Supported by Our Dedicated Team
                       </p>
                     </div>
                     <div>
@@ -390,6 +407,14 @@ const Application = () => {
       </div>
       <div>
         <h3 className="cloud-head"> What Makes Us Stand Out</h3>
+        <p
+          className="container"
+          style={{ width: "700px", textAlign: "center" }}
+        >
+          At DataObserve, we recognize the significance of application
+          modernization to remain competitive in today's digital era. Here's why
+          we excel in the industry:
+        </p>
         <div className="container mt-3">
           <div className="row box">
             <div className="col-md-4">
@@ -398,21 +423,21 @@ const Application = () => {
                 style={{ height: "460px" }}
               >
                 <img
-                  src="./images/iden.png"
-                  className="App-logo arrow"
+                  src="./images/provenm.png"
+                  className="App-logo"
                   alt="logo"
                   width={100}
+                  style={{ width: "53px", height: "69px" }}
                 />
-                <h5>Identify Patterns for Business Growth </h5>
+                <h5>Proven Methodologies </h5>
 
-                <p className="arrowtext text-justify">
-                  Delivering data engineering services for years, we intend to
-                  become a credible source of data and cloud solutions for
-                  businesses across the globe. Our data engineering
-                  professionals can guide you through and execute all aspects of
-                  establishing data lakehouses, crafting data pipelines, and
-                  building a functional ETL process of data engineering. Here
-                  are a few reasons why we are an ideal fit: 
+                <p className="arrowtext text-center">
+                  Our team employs a blend of agile and cloud-driven DevOps
+                  methodologies to complete application modernization projects
+                  punctually and within your specified budget. Our strategy is
+                  centered around delivering gradual value to our clients,
+                  guaranteeing a seamless transition to the newly modernized
+                  system.
                 </p>
               </div>
             </div>
@@ -423,42 +448,21 @@ const Application = () => {
                 style={{ height: "460px" }}
               >
                 <img
-                  src="./images/getb.png"
-                  className="App-logo arrow"
+                  src="./images/scrum.png"
+                  className="App-logo"
                   alt="logo"
                   width={100}
-                />
-                <h5>Proven Methodologies</h5>
-
-                <p className="arrowtext text-justify">
-                  Our team uses a combination of agile and cloud-driven DevOps
-                  methodologies to deliver application modernization projects on
-                  time and within your budget. Our approach focuses on
-                  delivering incremental value to our clients, ensuring a smooth
-                  transition to the new modernized system.
-                </p>
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              <div
-                className="text-center box-padding"
-                style={{ height: "460px" }}
-              >
-                <img
-                  src="./images/eff.png"
-                  className="App-logo arrow"
-                  alt="logo"
-                  width={100}
+                  style={{ width: "53px", height: "69px" }}
                 />
                 <h5>Expertise in Cloud Technologies</h5>
 
-                <p className="arrowtext text-justify">
-                  We have a deep understanding of the latest cloud technologies
-                  and how to leverage them to modernize your applications. Our
-                  team is well-versed in various cloud platforms such as AWS,
-                  Azure, and Google Cloud, and can help you select the best
-                  platform for your needs.
+                <p className="arrowtext text-center">
+                  We possess a profound understanding of cutting-edge cloud
+                  technologies and how to harness them for application
+                  modernization. Our team boasts expertise in diverse cloud
+                  platforms like AWS, Azure, and Google Cloud, enabling us to
+                  assist you in selecting the most suitable platform for your
+                  requirements.
                 </p>
               </div>
             </div>
@@ -466,21 +470,22 @@ const Application = () => {
             <div className="col-md-4">
               <div
                 className="text-center box-padding"
-                style={{ height: "400px" }}
+                style={{ height: "460px" }}
               >
                 <img
-                  src="./images/robust.png"
-                  className="App-logo arrow"
+                  src="./images/endtoends.png"
+                  className="App-logo"
                   alt="logo"
                   width={100}
+                  style={{ width: "53px", height: "69px" }}
                 />
                 <h5>End-to-end Support</h5>
 
-                <p className="arrowtext text-justify">
-                  We provide end-to-end support throughout the entire
-                  application modernization process. From initial assessment to
-                  deployment and ongoing maintenance, team Agilisium will be
-                  with you every step of the way.
+                <p className="arrowtext text-center">
+                  We offer comprehensive support throughout the entire
+                  application modernization process. Starting from the initial
+                  assessment to deployment and continuous maintenance, the
+                  DataObserve team will be alongside you at every stage.
                 </p>
               </div>
             </div>
@@ -491,18 +496,19 @@ const Application = () => {
                 style={{ height: "400px" }}
               >
                 <img
-                  src="./images/centered.png"
-                  className="App-logo arrow"
+                  src="./images/tailored.png"
+                  className="App-logo"
                   alt="logo"
                   width={100}
+                  style={{ width: "53px", height: "69px" }}
                 />
                 <h5>Tailored Solutions</h5>
 
-                <p className="arrowtext text-justify">
-                  Our solutions are tailored to meet the unique needs of your
-                  business. We take the time to understand your specific
-                  requirements and provide a customized solution that addresses
-                  your specific pain points.
+                <p className="arrowtext text-center">
+                  Our solutions are customized to align with your business's
+                  distinct needs. We invest the effort to comprehend your
+                  specific requirements and offer a personalized solution
+                  designed to resolve your unique challenges.
                 </p>
               </div>
             </div>
@@ -513,131 +519,621 @@ const Application = () => {
                 style={{ height: "400px" }}
               >
                 <img
-                  src="./images/endto.png"
-                  className="App-logo arrow"
+                  src="./images/dc.png"
+                  className="App-logo"
                   alt="logo"
                   width={100}
+                  style={{ width: "53px", height: "69px" }}
+                />
+                <h5>Focused Data Integrity</h5>
+
+                <p className="arrowtext text-center">
+                  Ensuring the integrity, security, and accessibility of your
+                  company's data is paramount. Our tailored data governance
+                  solutions, enhanced by cloud-based efficiencies,
+                  comprehensively address all facets of data management.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              <div
+                className="text-center box-padding"
+                style={{ height: "400px" }}
+              >
+                <img
+                  src="./images/clouden.png"
+                  className="App-logo"
+                  alt="logo"
+                  width={100}
+                  style={{ width: "63px", height: "69px" }}
                 />
                 <h5>Your Go-to Modernization Partner</h5>
 
-                <p className="arrowtext text-justify">
-                  With a global clientele of satisfied customers, DataObserve
-                  has established itself as a trusted enterprise partner for
-                  application modernization solutions. Our goal is to deliver
-                  utmost customer satisfaction and we strive to exceed our
-                  clients' expectations.
+                <p className="arrowtext text-center">
+                  DataObserve has everything to cement its position as a
+                  reliable enterprise partner for application modernization
+                  solutions. Our primary objective is to ensure the highest
+                  level of customer satisfaction, continuously striving to
+                  surpass our clients' expectations.
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <Faq />
-      <div className="bg-color">
-        <div className="container">
-          <div className="row bg-white">
-            <div className="col-md-6 shadow-sm rounded">
-              <div>
-                <div className="card">
-                  <div class="card-body1">
-                    <h5 class="card-title title">Talk to Us</h5>
-                    {/* {/ <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> /} */}
-                    <p className="card-text question">
-                      Got a question? Dont a hesitate to give us a call today or
-                      shoot us an email
+      <div class="card text-center" style={{ border: "0px" }}>
+        {/* {/ <div class="card-header">Featured</div> /} */}
+        <div class="card-body faq-class">
+          <h5 class="card-title" style={{ color: "white" }}>
+            FAQs
+          </h5>
+          <div
+            class="accordion"
+            id="accordionExample"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              justifyContent: "space-around",
+            }}
+          >
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingOne"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      What is Application Modernization as a Service, and how
+                      can it benefit my organization?
                     </p>
-                    <i class="fa fa-envelope" aria-hidden="true">
-                      <span classname="hello">hello@dataserve.io</span>
-                    </i>
-                  </div>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Application Modernization as a Service involves upgrading and
+                  optimizing existing applications to align with modern
+                  technologies and business needs. This service can benefit your
+                  organization by enhancing performance, improving scalability,
+                  reducing operational costs, and ensuring compatibility with
+                  current industry standards.
                 </div>
               </div>
             </div>
-            <div className="col-md-6 shadow-sm">
-              <div>
-                <div>
-                  <form>
-                    <div className="form-group">
-                      <label>Full Name</label>
-                      <input type="text" className="form-control name" />
-                      <label>Work Email</label>
-                      <input type="text" className="form-control name" />
-                      <label>Contact Number</label>
-                      <input type="text" className="form-control name" />
-
-                      <button className="contact-us-2">Contact Us</button>
-                    </div>
-                  </form>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingTwo"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      How does Application Modernization as a Service differ
+                      from traditional application development?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  While traditional application development often involves
+                  building new applications from scratch, Application
+                  Modernization focuses on updating and improving existing
+                  applications. It includes refactoring, rearchitecting, and
+                  incorporating modern technologies to extend the lifespan and
+                  functionality of legacy applications.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingThree"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      What are the key components of your Application
+                      Modernization as a Service offering?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Our Application Modernization services encompass a variety of
+                  components, including legacy system assessment, technology
+                  stack upgrades, migration to cloud environments, user
+                  interface redesign, and data architecture enhancements. We
+                  tailor our approach to address the specific needs and
+                  challenges of your existing applications.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingFour"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      How can Application Modernization improve the agility and
+                      responsiveness of my applications?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseFour"
+                class="collapse"
+                aria-labelledby="headingFour"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Application Modernization improves agility by incorporating
+                  technologies like containerization and microservices
+                  architecture. This allows for more flexible and modular
+                  development, making it easier to add new features, scale
+                  applications, and respond quickly to changing business
+                  requirements.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingFive"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      Is it necessary to migrate to the cloud as part of the
+                      Application Modernization process?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseFive"
+                class="collapse"
+                aria-labelledby="headingFiver"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  While cloud migration is often a component of Application
+                  Modernization, it's not always mandatory. The decision to
+                  migrate to the cloud depends on your organization's goals,
+                  scalability needs, and infrastructure requirements. We work
+                  with you to determine the best approach based on your specific
+                  circumstances.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingSix"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseSix"
+                    aria-expanded="false"
+                    aria-controls="collapseSix"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      How does Application Modernization address security
+                      concerns for existing applications?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseSix"
+                class="collapse"
+                aria-labelledby="headingSix"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Security is a top priority in our Application Modernization
+                  process. We conduct thorough security assessments, implement
+                  best practices for secure coding, and ensure that data remains
+                  protected throughout the modernization process. Our goal is to
+                  enhance the security posture of your applications.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingSeven"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseSeven"
+                    aria-expanded="false"
+                    aria-controls="collapseSeven"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      Can Application Modernization as a Service support both
+                      monolithic and distributed application architectures?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseSeven"
+                class="collapse"
+                aria-labelledby="headingSeven"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Yes, our Application Modernization services are designed to
+                  support both monolithic and distributed architectures. Whether
+                  your application is a large monolith or a set of
+                  interconnected microservices, we have the expertise to
+                  modernize and optimize it for improved performance and
+                  scalability.
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingEight"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseEight"
+                    aria-expanded="false"
+                    aria-controls="collapseEight"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      How does Application Modernization impact the user
+                      experience of existing applications?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseEight"
+                class="collapse"
+                aria-labelledby="headingEight"
+                data-parent="#accordionExample"
+              >
+                <div class="card-body">
+                  Application Modernization includes user interface redesign and
+                  improvements to enhance the overall user experience. This may
+                  involve updating the look and feel, optimizing navigation, and
+                  incorporating modern design principles to ensure that the
+                  application is user-friendly and aligns with current usability
+                  standards.
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      {/* <!-- FOOTER START --> */}
-      <div class="footer">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-3">
-              <div class="col">
-                <h1 className="footer-heading">Company</h1>
-                <ul>
-                  <li>About Us</li>
-                  <li>People and Careers</li>
-                </ul>
-              </div>
-            </div>
-            <div className="col-md-3">
-              <div class="col">
-                <h1 className="footer-heading">Services</h1>
-                <ul>
-                  <li>Cloud transformation</li>
-                  <li>Data Engineering</li>
-                  <li>Data Analytics and BI</li>
-                  <li>AI & Machine Learning</li>
-                  <li>evOps-as-a-service</li>
-                  <li>Application Modernization</li>
-                  <li>Talent as a Service</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-md-3">
-              <div class="col">
-                <h1 className="footer-heading">Industries</h1>
-                <ul>
-                  <li>Life sciences and Pharma</li>
-                  <li>Media & Entertainment</li>
-                  <li>Gaming and gambling</li>
-                </ul>
-                <h1 className="footer-heading">Products</h1>
-                <ul>
-                  <li>Data Observability</li>
-                  <li>Health EM</li>
-                  <li>DataSense</li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="col-md-3">
-              <div class="col">
-                <h1 className="footer-heading">Insights</h1>
-                <ul>
-                  <li>Case Studies</li>
-                  <li>Blogs</li>
-                  <li>Ebooks</li>
-                  <li>Webinars & Videos</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="contain">
-          <div class="clearfix"></div>
-        </div>
-      </div>
-      {/* <!-- END OF FOOTER --> */}
+      <Footer />
     </div>
   );
 };
