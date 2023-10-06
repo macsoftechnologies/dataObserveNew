@@ -86,7 +86,7 @@ function Footer() {
                   </ul>
                   <h1 className="footer-heading"style={{ color: "#1A4AB9" }}>Products</h1>
                   <ul>
-                    <li>Data Observability</li>
+                    <li>Data Observability 360</li>
                     <li>Health EM</li>
                     <li>DataSense</li>
                   </ul>

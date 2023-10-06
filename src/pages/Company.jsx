@@ -4,38 +4,38 @@ import Footer from "../components/Footer";
 import Navbar from "../products/Navbar";
 import companyvideo from "../../src/videos/company.mp4";
 
-
 function company() {
   return (
     <div>
-      
       <Navbar />
 
       <div>
-      <video className="company-play-bg-video" autoPlay loop muted>
-        <source src={companyvideo} type="video/mp4"/>
-      </video>
-    
-      <div className="body-science">
-        <p className="journey">
-          <span className="our-story">Our Story </span>
-          <br />
-          Navigating your journey
-          <br /> from insights to value <br />
-          realization
-        </p>
-        
-      </div>
+        <video className="company-play-bg-video" autoPlay loop muted>
+          <source src={companyvideo} type="video/mp4" />
+        </video>
+
+        <div className="body-science">
+          <p className="journey">
+            <span className="our-story">Our Story </span>
+            <br />
+            Navigating your journey
+            <br /> from insights to value <br />
+            realization
+          </p>
+        </div>
       </div>
 
       <div className="container home-company-ourstory">
-        <h6 className="color-black">Home<span className="home-color">/</span> Company<span className="home-color">/</span> Our Story</h6>
-        </div>
+        <h6 className="color-black">
+          Home<span className="home-color">/</span> Company
+          <span className="home-color">/</span> Our Story
+        </h6>
+      </div>
       <div
         className="container"
         style={{
           color: "black",
-          fontSize: 49,
+          fontSize: 47,
           fontFamily: "Poppins",
           fontWeight: 400,
         }}
@@ -44,7 +44,7 @@ function company() {
       </div>
       <section>
         <div className="container">
-          <div className="row">
+          <div className="row marathon-overall-top">
             <div className="col-md-4">
               <img
                 className="data-science"
@@ -53,75 +53,95 @@ function company() {
               />
             </div>
             <div className="col-md-8">
-              <p className="marathon">
-                Similar to a marathon, the final mile proves to be the most
-                challenging. This is the point where enterprises often falter,
-                losing the determination and vigor required to leverage data
-                analytics beyond the realm of insight generation and turn it
-                into tangible value. It's at this juncture that we identified an
-                opportunity to bridge the gap - by transforming data into
-                actionable insights and operationalizing them to create
-                significant, measurable business outcomes.
-              </p>
-              <br />
-              <p className="marathon-1">
-                Our primary goal is to narrow the divide between delivering
-                insights and achieving tangible value. We collaborate closely
-                with our clients to assist them in surmounting the final hurdle
-                in the field of analytics. This ethos propels our network to
-                exceed boundaries, encouraging our clients to reconsider their
-                constraints and surpass the limits of what they perceive as
-                'possible'.
-              </p>
+              <div className="marathon">
+                <p className="marathon-1">
+                  Much like a marathon, the last mile presents the toughest
+                  challenge. It's the phase where enterprises frequently
+                  stumble, losing the motivation and energy needed to go beyond
+                  data analytics for mere insights and convert it into tangible
+                  value. This is where we recognized an opportunity to close the
+                  gap by converting data into actionable insights and putting
+                  them into practice, thereby generating substantial and
+                  measurable business results.
+                </p>
+                <br />
+                <p className="marathon-2">
+                  Our core objective is to bridge the gap between providing
+                  insights and realizing concrete value. We work in close
+                  partnership with our clients to help them conquer the ultimate
+                  challenges in the realm of analytics. This philosophy drives
+                  our network to go beyond conventional boundaries, inspiring
+                  our clients to reevaluate their limitations and surpass what
+                  they once considered 'impossible'.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
-      <section>
+      <section className="how-we-do-this-Main">
         <div className="cult-page">
           <div className="container">
-            <h4 className="how-we">How we do this</h4>
+            <h4 className="how-we-text">How we do this</h4>
             <div className="row">
               <div className="col-md-6">
                 <li className="d-flex">
                   <div>
-                    <img src="./images/1.png" alt="one" width={100} />
+                    <img
+                      className="one-number"
+                      src="./images/one.png"
+                      alt="one"
+                    />
                   </div>
                   <p className="cultivate">
-                    Cultivating a deep understanding of data and domain
-                    challenges that CXOs face in their industries and developing
-                    blueprints and solutions to solve the last-mile problem in
-                    analytics
+                    Nurturing an in-depth comprehension of both data intricacies
+                    and the industry-specific obstacles that CXOs encounter, and
+                    crafting comprehensive strategies and solutions to tackle
+                    the final, most challenging phase of analytics.
                   </p>
                 </li>
                 <li className="d-flex">
                   <div>
-                    <img src="./images/2.png" alt="one" width={100} />
+                    <img
+                      className="one-number"
+                      src="./images/two.png"
+                      alt="one"
+                    />
                   </div>
                   <p className="cultivate">
-                    Embracing a vertical-first approach, powered by our practice
-                    excellence to help clients stay ahead of the curve and face
-                    market disruptions fearlessly
+                    Adopting a vertical-first strategy, fueled by our commitment
+                    to excellence, to empower clients to remain at the forefront
+                    and confront market disruptions with confidence.
                   </p>
                 </li>
                 <li className="d-flex">
                   <div>
-                    <img src="./images/3.png" alt="one" width={100} />
+                    <img
+                      className="one-number"
+                      src="./images/three.png"
+                      alt="one"
+                    />
                   </div>
                   <p className="cultivate">
-                    Leveraging our rich partner ecosystem that complements our
-                    efforts and fostering co-creation to help clients find
-                    faster value realization from their analytics investments
+                    Harnessing our extensive partner network that complements
+                    our initiatives and promoting collaborative innovation to
+                    assist clients in achieving swift value realization from
+                    their investments in analytics.
                   </p>
                 </li>
                 <li className="d-flex">
                   <div>
-                    <img src="./images/4.png" alt="one" width={100} />
+                    <img
+                      className="one-number"
+                      src="./images/four.png"
+                      alt="one"
+                    />
                   </div>
                   <p className="cultivate">
-                    Harnessing the power of AI/ML in our proprietary
-                    accelerators and solutions through Tredence Studio, a force
-                    multiplier that helps enterprises speed to value
+                    Unleashing the potential of AI/ML within our exclusive
+                    accelerators and solutions via DataObserve Studio & Lab—an
+                    invaluable resource that amplifies enterprises' ability to
+                    swiftly realize value.
                   </p>
                 </li>
               </div>
@@ -137,8 +157,8 @@ function company() {
       <section>
         <div className="container ourpurpose-body">
           <div className="row">
-            <div className="col-md-4">
-              <div class="card our-card" style={{ width: "18rem" }}>
+            <div className="col-md-4 our-card-boder">
+              <div class="card our-card" style={{ width: "19.5rem" }}>
                 <div class="card-body">
                   <img
                     className="target"
@@ -150,13 +170,13 @@ function company() {
                     Our purpose
                   </h6>
                   <p class="card-text empower-para">
-                    To empower decisions that help our clients win
+                    Empowering decisions that lead our clients to victory.
                   </p>
                 </div>
               </div>
             </div>
             <div className="col-md-4">
-              <div class="card our-card" style={{ width: "18rem" }}>
+              <div class="card our-card" style={{ width: "19.5rem" }}>
                 <div class="card-body">
                   <img
                     className="target"
@@ -168,13 +188,14 @@ function company() {
                     Our vision
                   </h6>
                   <p class="card-text empower-para">
-                    To become the world’s most indispensable analytics partner
+                    To achieve the status of the world's most essential
+                    analytics partner.
                   </p>
                 </div>
               </div>
             </div>
             <div className="col-md-4">
-              <div class="card our-card" style={{ width: "18rem" }}>
+              <div class="card our-card" style={{ width: "19.5rem" }}>
                 <div class="card-body">
                   <img
                     className="target"
@@ -186,8 +207,9 @@ function company() {
                     ACE framework
                   </h6>
                   <p class="card-text empower-para">
-                    We act with integrity & trust, love to go easy, be warm and
-                    have fun.
+                    We operate with integrity and trust, embrace a relaxed and
+                    enjoyable approach, foster warmth, and have a good time
+                    along the way.
                   </p>
                 </div>
               </div>
@@ -197,6 +219,7 @@ function company() {
       </section>
 
       <section>
+        <div className="global-data-customer-background">
         <div className="container everyperson-data">
           <div className="row">
             <div className="col-md-6">
@@ -209,11 +232,11 @@ function company() {
                     width={100}
                   />
                 </div>
-                <div>
-                  <h4 className="global-data">1600 data scientists</h4>
+                <div className="global-left-customers">
+                  <h4 className="global-data">Data Scientists</h4>
                   <p className="data-science-paragraph">
-                    Every person at Tredence brings their whole self to work and
-                    helps us create a culture of curiosity and innovation
+                    Every person at DataObserve brings their whole self to work
+                    and helps us create a culture of curiosity and innovation
                   </p>
                 </div>
               </li>
@@ -226,11 +249,11 @@ function company() {
                     width={100}
                   />
                 </div>
-                <div>
-                  <h4 className="global-data">10+ global delivery centres</h4>
+                <div className="global-left-customers">
+                  <h4 className="global-data">Global Delivery Centres</h4>
                   <p className="data-science-paragraph">
-                    Enabling user-driven analytics for some of the world’s
-                    largest Fortune 50 companies
+                    Ready to Enable user-driven analytics for some of the
+                    world’s largest Fortune 50 companies
                   </p>
                 </div>
               </li>
@@ -243,11 +266,50 @@ function company() {
                     width={100}
                   />
                 </div>
-                <div>
-                  <h4 className="global-data">60+ global customers</h4>
+                <div className="global-left-customers">
+                  <h4 className="global-data">Global Customers</h4>
                   <p className="data-science-paragraph">
                     Trust us to help them create sustainable impact by
                     systematizing the last mile adoption of analytics
+                  </p>
+                </div>
+              </li>
+              <li className="d-flex">
+                <div>
+                  <img
+                    className="data-science-image"
+                    src="./images/global-message.png"
+                    alt="one"
+                    width={100}
+                  />
+                </div>
+                <div className="global-left-customers">
+                  <h4 className="global-data">
+                    Unprecedented operational excellence
+                  </h4>
+                  <p className="data-science-paragraph">
+                    with AI and self-service to solve complex problems across
+                    the enterprise value chain
+                  </p>
+                </div>
+              </li>
+              <li className="d-flex">
+                <div>
+                  <img
+                    className="data-science-image"
+                    src="./images/global-computer.png"
+                    alt="one"
+                    width={100}
+                  />
+                </div>
+                <div className="global-left-customers">
+                  <h4 className="global-data">
+                    One enterprise AI Studio & Labs
+                  </h4>
+                  <p className="data-science-paragraph">
+                    offering a co-innovation platform and marketplacefor AI and
+                    advanced analytics solutions to move innovation from
+                    experimentation to value realization
                   </p>
                 </div>
               </li>
@@ -261,6 +323,7 @@ function company() {
               />
             </div>
           </div>
+        </div>
         </div>
       </section>
 
@@ -307,7 +370,7 @@ function company() {
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

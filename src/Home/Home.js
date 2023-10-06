@@ -4,7 +4,7 @@ import { Link, Navigate, useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../products/Footer";
 import Navbar from "../products/Navbar";
-import allanimations from "../../src/videos/allanimations.mp4"
+// import allanimations from "../../src/videos/allanimations.mp4"
 
 function Home() {
   const Navigate = useNavigate();
@@ -12,36 +12,36 @@ function Home() {
   const sectionRef = useRef(null);
 
   // Function to handle intersection changes
-  const handleIntersection = (entries) => {
-    const entry = entries[0];
-    if (entry.isIntersecting) {
-      setIsProcessVisible(true);
+  // const handleIntersection = (entries) => {
+  //   const entry = entries[0];
+  //   if (entry.isIntersecting) {
+  //     setIsProcessVisible(true);
 
-      // Simulate a process (e.g., loading) for 2 seconds
-      setTimeout(() => {
-        setIsProcessVisible(false);
-      }, 2000);
-    }
-  };
+  // Simulate a process (e.g., loading) for 2 seconds
+  //     setTimeout(() => {
+  //       setIsProcessVisible(false);
+  //     }, 5000);
+  //   }
+  // };
 
   // Set up the IntersectionObserver
-  useEffect(() => {
-    const options = {
-      root: null, // viewport
-      rootMargin: "0px",
-      threshold: 0.5, // 50% of the target is visible
-    };
+  // useEffect(() => {
+  //   const options = {
+  //     root: null, // viewport
+  //     rootMargin: "0px",
+  //     threshold: 0.5, // 50% of the target is visible
+  //   };
 
-    const observer = new IntersectionObserver(handleIntersection, options);
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
+  // const observer = new IntersectionObserver(handleIntersection, options);
+  // if (sectionRef.current) {
+  //   observer.observe(sectionRef.current);
+  // }
 
-    // Cleanup observer when component unmounts
-    return () => {
-      observer.disconnect();
-    };
-  }, []);
+  // Cleanup observer when component unmounts
+  //   return () => {
+  //     observer.disconnect();
+  //   };
+  // }, []);
 
   return (
     <div>
@@ -51,7 +51,7 @@ function Home() {
       <div className="Homeslide">
         <div className="container homeslide-1">
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 home-mainslide-data-engi">
               <h2 className="home-slide-heading">
                 Data
                 <br />
@@ -76,8 +76,12 @@ function Home() {
             </div> */}
 
             <div className="col-md-6">
-              
-              <img className="allanimation-mainone" src="./images/allanimations.gif" alt="background" width={300} />
+              <img
+                className="allanimation-mainone"
+                src="./images/allanimations.png"
+                alt="background"
+                width={300}
+              />
             </div>
           </div>
         </div>
@@ -90,56 +94,113 @@ function Home() {
           <h4 className="customers">DataObserve's Happy Customers</h4>
         </div>
         {/* ....happy customers images.... */}
-        <div class=" container shadow p-3 mb-5 bg-white rounded  acco">
-          <div className="row happy-customers-images">
-            <div className="col-md-2">
-              <img
-                src="./images/Gen.png"
-                className="App-logo gen-1"
-                alt="logo"
-                width={100}
-              />
-            </div>
-
-            <div className="col-md-2">
-              <img
-                src="./images/genmab.png"
-                className="App-logo gen-1"
-                alt="logo"
-                width={100}
-              />
-            </div>
-            <div className="col-md-2">
-              <img
-                src="./images/igt.png"
-                className="App-logo gen-1"
-                alt="logo"
-                width={100}
-              />
-            </div>
-            <div className="col-md-2">
-              <img
-                src="./images/nbc.png"
-                className="App-logo gen-1"
-                alt="logo"
-                width={100}
-              />
-            </div>
-            <div className="col-md-2">
-              <img
-                src="./images/thermo.png"
-                className="App-logo gen-1"
-                alt="logo"
-                width={100}
-              />
-            </div>
-            <div className="col-md-2">
-              <img
-                src="./images/universal.png"
-                className="App-logo gen-1"
-                alt="logo"
-                width={100}
-              />
+        <div>
+          <div class="shadow p-3 mb-5 bg-white rounded happy-customers-shadowletters">
+            <div className="d-flex happy-customers-data-observe">
+              <div>
+                <img
+                  className="srd-img-01"
+                  src="./images/srd-1.png"
+                  alt="srd"
+                  width={100}
+                />
+              </div>
+              <div>
+                <img
+                  className="srd-img-02"
+                  src="./images/srd-2.png"
+                  alt="srd"
+                  width={100}
+                />
+              </div>
+              <div>
+                <img
+                  className="srd-img-03"
+                  src="./images/srd-3.png"
+                  alt="srd"
+                  width={100}
+                />
+              </div>
+              <div>
+                <img
+                  className="srd-img-04"
+                  src="./images/srd-4.png"
+                  alt="srd"
+                  width={100}
+                />
+              </div>
+              <div>
+                <img
+                  className="srd-img-05"
+                  src="./images/srd-5.png"
+                  alt="srd"
+                  width={100}
+                />
+              </div>
+              <div>
+                <img
+                  className="srd-img-06"
+                  src="./images/srd-6.png"
+                  alt="srd"
+                  width={100}
+                />
+              </div>
+              <div>
+                <img
+                  className="srd-img-07"
+                  src="./images/srd-7.png"
+                  alt="srd"
+                  width={100}
+                />
+              </div>
+              <div>
+                <img
+                  className="srd-img-08"
+                  src="./images/srd-8.png"
+                  alt="srd"
+                  width={100}
+                />
+              </div>
+              <div>
+                <img
+                  className="srd-img-09"
+                  src="./images/srd-9.png"
+                  alt="srd"
+                  width={100}
+                />
+              </div>
+              <div>
+                <img
+                  className="srd-img-10"
+                  src="./images/srd-10.png"
+                  alt="srd"
+                  width={100}
+                />
+              </div>
+              <div>
+                <img
+                  className="srd-img-11"
+                  src="./images/srd-11.png"
+                  alt="srd"
+                  width={100}
+                />
+              </div>
+              <div>
+                <img
+                  className="srd-img-12"
+                  src="./images/srd-12.png"
+                  alt="srd"
+                  width={100}
+                />
+              </div>
+              <div>
+                <img
+                  className="srd-img-13"
+                  src="./images/srd-13.png"
+                  alt="srd"
+                  width={100}
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -156,7 +217,7 @@ function Home() {
                 Start Your Digital Transformation
                 <br /> Journey With Us
               </h3>
-              <div className="container mt-3">
+              <div className="container mt-3 cloud-mar-gin">
                 <div className="row box">
                   <div className="col-md-4">
                     <div className="text-center boxPad">
@@ -166,14 +227,15 @@ function Home() {
                         alt="logo"
                         width={100}
                       />
-                      <h5>Cloud Transformation</h5>
+                      <h5 className="cloud-trans-formation">
+                        Cloud Transformation
+                      </h5>
 
                       <p className="arrowtext text-center">
-                        Take your business to the clouds with DataObserve's
-                        cloud certified architects, who can assist you in
-                        minimizing downtimes, enhancing agility, and elevating
-                        your capacity to innovate through efficient cloud
-                        migration.
+                        Elevate your business to new heights with DataObserve’ s
+                        team of cloud-certified architects. They can help you
+                        minimize downtimes, boost agility, and enhance your
+                        innovation potential through seamless cloud migration.
                       </p>
                     </div>
                   </div>
@@ -186,14 +248,16 @@ function Home() {
                         alt="logo"
                         width={100}
                       />
-                      <h5>Data Engineering</h5>
+                      <h5 className="cloud-trans-formation">
+                        Data Engineering
+                      </h5>
 
                       <p className="arrowtext text-center">
-                        Reconsider current procedures to ensure data
-                        transparency and effortless accessibility. Our Data
-                        Engineering ensures fast query retrieval, enabling
-                        businesses to fully unlock the potential of big data
-                        solutions.
+                        Rethink your current processes to guarantee data
+                        transparency and easy accessibility. Our Data
+                        Engineering expertise ensures speedy query retrieval,
+                        empowering businesses to fully harness the potential of
+                        big data solutions.
                       </p>
                     </div>
                   </div>
@@ -206,13 +270,15 @@ function Home() {
                         alt="logo"
                         width={100}
                       />
-                      <h5>Data Analytics and BI</h5>
+                      <h5 className="cloud-trans-formation">
+                        Data Analytics and BI
+                      </h5>
 
                       <p className="arrowtext text-center">
-                        Business Intelligence involves data structures and
-                        visualization to enhance decision-making. DataObserve's
-                        business intelligence solutions make comprehending
-                        shopper behavior more straightforward than ever.
+                        Business Intelligence encompasses data structures and
+                        visualization to improve decision-making. DataObserve’ s
+                        BI solutions simplify the understanding of customer
+                        behavior like never before.
                       </p>
                     </div>
                   </div>
@@ -225,13 +291,15 @@ function Home() {
                         alt="logo"
                         width={100}
                       />
-                      <h5>AI and Machine Learning</h5>
+                      <h5 className="cloud-trans-formation">
+                        AI and Machine Learning
+                      </h5>
 
                       <p className="arrowtext text-center">
-                        AI and Machine Learning services, when integrated with
-                        DataObserve’s cloud offerings, have the potential to
-                        enhance customer experiences, optimize resource
-                        utilization, and facilitate improved decision-making.
+                        When integrated with DataObserve’ s cloud services, AI
+                        and Machine Learning solutions hold the promise of
+                        elevating customer experiences, optimizing resource
+                        utilization, and enabling more informed decision-making.
                       </p>
                     </div>
                   </div>
@@ -244,13 +312,15 @@ function Home() {
                         alt="logo"
                         width={100}
                       />
-                      <h5>DevOps as a Service</h5>
+                      <h5 className="cloud-trans-formation">
+                        DevOps as a Service
+                      </h5>
 
                       <p className="arrowtext text-center">
-                        DevOps-as-a-Service is an advanced delivery model
-                        created to enhance application development. Utilize our
-                        DevOps as a service (DaaS) solutions to achieve time and
-                        cost savings through the automation of deployment
+                        DevOps-as-a-Service is an innovative delivery model
+                        designed to improve application development. Leverage
+                        our DevOps as a Service (DaaS) solutions to achieve both
+                        time and cost savings by automating deployment
                         processes.
                       </p>
                     </div>
@@ -264,13 +334,15 @@ function Home() {
                         alt="logo"
                         width={100}
                       />
-                      <h5>Application Modernization</h5>
+                      <h5 className="cloud-trans-formation">
+                        Application Modernization
+                      </h5>
 
                       <p className="arrowtext text-center">
-                        Application modernization is essentially the process of
-                        upgrading current applications using state-of-the-art
-                        computing technology. Increase your productivity tenfold
-                        by smoothly migrating your entire underlying
+                        Application modernization is fundamentally about
+                        upgrading existing applications with cutting-edge
+                        computing technology. Boost your productivity manifold
+                        by seamlessly migrating your entire underlying
                         infrastructure to the cloud with DataObserve.
                       </p>
                     </div>
@@ -289,7 +361,7 @@ function Home() {
       {/* .......happay customers to digital transformation end ....  */}
 
       {/* .....circles start unleash.... */}
-      {/* <div className="circle-background">
+      <div className="circle-background">
         <div className="right"></div>
         <div className="left"></div>
         <div>
@@ -297,7 +369,7 @@ function Home() {
             We unleash your potential in all directions.
           </p>
         </div>
-      </div> */}
+      </div>
 
       {/* .....circles start unleash end.... */}
 
@@ -725,511 +797,10 @@ function Home() {
                             wordWrap: "break-word",
                           }}
                         >
-                          AWS Well-Architected Partner
+                          Cloud Well-Architected
                           <br />
-                          Program
+                          Partner Program
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  style={{
-                    borderRadius: 18,
-                    flexDirection: "column",
-                    justifyContent: "flex-start",
-                    alignItems: "flex-start",
-                    gap: 26,
-                    display: "flex",
-                  }}
-                >
-                  <div
-                    style={{
-                      width: "877.50px",
-                      paddingBottom: "18.39px",
-                      paddingRight: "824.50px",
-                      borderBottom: "1px rgba(5, 5, 5, 0.10) solid",
-                      justifyContent: "flex-start",
-                      alignItems: "center",
-                      display: "inline-flex",
-                    }}
-                  >
-                    <div
-                      style={{
-                        color: "#1A4AB9",
-                        fontSize: 22,
-                        fontFamily: "Poppins",
-                        fontWeight: 500,
-                        lineHeight: "26.40px",
-                        wordWrap: "break-word",
-                      }}
-                    >
-                      SDPs
-                    </div>
-                  </div>
-                  <div
-                    style={{
-                      width: "877.50px",
-                      height: "209.16px",
-                      position: "relative",
-                    }}
-                  >
-                    <div
-                      style={{
-                        paddingRight: "65.83px",
-                        left: 0,
-                        top: 0,
-                        position: "absolute",
-                        justifyContent: "flex-start",
-                        alignItems: "center",
-                        gap: 12,
-                        display: "inline-flex",
-                      }}
-                    >
-                      <div
-                        style={{
-                          width: 15,
-                          alignSelf: "stretch",
-                          flexDirection: "column",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          display: "inline-flex",
-                        }}
-                      >
-                        <div>
-                          <i
-                            class="fa fa-check-circle"
-                            style={{ color: "#0046E8" }}
-                            aria-hidden="true"
-                          ></i>
-                        </div>
-                      </div>
-                      <div
-                        style={{
-                          color: "#050505",
-                          fontSize: 16,
-                          fontFamily: "Poppins",
-                          fontWeight: 500,
-                          lineHeight: "25.60px",
-                          wordWrap: "break-word",
-                        }}
-                      >
-                        Amazon Kinesis Delivery
-                      </div>
-                    </div>
-                    <div
-                      style={{
-                        paddingRight: "87.83px",
-                        left: "297.83px",
-                        top: 0,
-                        position: "absolute",
-                        justifyContent: "flex-start",
-                        alignItems: "center",
-                        gap: 12,
-                        display: "inline-flex",
-                      }}
-                    >
-                      <div
-                        style={{
-                          width: 15,
-                          alignSelf: "stretch",
-                          flexDirection: "column",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          display: "inline-flex",
-                        }}
-                      >
-                        <div>
-                          <i
-                            class="fa fa-check-circle"
-                            style={{ color: "#0046E8" }}
-                            aria-hidden="true"
-                          ></i>
-                        </div>
-                      </div>
-                      <div
-                        style={{
-                          color: "#050505",
-                          fontSize: 16,
-                          fontFamily: "Poppins",
-                          fontWeight: 500,
-                          lineHeight: "25.60px",
-                          wordWrap: "break-word",
-                        }}
-                      >
-                        Amazon EMR Delivery
-                      </div>
-                    </div>
-                    <div
-                      style={{
-                        paddingRight: "52.84px",
-                        left: "595.66px",
-                        top: 0,
-                        position: "absolute",
-                        justifyContent: "flex-start",
-                        alignItems: "center",
-                        gap: 12,
-                        display: "inline-flex",
-                      }}
-                    >
-                      <div
-                        style={{
-                          width: 15,
-                          alignSelf: "stretch",
-                          flexDirection: "column",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          display: "inline-flex",
-                        }}
-                      >
-                        <div>
-                          <i
-                            class="fa fa-check-circle"
-                            style={{ color: "#0046E8" }}
-                            aria-hidden="true"
-                          ></i>
-                        </div>
-                      </div>
-                      <div
-                        style={{
-                          color: "#050505",
-                          fontSize: 16,
-                          fontFamily: "Poppins",
-                          fontWeight: 500,
-                          lineHeight: "25.60px",
-                          wordWrap: "break-word",
-                        }}
-                      >
-                        Amazon Redshift Delivery
-                      </div>
-                    </div>
-                    <div
-                      style={{
-                        paddingRight: "31.83px",
-                        left: 0,
-                        top: "35.59px",
-                        position: "absolute",
-                        justifyContent: "flex-start",
-                        alignItems: "center",
-                        gap: 12,
-                        display: "inline-flex",
-                      }}
-                    >
-                      <div
-                        style={{
-                          width: 15,
-                          alignSelf: "stretch",
-                          flexDirection: "column",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          display: "inline-flex",
-                        }}
-                      >
-                        <div>
-                          <i
-                            class="fa fa-check-circle"
-                            style={{ color: "#0046E8" }}
-                            aria-hidden="true"
-                          ></i>
-                        </div>
-                      </div>
-                      <div
-                        style={{
-                          color: "#050505",
-                          fontSize: 16,
-                          fontFamily: "Poppins",
-                          fontWeight: 500,
-                          lineHeight: "25.60px",
-                          wordWrap: "break-word",
-                        }}
-                      >
-                        Amazon DynamoDB Delivery
-                      </div>
-                    </div>
-                    <div
-                      style={{
-                        width: "287.83px",
-                        height: "51.19px",
-                        left: "297.83px",
-                        top: "35.59px",
-                        position: "absolute",
-                      }}
-                    >
-                      <div
-                        style={{
-                          height: 15,
-                          left: 0,
-                          top: 5,
-                          position: "absolute",
-                          flexDirection: "column",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          display: "inline-flex",
-                        }}
-                      >
-                        <div>
-                          <i
-                            class="fa fa-check-circle"
-                            style={{ color: "#0046E8" }}
-                            aria-hidden="true"
-                          ></i>
-                        </div>
-                      </div>
-                      <div
-                        style={{
-                          paddingRight: "3.83px",
-                          left: 27,
-                          top: 0,
-                          position: "absolute",
-                          flexDirection: "column",
-                          justifyContent: "flex-start",
-                          alignItems: "flex-start",
-                          display: "inline-flex",
-                        }}
-                      >
-                        <div
-                          style={{
-                            color: "#050505",
-                            fontSize: 16,
-                            fontFamily: "Poppins",
-                            fontWeight: 500,
-                            lineHeight: "25.60px",
-                            wordWrap: "break-word",
-                          }}
-                        >
-                          Amazon EC2 for Windows Server
-                          <br />
-                          Delivery
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      style={{
-                        paddingRight: "98.84px",
-                        left: "595.66px",
-                        top: "35.59px",
-                        position: "absolute",
-                        justifyContent: "flex-start",
-                        alignItems: "center",
-                        gap: 12,
-                        display: "inline-flex",
-                      }}
-                    >
-                      <div
-                        style={{
-                          width: 15,
-                          alignSelf: "stretch",
-                          flexDirection: "column",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          display: "inline-flex",
-                        }}
-                      >
-                        <div>
-                          <i
-                            class="fa fa-check-circle"
-                            style={{ color: "#0046E8" }}
-                            aria-hidden="true"
-                          ></i>
-                        </div>
-                      </div>
-                      <div
-                        style={{
-                          color: "#050505",
-                          fontSize: 16,
-                          fontFamily: "Poppins",
-                          fontWeight: 500,
-                          lineHeight: "25.60px",
-                          wordWrap: "break-word",
-                        }}
-                      >
-                        Amazon QuickSight
-                      </div>
-                    </div>
-                    <div
-                      style={{
-                        paddingRight: "89.83px",
-                        left: 0,
-                        top: "96.78px",
-                        position: "absolute",
-                        justifyContent: "flex-start",
-                        alignItems: "center",
-                        gap: 12,
-                        display: "inline-flex",
-                      }}
-                    >
-                      <div
-                        style={{
-                          width: 15,
-                          alignSelf: "stretch",
-                          flexDirection: "column",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          display: "inline-flex",
-                        }}
-                      >
-                        <div>
-                          <i
-                            class="fa fa-check-circle"
-                            style={{ color: "#0046E8" }}
-                            aria-hidden="true"
-                          ></i>
-                        </div>
-                      </div>
-                      <div
-                        style={{
-                          color: "#050505",
-                          fontSize: 16,
-                          fontFamily: "Poppins",
-                          fontWeight: 500,
-                          lineHeight: "25.60px",
-                          wordWrap: "break-word",
-                        }}
-                      >
-                        Amazon RDS Delivery
-                      </div>
-                    </div>
-                    <div
-                      style={{
-                        width: "287.83px",
-                        height: "51.19px",
-                        left: "297.83px",
-                        top: "96.78px",
-                        position: "absolute",
-                      }}
-                    >
-                      <div
-                        style={{
-                          height: 15,
-                          left: 0,
-                          top: 5,
-                          position: "absolute",
-                          flexDirection: "column",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          display: "inline-flex",
-                        }}
-                      >
-                        <div>
-                          <i
-                            class="fa fa-check-circle"
-                            style={{ color: "#0046E8" }}
-                            aria-hidden="true"
-                          ></i>
-                        </div>
-                      </div>
-                      <div
-                        style={{
-                          paddingRight: "27.83px",
-                          left: 27,
-                          top: 0,
-                          position: "absolute",
-                          flexDirection: "column",
-                          justifyContent: "flex-start",
-                          alignItems: "flex-start",
-                          display: "inline-flex",
-                        }}
-                      >
-                        <div
-                          style={{
-                            color: "#050505",
-                            fontSize: 16,
-                            fontFamily: "Poppins",
-                            fontWeight: 500,
-                            lineHeight: "25.60px",
-                            wordWrap: "break-word",
-                          }}
-                        >
-                          Amazon OpenSearch Service
-                          <br />
-                          Delivery
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      style={{
-                        paddingRight: "110.84px",
-                        left: "595.66px",
-                        top: "96.78px",
-                        position: "absolute",
-                        justifyContent: "flex-start",
-                        alignItems: "center",
-                        gap: 12,
-                        display: "inline-flex",
-                      }}
-                    >
-                      <div
-                        style={{
-                          width: 15,
-                          alignSelf: "stretch",
-                          flexDirection: "column",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          display: "inline-flex",
-                        }}
-                      >
-                        <div>
-                          <i
-                            class="fa fa-check-circle"
-                            style={{ color: "#0046E8" }}
-                            aria-hidden="true"
-                          ></i>
-                        </div>
-                      </div>
-                      <div
-                        style={{
-                          color: "#050505",
-                          fontSize: 16,
-                          fontFamily: "Poppins",
-                          fontWeight: 500,
-                          lineHeight: "25.60px",
-                          wordWrap: "break-word",
-                        }}
-                      >
-                        AWS Glue Delivery
-                      </div>
-                    </div>
-                    <div
-                      style={{
-                        paddingRight: "83.83px",
-                        left: 0,
-                        top: "157.97px",
-                        position: "absolute",
-                        justifyContent: "flex-start",
-                        alignItems: "center",
-                        gap: 12,
-                        display: "inline-flex",
-                      }}
-                    >
-                      <div
-                        style={{
-                          width: 15,
-                          alignSelf: "stretch",
-                          flexDirection: "column",
-                          justifyContent: "center",
-                          alignItems: "center",
-                          display: "inline-flex",
-                        }}
-                      >
-                        <div>
-                          <i
-                            class="fa fa-check-circle"
-                            style={{ color: "#0046E8" }}
-                            aria-hidden="true"
-                          ></i>
-                        </div>
-                      </div>
-                      <div
-                        style={{
-                          color: "#050505",
-                          fontSize: 16,
-                          fontFamily: "Poppins",
-                          fontWeight: 500,
-                          lineHeight: "25.60px",
-                          wordWrap: "break-word",
-                        }}
-                      >
-                        AWS Lambda Delivery
                       </div>
                     </div>
                   </div>
@@ -1247,6 +818,536 @@ function Home() {
               />
             </div>
           </div>
+
+          <div className="col-md-10">
+            <div>
+              <div
+                style={{
+                  borderRadius: 18,
+                  flexDirection: "column",
+                  justifyContent: "flex-start",
+                  alignItems: "flex-start",
+                  gap: 26,
+                  display: "flex",
+                }}
+              >
+                <div
+                  style={{
+                    width: "877.50px",
+                    paddingBottom: "18.39px",
+                    paddingRight: "824.50px",
+                    borderBottom: "1px rgba(5, 5, 5, 0.10) solid",
+                    justifyContent: "flex-start",
+                    alignItems: "center",
+                    display: "inline-flex",
+                  }}
+                >
+                  <div
+                    style={{
+                      color: "#1A4AB9",
+                      fontSize: 22,
+                      fontFamily: "Poppins",
+                      fontWeight: 500,
+                      lineHeight: "26.40px",
+                      wordWrap: "break-word",
+                    }}
+                  >
+                    SDPs
+                  </div>
+                </div>
+                <div
+                  style={{
+                    width: "877.50px",
+                    height: "209.16px",
+                    position: "relative",
+                  }}
+                >
+                  <div
+                    style={{
+                      paddingRight: "65.83px",
+                      left: 0,
+                      top: 0,
+                      position: "absolute",
+                      justifyContent: "flex-start",
+                      alignItems: "center",
+                      gap: 12,
+                      display: "inline-flex",
+                    }}
+                  >
+                    <div
+                      style={{
+                        width: 15,
+                        alignSelf: "stretch",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        display: "inline-flex",
+                      }}
+                    >
+                      <div>
+                        <i
+                          class="fa fa-check-circle"
+                          style={{ color: "#0046E8" }}
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        color: "#050505",
+                        fontSize: 16,
+                        fontFamily: "Poppins",
+                        fontWeight: 500,
+                        lineHeight: "25.60px",
+                        wordWrap: "break-word",
+                      }}
+                    >
+                      Amazon Kinesis Delivery
+                    </div>
+                  </div>
+                  <div
+                    style={{
+                      paddingRight: "87.83px",
+                      left: "297.83px",
+                      top: 0,
+                      position: "absolute",
+                      justifyContent: "flex-start",
+                      alignItems: "center",
+                      gap: 12,
+                      display: "inline-flex",
+                    }}
+                  >
+                    <div
+                      style={{
+                        width: 15,
+                        alignSelf: "stretch",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        display: "inline-flex",
+                      }}
+                    >
+                      <div>
+                        <i
+                          class="fa fa-check-circle"
+                          style={{ color: "#0046E8" }}
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        color: "#050505",
+                        fontSize: 16,
+                        fontFamily: "Poppins",
+                        fontWeight: 500,
+                        lineHeight: "25.60px",
+                        wordWrap: "break-word",
+                      }}
+                    >
+                      Amazon EMR Delivery
+                    </div>
+                  </div>
+                  <div
+                    style={{
+                      paddingRight: "52.84px",
+                      left: "595.66px",
+                      top: 0,
+                      position: "absolute",
+                      justifyContent: "flex-start",
+                      alignItems: "center",
+                      gap: 12,
+                      display: "inline-flex",
+                    }}
+                  >
+                    <div
+                      style={{
+                        width: 15,
+                        alignSelf: "stretch",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        display: "inline-flex",
+                      }}
+                    >
+                      <div>
+                        <i
+                          class="fa fa-check-circle"
+                          style={{ color: "#0046E8" }}
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        color: "#050505",
+                        fontSize: 16,
+                        fontFamily: "Poppins",
+                        fontWeight: 500,
+                        lineHeight: "25.60px",
+                        wordWrap: "break-word",
+                      }}
+                    >
+                      Amazon Redshift Delivery
+                    </div>
+                  </div>
+                  <div
+                    style={{
+                      paddingRight: "31.83px",
+                      left: 0,
+                      top: "35.59px",
+                      position: "absolute",
+                      justifyContent: "flex-start",
+                      alignItems: "center",
+                      gap: 12,
+                      display: "inline-flex",
+                    }}
+                  >
+                    <div
+                      style={{
+                        width: 15,
+                        alignSelf: "stretch",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        display: "inline-flex",
+                      }}
+                    >
+                      <div>
+                        <i
+                          class="fa fa-check-circle"
+                          style={{ color: "#0046E8" }}
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        color: "#050505",
+                        fontSize: 16,
+                        fontFamily: "Poppins",
+                        fontWeight: 500,
+                        lineHeight: "25.60px",
+                        wordWrap: "break-word",
+                      }}
+                    >
+                      Amazon DynamoDB Delivery
+                    </div>
+                  </div>
+                  <div
+                    style={{
+                      width: "287.83px",
+                      height: "51.19px",
+                      left: "297.83px",
+                      top: "35.59px",
+                      position: "absolute",
+                    }}
+                  >
+                    <div
+                      style={{
+                        height: 15,
+                        left: 0,
+                        top: 5,
+                        position: "absolute",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        display: "inline-flex",
+                      }}
+                    >
+                      <div>
+                        <i
+                          class="fa fa-check-circle"
+                          style={{ color: "#0046E8" }}
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        paddingRight: "3.83px",
+                        left: 27,
+                        top: 0,
+                        position: "absolute",
+                        flexDirection: "column",
+                        justifyContent: "flex-start",
+                        alignItems: "flex-start",
+                        display: "inline-flex",
+                      }}
+                    >
+                      <div
+                        style={{
+                          color: "#050505",
+                          fontSize: 16,
+                          fontFamily: "Poppins",
+                          fontWeight: 500,
+                          lineHeight: "25.60px",
+                          wordWrap: "break-word",
+                        }}
+                      >
+                        Amazon EC2 for Windows Server
+                        <br />
+                        Delivery
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    style={{
+                      paddingRight: "98.84px",
+                      left: "595.66px",
+                      top: "35.59px",
+                      position: "absolute",
+                      justifyContent: "flex-start",
+                      alignItems: "center",
+                      gap: 12,
+                      display: "inline-flex",
+                    }}
+                  >
+                    <div
+                      style={{
+                        width: 15,
+                        alignSelf: "stretch",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        display: "inline-flex",
+                      }}
+                    >
+                      <div>
+                        <i
+                          class="fa fa-check-circle"
+                          style={{ color: "#0046E8" }}
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        color: "#050505",
+                        fontSize: 16,
+                        fontFamily: "Poppins",
+                        fontWeight: 500,
+                        lineHeight: "25.60px",
+                        wordWrap: "break-word",
+                      }}
+                    >
+                      Azure Virtual Network
+                    </div>
+                  </div>
+                  <div
+                    style={{
+                      paddingRight: "89.83px",
+                      left: 0,
+                      top: "96.78px",
+                      position: "absolute",
+                      justifyContent: "flex-start",
+                      alignItems: "center",
+                      gap: 12,
+                      display: "inline-flex",
+                    }}
+                  >
+                    <div
+                      style={{
+                        width: 15,
+                        alignSelf: "stretch",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        display: "inline-flex",
+                      }}
+                    >
+                      <div>
+                        <i
+                          class="fa fa-check-circle"
+                          style={{ color: "#0046E8" }}
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        color: "#050505",
+                        fontSize: 16,
+                        fontFamily: "Poppins",
+                        fontWeight: 500,
+                        lineHeight: "25.60px",
+                        wordWrap: "break-word",
+                      }}
+                    >
+                      Amazon RDS Delivery
+                    </div>
+                  </div>
+                  <div
+                    style={{
+                      width: "287.83px",
+                      height: "51.19px",
+                      left: "297.83px",
+                      top: "96.78px",
+                      position: "absolute",
+                    }}
+                  >
+                    <div
+                      style={{
+                        height: 15,
+                        left: 0,
+                        top: 5,
+                        position: "absolute",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        display: "inline-flex",
+                      }}
+                    >
+                      <div>
+                        <i
+                          class="fa fa-check-circle"
+                          style={{ color: "#0046E8" }}
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        paddingRight: "27.83px",
+                        left: 27,
+                        top: 0,
+                        position: "absolute",
+                        flexDirection: "column",
+                        justifyContent: "flex-start",
+                        alignItems: "flex-start",
+                        display: "inline-flex",
+                      }}
+                    >
+                      <div
+                        style={{
+                          color: "#050505",
+                          fontSize: 16,
+                          fontFamily: "Poppins",
+                          fontWeight: 500,
+                          lineHeight: "25.60px",
+                          wordWrap: "break-word",
+                        }}
+                      >
+                        Amazon OpenSearch Service
+                        <br />
+                        Delivery
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    style={{
+                      paddingRight: "110.84px",
+                      left: "595.66px",
+                      top: "96.78px",
+                      position: "absolute",
+                      justifyContent: "flex-start",
+                      alignItems: "center",
+                      gap: 12,
+                      display: "inline-flex",
+                    }}
+                  >
+                    <div
+                      style={{
+                        width: 15,
+                        alignSelf: "stretch",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        display: "inline-flex",
+                      }}
+                    >
+                      <div>
+                        <i
+                          class="fa fa-check-circle"
+                          style={{ color: "#0046E8" }}
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        color: "#050505",
+                        fontSize: 16,
+                        fontFamily: "Poppins",
+                        fontWeight: 500,
+                        lineHeight: "25.60px",
+                        wordWrap: "break-word",
+                      }}
+                    >
+                      AWS Glue Delivery
+                    </div>
+                  </div>
+                  <div
+                    style={{
+                      paddingRight: "83.83px",
+                      left: 0,
+                      top: "157.97px",
+                      position: "absolute",
+                      justifyContent: "flex-start",
+                      alignItems: "center",
+                      gap: 12,
+                      display: "inline-flex",
+                    }}
+                  >
+                    <div
+                      style={{
+                        width: 15,
+                        alignSelf: "stretch",
+                        flexDirection: "column",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        display: "inline-flex",
+                      }}
+                    >
+                      <div>
+                        <i
+                          class="fa fa-check-circle"
+                          style={{ color: "#0046E8" }}
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                    <div
+                      style={{
+                        color: "#050505",
+                        fontSize: 16,
+                        fontFamily: "Poppins",
+                        fontWeight: 500,
+                        lineHeight: "25.60px",
+                        wordWrap: "break-word",
+                      }}
+                    >
+                      AWS Lambda Delivery
+                    </div>
+                  </div>
+                </div>
+
+                {/* .... */}
+              </div>
+            </div>
+          </div>
+          {/* <div className="aws-azure-images"> */}
+          <div className="col-md-1">
+            <div className="justify-center align-center">
+              <img
+                className="aws-cloud-base"
+                src="./images/aws-cloud-base.png"
+                alt="image"
+                width={100}
+              />
+            </div>
+          </div>
+          <div className="col-md-1">
+            <div className="justify-center align-center">
+              <img
+                className="azure-cloud-base"
+                src="./images/azure-cloud-base.png"
+                alt="image"
+                width={100}
+              />
+            </div>
+          </div>
+          {/* </div> */}
         </div>
       </div>
 
@@ -1255,24 +1356,26 @@ function Home() {
       {/* ...data lake... */}
 
       <div className="datalake">
+        <img
+          className="datalake-half-piece"
+          src="./images/top.png"
+          alt="top"
+          width={100}
+        />
         <h4 className="lake-text">
-          Switch To Future-ready Advanced Data
+          Transition to Cutting-Edge Data
           <br />
           Lakehouse Solutions
         </h4>
         <p className="lake-para">
-          Organizations are taking their data from various silos and aggregating
-          all that data in one location to do analytics and
+          Companies are unifying their data from diverse sources into a single
+          repository for advanced analytics and machine
           <br />
-          machine learning on top of that data. To get the most value from it,
-          they need to leverage a modern data architecture
+          learning applications. To maximize its potential, they require a
+          contemporary data architecture that facilitates
           <br />
-          that allows them to move data between data lakes and purpose-built
-          data stores easily.
+          seamless data movement between data lakes and specialized data stores.
         </p>
-        {/* <div className="container flow-chart-img">
-          <img className="datalake-1" src="./images/datalake.png" alt="data" />
-        </div> */}
 
         <div className="container">
           <div className="row lake-pad">
@@ -1296,6 +1399,12 @@ function Home() {
                 </div>
               </div>
             </div>
+            <img
+              className="datalake-half-piece-01"
+              src="./images/bottom.png"
+              alt="top"
+              width={100}
+            />
           </div>
         </div>
         <div>
@@ -1316,45 +1425,50 @@ function Home() {
       {/* ....aws images... */}
       <div className="technology">
         <h4 className="container platform">Technology Platform</h4>
-        <div className="container technology-platform">
-          <div className="row">
-            <div className="col-md-2">
-              <img className="" src="./images/aws.png" alt="aws" width={100} />
+        <div className="container">
+          <div className="d-flex technology-platform">
+            <div>
+              <img
+                className="aws-image"
+                src="./images/aws.png"
+                alt="aws"
+                width={100}
+              />
             </div>
 
-            <div className="col-md-2">
+            <div>
               <img
                 className="databricks"
                 src="./images/databricks.png"
                 alt="aws"
               />
             </div>
-            <div className="col-md-2">
+            <div>
               <img
                 className="googlecloud"
                 src="./images/googlecloud.png"
                 alt="aws"
               />
             </div>
-            <div className="col-md-1">
+            <div>
               <img className="azure" src="./images/azure.png" alt="aws" />
             </div>
 
-            <div className="col-md-1">
+            <div>
               <img
                 className="snowflake"
                 src="./images/snowflake.png"
                 alt="aws"
               />
             </div>
-            <div className="col-md-2">
+            <div>
               <img
                 className="salesforce"
                 src="./images/salesforce.png"
                 alt="aws"
               />
             </div>
-            <div className="col-md-2">
+            <div>
               <img className="" src="./images/tab.png" alt="aws" width={100} />
             </div>
           </div>

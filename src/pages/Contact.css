@@ -1,6 +1,6 @@
 .contact-bg-color {
   background-color: #1a4ab9;
-  height: 700px;
+  height: 787px;
   position: relative;
 }
 
@@ -12,6 +12,7 @@
   border: none;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   background-color: #1a4ab9;
+  background: none;
 }
 
 .connect-page {
@@ -30,6 +31,14 @@
   padding: 10px 5px;
   border-radius: 4px;
   margin-top: 30px;
+}
+/* .all-names-form{
+  border: 1px solid blue;
+  padding: 0px 10px 0px 10px;
+} */
+.messagebox-shadow{
+  height: 30px;
+  width: 30px;
 }
 .full-name {
   color: rgba(255, 255, 255, 0.7) !important;
@@ -95,7 +104,125 @@
 .map {
   width: 100%;
   margin-bottom: 73px;
+  position: relative;
 }
+
+/* ....tooltip.... */
+
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* Tooltip content hidden by default */
+[data-tooltip]:before,
+[data-tooltip]:after {
+  transition: all  ease-in-out;
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Tooltip position */
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 130%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  padding: 4px;
+  width: 160px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  background-color: #FFFFFF;
+  background-color: hsl(0,0%,100%, 0.9);
+  color: black;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 15px;
+  line-height: 21px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+
+/* Triangle hack for Tooltip bubble */
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 130%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid #FFFFFF;
+  border-top: 5px solid hsl(0,0%,100%, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+/* Tooltip visible on hover */
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  /* transition: all 1.3s ease-in-out; */
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.main-map-icon-head{
+  position: relative;
+}
+
+
+.icon-tool-1{
+  position: absolute;
+  top: 23%;
+  left: 21%;
+  font-size: 33px;
+}
+.icon-tool-2{
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  font-size: 33px;
+}
+.icon-tool-3{
+  position: absolute;
+  top: 30%;
+  left: 49%;
+  font-size: 33px;
+}
+.icon-tool-4{
+  position: absolute;
+  top: 45%;
+  left: 58%;
+  font-size: 33px;
+}
+
+.icon-tool-5{
+  position: absolute;
+  top: 50%;
+  left: 66%;
+  font-size: 33px;
+}
+.icon-tool-6{
+  position: absolute;
+  top: 49%;
+  left: 71%;
+  font-size: 33px;
+}
+
+.icon-tool-5 [data-tooltip]:before{
+  border: 1px solid blue!important;
+}
+/* ...tooltip end... */
+
 
 .unitedstates-all {
   background: rgba(1, 187, 138, 0.08);
@@ -187,7 +314,80 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.location-places{
+  background-image: url(../../public/images/location-background-contact.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.overall-location-text{
+  position: absolute;
+  top: 7px;
+  left: 87px;
+}
+
+.coming-office-head{
+  background: rgba(171.26, 171.26, 171.26, 0.08);
+  border-radius: 30px;
+  /* margin-top: 37px; */
+  height: 100%;
+  padding: 9px 25px;
+  width: 89%;
+  /* margin-left: -19px; */
+ 
+}
+
+.all-image-text-head-contact{
+  margin-right: 62px;
+}
+.canada-list-singa li{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 13px;
+  font-size: 19px;
+  color: #0046E8;
+  font-weight: 600;
+}
+.come-soon{
+  font-size: 15px;
+  margin-left: 14px;
+  font-weight: 600;
+
+}
+
+.india-main{
+color: #00B686;
+font-size: 21px;
+font-family: Poppins;
+font-weight: 600;
+
+}
+
+.hyderabad-main{
+  color: #292829;
+  font-size: 17px;
+  font-family: Poppins;
+  font-weight: 600;
+  
+}
+.local-main-text{
+  color: rgba(41, 40, 41, 0.80);
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 400;
+  
+}
+
 /* .....footer... */
+
+.last-foot-m{
+  margin: 30px 0px;
+}
 .footer {
   width: 100%;
   position: relative;
@@ -213,8 +413,13 @@
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.25em;
-  color: #ff4925;
+  /* color: #ff4925!important; */
 }
+
+.footer-data .coll .company{
+  color: #ff4925!important;
+}
+
 
 .footer .coll ul {
   list-style-type: none;
@@ -262,19 +467,86 @@
 }
 
 .fb {
-  height: 47px;
-  width: 47px;
+  height: 37px;
+  width: 39px;
+  cursor: pointer;
 }
 .socialmedia-images {
   justify-content: space-evenly;
   margin-bottom: 54px;
+  margin-top: 10px;
 }
 
 .privacy-policy {
   color: #828282;
 }
+.privacy-dataobserve-text{
+  font-size: 13px;
+  margin-left: -80px;
+  margin-top: 17px;
+}
 .agilisium {
   color: rgba(255, 255, 255, 0.5);
+}
+
+.logo-main-footer{
+  width: 38px;
+  height: 24px;
+  margin-top: 14px!important;
+  margin-right: 10px;
+}
+.logo-text-footer{
+  margin-top: 10px;
+}
+
+.data-footer{
+color: white;
+font-size: 19.60px;
+font-family: Roboto;
+font-weight: 100;
+line-height: 30.49px;
+letter-spacing: 0.39px;
+word-wrap: break-word
+
+}
+.observe-footer{
+color: white;
+font-size: 19.60px;
+font-family: Roboto;
+font-weight: 800;
+line-height: 30.49px;
+
+}
+
+.data-copy-right{
+  color: rgba(255, 255, 255, 0.50);
+  font-weight: 300;
+
+}
+
+.observe-copy-right{
+  color: rgba(255, 255, 255, 0.50);
+  font-weight: 700;
+
+}
+
+.all-rights-footer{
+  color: rgba(255, 255, 255, 0.50);
+  font-weight: 300;
+}
+
+.privacy-policy{
+  color: #828282;
+font-size: 13px;
+font-family: Poppins;
+font-weight: 500;
+
+}
+.terms-condition-1{
+  color: #828282;
+  font-size: 13px;
+  font-family: Poppins;
+  font-weight: 700;
 }
 
 .footer-img {

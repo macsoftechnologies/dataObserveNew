@@ -76,6 +76,7 @@
         font-weight: normal;
         text-transform: uppercase;
         letter-spacing: 0.25em;
+        /* color: orangered; */
       }
       .footer .col ul {
         list-style-type: none;

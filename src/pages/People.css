@@ -232,53 +232,122 @@ text-align: center;
     height: 156px;
     width: 154px;
 }
-.card-number{
+.card-style .card-number{
     box-shadow: 0px 28px 65px #F1F4F9;
     background-color: white;
-    /* border-radius: 30px!important;  */
     margin-top: 10px;
-    max-height: 109px;
+    height: 129px;
+    border-radius: 30px !important;
+}
+
+.people-01-card{
+  position: relative;
+}
+
+.people-01-text{
+  position: absolute;
+  top: 22px;
+  left: 49px;
+}
+.images-numbers-people{
+ 
+}
+
+.respect-text{
+  font-size: 8px;
+  margin-left: 76px;
+  margin-top: 12px;
+}
+
+.respect-text-3{
+  font-size: 8px;
+  margin-left: 90px;
+  margin-top: 12px;
+}
+
+.respect-text-5{
+  font-size: 8px;
+  margin-left: 65px;
+  margin-top: 12px;
 }
 
 
+.respect-text-6{
+  font-size: 8px;
+  margin-left: 47px;
+  margin-top: 12px;
+}
 
 .respect{
-    margin-top: -50px;
-    color: #1A4AB9;
-    font-weight: 600;
-
+  margin-top: 30px;
+  font-weight: 600;
+  margin-left: -29px;
 }
+
+
 .integrity{
-    margin-top: -41px;
+    margin-top: 25px;
     color: #EF7179;
     font-weight: 600;
+  margin-left: -29px;
+
 
 }
 .trust{
-    margin-top: -41px;
+    margin-top: 25px;
     color: #01BB8A;
     font-weight: 600;
+  margin-left: -29px;
+
 
 }
 
 .equality{
-    margin-top: -41px;
+    margin-top: 25px;
     color: #FFD703;
     font-weight: 600;
+  margin-left: -29px;
+
 
 }
 .customer{
-    margin-top: -41px;
+    margin-top: 13px;
     color: #00B686;
     font-weight: 600;
+  margin-left: -29px;
+
 
 }
 
 .innovation{
-    margin-top: -41px;
-    color: #1069D5;
-    font-weight: 600;
+  margin-top: 25px;
+  color: #1069D5;
+  font-weight: 600;
+  margin-left: -29px;
+
 }
+
+.inclusion-img-1{
+  height: 100%;
+  width: 100%;
+}
+.inclusion-img-2{
+  height: 100%;
+  width: 100%;
+}
+.inclusion-img-3{
+  height: 100%;
+  width: 100%;
+}
+.inclusion-img-4{
+  height: 100%;
+  width: 100%;
+}
+
+.people-pad-ing{
+  padding: 0%!important;
+}
+
 
 .life-2{
     color: #050505;
@@ -447,8 +516,18 @@ text-align: center;
     margin-bottom: 54px;
 }
 
+
+
+.people-circle-top-1{
+  position: absolute;
+  top: 36%;
+  left: 40%;
+}
+
 .all-workforce{
-    padding-top: 65px;
+    padding-top: 30px;
+    margin-left: 58px;
+    margin-top: -21px;
 }
 .view-more{
     padding: 19px 40px 21px 40px;
@@ -461,13 +540,19 @@ text-align: center;
 }
 
 .work-para{
-    padding-bottom: 21px;
+    padding-bottom: 3px;
     font-weight: 400;
+    text-align: justify;
 }
 .inclusive-heading{
     font-weight: 700;
     color: black;
-    font-size: 44px;
+    font-size: 40px;
+}
+
+.inclusive-work-main{
+  height: 100%;
+  position: relative;
 }
 
 .joinus{
@@ -493,6 +578,7 @@ font-weight: 700;
   font-size: 16px;
   font-family: Poppins;
   font-weight: 400;
+  margin-left: 27px;
   
 }
 .head-paragraph{
@@ -520,7 +606,7 @@ font-weight: 700;
 
 .faq-class{
   background-color: #1a4ab9;
-  border-radius: 10px 10px 0px 0px !important;
+  /* border-radius: 10px 10px 0px 0px !important; */
   height: fit-content;
   padding: 67px;
 }

@@ -1,5 +1,9 @@
 
 /* ....navbar start... */
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body{
   font-family: 'Poppins', sans-serif;
@@ -64,7 +68,7 @@ line-height: 30.49px;
 
 .Homeslide{
 width: 100%;
-height: 675px;
+height: 735px;
 background-image: url('../../public/images/Homeslide.png');
 background-repeat: no-repeat;
 background-size: cover;
@@ -75,12 +79,15 @@ background-size: cover;
   padding-left: 6%;
 }
 
+
 .home-slide-heading{
   color: white;
-  font-size: 65px;
+  font-size: 49px;
+  font-weight: 800;
 }
 .home-slide-paragraph{
 color: rgba(255, 255, 255, 0.70);
+font-size: 12px;
 
 }
 .halfcircle{
@@ -91,7 +98,9 @@ color: rgba(255, 255, 255, 0.70);
 }
 
 .allanimation-mainone{
-  border-radius: 153px;
+  margin: 82px 30px 86px 7px;
+  height: 53%;
+  width: 90%;
 }
 
 .slide-contact{
@@ -132,14 +141,16 @@ color: rgba(255, 255, 255, 0.70);
   text-align: center;
   margin-top: 37px;
   font-weight: 700;
+  margin-bottom: 26px;
 }
 
 /* ....happy .customers images... */
 
 .acco{
   margin-top: 27px;
-  border-radius: 10px!important;
-  width: 84%;
+  padding-left: 0px;
+  padding-right: 0px;
+
 }
 
 .happy-customers-images{
@@ -155,6 +166,71 @@ color: rgba(255, 255, 255, 0.70);
   margin-right: 26px;
 } */
 
+.happy-customers-shadowletters{
+  border-radius: none!important;
+  height: 92px;
+}
+
+.happy-customers-data-observe{
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.srd-img-01{
+  height: 15px;
+  width: 95%;
+}
+.srd-img-02{
+  height: 15px;
+  width: 83%;
+}
+.srd-img-03{
+  height: 15px;
+  width: 83%;
+}
+.srd-img-04{
+  height: 15px;
+  width: 83%;
+}
+.srd-img-05{
+  height: 15px;
+  width: 83%;
+}
+.srd-img-06{
+  height: 15px;
+  width: 83%;
+}
+.srd-img-07{
+  height: 15px;
+  width: 83%;
+}
+.srd-img-08{
+  height: 15px;
+  width: 83%;
+}
+.srd-img-09{
+  height: 15px;
+  width: 83%;
+}
+.srd-img-10{
+  height: 15px;
+  width: 83%;
+}
+.srd-img-11{
+  height: 15px;
+  width: 83%;
+}
+
+.srd-img-12{
+  height: 15px;
+  width: 83%;
+}
+.srd-img-13{
+  height: 15px;
+  width: 83%;
+}
+
 /* ....happy .customers images end...  */
 
 /* ....digital transformation....  */
@@ -167,10 +243,13 @@ color: rgba(255, 255, 255, 0.70);
  
   margin: 0px!important;
 } */
+.cloud-mar-gin{
+  margin-bottom: 10px!important;
+}
 
 .arrow{
-  width: 35px;
-  height: 35px;
+  width: 47px !important;
+  height: 43px!important;
   text-align: center;
   justify-content: center;
   margin-bottom: 10px;
@@ -181,6 +260,8 @@ color: rgba(255, 255, 255, 0.70);
   text-align: center;
   justify-content: center;
   max-height: 125px;
+  color: rgba(0, 0, 0, 0.70);
+
 }
 .box-padding{
   padding: 30px 20px;
@@ -199,13 +280,18 @@ color: rgba(255, 255, 255, 0.70);
   /* margin-top: 57px; */
   /* height: fit-content; */
   padding: 15px;
-  border-radius: 20px;
+  border-radius: 30px;
   height: 320px;
   box-shadow: 2px 2px 35px -18px #323c8d;
 }
 
 .down-bot{
   margin-top: 50px;
+}
+
+.cloud-trans-formation{
+  font-weight: 600;
+  font-size: 19px;
 }
 
 /* ....digital transformation end... */
@@ -243,9 +329,7 @@ color: rgba(255, 255, 255, 0.70);
   text-align: center;
 }
 
-.googlecloud{
-  margin-right: 53px;
-}
+
 
 /* .....circles start unleash end....  */
 
@@ -263,6 +347,17 @@ color: rgba(255, 255, 255, 0.70);
   width: 200px;
   margin-top: 64px;
 }
+/* .aws-azure-images{
+  display: flex;
+} */
+
+.aws-cloud-base{
+  margin-top: 73px;
+}
+.azure-cloud-base{
+margin-top: 84px;
+margin-left: 13px;
+}
 
 /* ..cloud partners end... */
 
@@ -271,10 +366,23 @@ color: rgba(255, 255, 255, 0.70);
 .datalake{
   height: 70%;
   background-color: #EDF5FF;
+  position: relative;
+  margin-top: 21px;
+}
+.datalake-half-piece{
+  position: absolute;
+  top: 0%;
+}
+
+.datalake-half-piece-01{
+  position: absolute;
+  bottom: 13%;
+  left: 87%;
 }
 .lake-text{
   text-align: center;
   padding: 50px 18px 18px 18px;;
+  font-weight: 700;
 }
 
 .lake-para{
@@ -317,6 +425,7 @@ text-align: center;
     width: 100%;
     background-color: #1A4AB9;
     border-radius: 15px;
+    position: relative;
   }
 
   ul li {
@@ -337,6 +446,11 @@ text-align: center;
   /* ....data lake end..  */
 
   /* ....aws images...  */
+
+  .aws-image{
+    height: 30px;
+    width: 53px;
+  }
   .technology{
     background-color: #F6F9FF;
     margin-top: 30px;
@@ -345,46 +459,19 @@ text-align: center;
   .platform{
     padding-top: 30px;
     margin-bottom: 22px;
+    font-weight: 700;
   }
 
-  .aws{
-    width: 74px;
-    margin-right: 87px;
-  }
-  .databricks{
-    width: 152px;
-    margin-left: -129px;
-  }
-
-  .googlecloud{
-    width: 155px;
-    margin-left: -43px;
-  }
- 
-  .salesforce{
-    width: 78px;
-    margin-left: 126px;
-  }
-
-  .snowflake{
-width: 147px;
-margin-left: 22px;
-  }
-
-  .tableau{
-width: 94px;
-margin-left: 69px;
-  }
-
-  .azure{
-    margin-left: -28px;
-    width: 99px;
-  }
+  
   .technology-platform{
     text-align: center;
+    justify-content: space-between;
+    align-items: center;
   }
   .partner{
     margin-top: 10px;
+    font-weight: 500;
+
   }
 
   /* ....aws images end...  */
@@ -446,7 +533,7 @@ margin-left: 69px;
       /* ...talk to us end...   */
       .full-bg-color{
         background-color: #F6F9FF;
-        padding: 10px;
+        padding: 1px;
       }
       .required::after {
         content: ' *';
