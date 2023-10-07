@@ -7,10 +7,16 @@ function Footer() {
       <div className="bg-color">
         <div className="container">
           <div className="row bg-white">
-            <div className="col-md-6 shadow-sm rounded">
-              <div>
+            <div className="col-md-6 rounded">
+              <div className="ttuclass">
                 <div className="card">
-                  <div class="card-body footercardbody">
+                  <div
+                    class="card-body footercardbody"
+                    style={{
+                      borderTopLeftRadius: "25px",
+                      borderTopRightRadius: "25px",
+                    }}
+                  >
                     <h5 class="card-title title">Talk to Us</h5>
                     {/* {/ <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> /} */}
                     <p className="card-text question">
@@ -18,13 +24,13 @@ function Footer() {
                       shoot us an email
                     </p>
                     <i class="fa fa-envelope" aria-hidden="true">
-                      <span classname="hello">hello@dataserve.io</span>
+                      <span classname="hello" style={{marginLeft: "10px"}}>hello@dataserve.io</span>
                     </i>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 shadow-sm">
+            <div className="col-md-6">
               <div>
                 <div>
                   <form>
@@ -49,10 +55,7 @@ function Footer() {
             <div className="row">
               <div className="col-md-3">
                 <div class="col">
-                  <h1
-                    className="footer-heading"
-                    style={{ color: "#1A4AB9" }}
-                  >
+                  <h1 className="footer-heading" style={{ color: "#1A4AB9" }}>
                     Company
                   </h1>
                   <ul>
@@ -63,7 +66,9 @@ function Footer() {
               </div>
               <div className="col-md-3">
                 <div class="col">
-                  <h1 className="footer-heading"style={{ color: "#1A4AB9" }}>Services</h1>
+                  <h1 className="footer-heading" style={{ color: "#1A4AB9" }}>
+                    Services
+                  </h1>
                   <ul>
                     <li>Cloud transformation</li>
                     <li>Data Engineering</li>
@@ -78,15 +83,32 @@ function Footer() {
 
               <div className="col-md-3">
                 <div class="col">
-                  <h1 className="footer-heading"style={{ color: "#1A4AB9" }}>Industries</h1>
+                  <h1 className="footer-heading" style={{ color: "#1A4AB9" }}>
+                    Industries
+                  </h1>
                   <ul>
                     <li>Life sciences and Pharma</li>
                     <li>Media & Entertainment</li>
                     <li>Gaming and gambling</li>
                   </ul>
-                  <h1 className="footer-heading"style={{ color: "#1A4AB9" }}>Products</h1>
+                  <h1 className="footer-heading" style={{ color: "#1A4AB9" }}>
+                    Products
+                  </h1>
                   <ul>
-                    <li>Data Observability 360</li>
+                    <li>
+                      Data Observability{" "}
+                      <span
+                        style={{
+                          color: "rgba(255, 255, 255, 0.70)",
+                          fontSize: "15px",
+                          fontWeight: "700",
+                          lineHeight: "22.5px",
+                          letterSpacing: "-0.32px",
+                        }}
+                      >
+                        360
+                      </span>
+                    </li>
                     <li>Health EM</li>
                     <li>DataSense</li>
                   </ul>
@@ -95,7 +117,9 @@ function Footer() {
 
               <div className="col-md-3">
                 <div class="col">
-                  <h1 className="footer-heading"style={{ color: "#1A4AB9" }}>Insights</h1>
+                  <h1 className="footer-heading" style={{ color: "#1A4AB9" }}>
+                    Insights
+                  </h1>
                   <ul>
                     <li>Case Studies</li>
                     <li>Blogs</li>

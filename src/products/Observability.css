@@ -1,10 +1,16 @@
+.do360bannerclass{
+  position: relative;
+  height: 900px;
+}
 .header-section {
   width: 100%;
   height: 964px;
-  background-image: url("../../public/images/observability1.png");
+  /* background-image: url("../../public/images/do360bannerimage.png");
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  background-position: center; */
+  position: absolute;
+  top: 20%;
 }
 .emailClass {
   width: 526.5px;
@@ -38,17 +44,20 @@
   color: #0046e8;
   border: 0px;
 }
+.demoClass:focus{
+  outline: 0px;
+}
 .playClass {
-  /* background-color: #2e2e2e; */
+  background-color: #2e2e2e;
   width: 100%;
-  height: 430px;
+  /* height: 430px; */
   border-radius: 24px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 10%;
-  transform: translateY(-96px);
+  /* margin-left: 10%; */
+  /* transform: translateY(-96px); */
 }
 .imageClass {
   width: 164px;
@@ -58,7 +67,7 @@
   width: 100%;
   height: 850px;
   background-color: #f6f9ff;
-  margin-top: 20%;
+  margin-top: 35%;
 }
 .def1Class {
   width: 80%;
@@ -125,9 +134,10 @@
   line-height: 52px;
 }
 .videoClass {
-  position: absolute;
-  top: 82%;
-  /* left: -0.5%; */
+  /* position: absolute; */
+  /* top: 82%; */
+  margin-top: 100px;
+  left: 18%;
 }
 .headingpillars {
   text-align: center;
@@ -147,30 +157,14 @@
   background-color: none;
   border: none;
 }
-.pillarlinksul {
+.linkClass{
   border-bottom: 3px solid #e2ecff;
+  border-radius: 0px !important;
 }
-/* .pillarlinksul:active{
-  border-bottom: 3px solid #FF4925 !important; 
-} */
 
 .pillarlinksul:focus-visible {
   outline: 0px;
 }
-/* 
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link:active {
-  color: black;
-  background-color: #fff !important;
-} */
-
-/* .nav-pills .nav-link.active,
-.nav-pills .show > .nav-link:active::after {
-  color: black;
-  background-color: #fff !important;
-  content: "";
-  border-bottom: 3px solid #f6811a;
-} */
 .qualityimgclass {
   width: 100%;
 }
@@ -212,12 +206,6 @@
 .differencecard {
   width: 50%;
 }
-/* .do3class {
-  width: 513px;
-} */
-/* .do4class {
-  width: 513px;
-} */
 .maindiffernce {
   margin-top: 30px;
   margin-left: 3px;
@@ -227,7 +215,6 @@
   padding: 36px;
   border-radius: 30px;
   background-color: rgba(238, 113, 121, 0.1);
-  /* height: 373px; */
 }
 .monitorhead {
   color: #ef7179;
@@ -288,7 +275,6 @@
   align-items: center;
   position: absolute;
   left: 48.7%;
-  /* top: 600%; */
   margin-top: 220px;
 }
 .vsclass {
@@ -307,7 +293,7 @@
   line-height: 55px;
   letter-spacing: -0.32px;
   width: 848px;
-  margin-left: 108px;
+  margin-left: 10%;
 }
 .issuecards {
   margin-top: 47px;
@@ -317,10 +303,9 @@
   background: #fff;
   box-shadow: 0px 28px 65px 0px #f1f4f9;
   padding: 20px;
-  height: 350px;
+  height: fit-content;
 }
 .issuesmatter {
-  /* margin: 20px; */
   margin-top: 30px;
   margin-bottom: 33px;
   display: flex;
@@ -371,7 +356,6 @@
   padding-bottom: 115px;
   background-image: url("../../public/images/solutionbg.png");
   background-size: cover;
-  /* background-position: 100%; */
   background-repeat: no-repeat;
 }
 .solpara1 {
@@ -386,7 +370,7 @@
   color: rgba(255, 255, 255, 0.8);
   font-size: 16px;
   font-weight: 400;
-  line-height: 25.6px; /* 160% */
+  line-height: 25.6px;
   letter-spacing: -0.32px;
   width: 993px;
   margin-top: 24.78px;
@@ -398,9 +382,8 @@
   margin-top: 60px;
 }
 .solimage1 {
-  width: 85%;
+  width: 100%;
   height: 500px;
-  margin-left: 72px;
 }
 .solpara3div {
   margin-top: 83px;
@@ -443,7 +426,7 @@
   line-height: 55px;
   letter-spacing: -0.32px;
   width: 844px;
-  margin-left: 60px;
+  margin-left: 10%;
 }
 .plugclass {
   margin-top: 100px;
@@ -467,7 +450,6 @@
 .requestguideclass {
   background: #f6f9ff;
   display: inline-flex;
-  /* padding: 100px 269px; */
   padding-top: 40px;
   padding-bottom: 40px;
   flex-direction: column;
@@ -564,7 +546,8 @@
   background-repeat: no-repeat;
   width: fit-content;
   height: fit-content;
-  border-radius: 30px;
+  border-radius: 30px !important;
+  padding-bottom: 10px;
 }
 .recentworkimgclass1 {
   background-image: url("../../public/images/recentworks2.png");
@@ -573,7 +556,8 @@
   background-repeat: no-repeat;
   width: fit-content;
   height: fit-content;
-  border-radius: 30px;
+  border-radius: 30px !important;
+  padding-bottom: 10px;
 }
 .recentworkimgclass2 {
   background-image: url("../../public/images/recentworks3.jpeg");
@@ -582,16 +566,25 @@
   background-repeat: no-repeat;
   width: fit-content;
   height: fit-content;
-  border-radius: 30px;
+  border-radius: 30px !important;
+  padding-bottom: 10px;
 }
 .recentcardhead {
   display: flex;
   width: fit-content;
   height: 21px;
 }
-.therecentcard {
-  margin-left: 10px;
-  margin-right: 10px;
+.recentworkimgclass .card {
+  margin-bottom: 5px;
+  border-radius: 22px !important;
+  background: rgba(255, 255, 255, 0.9);
+}
+.recentworkimgclass1 .card {
+  margin-bottom: 5px;
+  border-radius: 22px !important;
+  background: rgba(255, 255, 255, 0.9);
+}
+.recentworkimgclass2 .card {
   margin-bottom: 5px;
   border-radius: 22px !important;
   background: rgba(255, 255, 255, 0.9);
@@ -600,7 +593,7 @@
   color: #1a4ab9;
   font-size: 14px;
   font-weight: 600;
-  line-height: 25.6px; /* 182.857% */
+  line-height: 25.6px;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-left: 5px;
@@ -609,38 +602,35 @@
   color: #ff4925;
   font-size: 14px;
   font-weight: 600;
-  line-height: 25.6px; /* 182.857% */
+  line-height: 25.6px;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-left: 5px;
 }
 .workcard {
-  margin: 24px;
+  margin: 16px;
 }
 .dummyclass {
   background: none;
   width: 100%;
   height: 240px;
-  /* margin-top: 210px; */
 }
 .dummyclass1 {
   background: none;
   width: 100%;
   height: 165px;
-  /* margin-top: 210px; */
 }
 .dummyclass2 {
   background: none;
   width: 100%;
   height: 264px;
-  /* margin-top: 210px; */
 }
 .workcardpara {
   margin-top: 10px;
   color: #050505;
   font-size: 18px;
   font-weight: 600;
-  line-height: 25.2px; /* 140% */
+  line-height: 25.2px;
   letter-spacing: -0.32px;
   width: fit-content;
 }
@@ -660,13 +650,9 @@
   letter-spacing: -0.32px;
   margin-left: 38%;
 }
-.pillarnavs .nav-pills .nav-link.active, .pillarnavs .nav-pills .show > .nav-link:active {
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #000;
-  background-color: white !important;
-  border-radius: 0px !important;
-  border-bottom: 3px solid #FF4925;
+  background-color: white;
+  border-bottom: 3px solid blue!important;
+  border-radius: 0px;
 }
-/* .pillarnavs .nav-pills .nav-item.active, .pillarnavs .nav-pills .show > .nav-item:active{
-  border-radius: 0px !important;
-  border-bottom: 3px solid #FF4925;
-} */

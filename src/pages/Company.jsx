@@ -1,8 +1,8 @@
 import React from "react";
 import "./Company.css";
-import Footer from "../components/Footer";
 import Navbar from "../products/Navbar";
 import companyvideo from "../../src/videos/company.mp4";
+import Footer from "../products/Footer";
 
 function company() {
   return (
@@ -327,49 +327,6 @@ function company() {
         </div>
       </section>
 
-      <section>
-        <div className="bg-color">
-          <div className="container">
-            <div className="row bg-white">
-              <div className="col-md-6 shadow-sm rounded">
-                <div>
-                  <div className="card card-1">
-                    <div class="card-body card-body-1">
-                      <h5 class="card-title title">Talk to Us</h5>
-                      {/* <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> */}
-                      <p class="card-text question">
-                        Got a question? Dont a hesitate to give us a call today
-                        or shoot us an email
-                      </p>
-                      <i class="fa fa-envelope" aria-hidden="true">
-                        <span className="hello">hello@dataserve.io</span>
-                      </i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 shadow-sm">
-                <div>
-                  <div>
-                    <form>
-                      <div className="form-group">
-                        <label>Full Name</label>
-                        <input type="text" className="form-control name" />
-                        <label>Work Email</label>
-                        <input type="text" className="form-control name" />
-                        <label>Contact Number</label>
-                        <input type="text" className="form-control name" />
-
-                        <button className="contact-us-2">Contact Us</button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
       <Footer />
     </div>
   );

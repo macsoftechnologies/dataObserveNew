@@ -296,7 +296,7 @@ const Talent = () => {
                 data-slide-to="2"
               ></li>
             </ol>
-            <div class="carousel-inner" style={{ marginLeft: "11%" }}>
+            <div class="carousel-inner">
               <div class="carousel-item active">
                 <div className="container">
                   <div className="row">
@@ -426,12 +426,15 @@ const Talent = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-8">
+                      
+                      <div className="">
                       <img
                         src="./images/steves.png"
                         alt="..."
                         className="talentimages"
                       />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -460,7 +463,7 @@ const Talent = () => {
                               fontSize: "25px",
                               color: "#fff",
                               opacity: "0.7",
-                              marginBottom: "2px",
+                              marginBottom: "1px",
                             }}
                           >
                             Cloud Expert
@@ -509,6 +512,7 @@ const Talent = () => {
                                 border: "none",
                                 padding: "6px 18px",
                                 marginRight: "5px",
+                                marginBottom:"5px"
                               }}
                             >
                               <span style={{ color: "#fff", opacity: "0.7" }}>
@@ -571,12 +575,14 @@ const Talent = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-8">
+                      <div className="">
                       <img
                         src="./images/harish.png"
                         alt="..."
                         className="talentimages"
                       />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -654,6 +660,7 @@ const Talent = () => {
                                 border: "none",
                                 padding: "6px 18px",
                                 marginRight: "5px",
+                                marginBottom:"5px"
                               }}
                             >
                               <span style={{ color: "#fff", opacity: "0.7" }}>
@@ -716,12 +723,14 @@ const Talent = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-8">
+                      <div className="">
                       <img
                         src="./images/gayatri.png"
                         alt="..."
                         className="talentimages"
                       />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -732,6 +741,7 @@ const Talent = () => {
               href="#carouselExampleIndicators"
               role="button"
               data-slide="prev"
+              style={{left: "-92px"}}
             >
               <span
                 class="carousel-control-prev-icon"

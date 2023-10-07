@@ -213,8 +213,8 @@
   padding: 67px;
 } */
 .talentimages {
-  width: 90%;
-  height: 90%;
+  width: 85%;
+  height: 300px;
 }
 .talentcaromatter {
   position: absolute;
@@ -241,7 +241,7 @@
 }
 .talentcarosalbg {
   background-image: url("../../public/images/talentcarosalbg.png");
-  height: 290px;
+  height: 300px;
   width: 300px;
   background-position: center;
   background-repeat: no-repeat;

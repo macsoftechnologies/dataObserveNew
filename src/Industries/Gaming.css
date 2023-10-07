@@ -37,15 +37,17 @@
 
 .gaming-bg-pink {
   background-color: #EF7179;
-  ;
+  
 }
 
 .gameimg {
-  background-image: url("../../public/images/gamingdown.png");
+  background-image: url("../../public/images/newgamingdown.png");
   width: 100%;
   /* height: fit-content; */
   background-repeat: no-repeat;
   background-size: cover;
+  height: 458px;
+  margin-top: 70px;
 }
 
 .gaming-img-section {

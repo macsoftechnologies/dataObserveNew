@@ -88,19 +88,19 @@ function Navbar() {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <a href="#" className="d-flex navcard ml-3">
-                    <a href="#" className="navcard2 mt-5 pl-2">
+                    <a href="#" className="navcard2 mt-5 pt-3 pl-2">
                       <a class="dropdown-item linksclass" href="/observability">
                         DO360
                       </a>
-                      <a class="dropdown-item linksclass" href="healthem">
+                      {/* <a class="dropdown-item linksclass" href="healthem">
                         DOHealth
-                      </a>
-                      <a class="dropdown-item linksclass" href="/datasense">
-                        DOsense
+                      </a> */}
+                      <a class="dropdown-item linksclass" href="/datainsights">
+                        DOInsights
                       </a>
                     </a>
                     <img
-                      src="./images/navlinkgif.gif"
+                      src="./images/navlink2gif.gif"
                       alt="navgif"
                       className="navlinkgifclass"
                       style={{ width: "300px", height: "200px", borderRadius:"10px" }}
@@ -136,7 +136,7 @@ function Navbar() {
                       </a>
                     </a>
                     <img
-                      src="./images/navlinkgif.gif"
+                      src="./images/navlink3gif.gif"
                       alt="navgif"
                       className="navlinkgifclass"
                       style={{ width: "300px", height: "200px", borderRadius:"10px" }}
@@ -734,7 +734,7 @@ function Navbar() {
                         Coming Soon
                       </p>
                       <img
-                        src="./images/navlinkgif.gif"
+                        src="./images/navlink4gif.gif"
                         alt="navgif"
                         className="navlinkgifclass"
                         style={{ width: "280px", height: "200px" }}
@@ -768,7 +768,7 @@ function Navbar() {
                       </a>
                     </a>
                     <img
-                      src="./images/navlinkgif.gif"
+                      src="./images/navlink2gif.gif"
                       alt="navgif"
                       className="navlinkgifclass"
                       style={{ width: "270px", height: "170px", borderRadius:"10px" }}

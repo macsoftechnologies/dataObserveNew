@@ -1,9 +1,9 @@
 import React from "react";
 import "./People.css";
-import Footer from "../components/Footer";
 // import Faq from "../products/Faq";
 import Navbar from "../products/Navbar";
 import careers from "../../src/videos/careers.mp4";
+import Footer from "../products/Footer";
 function People() {
   return (
     <div>
@@ -947,7 +947,7 @@ function People() {
                 >
                   <div
                     class="card-header"
-                    id="headingSix"
+                    id="headingSeven"
                     style={{ textAlign: "left" }}
                   >
                     <h2 class="mb-0">
@@ -955,9 +955,9 @@ function People() {
                         class="btn btn-link collapsed"
                         type="button"
                         data-toggle="collapse"
-                        data-target="#collapseSix"
+                        data-target="#collapseSeven"
                         aria-expanded="false"
-                        aria-controls="collapseSix"
+                        aria-controls="collapseSeven"
                         style={{
                           color: "white",
                           textDecoration: "none",
@@ -990,9 +990,9 @@ function People() {
                     </h2>
                   </div>
                   <div
-                    id="collapseSix"
+                    id="collapseSeven"
                     class="collapse"
-                    aria-labelledby="headingSix"
+                    aria-labelledby="headingSeven"
                     data-parent="#accordionExample"
                   >
                     <div class="card-body">
@@ -1014,7 +1014,7 @@ function People() {
                 >
                   <div
                     class="card-header"
-                    id="headingSix"
+                    id="headingEight"
                     style={{ textAlign: "left" }}
                   >
                     <h2 class="mb-0">
@@ -1022,9 +1022,9 @@ function People() {
                         class="btn btn-link collapsed"
                         type="button"
                         data-toggle="collapse"
-                        data-target="#collapseSix"
+                        data-target="#collapseEight"
                         aria-expanded="false"
-                        aria-controls="collapseSix"
+                        aria-controls="collapseEight"
                         style={{
                           color: "white",
                           textDecoration: "none",
@@ -1057,9 +1057,9 @@ function People() {
                     </h2>
                   </div>
                   <div
-                    id="collapseSix"
+                    id="collapseEight"
                     class="collapse"
-                    aria-labelledby="headingSix"
+                    aria-labelledby="headingEight"
                     data-parent="#accordionExample"
                   >
                     <div class="card-body">
@@ -1081,7 +1081,7 @@ function People() {
                 >
                   <div
                     class="card-header"
-                    id="headingSix"
+                    id="headingNine"
                     style={{ textAlign: "left" }}
                   >
                     <h2 class="mb-0">
@@ -1089,9 +1089,9 @@ function People() {
                         class="btn btn-link collapsed"
                         type="button"
                         data-toggle="collapse"
-                        data-target="#collapseSix"
+                        data-target="#collapseNine"
                         aria-expanded="false"
-                        aria-controls="collapseSix"
+                        aria-controls="collapseNine"
                         style={{
                           color: "white",
                           textDecoration: "none",
@@ -1124,9 +1124,9 @@ function People() {
                     </h2>
                   </div>
                   <div
-                    id="collapseSix"
+                    id="collapseNine"
                     class="collapse"
-                    aria-labelledby="headingSix"
+                    aria-labelledby="headingNine"
                     data-parent="#accordionExample"
                   >
                     <div class="card-body">
@@ -1137,55 +1137,14 @@ function People() {
                     </div>
                   </div>
                 </div>
+                
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section>
-        <div className="bg-color">
-          <div className="container">
-            <div className="row bg-white">
-              <div className="col-md-6 shadow-sm rounded">
-                <div>
-                  <div className="card card-1">
-                    <div class="card-body card-body-1">
-                      <h5 class="card-title title">Talk to Us</h5>
-                      {/* <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> */}
-                      <p class="card-text question">
-                        Got a question? Dont a hesitate to give us a call today
-                        or shoot us an email
-                      </p>
-                      <i class="fa fa-envelope" aria-hidden="true">
-                        <span className="hello">hello@dataserve.io</span>
-                      </i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-md-6 shadow-sm">
-                <div>
-                  <div>
-                    <form>
-                      <div className="form-group">
-                        <label>Full Name</label>
-                        <input type="text" className="form-control name" />
-                        <label>Work Email</label>
-                        <input type="text" className="form-control name" />
-                        <label>Contact Number</label>
-                        <input type="text" className="form-control name" />
-
-                        <button className="contact-us-2">Contact Us</button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+     
       <Footer />
     </div>
   );

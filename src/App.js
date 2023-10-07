@@ -27,8 +27,8 @@ function App() {
           <Route path="/people" element={<People />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/observability" element={<Observability />} />
-          <Route path="/healthem" element={<HealthEm />} />
-          <Route path="/datasense" element={<Datasense />} />
+          {/* <Route path="/healthem" element={<HealthEm />} /> */}
+          <Route path="/datainsights" element={<Datasense />} />
           <Route path="/cloud" element={<Cloud />} />
           <Route path="/databi" element={<Databi />} />
           <Route path="/devops" element={<Devops />} />

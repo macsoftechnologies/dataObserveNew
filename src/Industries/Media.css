@@ -87,7 +87,7 @@ letter-spacing: -0.32px;
 
 .mediaimg{
   /* position: relative; */
-  background-image: url("../../public/images/mediadown.png");
+  background-image: url("../../public/images/newmediadown.png");
   width: 100%;
   /* height: fit-content; */
   background-repeat: no-repeat;
@@ -135,4 +135,22 @@ font-weight: 600;
 line-height: 25.6px; /* 182.857% */
 letter-spacing: 1px;
 text-transform: uppercase;
+}
+.boxtext{
+  color: rgba(0, 0, 0, 0.70);
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 360;
+line-height: 25.6px; /* 160% */
+letter-spacing: -0.32px;
+/* width: 306px; */
+}
+.boxhead{
+  color: #050505;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 26px;
 }

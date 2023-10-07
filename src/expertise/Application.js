@@ -113,7 +113,7 @@ const Application = () => {
         <div className="cloudcards">
           <div class="ccdiv w-100">
             <div className="cloudimgcard">
-              <img className="notrepimg" src="/images/dvc.png" alt="" />
+              <img className="notrepimg" src="/images/applicationcard1.png" alt="" />
               <div className="cloudcard card">
                 <h1 className="cloudcardheading">Enterprise web apps</h1>
                 <p className="cloudcardpara mb-0">
@@ -123,7 +123,7 @@ const Application = () => {
               </div>
             </div>
             <div className="cloudimgcard">
-              <img className="notrepimg" src="/images/dap.png" alt="" />
+              <img className="notrepimg" src="/images/applicationcard2.png" alt="" />
               <div className="cloudcard card">
                 <h1 className="cloudcardheading">Application Migration</h1>
                 <p className="cloudcardpara mb-0">
@@ -133,7 +133,7 @@ const Application = () => {
               </div>
             </div>
             <div className="cloudimgcard">
-              <img className="notrepimg" src="/images/bim.png" alt="" />
+              <img className="notrepimg" src="/images/applicationcard3.png" alt="" />
               <div className="cloudcard card">
                 <h1 className="cloudcardheading">Re-platform Services</h1>
                 <p className="cloudcardpara mb-0">
@@ -144,7 +144,7 @@ const Application = () => {
               </div>
             </div>
             <div className="cloudimgcard">
-              <img className="notrepimg" src="/images/ssbi.png" alt="" />
+              <img className="notrepimg" src="/images/applicationcard4.png" alt="" />
               <div className="cloudcard card">
                 <h1 className="cloudcardheading">Remediation Services</h1>
                 <p className="cloudcardpara mb-0">
@@ -155,7 +155,7 @@ const Application = () => {
               </div>
             </div>
             <div className="cloudimgcard">
-              <img className="notrepimg" src="/images/dg.png" alt="" />
+              <img className="notrepimg" src="/images/applicationcard5.png" alt="" />
               <div className="cloudcard card">
                 <h1 className="cloudcardheading">Cloud Applications</h1>
                 <p className="cloudcardpara mb-0">
