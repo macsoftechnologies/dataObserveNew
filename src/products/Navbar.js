@@ -38,6 +38,7 @@ function Navbar() {
                 <div
                   class="dropdown-menu navlinksdropdown"
                   aria-labelledby="navbarDropdownMenuLink"
+                  style={{ transform: "translateX(-20%)" }}
                 >
                   <a href="#" className="d-flex navcard ml-3">
                     <a href="#" className="navcard2 pt-4 pl-2">
@@ -47,7 +48,16 @@ function Navbar() {
                       <a class="dropdown-item linksclass" href="/databi">
                         Data Analytics & BI
                       </a>
-                      <a class="dropdown-item linksclass" href="/devops">
+                      <a class="dropdown-item linksclass" href="/aiml">
+                        AI & Machine Learning
+                      </a>
+                      <a class="dropdown-item linksclass" href="/application">
+                        Application Modernization
+                      </a>
+                    </a>
+                    <a href="#" className="navcard2 pt-4 pl-2 mt-2">
+                      
+                    <a class="dropdown-item linksclass" href="/devops">
                         DevOps-as-a-service
                       </a>
                       <a class="dropdown-item linksclass" href="/talent">
@@ -56,18 +66,12 @@ function Navbar() {
                       <a class="dropdown-item linksclass" href="/dataeng">
                         Data Engineering
                       </a>
-                      <a class="dropdown-item linksclass" href="/aiml">
-                        AI & Machine Learning
-                      </a>
-                      <a class="dropdown-item linksclass" href="/application">
-                        Application Modernization
-                      </a>
                     </a>
                     <img
                       src="./images/navlinkgif.gif"
                       alt="navgif"
                       className="navlinkgifclass"
-                      style={{ width: "500px", height: "300px", borderRadius:"10px" }}
+                      style={{ width: "400px", height: "200px", borderRadius:"10px" }}
                     />
                   </a>
                 </div>
@@ -88,7 +92,7 @@ function Navbar() {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <a href="#" className="d-flex navcard ml-3">
-                    <a href="#" className="navcard2 mt-5 pt-3 pl-2">
+                    <a href="#" className="navcard2 pl-2" style={{paddingTop: "35px"}}>
                       <a class="dropdown-item linksclass" href="/observability">
                         DO360
                       </a>
@@ -103,7 +107,7 @@ function Navbar() {
                       src="./images/navlink2gif.gif"
                       alt="navgif"
                       className="navlinkgifclass"
-                      style={{ width: "300px", height: "200px", borderRadius:"10px" }}
+                      style={{ width: "300px", height: "150px", borderRadius:"10px" }}
                     />
                   </a>
                 </div>
@@ -724,11 +728,12 @@ function Navbar() {
                       <p
                         style={{
                           textAlign: "center",
-                          paddingTop: "20px",
+                          // paddingTop: "20px",
                           color: "#D6E2FF",
                           fontSize: "30px",
                           fontWeight: 700,
                           lineHeight: "52.707px",
+                          marginBottom: "0px"
                         }}
                       >
                         Coming Soon
