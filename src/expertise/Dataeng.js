@@ -1,6 +1,6 @@
 import React from "react";
 import "./Dataeng.css";
-import Faq from "../products/Faq";
+// import Faq from "../products/Faq";
 import Navbar from "../products/Navbar";
 import dataengineer from "../../src/videos/dataenginner.mp4";
 import Footer from "../products/Footer";
@@ -73,7 +73,7 @@ const Dataeng = () => {
                   }}
                 >
                   Talk to us now
-                </span>{" "}
+                </span>
                 <i
                   className="fa fa-long-arrow-right ml-3"
                   style={{
@@ -172,97 +172,96 @@ const Dataeng = () => {
         </div>
       </div>
       <div
+        class="container card mb-3 mt-5 Built-back-colour"
         style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
+          backgroundColor: "#1A4AB9",
+          borderRadius: "20px",
         }}
       >
-        <div>
-          <h4
-            style={{
-              textAlign: "center",
-              fontWeight: 700,
-              fontSize: "43px",
-              marginTop: "40px",
-            }}
-          >
-            Our Case Studies
-          </h4>
+        <div className="right-media-Corner">
+          <img
+            className="built-corner-image"
+            src="./images/right-corner-media.png"
+            alt="media"
+            width={100}
+            height={100}
+          />
         </div>
+
         <div
-          class="card mb-3 mt-5"
+          class="row overall-built-Corner"
           style={{
-            backgroundColor: "#1A4AB9",
-            maxWidth: "900px",
-            borderRadius: "20px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "spacebetween",
           }}
         >
-          <div
-            class="row no-gutters"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "spacebetween",
-            }}
-          >
-            <div class="col-md-5">
-              <img
-                src="./images/build.png"
-                className="card-img"
-                alt="..."
-                style={{ width: "350px", marginLeft: "25px" }}
-              />
-            </div>
-            <div class="col-md-7">
-              <div class="card-body expertcardbody">
-                <h5 class="card-title" style={{ color: "white" }}>
-                  Build A Undified Augmented Analytics decision intelligence
-                  platform
-                </h5>
-                <p class="card-text" style={{ color: "white" }}>
-                  Learn how we created to self-service ,predective,insights
-                  platform driven by an adaptive machine learning engine which
-                  helps improve decision making
+          <div class="col-md-5">
+            <img
+              style={{ height: "252px", width: "100%" }}
+              src="./images/build.png"
+              className="card-img"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5
+                class="card-title"
+                style={{
+                  color: "white",
+                  letterSpacing: "0.68px",
+                  fontSize: "19px",
+                }}
+              >
+                Built A Unified Augmented Analytics
+                <br /> decision intelligence Platform
+              </h5>
+              <p
+                class="card-text-3"
+                style={{ fontSize: "13px", color: "#fff", opacity: "0.5" }}
+              >
+                Learn how we created a self-service, predictive, insights
+                platform driven
+                <br /> by an adaptive machine learning engine which helps
+                improve decision-
+                <br />
+                making.
+              </p>
+              <p class="card-text" style={{ color: "white" }}>
+                <p style={{ fontSize: 16 }}>
+                  Read case study
+                  <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
                 </p>
-                <p class="card-text" style={{ color: "white" }}>
-                  <small>
-                    Read case study
-                    <i
-                      class="fa fa-long-arrow-right ml-3"
-                      aria-hidden="true"
-                    ></i>
-                  </small>
-                </p>
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                  }}
-                >
-                  <img
-                    src="./images/accede.png"
-                    alt=""
-                    style={{ width: "60px" }}
-                  />
-                  <img
-                    src="./images/solakhen.png"
-                    alt=""
-                    style={{ width: "95px" }}
-                  />
-                  <img
-                    src="./images/grbeco.png"
-                    alt=""
-                    style={{ width: "60px" }}
-                  />
-                  <img
-                    src="./images/srdsystems.png"
-                    alt=""
-                    style={{ width: "95px" }}
-                  />
-                </div>
+              </p>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-around",
+                  marginLeft: "-20px",
+                }}
+              >
+                <img
+                  src="./images/accede.png"
+                  alt=""
+                  style={{ width: "60px", height: "20px" }}
+                />
+                <img
+                  src="./images/solakhen.png"
+                  alt=""
+                  style={{ width: "100px" }}
+                />
+                <img
+                  src="./images/grbeco.png"
+                  alt=""
+                  style={{ width: "95px" }}
+                />
+                <img
+                  src="./images/srdsystems.png"
+                  alt=""
+                  style={{ width: "70px" }}
+                />
               </div>
             </div>
           </div>
@@ -306,7 +305,9 @@ const Dataeng = () => {
                   width={100}
                   style={{ height: "63px", width: "60px" }}
                 />
-                <h5>Improved Operational Efficiency</h5>
+                <h5 className="cloudcardheadings" style={{ marginTop: "18px" }}>
+                  Improved Operational Efficiency
+                </h5>
 
                 <p className="arrowtext text-center">
                   Opt for cloud-driven data engineering solutions combined with
@@ -328,7 +329,9 @@ const Dataeng = () => {
                   width={100}
                   style={{ height: "79px", width: "59px" }}
                 />
-                <h5>Drive Democratization of Data</h5>
+                <h5 className="cloudcardheadings">
+                  Drive Democratization of Data
+                </h5>
 
                 <p className="arrowtext text-center">
                   Utilizing tools such as Amazon Redshift and Azure Synapse, you
@@ -350,7 +353,7 @@ const Dataeng = () => {
                   width={100}
                   style={{ height: "73px", width: "53px" }}
                 />
-                <h5>Leverage More Flexibility</h5>
+                <h5 className="cloudcardheadings">Leverage More Flexibility</h5>
 
                 <p className="arrowtext text-center">
                   Modify the size of your compute cluster in an instant, scale
@@ -447,7 +450,9 @@ const Dataeng = () => {
                   alt="logo"
                   width={100}
                 />
-                <h5>Identify Patterns for Business Growth </h5>
+                <h5 className="cloudcardheadings">
+                  Identify Patterns for Business Growth{" "}
+                </h5>
 
                 <p className="arrowtext text-center">
                   From identifying data anomalies to recommending pertinent
@@ -470,7 +475,7 @@ const Dataeng = () => {
                   alt="logo"
                   width={100}
                 />
-                <h5>Get Better Data Insights</h5>
+                <h5 className="cloudcardheadings">Get Better Data Insights</h5>
 
                 <p className="arrowtext text-center">
                   With DataObserve's assistance, you can develop customized
@@ -493,7 +498,9 @@ const Dataeng = () => {
                   alt="logo"
                   width={100}
                 />
-                <h5>Efficiency in Data Models </h5>
+                <h5 className="cloudcardheadings">
+                  Efficiency in Data Models 
+                </h5>
 
                 <p className="arrowtext text-center">
                   Our team of experienced data engineering consultants and
@@ -515,7 +522,7 @@ const Dataeng = () => {
                   alt="logo"
                   width={100}
                 />
-                <h5>Robust AWS databases</h5>
+                <h5 className="cloudcardheadings">Robust AWS databases</h5>
 
                 <p className="arrowtext text-center">
                   Our specialization lies in data engineering and database
@@ -537,7 +544,7 @@ const Dataeng = () => {
                   alt="logo"
                   width={100}
                 />
-                <h5>Centered Data Governance</h5>
+                <h5 className="cloudcardheadings">Centered Data Governance</h5>
 
                 <p className="arrowtext text-center">
                   Data governance encompasses all activities related to ensuring
@@ -560,7 +567,7 @@ const Dataeng = () => {
                   alt="logo"
                   width={100}
                 />
-                <h5>End-to-end Support</h5>
+                <h5 className="cloudcardheadings">End-to-end Support</h5>
 
                 <p className="arrowtext text-center">
                   At DataObserve, as a data engineering consulting firm, we take

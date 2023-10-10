@@ -10,7 +10,7 @@ function Observability() {
       <Navbar />
       <img
         src="images/do360finalbanner.png"
-        className="do360bannerclass w-100 h-100"
+        className="do360bannerclass w-100"
         alt="#"
       />
       <div className="header-section">
@@ -70,7 +70,7 @@ function Observability() {
               <button className="demoClass">Get a demo</button>
             </div>
             <div className="videoClass col-md-8">
-              <video className="playClass" autoPlay loop muted>
+              <video className="playClass" controls>
                 <source src={bussiness} type="video/mp4" />
               </video>
               {/* <img
@@ -814,9 +814,9 @@ function Observability() {
           <h1 className="recentworkshead">Our most recent works</h1>
           <div className="cardclass">
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-4 cardcol">
                 <div className="recentworkimgclass">
-                  <div className="dummyclass"></div>
+                  {/* <div className="dummyclass"></div> */}
                   <div className="card therecentcard">
                     <div className="workcard">
                       <div className="recentcardhead">
@@ -831,9 +831,9 @@ function Observability() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 cardcol">
                 <div className="recentworkimgclass1">
-                  <div className="dummyclass1"></div>
+                  {/* <div className="dummyclass1"></div> */}
                   <div className="card therecentcard">
                     <div className="workcard">
                       <div className="recentcardhead">
@@ -849,9 +849,9 @@ function Observability() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 cardcol">
                 <div className="recentworkimgclass2">
-                  <div className="dummyclass2"></div>
+                  {/* <div className="dummyclass2"></div> */}
                   <div className="card therecentcard">
                     <div className="workcard">
                       <div className="recentcardhead">

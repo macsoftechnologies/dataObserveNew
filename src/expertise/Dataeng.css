@@ -200,7 +200,7 @@
   border-radius: 20px;
   margin: 25px 0px;
 }
-.accordion .accordion-item {
+/* .accordion .accordion-item {
   border-bottom: 1px solid #e5e5e5;
 }
 
@@ -269,12 +269,12 @@
   width: 2px;
   height: 10px;
   background: currentColor;
-}
+} */
 
-.accordion button[aria-expanded="true"] {
+/* .accordion button[aria-expanded="true"] {
   color: #03b5d2;
-}
-.accordion button[aria-expanded="true"] .icon::after {
+} */
+/* .accordion button[aria-expanded="true"] .icon::after {
   width: 0;
 }
 .accordion button[aria-expanded="true"] + .accordion-content {
@@ -294,7 +294,7 @@
   font-size: 1rem;
   font-weight: 300;
   margin: 2em 0;
-}
+} */
 .card-body1 {
   background-color: #1a4ab9;
   border-radius: 10px 10px 0px 0px !important;

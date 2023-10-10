@@ -134,7 +134,12 @@ const Devops = () => {
             </div>
           </div>
           <div className="cloudimgcard">
-            <img className="notrepimg" src="/images/ms.png" alt="" />
+            <img
+              className="notrepimg"
+              src="/images/ms.png"
+              alt=""
+              style={{ height: "114%" }}
+            />
             <div className="cloudcard card">
               <h1 className="cloudcardheading">Microservices</h1>
               <p className="cloudcardpara mb-0">
@@ -144,7 +149,12 @@ const Devops = () => {
             </div>
           </div>
           <div className="cloudimgcard">
-            <img className="notrepimg" src="/images/rtct.png" alt="" />
+            <img
+              className="notrepimg"
+              src="/images/rtct.png"
+              alt=""
+              style={{ height: "108%" }}
+            />
             <div className="cloudcard card">
               <h1 className="cloudcardheading">Round the Clock tracking</h1>
               <p className="cloudcardpara mb-0">
@@ -170,98 +180,96 @@ const Devops = () => {
         </div>
       </div>
       <div
+        class="container card mb-3 mt-5 Built-back-colour"
         style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
+          backgroundColor: "#1A4AB9",
+          borderRadius: "20px",
         }}
       >
-        <div>
-          <h4
-            style={{
-              textAlign: "center",
-              fontWeight: 700,
-              fontSize: "43px",
-              marginTop: "40px",
-            }}
-          >
-            Our Case Studies
-          </h4>
+        <div className="right-media-Corner">
+          <img
+            className="built-corner-image"
+            src="./images/right-corner-media.png"
+            alt="media"
+            width={100}
+            height={100}
+          />
         </div>
+
         <div
-          class="card mb-3 mt-5"
+          class="row overall-built-Corner"
           style={{
-            backgroundColor: "#1A4AB9",
-            maxWidth: "900px",
-            borderRadius: "20px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "spacebetween",
           }}
         >
-          <div
-            class="row no-gutters"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "spacebetween",
-            }}
-          >
-            <div class="col-md-5">
-              <img
-                src="./images/build.png"
-                className="card-img"
-                alt="..."
-                style={{ width: "350px", marginLeft: "25px" }}
-              />
-            </div>
-            <div class="col-md-7">
-              <div class="card-body expertcardbody">
-                <h5 class="card-title" style={{ color: "white" }}>
-                  Build A Undified Augmented Analytics decision intelligence
-                  platform
-                </h5>
-                <p class="card-text" style={{ color: "white" }}>
-                  Learn how we created to self-service ,predective,insights
-                  platform driven by an adaptive machine learning engine which
-                  helps improve decision making
+          <div class="col-md-5">
+            <img
+              style={{ height: "252px", width: "100%" }}
+              src="./images/build.png"
+              className="card-img"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5
+                class="card-title"
+                style={{
+                  color: "white",
+                  letterSpacing: "0.68px",
+                  fontSize: "19px",
+                }}
+              >
+                Built A Unified Augmented Analytics
+                <br /> decision intelligence Platform
+              </h5>
+              <p
+                class="card-text-3"
+                style={{ fontSize: "13px", color: "#fff", opacity: "0.5" }}
+              >
+                Learn how we created a self-service, predictive, insights
+                platform driven
+                <br /> by an adaptive machine learning engine which helps
+                improve decision-
+                <br />
+                making.
+              </p>
+              <p class="card-text" style={{ color: "white" }}>
+                <p style={{ fontSize: 16 }}>
+                  Read case study
+                  <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
                 </p>
-                <p class="card-text" style={{ color: "white" }}>
-                  <small>
-                    Read case study
-                    <i
-                      class="fa fa-long-arrow-right"
-                      style={{ marginLeft: "12px" }}
-                      aria-hidden="true"
-                    ></i>
-                  </small>
-                </p>
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                  }}
-                >
-                  <img
-                    src="./images/accede.png"
-                    alt=""
-                    style={{ width: "60px" }}
-                  />
-                  <img
-                    src="./images/solakhen.png"
-                    alt=""
-                    style={{ width: "95px" }}
-                  />
-                  <img
-                    src="./images/grbeco.png"
-                    alt=""
-                    style={{ width: "60px" }}
-                  />
-                  <img
-                    src="./images/srdsystems.png"
-                    alt=""
-                    style={{ width: "95px" }}
-                  />
-                </div>
+              </p>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-around",
+                  marginLeft: "-20px",
+                }}
+              >
+                <img
+                  src="./images/accede.png"
+                  alt=""
+                  style={{ width: "60px", height: "20px" }}
+                />
+                <img
+                  src="./images/solakhen.png"
+                  alt=""
+                  style={{ width: "100px" }}
+                />
+                <img
+                  src="./images/grbeco.png"
+                  alt=""
+                  style={{ width: "95px" }}
+                />
+                <img
+                  src="./images/srdsystems.png"
+                  alt=""
+                  style={{ width: "70px" }}
+                />
               </div>
             </div>
           </div>
@@ -306,7 +314,7 @@ const Devops = () => {
                   width={100}
                   style={{ height: "73px", width: "53px" }}
                 />
-                <h5>Premium quality</h5>
+                <h5 className="cloudcardheadings">Premium quality</h5>
 
                 <p className="arrowtext text-center">
                   Our BI tools extract data from multiple sources and analyze it
@@ -329,7 +337,7 @@ const Devops = () => {
                   width={100}
                   style={{ height: "79px", width: "59px" }}
                 />
-                <h5>Wide wealth of experience</h5>
+                <h5 className="cloudcardheadings">Wide wealth of experience</h5>
 
                 <p className="arrowtext text-center">
                   Business leaders can get a holistic view of the company and
@@ -352,7 +360,7 @@ const Devops = () => {
                   width={100}
                   style={{ height: "73px", width: "53px" }}
                 />
-                <h5>Futuristic tech stack</h5>
+                <h5 className="cloudcardheadings">Futuristic tech stack</h5>
 
                 <p className="arrowtext text-center">
                   Facing an issue or stuck with a problem regarding BI and
@@ -375,7 +383,7 @@ const Devops = () => {
                   width={100}
                   style={{ height: "66px", width: "53px" }}
                 />
-                <h5>24*7 support</h5>
+                <h5 className="cloudcardheadings">24*7 support</h5>
 
                 <p className="arrowtext text-center">
                   By analyzing this data, you can gain in-depth market knowledge
@@ -398,7 +406,7 @@ const Devops = () => {
                   width={100}
                   style={{ height: "71px", width: "53px" }}
                 />
-                <h5>Disaster Recovery</h5>
+                <h5 className="cloudcardheadings">Disaster Recovery</h5>
 
                 <p className="arrowtext text-center">
                   DataObserve has a unified information architecture that
@@ -420,7 +428,7 @@ const Devops = () => {
                   width={100}
                   style={{ height: "73px", width: "53px" }}
                 />
-                <h5>Availability Management</h5>
+                <h5 className="cloudcardheadings">Availability Management</h5>
 
                 <p className="arrowtext text-center">
                   Facing an issue or stuck with a problem regarding BI and
@@ -505,7 +513,7 @@ const Devops = () => {
                 width={100}
                 style={{ height: "63px", width: "44px" }}
               />
-              <h5>Premium quality</h5>
+              <h5 className="cloudcardheadings">Premium quality</h5>
 
               <p className="arrowtext text-center">
                 Every project completed by our DevOps teams goes through
@@ -527,7 +535,7 @@ const Devops = () => {
                 width={100}
                 style={{ height: "63px", width: "44px" }}
               />
-              <h5>Scrum and Agile Expertise</h5>
+              <h5 className="cloudcardheadings">Scrum and Agile Expertise</h5>
 
               <p className="arrowtext text-center">
                 Our certified Scrum Masters empower you to deliver efficient
@@ -550,7 +558,9 @@ const Devops = () => {
                 width={100}
                 style={{ height: "63px", width: "44px" }}
               />
-              <h5>Custom and Modular Framework</h5>
+              <h5 className="cloudcardheadings">
+                Custom and Modular Framework
+              </h5>
 
               <p className="arrowtext text-center">
                 We've merged our best practices with extensive experience and
@@ -573,7 +583,9 @@ const Devops = () => {
                 width={100}
                 style={{ height: "63px", width: "44px" }}
               />
-              <h5>Improved Internal Collaboration</h5>
+              <h5 className="cloudcardheadings">
+                Improved Internal Collaboration
+              </h5>
 
               <p className="arrowtext text-center">
                 Our DevOps practices and methodologies bridge the gap between
@@ -595,7 +607,7 @@ const Devops = () => {
                 width={100}
                 style={{ height: "63px", width: "44px" }}
               />
-              <h5>Efficient ROI Measurement</h5>
+              <h5 className="cloudcardheadings">Efficient ROI Measurement</h5>
 
               <p className="arrowtext text-center">
                 Monitor every facet of DevOps with our tailored analytical
@@ -617,7 +629,9 @@ const Devops = () => {
                 width={100}
                 style={{ height: "63px", width: "44px" }}
               />
-              <h5>Accelerate Product Time to Market</h5>
+              <h5 className="cloudcardheadings">
+                Accelerate Product Time to Market
+              </h5>
 
               <p className="arrowtext text-center">
                 Our specialized DevOps tools have the capability to automate

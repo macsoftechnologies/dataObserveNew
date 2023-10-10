@@ -1,6 +1,6 @@
 import React from "react";
 import "./Aiml.css";
-import Faq from "../products/Faq";
+// import Faq from "../products/Faq";
 import Navbar from "../products/Navbar";
 import artificial from "../../src/videos/artificial.mp4";
 import Footer from "../products/Footer";
@@ -114,7 +114,7 @@ const Aiml = () => {
         <div className="cloudcards">
           <div class="ccdiv w-100">
             <div className="cloudimgcard">
-              <img className="notrepimg" src="/images/dvc.png" alt="" />
+              <img className="notrepimg" src="/images/dl.png" alt="" />
               <div className="cloudcard card">
                 <h1 className="cloudcardheading">Deep Learning</h1>
                 <p className="cloudcardpara mb-0">
@@ -125,7 +125,7 @@ const Aiml = () => {
               </div>
             </div>
             <div className="cloudimgcard">
-              <img className="notrepimg" src="/images/dap.png" alt="" />
+              <img className="notrepimg" src="/images/prean.png" alt="" />
               <div className="cloudcard card">
                 <h1 className="cloudcardheading">Predictive Analytics</h1>
                 <p className="cloudcardpara mb-0">
@@ -137,7 +137,7 @@ const Aiml = () => {
               </div>
             </div>
             <div className="cloudimgcard">
-              <img className="notrepimg" src="/images/bim.png" alt="" />
+              <img className="notrepimg" src="/images/llms.png" alt="" />
               <div className="cloudcard card">
                 <h1 className="cloudcardheading">LLM’s & AI Models</h1>
                 <p className="cloudcardpara mb-0">
@@ -149,7 +149,7 @@ const Aiml = () => {
               </div>
             </div>
             <div className="cloudimgcard">
-              <img className="notrepimg" src="/images/ssbi.png" alt="" />
+              <img className="notrepimg" src="/images/aichatbot.png" alt="" />
               <div className="cloudcard card">
                 <h1 className="cloudcardheading">AI Chatbots</h1>
                 <p className="cloudcardpara mb-0">
@@ -161,7 +161,7 @@ const Aiml = () => {
               </div>
             </div>
             <div className="cloudimgcard">
-              <img className="notrepimg" src="/images/dg.png" alt="" />
+              <img className="notrepimg" src="/images/nlpg.png" alt="" />
               <div className="cloudcard card">
                 <h1 className="cloudcardheading">
                   Natural Language Processing & Gen AI
@@ -177,97 +177,93 @@ const Aiml = () => {
         </div>
       </div>
       <div
+        class="container card mb-3 mt-5 Built-back-colour"
         style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
+          backgroundColor: "#1A4AB9",
+          borderRadius: "20px",
         }}
       >
-        <div>
-          <h4
-            style={{
-              textAlign: "center",
-              fontWeight: 700,
-              fontSize: "43px",
-              marginTop: "40px",
-            }}
-          >
-            Our Case Studies
-          </h4>
+        <div className="right-media-Corner">
+          <img
+            className="built-corner-image"
+            src="./images/right-corner-media.png"
+            alt="media"
+            width={100}
+            height={100}
+          />
         </div>
+
         <div
-          class="card mb-3 mt-5"
+          class="row overall-built-Corner"
           style={{
-            backgroundColor: "#1A4AB9",
-            maxWidth: "900px",
-            borderRadius: "20px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "spacebetween",
           }}
         >
-          <div
-            class="row no-gutters"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "spacebetween",
-            }}
-          >
-            <div class="col-md-5">
-              <img
-                src="./images/build.png"
-                className="card-img"
-                alt="..."
-                style={{ width: "350px", marginLeft: "25px" }}
-              />
-            </div>
-            <div class="col-md-7">
-              <div class="card-body expertcardbody">
-                <h5 class="card-title" style={{ color: "white" }}>
-                  Build A Undified Augmented Analytics decision intelligence
-                  platform
-                </h5>
-                <p class="card-text" style={{ color: "white" }}>
-                  Learn how we created to self-service ,predective,insights
-                  platform driven by an adaptive machine learning engine which
-                  helps improve decision making
+          <div class="col-md-5">
+            <img
+              style={{ height: "252px", width: "100%" }}
+              src="./images/build.png"
+              className="card-img"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5
+                class="card-title"
+                style={{
+                  color: "white",
+                  letterSpacing: "0.68px",
+                  fontSize: "19px",
+                }}
+              >
+                Built A Unified Augmented Analytics
+                <br /> decision intelligence Platform
+              </h5>
+              <p class="card-text-3" style={{ fontSize: "13px",color: "#fff", opacity: "0.5" }}>
+                Learn how we created a self-service, predictive, insights
+                platform driven
+                <br /> by an adaptive machine learning engine which helps
+                improve decision-
+                <br />
+                making.
+              </p>
+              <p class="card-text" style={{ color: "white" }}>
+                <p style={{ fontSize: 16 }}>
+                  Read case study
+                  <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
                 </p>
-                <p class="card-text" style={{ color: "white" }}>
-                  <small>
-                    Read case study
-                    <i
-                      class="fa fa-long-arrow-right ml-3"
-                      aria-hidden="true"
-                    ></i>
-                  </small>
-                </p>
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                  }}
-                >
-                  <img
-                    src="./images/accede.png"
-                    alt=""
-                    style={{ width: "60px" }}
-                  />
-                  <img
-                    src="./images/solakhen.png"
-                    alt=""
-                    style={{ width: "95px" }}
-                  />
-                  <img
-                    src="./images/grbeco.png"
-                    alt=""
-                    style={{ width: "60px" }}
-                  />
-                  <img
-                    src="./images/srdsystems.png"
-                    alt=""
-                    style={{ width: "95px" }}
-                  />
-                </div>
+              </p>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-around",
+                  marginLeft: "-20px",
+                }}
+              >
+                <img
+                  src="./images/accede.png"
+                  alt=""
+                  style={{ width: "60px", height: "20px" }}
+                />
+                <img
+                  src="./images/solakhen.png"
+                  alt=""
+                  style={{ width: "100px" }}
+                />
+                <img
+                  src="./images/grbeco.png"
+                  alt=""
+                  style={{ width: "95px" }}
+                />
+                <img
+                  src="./images/srdsystems.png"
+                  alt=""
+                  style={{ width: "70px" }}
+                />
               </div>
             </div>
           </div>
@@ -303,7 +299,9 @@ const Aiml = () => {
                   width={100}
                   style={{ width: "65px", height: "73px" }}
                 />
-                <h5>Accurate forecasts</h5>
+                <h5 className="cloudcardheadings" style={{ marginTop: "8px" }}>
+                  Accurate forecasts
+                </h5>
 
                 <p className="arrowtext text-center">
                   Insights revealed by our machine learning solutions can aid
@@ -326,7 +324,7 @@ const Aiml = () => {
                   width={100}
                   style={{ width: "59px", height: "76px" }}
                 />
-                <h5>Personalization</h5>
+                <h5 className="cloudcardheadings">Personalization</h5>
 
                 <p className="arrowtext text-center">
                   Boost sales and secure more deals by offering a personalized
@@ -349,7 +347,7 @@ const Aiml = () => {
                   width={100}
                   style={{ width: "59px", height: "73px" }}
                 />
-                <h5>Automation</h5>
+                <h5 className="cloudcardheadings">Automation</h5>
 
                 <p className="arrowtext text-center">
                   The fusion of automation and machine learning is referred to
@@ -372,7 +370,7 @@ const Aiml = () => {
                   width={100}
                   style={{ width: "53px", height: "73px" }}
                 />
-                <h5>Predictive maintenance</h5>
+                <h5 className="cloudcardheadings">Predictive maintenance</h5>
 
                 <p className="arrowtext text-center">
                   Gather data from sensors and machinery to detect patterns and
@@ -394,7 +392,7 @@ const Aiml = () => {
                   width={100}
                   style={{ width: "53px", height: "76px" }}
                 />
-                <h5>Cybersecurity</h5>
+                <h5 className="cloudcardheadings">Cybersecurity</h5>
 
                 <p className="arrowtext text-justify">
                   Eliminate cyberattacks for good. AI-powered cybersecurity can
@@ -478,16 +476,18 @@ const Aiml = () => {
             <div className="col-md-4">
               <div
                 className="text-center box-padding"
-                style={{ height: "400px" }}
+                style={{ height: "360px" }}
               >
                 <img
                   src="./images/proven.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ width: "73px", height: "76px" }}
+                  style={{ width: "73px", height: "73px" }}
                 />
-                <h5>Proven AI/ML Success</h5>
+                <h5 className="cloudcardheadings" style={{ marginTop: "6px" }}>
+                  Proven AI/ML Success
+                </h5>
 
                 <p className="arrowtext text-left">
                   DataObserve is a trusted Machine Learning partner, and our
@@ -502,7 +502,7 @@ const Aiml = () => {
             <div className="col-md-4">
               <div
                 className="text-center box-padding"
-                style={{ height: "400px" }}
+                style={{ height: "360px" }}
               >
                 <img
                   src="./images/dedicated.png"
@@ -511,7 +511,7 @@ const Aiml = () => {
                   width={100}
                   style={{ width: "63px", height: "76px" }}
                 />
-                <h5>Dedicated Team</h5>
+                <h5 className="cloudcardheadings">Dedicated Team</h5>
 
                 <p className="arrowtext text-left">
                   Our in-house ML experts have extensive experience with
@@ -526,7 +526,7 @@ const Aiml = () => {
             <div className="col-md-4">
               <div
                 className="text-center box-padding"
-                style={{ height: "400px" }}
+                style={{ height: "360px" }}
               >
                 <img
                   src="./images/advanced.png"
@@ -535,7 +535,7 @@ const Aiml = () => {
                   width={100}
                   style={{ width: "73px", height: "76px" }}
                 />
-                <h5>Advanced Tools</h5>
+                <h5 className="cloudcardheadings">Advanced Tools</h5>
 
                 <p className="arrowtext text-left">
                   Our seasoned AI and Machine Learning service professionals

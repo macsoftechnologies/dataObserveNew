@@ -213,7 +213,7 @@
   padding: 67px;
 } */
 .talentimages {
-  width: 85%;
+  width: 91%;
   height: 300px;
 }
 .talentcaromatter {
@@ -251,5 +251,15 @@
   color: #fff;
   font-size: 25.904px;
   font-weight: 700;
+  text-align: center;
 }
-
+.box-padding1 {
+  padding: 46px 20px;
+  box-shadow: 2px 2px 35px -18px #323c8d;
+  border-radius: 20px;
+  margin: 25px 0px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+}

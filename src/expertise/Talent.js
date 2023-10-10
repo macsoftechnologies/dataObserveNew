@@ -146,7 +146,7 @@ const Talent = () => {
           </div>
         </div>
         <div style={{ marginTop: "50px" }}>
-          <h4>What DataObserve Offers</h4>
+          <h4 className="cloudcardheadings">What DataObserve Offers</h4>
         </div>
         <div className="container mt-3">
           <div className="row box">
@@ -160,10 +160,10 @@ const Talent = () => {
                   className="App-logo"
                   alt="logo"
                   width={100}
-                  style={{ width: "62px", height: "62px" }}
+                  style={{ width: "50px", height: "50px" }}
                 />
-                <p>Agility</p>
-                <h4>48 Hours</h4>
+                <p style={{ marginTop: "10px" }}>Agility</p>
+                <h4 className="cloudcardheadings">48 Hours</h4>
                 <p className="arrowtext text-center">
                   Fast onboarding to hire the Top 3% of Talents
                 </p>
@@ -183,7 +183,7 @@ const Talent = () => {
                   style={{ width: "62px", height: "62px" }}
                 />
                 <p>Time saved</p>
-                <h4>85%</h4>
+                <h4 className="cloudcardheadings">85%</h4>
                 <p className="arrowtext text-center">
                   interviewing hours saved per recruitment
                 </p>
@@ -203,7 +203,7 @@ const Talent = () => {
                   style={{ width: "53px", height: "62px" }}
                 />
                 <p>High retention rate</p>
-                <h4>97%</h4>
+                <h4 className="cloudcardheadings">97%</h4>
                 <p className="arrowtext text-center">
                   Engagement success rates
                 </p>
@@ -223,7 +223,7 @@ const Talent = () => {
                   style={{ width: "54px", height: "62px" }}
                 />
                 <p>Enterprise Grade Engineers</p>
-                <h4>90%</h4>
+                <h4 className="cloudcardheadings">90%</h4>
                 <p className="arrowtext text-center">
                   of our In-house engineers have strong experience in working
                   with Fortune 500s
@@ -244,7 +244,7 @@ const Talent = () => {
                   style={{ width: "53px", height: "62px" }}
                 />
                 <p>Trust & Reliability</p>
-                <h4>100+</h4>
+                <h4 className="cloudcardheadings">100+</h4>
                 <p className="arrowtext text-center">
                   Full-time and Contract-to-Hire candidates available.
                 </p>
@@ -264,7 +264,7 @@ const Talent = () => {
                   style={{ width: "53px", height: "62px" }}
                 />
                 <p>Global Team</p>
-                <h4>5+</h4>
+                <h4 className="cloudcardheadings">5+</h4>
                 <p className="arrowtext text-center">
                   Global delivery centers across the USA, Canada, UK, India,
                   Netherlands, Dubai & Singapore
@@ -301,7 +301,7 @@ const Talent = () => {
                 <div className="container">
                   <div className="row">
                     <div
-                      class="col-md-4"
+                      class="col-md-4 offset-md-2"
                       style={{
                         width: "25%",
                         marginBottom: "50px",
@@ -317,6 +317,7 @@ const Talent = () => {
                               color: "#fff",
                               opacity: "0.7",
                               marginBottom: "5px",
+                              textAlign: "center",
                             }}
                           >
                             Python Developer
@@ -325,6 +326,7 @@ const Talent = () => {
                             style={{
                               color: "#fff",
                               fontWeight: "600",
+                              marginLeft: "10px",
                             }}
                           >
                             Expert IN
@@ -426,14 +428,13 @@ const Talent = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-8">
-                      
+                    <div className="col-md-6">
                       <div className="">
-                      <img
-                        src="./images/steves.png"
-                        alt="..."
-                        className="talentimages"
-                      />
+                        <img
+                          src="./images/steves.png"
+                          alt="..."
+                          className="talentimages"
+                        />
                       </div>
                     </div>
                   </div>
@@ -443,7 +444,7 @@ const Talent = () => {
                 <div className="container">
                   <div className="row">
                     <div
-                      class="col-md-4"
+                      class="col-md-4 offset-md-2"
                       style={{
                         width: "25%",
                         marginBottom: "50px",
@@ -464,6 +465,7 @@ const Talent = () => {
                               color: "#fff",
                               opacity: "0.7",
                               marginBottom: "1px",
+                              textAlign: "center",
                             }}
                           >
                             Cloud Expert
@@ -473,6 +475,7 @@ const Talent = () => {
                               color: "#fff",
                               fontWeight: "600",
                               marginBottom: "0px",
+                              marginLeft: "10px",
                             }}
                           >
                             Expert IN
@@ -512,7 +515,7 @@ const Talent = () => {
                                 border: "none",
                                 padding: "6px 18px",
                                 marginRight: "5px",
-                                marginBottom:"5px"
+                                marginBottom: "5px",
                               }}
                             >
                               <span style={{ color: "#fff", opacity: "0.7" }}>
@@ -575,13 +578,13 @@ const Talent = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-md-6">
                       <div className="">
-                      <img
-                        src="./images/harish.png"
-                        alt="..."
-                        className="talentimages"
-                      />
+                        <img
+                          src="./images/harish.png"
+                          alt="..."
+                          className="talentimages"
+                        />
                       </div>
                     </div>
                   </div>
@@ -591,7 +594,7 @@ const Talent = () => {
                 <div className="container">
                   <div className="row">
                     <div
-                      class="col-md-4"
+                      class="col-md-4 offset-md-2"
                       style={{
                         width: "25%",
                         marginBottom: "50px",
@@ -612,6 +615,7 @@ const Talent = () => {
                               color: "#fff",
                               opacity: "0.7",
                               marginBottom: "2px",
+                              textAlign: "center",
                             }}
                           >
                             DevOps Expert
@@ -621,6 +625,7 @@ const Talent = () => {
                               color: "#fff",
                               fontWeight: "600",
                               marginBottom: "0px",
+                              marginLeft: "10px",
                             }}
                           >
                             Expert IN
@@ -660,7 +665,7 @@ const Talent = () => {
                                 border: "none",
                                 padding: "6px 18px",
                                 marginRight: "5px",
-                                marginBottom:"5px"
+                                marginBottom: "5px",
                               }}
                             >
                               <span style={{ color: "#fff", opacity: "0.7" }}>
@@ -723,13 +728,13 @@ const Talent = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-md-8">
+                    <div className="col-md-6">
                       <div className="">
-                      <img
-                        src="./images/gayatri.png"
-                        alt="..."
-                        className="talentimages"
-                      />
+                        <img
+                          src="./images/gayatri.png"
+                          alt="..."
+                          className="talentimages"
+                        />
                       </div>
                     </div>
                   </div>
@@ -741,7 +746,6 @@ const Talent = () => {
               href="#carouselExampleIndicators"
               role="button"
               data-slide="prev"
-              style={{left: "-92px"}}
             >
               <span
                 class="carousel-control-prev-icon"
@@ -754,6 +758,7 @@ const Talent = () => {
               href="#carouselExampleIndicators"
               role="button"
               data-slide="next"
+              style={{ right: "-92px" }}
             >
               <span
                 class="carousel-control-next-icon"
@@ -773,90 +778,102 @@ const Talent = () => {
           marginTop: "50px",
         }}
       >
-        <h4>
+        <h4 className="cloudcardheadings">
           Hire top 1% of Global Data &<br /> Analytics Engineers
         </h4>
         <div class="container">
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-            <div class="col">
-              <img
-                src="./images/dataen.png"
-                alt="..."
-                style={{ height: "50px", width: "50px" }}
-              />
-              <p>Data Engineering</p>
+          <div class="row">
+            <div class="col-md-3">
+              <div className="box-padding1">
+                <img
+                  src="./images/dataen.png"
+                  alt="..."
+                  style={{ height: "50px", width: "50px" }}
+                />
+                <p className="cloudcardheadings">Data Engineering</p>
+              </div>
             </div>
-            <div class="col">
-              <img
-                src="./images/clouden.png"
-                alt="..."
-                style={{ height: "50px", width: "50px" }}
-              />
-              <p>Cloud Engineering</p>
+            <div class=" col-md-3">
+              <div className="box-padding1">
+                <img
+                  src="./images/clouden.png"
+                  alt="..."
+                  style={{ height: "50px", width: "50px" }}
+                />
+                <p className="cloudcardheadings">Cloud Engineering</p>
+              </div>
             </div>
-            <div class="col">
-              {" "}
-              <img
-                src="./images/dataan.png"
-                alt="..."
-                style={{ height: "50px", width: "50px" }}
-              />
-              <p>Data Analystics & Bi</p>
+            <div class="col-md-3">
+              <div className="box-padding1">
+                <img
+                  src="./images/dataan.png"
+                  alt="..."
+                  style={{ height: "50px", width: "50px" }}
+                />
+                <p className="cloudcardheadings">Data Analystics & Bi</p>
+              </div>
             </div>
-            <div class="col">
-              <img
-                src="./images/datasc.png"
-                alt="..."
-                style={{ height: "50px", width: "50px" }}
-              />
-              <p>Data Science - AI & ML</p>
+            <div class="col-md-3">
+              <div className="box-padding1">
+                <img
+                  src="./images/datasc.png"
+                  alt="..."
+                  style={{ height: "50px", width: "50px" }}
+                />
+                <p>Data Science - AI & ML</p>
+              </div>
             </div>
           </div>
         </div>
         <div class="container">
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-            <div class="col">
-              <img
-                src="./images/devops.png"
-                alt="..."
-                style={{ height: "50px", width: "50px" }}
-              />
-              <p>DevOps</p>
+          <div class="row">
+            <div class="col-md-3 ">
+              <div className="box-padding1">
+                <img
+                  src="./images/devops.png"
+                  alt="..."
+                  style={{ height: "50px", width: "50px" }}
+                />
+                <p className="cloudcardheadings">DevOps</p>
+              </div>
             </div>
-            <div class="col">
-              <img
-                src="./images/cloudops.png"
-                alt="..."
-                style={{ height: "50px", width: "50px" }}
-              />
-              <p>CloudOps</p>
+            <div class="col-md-3">
+              <div className="box-padding1">
+                <img
+                  src="./images/cloudops.png"
+                  alt="..."
+                  style={{ height: "50px", width: "50px" }}
+                />
+                <p className="cloudcardheadings">CloudOps</p>
+              </div>
             </div>
-            <div class="col">
-              <img
-                src="./images/fullstack.png"
-                alt="..."
-                style={{ height: "50px", width: "50px" }}
-              />
-              <p>FullStack Development</p>
+            <div class="col-md-3">
+              <div className=" box-padding1">
+                <img
+                  src="./images/fullstack.png"
+                  alt="..."
+                  style={{ height: "50px", width: "50px" }}
+                />
+                <p className="cloudcardheadings">FullStack Development</p>
+              </div>
             </div>
-            <div class="col">
-              <img
-                src="./images/qa.png"
-                alt="..."
-                style={{ height: "50px", width: "50px" }}
-              />
-              <p>QA Test Automation</p>
+            <div class="col-md-3">
+              <div className="box-padding1">
+                <img
+                  src="./images/qa.png"
+                  alt="..."
+                  style={{ height: "50px", width: "50px" }}
+                />
+                <p className="cloudcardheadings">QA Test Automation</p>
+              </div>
             </div>
           </div>
           <div
-          // style={{
-          //   display: "flex",
-          //   alignItems: "center",
-          //   justifyContent: "center",
-          //   flexDirection: "column",
-          // }}
+            style={{
+              marginTop: "30px",
+            }}
           >
-            <h4>Client Testimonial</h4>
+            <h4 className="cloudcardheadings">Client Testimonial</h4>
             <div
               className="row energydo"
               style={{
@@ -974,47 +991,42 @@ const Talent = () => {
           width: "1210px",
         }}
       >
-        <div
-          className="container row"
-          style={{
-            display: "flex",
-          }}
-        >
+        <div className="col-md-11 ml-5">
           <img
             className="col-md-2"
-            src="./images/amgn.png"
+            src="./images/bonduelle.png"
             alt="..."
-            style={{ width: "100px", height: "50px" }}
+            style={{ width: "153px", height: "70px" }}
           />
           <img
             className="col-md-2"
-            src="./images/nbcu.png"
+            src="./images/lucernal.png"
             alt="..."
-            style={{ width: "100px", height: "50px" }}
+            style={{ width: "153px", height: "70px" }}
+          />
+          <img
+            className="col-md-2"
+            src="./images/thermof.png"
+            alt="..."
+            style={{ width: "153px", height: "70px" }}
+          />
+          <img
+            className="col-md-2"
+            src="./images/acco.png"
+            alt="..."
+            style={{ width: "153px", height: "70px" }}
+          />
+          <img
+            className="col-md-2"
+            src="./images/igt1.png"
+            alt="..."
+            style={{ width: "153px", height: "70px" }}
           />
           <img
             className="col-md-2"
             src="./images/universalm.png"
             alt="..."
-            style={{ width: "100px", height: "50px" }}
-          />
-          <img
-            className="col-md-2"
-            src="./images/reliance.png"
-            alt="..."
-            style={{ width: "100px", height: "50px" }}
-          />
-          <img
-            className="col-md-2"
-            src="./images/bonduelle.png"
-            alt="..."
-            style={{ width: "100px", height: "50px" }}
-          />
-          <img
-            className="col-md-2"
-            src="./images/greendot.png"
-            alt="..."
-            style={{ width: "100px", height: "50px" }}
+            style={{ width: "153px", height: "70px" }}
           />
         </div>
         <div
@@ -1027,8 +1039,8 @@ const Talent = () => {
             marginTop: "60px",
           }}
         >
-          <h2>Talent as a Service</h2>
-          <p className="text-center">
+          <h2 className="cloudcardheadings">Talent as a Service</h2>
+          <p className="text-center" style={{ width: "800px" }}>
             Recruit highly skilled employees as needed through a cloud-based
             platform. These hires will not only perform tasks efficiently but
             also contribute to cost savings.

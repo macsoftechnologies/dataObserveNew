@@ -121,11 +121,11 @@
   height: 418px;
   padding: 60px 0px 0px 0px;
 }
-.expertcardbody {
+.expertcardbody1 {
   background-color: #1a4ab9;
-  border-radius: 10px 10px 0px 0px !important;
-  height: fit-content;
-  padding: 67px;
+  border-radius: 10px 60px 60px 0px !important;
+  height: 314px;
+  padding: 40px;
 }
 /* .card {
   border-radius: 10px !important;

@@ -1,4 +1,4 @@
-.do360bannerclass{
+.do360bannerclass {
   position: relative;
   height: 900px;
 }
@@ -11,6 +11,7 @@
   background-position: center; */
   position: absolute;
   top: 20%;
+  /* margin-bottom: 20%; */
 }
 .emailClass {
   width: 526.5px;
@@ -44,7 +45,7 @@
   color: #0046e8;
   border: 0px;
 }
-.demoClass:focus{
+.demoClass:focus {
   outline: 0px;
 }
 .playClass {
@@ -67,7 +68,7 @@
   width: 100%;
   height: 850px;
   background-color: #f6f9ff;
-  margin-top: 35%;
+  margin-top: 30%;
 }
 .def1Class {
   width: 80%;
@@ -136,7 +137,7 @@
 .videoClass {
   /* position: absolute; */
   /* top: 82%; */
-  margin-top: 100px;
+  margin-top: 10%;
   left: 18%;
 }
 .headingpillars {
@@ -157,7 +158,7 @@
   background-color: none;
   border: none;
 }
-.linkClass{
+.linkClass {
   border-bottom: 3px solid #e2ecff;
   border-radius: 0px !important;
 }
@@ -249,7 +250,7 @@
   background-color: rgba(1, 187, 138, 0.1);
   margin-top: 10px;
   margin-left: 2px;
-    height: 92%;
+  height: 92%;
 }
 .observehead {
   color: #00b686;
@@ -303,7 +304,7 @@
   background: #fff;
   box-shadow: 0px 28px 65px 0px #f1f4f9;
   padding: 20px;
-  height: fit-content;
+  height: 360px;
 }
 .issuesmatter {
   margin-top: 30px;
@@ -322,7 +323,7 @@
   width: 65px;
   height: 76px;
   text-align: center !important;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .issuematterhead {
   color: #050505;
@@ -456,7 +457,7 @@
   align-items: flex-start;
   width: 100%;
 }
-.guidecontainer{
+.guidecontainer {
   width: 100% !important;
 }
 .guideclass {
@@ -544,31 +545,35 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: fit-content;
-  height: fit-content;
+  width: 100%;
+  height: 450px;
   border-radius: 30px !important;
   padding-bottom: 10px;
+  /* position: relative; */
 }
 .recentworkimgclass1 {
   background-image: url("../../public/images/recentworks2.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: fit-content;
-  height: fit-content;
+  width: 100%;
+  height: 450px;
   border-radius: 30px !important;
   padding-bottom: 10px;
+  /* position: relative; */
 }
 .recentworkimgclass2 {
   background-image: url("../../public/images/recentworks3.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: fit-content;
-  height: fit-content;
+  width: 100%;
+  height: 450px;
   border-radius: 30px !important;
   padding-bottom: 10px;
+  /* position: relative; */
 }
+
 .recentcardhead {
   display: flex;
   width: fit-content;
@@ -576,18 +581,30 @@
 }
 .recentworkimgclass .card {
   margin-bottom: 5px;
-  border-radius: 22px !important;
+  border-radius: 30px !important;
   background: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  width: fit-content;
 }
 .recentworkimgclass1 .card {
   margin-bottom: 5px;
   border-radius: 22px !important;
   background: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  width: fit-content;
 }
 .recentworkimgclass2 .card {
   margin-bottom: 5px;
   border-radius: 22px !important;
   background: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  bottom: 0;
+  width: fit-content;
+}
+.cardcol{
+  padding-right: 0px !important;
 }
 .recentcardhead1 {
   color: #1a4ab9;
@@ -650,9 +667,10 @@
   letter-spacing: -0.32px;
   margin-left: 38%;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
   color: #000;
   background-color: white;
-  border-bottom: 3px solid blue!important;
+  border-bottom: 3px solid blue !important;
   border-radius: 0px;
 }

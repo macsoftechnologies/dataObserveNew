@@ -1,6 +1,6 @@
 import React from "react";
 import "./Databi.css";
-import Faq from "../products/Faq";
+// import Faq from "../products/Faq";
 import Navbar from "../products/Navbar";
 import Footer from "../products/Footer";
 import databi from "../../src/videos/datanalytics.mp4";
@@ -133,7 +133,7 @@ const Databi = () => {
             </div>
           </div>
           <div className="cloudimgcard">
-            <img className="notrepimg" src="/images/bim.png" alt="" />
+            <img className="notrepimg" src="/images/bim (2).png" alt="" />
             <div className="cloudcard card">
               <h1 className="cloudcardheading">BI Migration</h1>
               <p className="cloudcardpara mb-0">
@@ -169,98 +169,96 @@ const Databi = () => {
         </div>
       </div>
       <div
+        class="container card mb-3 mt-5 Built-back-colour"
         style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
+          backgroundColor: "#1A4AB9",
+          borderRadius: "20px",
         }}
       >
-        <div>
-          <h4
-            style={{
-              textAlign: "center",
-              fontWeight: 700,
-              fontSize: "43px",
-              marginTop: "40px",
-            }}
-          >
-            Our Case Studies
-          </h4>
+        <div className="right-media-Corner">
+          <img
+            className="built-corner-image"
+            src="./images/right-corner-media.png"
+            alt="media"
+            width={100}
+            height={100}
+          />
         </div>
+
         <div
-          class="card mb-3 mt-5"
+          class="row overall-built-Corner"
           style={{
-            backgroundColor: "#1A4AB9",
-            maxWidth: "900px",
-            borderRadius: "20px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "spacebetween",
           }}
         >
-          <div
-            class="row no-gutters"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "spacebetween",
-            }}
-          >
-            <div class="col-md-5">
-              <img
-                src="./images/build.png"
-                className="card-img"
-                alt="..."
-                style={{ width: "350px", marginLeft: "25px" }}
-              />
-            </div>
-            <div class="col-md-7">
-              <div class="card-body expertcardbody">
-                <h5 class="card-title" style={{ color: "white" }}>
-                  Build A Undified Augmented Analytics decision intelligence
-                  platform
-                </h5>
-                <p class="card-text" style={{ color: "white" }}>
-                  Learn how we created to self-service ,predective,insights
-                  platform driven by an adaptive machine learning engine which
-                  helps improve decision making
+          <div class="col-md-5">
+            <img
+              style={{ height: "252px", width: "100%" }}
+              src="./images/build.png"
+              className="card-img"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5
+                class="card-title"
+                style={{
+                  color: "white",
+                  letterSpacing: "0.68px",
+                  fontSize: "19px",
+                }}
+              >
+                Built A Unified Augmented Analytics
+                <br /> decision intelligence Platform
+              </h5>
+              <p
+                class="card-text-3"
+                style={{ fontSize: "13px", color: "#fff", opacity: "0.5" }}
+              >
+                Learn how we created a self-service, predictive, insights
+                platform driven
+                <br /> by an adaptive machine learning engine which helps
+                improve decision-
+                <br />
+                making.
+              </p>
+              <p class="card-text" style={{ color: "white" }}>
+                <p style={{ fontSize: 16 }}>
+                  Read case study
+                  <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
                 </p>
-                <p class="card-text" style={{ color: "white" }}>
-                  <small>
-                    Read case study
-                    <i
-                      class="fa fa-long-arrow-right"
-                      style={{ marginLeft: "12px" }}
-                      aria-hidden="true"
-                    ></i>
-                  </small>
-                </p>
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                  }}
-                >
-                  <img
-                    src="./images/accede.png"
-                    alt=""
-                    style={{ width: "60px" }}
-                  />
-                  <img
-                    src="./images/solakhen.png"
-                    alt=""
-                    style={{ width: "95px" }}
-                  />
-                  <img
-                    src="./images/grbeco.png"
-                    alt=""
-                    style={{ width: "60px" }}
-                  />
-                  <img
-                    src="./images/srdsystems.png"
-                    alt=""
-                    style={{ width: "95px" }}
-                  />
-                </div>
+              </p>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-around",
+                  marginLeft: "-20px",
+                }}
+              >
+                <img
+                  src="./images/accede.png"
+                  alt=""
+                  style={{ width: "60px", height: "20px" }}
+                />
+                <img
+                  src="./images/solakhen.png"
+                  alt=""
+                  style={{ width: "100px" }}
+                />
+                <img
+                  src="./images/grbeco.png"
+                  alt=""
+                  style={{ width: "95px" }}
+                />
+                <img
+                  src="./images/srdsystems.png"
+                  alt=""
+                  style={{ width: "70px" }}
+                />
               </div>
             </div>
           </div>
@@ -296,7 +294,9 @@ const Databi = () => {
                   width={100}
                   // style={{ width: "53px", height: "80px" }}
                 />
-                <h5>Faster analysis and intuitive dashboards</h5>
+                <h5 className="cloudcardheadings">
+                  Faster analysis and intuitive dashboards
+                </h5>
 
                 <p className="arrowtext text-center">
                   Our BI tools extract data from multiple sources and analyze it
@@ -319,7 +319,9 @@ const Databi = () => {
                   width={100}
                   // style={{ width: "76px", height: "76px" }}
                 />
-                <h5>Increased organizational efficiency</h5>
+                <h5 className="cloudcardheadings" style={{ marginTop: "44px" }}>
+                  Increased organizational efficiency
+                </h5>
 
                 <p className="arrowtext text-center">
                   Business leaders can get a holistic view of the company and
@@ -342,7 +344,9 @@ const Databi = () => {
                   width={100}
                   // style={{ width: "59px", height: "59px" }}
                 />
-                <h5>24*7 support service</h5>
+                <h5 className="cloudcardheadings" style={{ marginTop: "8px" }}>
+                  24*7 support service
+                </h5>
 
                 <p className="arrowtext text-center">
                   Facing an issue or stuck with a problem regarding BI and
@@ -365,7 +369,9 @@ const Databi = () => {
                   width={100}
                   // style={{ width: "53px", height: "73px" }}
                 />
-                <h5>Improved competitive advantage</h5>
+                <h5 className="cloudcardheadings">
+                  Improved competitive advantage
+                </h5>
 
                 <p className="arrowtext text-center">
                   By analyzing this data, you can gain in-depth market knowledge
@@ -388,7 +394,9 @@ const Databi = () => {
                   width={100}
                   // style={{ width: "53px", height: "73px" }}
                 />
-                <h5>Unified and Robust information architecture</h5>
+                <h5 className="cloudcardheadings">
+                  Unified and Robust information architecture
+                </h5>
 
                 <p className="arrowtext text-center">
                   DataObserve has a unified information architecture that
@@ -410,7 +418,9 @@ const Databi = () => {
                   width={100}
                   // style={{ height: "73px", width: "63px" }}
                 />
-                <h5>Data-driven business decisions</h5>
+                <h5 className="cloudcardheadings">
+                  Data-driven business decisions
+                </h5>
 
                 <p className="arrowtext text-center">
                   Facing an issue or stuck with a problem regarding BI and
@@ -496,9 +506,9 @@ const Databi = () => {
                 width={100}
                 // style={{ height: "73px", width: "63px" }}
               />
-              <h5>High accuracy</h5>
+              <h5 className="cloudcardheadings">High accuracy</h5>
 
-              <p className="arrowtext text-justify">
+              <p className="arrowtext text-center">
                 Take your business to the clouds with DataObserve's cloud
                 certified architects, who can assist you in minimizing
                 downtimes, enhancing agility, and elevating your capacity to
@@ -519,9 +529,9 @@ const Databi = () => {
                 width={100}
                 // style={{ height: "73px", width: "63px" }}
               />
-              <h5>Operational intelligence</h5>
+              <h5 className="cloudcardheadings">Operational intelligence</h5>
 
-              <p className="arrowtext text-justify">
+              <p className="arrowtext text-center">
                 Reconsider current procedures to ensure data transparency and
                 effortless accessibility. Our Data Engineering ensures fast
                 query retrieval, enabling businesses to fully unlock the
@@ -542,9 +552,9 @@ const Databi = () => {
                 width={100}
                 // style={{ height: "73px", width: "63px" }}
               />
-              <h5>Cross-platform integration</h5>
+              <h5 className="cloudcardheadings">Cross-platform integration</h5>
 
-              <p className="arrowtext text-justify">
+              <p className="arrowtext text-center">
                 Business Intelligence involves data structures and visualization
                 to enhance decision-making. DataObserve's business intelligence
                 solutions make comprehending shopper behavior more
@@ -565,9 +575,11 @@ const Databi = () => {
                 width={100}
                 // style={{ height: "73px", width: "63px" }}
               />
-              <h5>Power BI</h5>
+              <h5 className="cloudcardheadings" style={{ marginTop: "40px" }}>
+                Power BI
+              </h5>
 
-              <p className="arrowtext text-justify">
+              <p className="arrowtext text-center">
                 DevOps-as-a-Service is an advanced delivery model created to
                 enhance application development. Utilize our DevOps as a service
                 (DaaS) solutions to achieve time and cost savings through the
@@ -588,9 +600,9 @@ const Databi = () => {
                 width={100}
                 // style={{ height: "73px", width: "63px" }}
               />
-              <h5>Secure on-cloud data</h5>
+              <h5 className="cloudcardheadings">Secure on-cloud data</h5>
 
-              <p className="arrowtext text-justify">
+              <p className="arrowtext text-center">
                 DevOps-as-a-Service is an advanced delivery model created to
                 enhance application development. Utilize our DevOps as a service
                 (DaaS) solutions to achieve time and cost savings through the

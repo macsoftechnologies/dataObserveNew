@@ -1,6 +1,6 @@
 import React from "react";
 import "./Application.css";
-import Faq from "../products/Faq";
+// import Faq from "../products/Faq";
 import Navbar from "../products/Navbar";
 import digital from "../../src/videos/digitaltransform.mp4";
 import Footer from "../products/Footer";
@@ -113,7 +113,11 @@ const Application = () => {
         <div className="cloudcards">
           <div class="ccdiv w-100">
             <div className="cloudimgcard">
-              <img className="notrepimg" src="/images/applicationcard1.png" alt="" />
+              <img
+                className="notrepimg"
+                src="/images/applicationcard1.png"
+                alt=""
+              />
               <div className="cloudcard card">
                 <h1 className="cloudcardheading">Enterprise web apps</h1>
                 <p className="cloudcardpara mb-0">
@@ -123,7 +127,11 @@ const Application = () => {
               </div>
             </div>
             <div className="cloudimgcard">
-              <img className="notrepimg" src="/images/applicationcard2.png" alt="" />
+              <img
+                className="notrepimg"
+                src="/images/applicationcard2.png"
+                alt=""
+              />
               <div className="cloudcard card">
                 <h1 className="cloudcardheading">Application Migration</h1>
                 <p className="cloudcardpara mb-0">
@@ -133,7 +141,11 @@ const Application = () => {
               </div>
             </div>
             <div className="cloudimgcard">
-              <img className="notrepimg" src="/images/applicationcard3.png" alt="" />
+              <img
+                className="notrepimg"
+                src="/images/applicationcard3.png"
+                alt=""
+              />
               <div className="cloudcard card">
                 <h1 className="cloudcardheading">Re-platform Services</h1>
                 <p className="cloudcardpara mb-0">
@@ -144,7 +156,11 @@ const Application = () => {
               </div>
             </div>
             <div className="cloudimgcard">
-              <img className="notrepimg" src="/images/applicationcard4.png" alt="" />
+              <img
+                className="notrepimg"
+                src="/images/applicationcard4.png"
+                alt=""
+              />
               <div className="cloudcard card">
                 <h1 className="cloudcardheading">Remediation Services</h1>
                 <p className="cloudcardpara mb-0">
@@ -155,7 +171,11 @@ const Application = () => {
               </div>
             </div>
             <div className="cloudimgcard">
-              <img className="notrepimg" src="/images/applicationcard5.png" alt="" />
+              <img
+                className="notrepimg"
+                src="/images/applicationcard5.png"
+                alt=""
+              />
               <div className="cloudcard card">
                 <h1 className="cloudcardheading">Cloud Applications</h1>
                 <p className="cloudcardpara mb-0">
@@ -169,97 +189,96 @@ const Application = () => {
         </div>
       </div>
       <div
+        class="container card mb-3 mt-5 Built-back-colour"
         style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
+          backgroundColor: "#1A4AB9",
+          borderRadius: "20px",
         }}
       >
-        <div>
-          <h4
-            style={{
-              textAlign: "center",
-              fontWeight: 700,
-              fontSize: "43px",
-              marginTop: "40px",
-            }}
-          >
-            Our Case Studies
-          </h4>
+        <div className="right-media-Corner">
+          <img
+            className="built-corner-image"
+            src="./images/right-corner-media.png"
+            alt="media"
+            width={100}
+            height={100}
+          />
         </div>
+
         <div
-          class="card mb-3 mt-5"
+          class="row overall-built-Corner"
           style={{
-            backgroundColor: "#1A4AB9",
-            maxWidth: "900px",
-            borderRadius: "20px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "spacebetween",
           }}
         >
-          <div
-            class="row no-gutters"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "spacebetween",
-            }}
-          >
-            <div class="col-md-5">
-              <img
-                src="./images/build.png"
-                className="card-img"
-                style={{ width: "350px", marginLeft: "25px" }}
-                alt="..."
-              />
-            </div>
-            <div class="col-md-7">
-              <div class="card-body expertcardbody">
-                <h5 class="card-title" style={{ color: "white" }}>
-                  Build A Undified Augmented Analytics decision intelligence
-                  platform
-                </h5>
-                <p class="card-text" style={{ color: "white" }}>
-                  Learn how we created to self-service ,predective,insights
-                  platform driven by an adaptive machine learning engine which
-                  helps improve decision making
+          <div class="col-md-5">
+            <img
+              style={{ height: "252px", width: "100%" }}
+              src="./images/build.png"
+              className="card-img"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5
+                class="card-title"
+                style={{
+                  color: "white",
+                  letterSpacing: "0.68px",
+                  fontSize: "19px",
+                }}
+              >
+                Built A Unified Augmented Analytics
+                <br /> decision intelligence Platform
+              </h5>
+              <p
+                class="card-text-3"
+                style={{ fontSize: "13px", color: "#fff", opacity: "0.5" }}
+              >
+                Learn how we created a self-service, predictive, insights
+                platform driven
+                <br /> by an adaptive machine learning engine which helps
+                improve decision-
+                <br />
+                making.
+              </p>
+              <p class="card-text" style={{ color: "white" }}>
+                <p style={{ fontSize: 16 }}>
+                  Read case study
+                  <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
                 </p>
-                <p class="card-text" style={{ color: "white" }}>
-                  <small>
-                    Read case study
-                    <i
-                      class="fa fa-long-arrow-right ml-3"
-                      aria-hidden="true"
-                    ></i>
-                  </small>
-                </p>
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                  }}
-                >
-                  <img
-                    src="./images/accede.png"
-                    alt=""
-                    style={{ width: "60px" }}
-                  />
-                  <img
-                    src="./images/solakhen.png"
-                    alt=""
-                    style={{ width: "95px" }}
-                  />
-                  <img
-                    src="./images/grbeco.png"
-                    alt=""
-                    style={{ width: "60px" }}
-                  />
-                  <img
-                    src="./images/srdsystems.png"
-                    alt=""
-                    style={{ width: "95px" }}
-                  />
-                </div>
+              </p>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-around",
+                  marginLeft: "-20px",
+                }}
+              >
+                <img
+                  src="./images/accede.png"
+                  alt=""
+                  style={{ width: "60px", height: "20px" }}
+                />
+                <img
+                  src="./images/solakhen.png"
+                  alt=""
+                  style={{ width: "100px" }}
+                />
+                <img
+                  src="./images/grbeco.png"
+                  alt=""
+                  style={{ width: "95px" }}
+                />
+                <img
+                  src="./images/srdsystems.png"
+                  alt=""
+                  style={{ width: "70px" }}
+                />
               </div>
             </div>
           </div>
@@ -275,7 +294,7 @@ const Application = () => {
           }}
         >
           <h3 className="cloud-head">Benefits</h3>
-          <p style={{ width: "700px" }}>
+          <p style={{ width: "805px" }}>
             Here are the advantages of teaming up with DataObserve for your
             application modernization needs:
           </p>
@@ -294,7 +313,7 @@ const Application = () => {
                   width={100}
                   style={{ width: "69px", height: "70px" }}
                 />
-                <h5>High Technical Expertise</h5>
+                <h5 style={{ marginTop: "10px" }}>High Technical Expertise</h5>
 
                 <p className="arrowtext text-center">
                   Our technical experts have enabled our customers modernize and
@@ -420,7 +439,7 @@ const Application = () => {
             <div className="col-md-4">
               <div
                 className="text-center box-padding"
-                style={{ height: "460px" }}
+                style={{ height: "400px" }}
               >
                 <img
                   src="./images/provenm.png"
@@ -445,7 +464,7 @@ const Application = () => {
             <div className="col-md-4">
               <div
                 className="text-center box-padding"
-                style={{ height: "460px" }}
+                style={{ height: "400px" }}
               >
                 <img
                   src="./images/scrum.png"
@@ -470,7 +489,7 @@ const Application = () => {
             <div className="col-md-4">
               <div
                 className="text-center box-padding"
-                style={{ height: "460px" }}
+                style={{ height: "400px" }}
               >
                 <img
                   src="./images/endtoends.png"
@@ -493,7 +512,7 @@ const Application = () => {
             <div className="col-md-4">
               <div
                 className="text-center box-padding"
-                style={{ height: "400px" }}
+                style={{ height: "370px" }}
               >
                 <img
                   src="./images/tailored.png"
@@ -516,7 +535,7 @@ const Application = () => {
             <div className="col-md-4">
               <div
                 className="text-center box-padding"
-                style={{ height: "400px" }}
+                style={{ height: "370px" }}
               >
                 <img
                   src="./images/dc.png"
@@ -539,7 +558,7 @@ const Application = () => {
             <div className="col-md-4">
               <div
                 className="text-center box-padding"
-                style={{ height: "400px" }}
+                style={{ height: "370px" }}
               >
                 <img
                   src="./images/clouden.png"

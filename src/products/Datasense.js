@@ -16,7 +16,7 @@ function Datasense() {
       <img
         src="images/doinsightsfinalbanner.png"
         alt="#"
-        className="doinsightsvideo w-100 h-100"
+        className="doinsightsvideo w-100"
       />
       <section className="doinsightsheader">
         <div className="container">
@@ -45,12 +45,7 @@ function Datasense() {
               <button className="demoClass">Get a demo</button>
             </div>
           </div>
-        </div>
-      </section>
-      <section className="doinsightsplayvideoclass">
-        <div className="container">
-          <div className="row">
-            <div className="productvideoClass col-md-8">
+          <div className="productvideoClass col-md-8">
               {/* <video className="productplayClass" autoPlay loop muted>
                 <source src={productVideo} type="video/mp4" />
               </video> */}
@@ -60,9 +55,15 @@ function Datasense() {
                 className="playClass"
               />
             </div>
-          </div>
         </div>
       </section>
+      {/* <section className="doinsightsplayvideoclass">
+        <div className="container">
+          <div className="row">
+
+          </div>
+        </div>
+      </section> */}
       <section className="iodefinitionClass">
         <div className="container def1Class">
           <div>
@@ -502,9 +503,9 @@ function Datasense() {
           <h1 className="recentworkshead">Our most recent works</h1>
           <div className="cardclass">
             <div className="row">
-              <div className="col-md-4">
+              <div className="col-md-4 cardcol">
                 <div className="recentworkimgclass">
-                  <div className="dummyclass"></div>
+                  {/* <div className="dummyclass"></div> */}
                   <div className="card therecentcard">
                     <div className="workcard">
                       <div className="recentcardhead">
@@ -519,9 +520,9 @@ function Datasense() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 cardcol">
                 <div className="recentworkimgclass1">
-                  <div className="dummyclass1"></div>
+                  {/* <div className="dummyclass1"></div> */}
                   <div className="card therecentcard">
                     <div className="workcard">
                       <div className="recentcardhead">
@@ -537,9 +538,9 @@ function Datasense() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4">
+              <div className="col-md-4 cardcol">
                 <div className="recentworkimgclass2">
-                  <div className="dummyclass2"></div>
+                  {/* <div className="dummyclass2"></div> */}
                   <div className="card therecentcard">
                     <div className="workcard">
                       <div className="recentcardhead">

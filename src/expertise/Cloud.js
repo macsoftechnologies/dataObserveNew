@@ -1,6 +1,6 @@
 import React from "react";
 import "./Cloud.css";
-import Faq from "../products/Faq";
+// import Faq from "../products/Faq";
 import Navbar from "../products/Navbar";
 // import cloud from "../../src/videos/cloud.mp4"
 import cloud from "../../src/videos/cloud.mp4";
@@ -170,98 +170,98 @@ const Cloud = () => {
           </div>
         </div>
       </div>
+
       <div
+        class="container card mb-3 mt-5 Built-back-colour"
         style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          alignItems: "center",
+          backgroundColor: "#1A4AB9",
+          borderRadius: "20px",
         }}
       >
-        <div>
-          <h4
-            style={{
-              textAlign: "center",
-              fontWeight: 700,
-              fontSize: "43px",
-              marginTop: "50px",
-            }}
-          >
-            Our Case Studies
-          </h4>
+        <div className="right-media-Corner">
+          <img
+            className="built-corner-image"
+            src="./images/right-corner-media.png"
+            alt="media"
+            width={100}
+            height={100}
+          />
         </div>
+
         <div
-          class="card mb-3 mt-5"
+          class="row overall-built-Corner"
           style={{
-            backgroundColor: "#1A4AB9",
-            maxWidth: "900px",
-            borderRadius: "20px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "spacebetween",
           }}
         >
-          <div
-            class="row no-gutters"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "spacebetween",
-            }}
-          >
-            <div className="col-md-5 ">
-              <img
-                src="./images/build.png"
-                className="card-img"
-                alt="..."
-                style={{ width: "350px", marginLeft: "25px" }}
-              />
-            </div>
-            <div class="col-md-7">
-              <div class="card-body expertcardbody">
-                <h5 class="card-title" style={{ color: "white" }}>
-                  Build A Undified Augmented Analytics decision intelligence
-                  platform
-                </h5>
-                <p class="card-text" style={{ color: "white" }}>
-                  Learn how we created to self-service ,predective,insights
-                  platform driven by an adaptive machine learning engine which
-                  helps improve decision making
+          <div class="col-md-5">
+            <img
+              style={{ height: "252px", width: "100%" }}
+              src="./images/build.png"
+              className="card-img"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5
+                class="card-title"
+                style={{
+                  color: "white",
+                  letterSpacing: "0.68px",
+                  fontSize: "19px",
+                }}
+              >
+                Built A Unified Augmented Analytics
+                <br /> decision intelligence Platform
+              </h5>
+              <p
+                class="card-text-3"
+                style={{ fontSize: "13px", color: "#fff", opacity: "0.5" }}
+              >
+                Learn how we created a self-service, predictive, insights
+                platform driven
+                <br /> by an adaptive machine learning engine which helps
+                improve decision-
+                <br />
+                making.
+              </p>
+              <p class="card-text" style={{ color: "white" }}>
+                <p style={{ fontSize: 16 }}>
+                  Read case study
+                  <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
                 </p>
-                <p class="card-text" style={{ color: "white" }}>
-                  <small>
-                    Read case study
-                    <i
-                      class="fa fa-long-arrow-right ml-3"
-                      aria-hidden="true"
-                    ></i>
-                  </small>
-                </p>
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                  }}
-                >
-                  <img
-                    src="./images/accede.png"
-                    alt=""
-                    style={{ width: "60px" }}
-                  />
-                  <img
-                    src="./images/solakhen.png"
-                    alt=""
-                    style={{ width: "95px" }}
-                  />
-                  <img
-                    src="./images/grbeco.png"
-                    alt=""
-                    style={{ width: "60px" }}
-                  />
-                  <img
-                    src="./images/srdsystems.png"
-                    alt=""
-                    style={{ width: "95px" }}
-                  />
-                </div>
+              </p>
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "space-around",
+                  marginLeft: "-20px",
+                }}
+              >
+                <img
+                  src="./images/accede.png"
+                  alt=""
+                  style={{ width: "60px", height: "20px" }}
+                />
+                <img
+                  src="./images/solakhen.png"
+                  alt=""
+                  style={{ width: "100px" }}
+                />
+                <img
+                  src="./images/grbeco.png"
+                  alt=""
+                  style={{ width: "95px" }}
+                />
+                <img
+                  src="./images/srdsystems.png"
+                  alt=""
+                  style={{ width: "70px" }}
+                />
               </div>
             </div>
           </div>
@@ -290,14 +290,17 @@ const Cloud = () => {
       <div className="container mt-3">
         <div className="row box">
           <div className="col-md-4">
-            <div className="text-center box-padding">
+            <div
+              className="text-center box-padding"
+              style={{ height: "400px" }}
+            >
               <img
                 src="./images/money.png"
                 className="App-logo"
                 alt="logo"
                 width={100}
               />
-              <h5>Cost-effectiveness</h5>
+              <h5 className="cloudcardheadings">Cost-effectiveness</h5>
 
               <p className="arrowtext text-center">
                 DataObserve is the rapidly expanding leader in Cloud
@@ -309,14 +312,17 @@ const Cloud = () => {
           </div>
 
           <div className="col-md-4">
-            <div className="text-center box-padding">
+            <div
+              className="text-center box-padding"
+              style={{ height: "400px" }}
+            >
               <img
                 src="./images/time.png"
                 className="App-logo"
                 alt="logo"
                 width={100}
               />
-              <h5>Decreased time to market</h5>
+              <h5 className="cloudcardheadings">Decreased time to market</h5>
 
               <p className="arrowtext text-center ">
                 DataObserve is the swiftly evolving company specializing in
@@ -328,14 +334,17 @@ const Cloud = () => {
           </div>
 
           <div className="col-md-4">
-            <div className="text-center box-padding">
+            <div
+              className="text-center box-padding"
+              style={{ height: "400px" }}
+            >
               <img
                 src="./images/dc.png"
                 className="App-logo"
                 alt="logo"
                 width={100}
               />
-              <h5>Data center consolidation</h5>
+              <h5 className="cloudcardheadings">Data center consolidation</h5>
 
               <p className="arrowtext text-center">
                 Through robust cloud migration, your business can eliminate a
@@ -428,14 +437,19 @@ const Cloud = () => {
         <div className="container mt-3">
           <div className="row box">
             <div className="col-md-4">
-              <div className="text-center box-padding">
+              <div
+                className="text-center box-padding"
+                style={{ height: "435px" }}
+              >
                 <img
                   src="./images/ddma.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
                 />
-                <h5>Data-Driven Migration Assessment</h5>
+                <h5 className="cloudcardheadings">
+                  Data-Driven Migration Assessment
+                </h5>
 
                 <p className="arrowtext text-left">
                   Our cloud-ready, data-driven migration assessment enables you
@@ -448,14 +462,19 @@ const Cloud = () => {
             </div>
 
             <div className="col-md-4">
-              <div className="text-center box-padding">
+              <div
+                className="text-center box-padding"
+                style={{ height: "435px" }}
+              >
                 <img
                   src="./images/unte.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
                 />
-                <h5>Unparalleled Talent and Experience</h5>
+                <h5 className="cloudcardheadings">
+                  Unparalleled Talent and Experience
+                </h5>
 
                 <p className="arrowtext text-left">
                   With years of industry expertise and a team of committed and
@@ -467,14 +486,19 @@ const Cloud = () => {
             </div>
 
             <div className="col-md-4">
-              <div className="text-center box-padding">
+              <div
+                className="text-center box-padding"
+                style={{ height: "435px" }}
+              >
                 <img
                   src="./images/pics.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
                 />
-                <h5>Proven, Industry-tailored Cloud Solutions</h5>
+                <h5 className="cloudcardheadings">
+                  Proven, Industry-tailored Cloud Solutions
+                </h5>
 
                 <p className="arrowtext text-left">
                   Our cloud migration and big data processing solutions are
@@ -486,14 +510,19 @@ const Cloud = () => {
             </div>
 
             <div className="col-md-4">
-              <div className="text-center box-padding">
+              <div
+                className="text-center box-padding"
+                style={{ height: "435px" }}
+              >
                 <img
                   src="./images/tep.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
                 />
-                <h5>Trusted Enterprise Partner</h5>
+                <h5 className="cloudcardheadings" style={{ marginTop: "24px" }}>
+                  Trusted Enterprise Partner
+                </h5>
 
                 <p className="arrowtext text-left">
                   With over incredible amount of data migrated and managed
@@ -506,14 +535,17 @@ const Cloud = () => {
             </div>
 
             <div className="col-md-4">
-              <div className="text-center box-padding">
+              <div
+                className="text-center box-padding"
+                style={{ height: "435px" }}
+              >
                 <img
                   src="./images/pa.png"
                   className="App-logo"
                   alt="logo"
                   width={100}
                 />
-                <h5>Proven Accelerators</h5>
+                <h5 className="cloudcardheadings">Proven Accelerators</h5>
 
                 <p className="arrowtext text-left">
                   Unlock exponential growth through DataObserve's cloud
