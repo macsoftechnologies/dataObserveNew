@@ -94,7 +94,7 @@ function Home() {
           <h4 className="customers">DataObserve's Happy Customers</h4>
         </div>
         {/* ....happy customers images.... */}
-        <div>
+        <div className="Digital-Overall-gap">
           <div class="shadow p-3 mb-5 bg-white rounded happy-customers-shadowletters">
             <div className="d-flex happy-customers-data-observe">
               <div>
@@ -213,11 +213,11 @@ function Home() {
             </div>
           ) : (
             <div className="cloud-top">
-              <h3 className="cloud-head">
+              <h3 className="cloud-head digital-transfor-mation">
                 Start Your Digital Transformation
                 <br /> Journey With Us
               </h3>
-              <div className="container mt-3 cloud-mar-gin">
+              <div className="container mt-5 cloud-mar-gin">
                 <div className="row box">
                   <div className="col-md-4">
                     <div className="text-center boxPad">
@@ -361,13 +361,74 @@ function Home() {
       {/* .......happay customers to digital transformation end ....  */}
 
       {/* .....circles start unleash.... */}
-      <div className="circle-background">
-        <div className="right"></div>
-        <div className="left"></div>
+      {/* <div className="circle-background">
+        <div className="right animate__animated animate__bounceOut animate__infinite	infinite animate__slow	1s"></div>
+        <div className="left animate__animated animate__bounceOut animate__infinite	infinite animate__slow	1s"></div>
         <div>
-          <p className="unleash">
+          <p className="unleash animate__animated animate__lightSpeedInLeft animate__infinite	infinite animate__slow	2s">
             We unleash your potential in all directions.
           </p>
+        </div>
+      </div> */}
+
+      <div className="main-home-page">
+        <img
+          src="images/Homeland-page.png"
+          className="homeland-page"
+          alt="Homeland"
+        />
+
+        <div className="main-landing-Page">
+          <p className="landingpage-paragraph">
+            DataObserve offers robust cloud capabilities<br/> to create an Integrated
+            Data<br/> Democratization Solution that enhances the <br/>end-user experience
+            significantly.
+          </p>
+          <p className="landingpage-paragraph2">
+            At last, there's a consulting organization with the expertise to
+            construct a unified solution for <br/>seamlessly discovering and
+            comprehending data from various sources. It all begins with your<br/>
+            data catalog, providing comprehensive visibility and maximizing the
+            value of your data.<br/> Regain trust in your data today.
+          </p>
+         
+          <button
+                style={{
+                  display: "flex",
+                  height: "61px",
+                  maxWidth: "255px",
+                  padding: "20px 46px 21px 48px",
+                  justifyContent: "center",
+                  alignItems: "center",
+                  border: "none",
+                  marginTop: "45px",
+                  borderRadius: "5px",
+                  textDecoration:"none"
+                }}
+              >
+                <span
+                  style={{
+                    color: "blue",
+                    fontSize: "14px",
+                    fontStyle: "normal",
+                    fontWeight: "600",
+                    lineHeight: "19px",
+                  }}
+                >
+                  Contact Us
+                </span>{" "}
+                <i
+                  className="fa fa-long-arrow-right ml-3"
+                  style={{
+                    width: "23px",
+                    fontSize: "29px",
+                    flexShrink: "0",
+                    color: "blue",
+                  }}
+                  aria-hidden="true"
+                ></i>
+              </button>
+              
         </div>
       </div>
 
@@ -380,7 +441,7 @@ function Home() {
           style={{
             color: "#505050",
             fontSize: "31.35px",
-            fontFamily: "Poppins",
+            fontFamily: "",
             fontWeight: 700,
             lineHeight: "50.16px",
             wordWrap: "break-word",
@@ -412,7 +473,7 @@ function Home() {
                 width: 904,
                 color: "rgba(0, 0, 0, 0.70)",
                 fontSize: 16,
-                fontFamily: "Poppins",
+                fontFamily: "",
                 fontWeight: 400,
                 lineHeight: "25.60px",
                 wordWrap: "break-word",
@@ -470,8 +531,8 @@ function Home() {
                       style={{
                         color: "#1A4AB9",
                         fontSize: 22,
-                        fontFamily: "Poppins",
-                        fontWeight: 500,
+                        fontFamily: "",
+                        fontWeight: 600,
                         lineHeight: "26.40px",
                         wordWrap: "break-word",
                       }}
@@ -513,6 +574,7 @@ function Home() {
                             style={{ color: "#0046E8" }}
                             aria-hidden="true"
                           ></i>
+                          {/* <img src="./images/tickmark.png" alt="tick" width={100}/> */}
                         </div>
                       </div>
                       <div
@@ -531,9 +593,9 @@ function Home() {
                         <div
                           style={{
                             color: "#050505",
-                            fontSize: 16,
-                            fontFamily: "Poppins",
-                            fontWeight: 500,
+                            fontSize: 14,
+                            fontFamily: "",
+                            fontWeight: 600,
                             lineHeight: "25.60px",
                             wordWrap: "break-word",
                           }}
@@ -576,9 +638,9 @@ function Home() {
                       <div
                         style={{
                           color: "#050505",
-                          fontSize: 16,
-                          fontFamily: "Poppins",
-                          fontWeight: 500,
+                          fontSize: 14,
+                          fontFamily: "",
+                          fontWeight: 600,
                           lineHeight: "25.60px",
                           wordWrap: "break-word",
                         }}
@@ -631,9 +693,9 @@ function Home() {
                         <div
                           style={{
                             color: "#050505",
-                            fontSize: 16,
-                            fontFamily: "Poppins",
-                            fontWeight: 500,
+                            fontSize: 14,
+                            fontFamily: "",
+                            fontWeight: 600,
                             lineHeight: "25.60px",
                             wordWrap: "break-word",
                           }}
@@ -689,9 +751,9 @@ function Home() {
                         <div
                           style={{
                             color: "#050505",
-                            fontSize: 16,
-                            fontFamily: "Poppins",
-                            fontWeight: 500,
+                            fontSize: 14,
+                            fontFamily: "",
+                            fontWeight: 600,
                             lineHeight: "25.60px",
                             wordWrap: "break-word",
                           }}
@@ -735,9 +797,9 @@ function Home() {
                       <div
                         style={{
                           color: "#050505",
-                          fontSize: 16,
-                          fontFamily: "Poppins",
-                          fontWeight: 500,
+                          fontSize: 14,
+                          fontFamily: "",
+                          fontWeight: 600,
                           lineHeight: "25.60px",
                           wordWrap: "break-word",
                         }}
@@ -790,9 +852,9 @@ function Home() {
                         <div
                           style={{
                             color: "#050505",
-                            fontSize: 16,
-                            fontFamily: "Poppins",
-                            fontWeight: 500,
+                            fontSize: 14,
+                            fontFamily: "",
+                            fontWeight: 600,
                             lineHeight: "25.60px",
                             wordWrap: "break-word",
                           }}
@@ -846,10 +908,11 @@ function Home() {
                     style={{
                       color: "#1A4AB9",
                       fontSize: 22,
-                      fontFamily: "Poppins",
-                      fontWeight: 500,
+                      fontFamily: "",
+                      fontWeight: 600,
                       lineHeight: "26.40px",
                       wordWrap: "break-word",
+                      marginTop: "13px",
                     }}
                   >
                     SDPs
@@ -895,9 +958,9 @@ function Home() {
                     <div
                       style={{
                         color: "#050505",
-                        fontSize: 16,
-                        fontFamily: "Poppins",
-                        fontWeight: 500,
+                        fontSize: 14,
+                        fontFamily: "",
+                        fontWeight: 600,
                         lineHeight: "25.60px",
                         wordWrap: "break-word",
                       }}
@@ -938,9 +1001,9 @@ function Home() {
                     <div
                       style={{
                         color: "#050505",
-                        fontSize: 16,
-                        fontFamily: "Poppins",
-                        fontWeight: 500,
+                        fontSize: 14,
+                        fontFamily: "",
+                        fontWeight: 600,
                         lineHeight: "25.60px",
                         wordWrap: "break-word",
                       }}
@@ -981,9 +1044,9 @@ function Home() {
                     <div
                       style={{
                         color: "#050505",
-                        fontSize: 16,
-                        fontFamily: "Poppins",
-                        fontWeight: 500,
+                        fontSize: 14,
+                        fontFamily: "",
+                        fontWeight: 600,
                         lineHeight: "25.60px",
                         wordWrap: "break-word",
                       }}
@@ -1024,9 +1087,9 @@ function Home() {
                     <div
                       style={{
                         color: "#050505",
-                        fontSize: 16,
-                        fontFamily: "Poppins",
-                        fontWeight: 500,
+                        fontSize: 14,
+                        fontFamily: "",
+                        fontWeight: 600,
                         lineHeight: "25.60px",
                         wordWrap: "break-word",
                       }}
@@ -1078,9 +1141,9 @@ function Home() {
                       <div
                         style={{
                           color: "#050505",
-                          fontSize: 16,
-                          fontFamily: "Poppins",
-                          fontWeight: 500,
+                          fontSize: 14,
+                          fontFamily: "",
+                          fontWeight: 600,
                           lineHeight: "25.60px",
                           wordWrap: "break-word",
                         }}
@@ -1124,9 +1187,9 @@ function Home() {
                     <div
                       style={{
                         color: "#050505",
-                        fontSize: 16,
-                        fontFamily: "Poppins",
-                        fontWeight: 500,
+                        fontSize: 14,
+                        fontFamily: "",
+                        fontWeight: 600,
                         lineHeight: "25.60px",
                         wordWrap: "break-word",
                       }}
@@ -1167,9 +1230,9 @@ function Home() {
                     <div
                       style={{
                         color: "#050505",
-                        fontSize: 16,
-                        fontFamily: "Poppins",
-                        fontWeight: 500,
+                        fontSize: 14,
+                        fontFamily: "",
+                        fontWeight: 600,
                         lineHeight: "25.60px",
                         wordWrap: "break-word",
                       }}
@@ -1221,9 +1284,9 @@ function Home() {
                       <div
                         style={{
                           color: "#050505",
-                          fontSize: 16,
-                          fontFamily: "Poppins",
-                          fontWeight: 500,
+                          fontSize: 14,
+                          fontFamily: "",
+                          fontWeight: 600,
                           lineHeight: "25.60px",
                           wordWrap: "break-word",
                         }}
@@ -1267,9 +1330,9 @@ function Home() {
                     <div
                       style={{
                         color: "#050505",
-                        fontSize: 16,
-                        fontFamily: "Poppins",
-                        fontWeight: 500,
+                        fontSize: 14,
+                        fontFamily: "",
+                        fontWeight: 600,
                         lineHeight: "25.60px",
                         wordWrap: "break-word",
                       }}
@@ -1310,9 +1373,9 @@ function Home() {
                     <div
                       style={{
                         color: "#050505",
-                        fontSize: 16,
-                        fontFamily: "Poppins",
-                        fontWeight: 500,
+                        fontSize: 14,
+                        fontFamily: "",
+                        fontWeight: 600,
                         lineHeight: "25.60px",
                         wordWrap: "break-word",
                       }}
@@ -1365,7 +1428,7 @@ function Home() {
         <h4 className="lake-text">
           Transition to Cutting-Edge Data
           <br />
-          Lakehouse Solutions
+          <h4 className="lake-House">Lakehouse Solutions</h4>
         </h4>
         <p className="lake-para">
           Companies are unifying their data from diverse sources into a single
@@ -1408,7 +1471,9 @@ function Home() {
           </div>
         </div>
         <div>
+          <a href="/contact">
           <button className="contact-us">Contact Us</button>
+          </a>
         </div>
       </div>
 
@@ -1416,8 +1481,13 @@ function Home() {
 
       {/* ....circle.. */}
       <div className="circles">
-        <div className="right"></div>
-        <div className="left"></div>
+        <div className="right  animate__animated animate__rotateIn animate__slow	2s animate__infinite	infinite"></div>
+        <div className="left animate__animated animate__rotateIn animate__slow	2s animate__infinite	infinite"></div>
+        <div>
+          <p className="unleash animate__animated animate__lightSpeedInLeft animate__infinite	infinite  animate__slow	2s">
+            We unleash your potential in all directions.
+          </p>
+        </div>
       </div>
 
       {/* ....circle end... */}

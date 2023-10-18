@@ -15,7 +15,9 @@ function company() {
         </video>
 
         <div className="body-science">
+       
           <p className="journey">
+          <p style={{fontWeight:"600" ,fontSize:"20px",letterSpacing:"1px"}}>About Us</p>
             <span className="our-story">Our Story </span>
             <br />
             Navigating your journey

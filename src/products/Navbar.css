@@ -63,14 +63,14 @@ line-height: 30.49px;
   text-decoration: none;
 }
 .navcard2 .dropdown-item:hover{
-  background-color: #7994d3!important;
+  background-color: #074ff7!important;
   color: white !important;
   border-radius: 10px !important;
 }
 .navcard2 .dropdown-item{
   font-size: 20px !important;
-  color: grey;
-  font-weight: 700;
+  /* color: grey; */
+  font-weight: 500;
 }
 .comingsoonclass{
   display: flex;

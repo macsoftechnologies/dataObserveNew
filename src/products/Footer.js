@@ -96,7 +96,7 @@ function Footer() {
                   </h1>
                   <ul>
                     <li>
-                      Data Observability{" "}
+                      DO{" "}
                       <span
                         style={{
                           color: "rgba(255, 255, 255, 0.70)",
@@ -109,8 +109,8 @@ function Footer() {
                         360
                       </span>
                     </li>
-                    <li>Health EM</li>
-                    <li>DataSense</li>
+                    {/* <li>Health EM</li> */}
+                    <li>DOInsights</li>
                   </ul>
                 </div>
               </div>

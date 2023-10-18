@@ -71,7 +71,7 @@ function Navbar() {
                       src="./images/navlinkgif.gif"
                       alt="navgif"
                       className="navlinkgifclass"
-                      style={{ width: "400px", height: "200px", borderRadius:"10px" }}
+                      style={{ width: "350px", height: "196px", borderRadius:"10px" }}
                     />
                   </a>
                 </div>
@@ -126,6 +126,7 @@ function Navbar() {
                 <div
                   class="dropdown-menu navlinksdropdown"
                   aria-labelledby="navbarDropdownMenuLink"
+                  style={{left: "-35%"}}
                 >
                   <a href="#" className="d-flex navcard ml-3">
                     <a href="#" className="navcard2 mt-5 pl-2">
@@ -162,10 +163,10 @@ function Navbar() {
                 <div
                   class="dropdown-menu navlinksdropdown"
                   aria-labelledby="navbarDropdownMenuLink"
-                  style={{ width: "950px", transform: "translateX(-40%)" }}
+                  style={{ width: "950px", left: "-540%" }}
                 >
                   <a href="#" className="row d-flex navcard ml-3">
-                    <a href="#" className="col-md-4 navcard2 mt-5 pl-2">
+                    <a href="#" className="col-md-4 navcard2 mt-4 pl-2">
                       <a class="dropdown-item linksclass" href="#">
                         Case Studies
                       </a>
@@ -762,6 +763,7 @@ function Navbar() {
                 <div
                   class="dropdown-menu navlinksdropdown"
                   aria-labelledby="navbarDropdownMenuLink"
+                  style={{left: "-60%"}}
                 >
                   <a href="#" className="d-flex navcard ml-3">
                     <a href="#" className="navcard2 mt-5 pl-2">

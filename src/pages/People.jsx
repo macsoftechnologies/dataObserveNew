@@ -471,7 +471,7 @@ function People() {
                   </div>
                 </div>
                 <div className="people-circle-top-1">
-              <img src="./images/people-circle-1.png" alt="people-circle" style={{height:"100px",width:"156px"}}/>
+              <img src="./images/people-circle-1.png" alt="people-circle" style={{height:"100px"}}/>
                 </div>
 
               </div>

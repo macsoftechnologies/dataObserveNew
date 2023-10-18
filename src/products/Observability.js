@@ -14,7 +14,8 @@ function Observability() {
         alt="#"
       />
       <div className="header-section">
-        <div className="container" style={{ paddingTop: "80px" }}>
+      <h1 className="container" style={{ color: "#FFF", fontSize: "20px", fontWeight: "700" }}>DO360</h1>
+        <div className="container" style={{ paddingTop: "30px" }}>
           <div
             className="row"
             style={{ display: "flex", flexDirection: "column" }}
@@ -25,7 +26,7 @@ function Observability() {
             >
               Data Observability
               <br />
-              Solution(DO360) - Elevate
+              Solution - Elevate
               <br />
               Data Dependability
             </h1>
@@ -296,7 +297,7 @@ function Observability() {
                   </div>
                   <div className="col-md-7">
                     <img
-                      src="images/do360freshness.png"
+                      src="images/freshnessdo360.png"
                       alt="#"
                       className="qualityimgclass"
                     />
@@ -367,7 +368,7 @@ function Observability() {
                   </div>
                   <div className="col-md-7">
                     <img
-                      src="images/do360volume.png"
+                      src="images/volumedo360.png"
                       alt="#"
                       className="qualityimgclass"
                     />
@@ -441,7 +442,7 @@ function Observability() {
                   </div>
                   <div className="col-md-7">
                     <img
-                      src="images/do360events.png"
+                      src="images/eventsdo360.png"
                       alt="#"
                       className="qualityimgclass h-95 mt-5"
                     />
@@ -689,13 +690,15 @@ function Observability() {
               anomalies, errors, and inconsistencies based on historical data
               and provide actionable insights.
             </p>
-            <div className="solimageclass">
+            </div>
+            <div className="container-fluid solimageclass">
               <img
                 src="images/do360solimage.png"
                 alt=""
                 className="solimage1"
               />
             </div>
+            <div className="container">
             <div className="solpara3div">
               <p className="solpara3">
                 Uniqueness of implementing data observability as a solution

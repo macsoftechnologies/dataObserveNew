@@ -19,11 +19,13 @@ function Datasense() {
         className="doinsightsvideo w-100"
       />
       <section className="doinsightsheader">
+      <h1 className="container" style={{ color: "#FFF", fontSize: "20px", fontWeight: "700",marginBottom: "20px" }}>DOInsights</h1>
         <div className="container">
           <div className="row">
             <h1 className="doinsightsheading col-md-6 mb-0">
               Simple. Crafted. Powerful.
             </h1>
+            
             <h1 className="doinsightsheading col-md-12"> Data Analysis.</h1>
             <p className="doinsightsheaderpara col-md-4">
               Meet DO Insights, Business Intelligence Tool built for everyone on

@@ -24,7 +24,16 @@ const Industries = () => {
         <div className="mainimg">
           <p className="indheading">
             <div className="industies-mainhead">
-              {" "}
+            <p
+                style={{
+                  color: "white",
+                  fontSize: "22px",
+                  fontStyle: "normal",
+                  fontWeight: "600",
+                }}
+              >
+                Life Science
+              </p>
               <span>
                 Developing data solutions
                 <br />
@@ -41,7 +50,7 @@ const Industries = () => {
               collaboration.
             </p>
           </p>
-          <div className="btn" style={{ border: "none", borderRadius: "4px" }}>
+          {/* <div className="btn" style={{ border: "none", borderRadius: "4px" }}>
             <button
               className="btninner"
               style={{ display: "flex", border: "none" }}
@@ -49,7 +58,43 @@ const Industries = () => {
               Get in touch
               <img className="arpng" src="./images/vector.png" />
             </button>
-          </div>
+          </div> */}
+          <button
+            style={{
+              display: "flex",
+              height: "61px",
+              maxWidth: "255px",
+              padding: "20px 46px 21px 48px",
+              justifyContent: "center",
+              alignItems: "center",
+              border: "none",
+              marginTop: "70px",
+              borderRadius: "5px",
+              marginLeft: "13%"
+            }}
+          >
+            <span
+              style={{
+                color: "#FF4925",
+                fontSize: "14px",
+                fontStyle: "normal",
+                fontWeight: "600",
+                lineHeight: "19px",
+              }}
+            >
+              Talk to us now
+            </span>{" "}
+            <i
+              className="fa fa-long-arrow-right ml-3"
+              style={{
+                width: "23px",
+                fontSize: "29px",
+                flexShrink: "0",
+                color: "#FF4925",
+              }}
+              aria-hidden="true"
+            ></i>
+          </button>
         </div>
       </div>
 
@@ -68,1549 +113,477 @@ const Industries = () => {
             </p>
           </div>
 
-          {/* <div class="container">
-            <div className='drugbox'>
-              <div className="row">
-                <div class="col-md-5 m-3">
 
-                  <div class="d-flex" style={{ width: "50%" }}>
-                    <img className="pharma mg-right" src="./images/Pharmatab.png" />
-                    <img className="medical mg-right" src="./images/medicaldevices.png" />
-                  </div>
 
-                  <div class="d-flex" style={{ width: "50%" }}>
-                    <img className="clinical-trails mg-right" src="./images/clinicaltrials.png" />
-                    <img className="genomics mg-right" src="./images/genomics.png" />
-                  </div>
-                </div>
-                <div class="col-md-5 mt-5 mr-3 mb-3" >
-                  <h2 className='pharma text-start'>Pharma</h2>
-                  <p className="cntr-text text-start">Our life sciences solutions are built to help organizations<br />
-                    manufacture better medicines and optimize operations while<br />
-                    maintaining minimal downtimes.</p>
-                  <ul className='drug-list'>
-                    <li className='list-border text-start'>Drug Discovery</li>
-                    <li className='list-border text-start'>Drug Commercialization</li>
-                    <li className='list-border text-start'>Operations and Supply-chain</li>
-                    <li className='list-border text-start'>Pharmacovigilance</li>
-                  </ul>
-                </div>
-                
-              </div>
-            </div>
-          </div> */}
+          <div className="container" style={{
+            paddingTop: "50px",
+            paddingLeft: "3%",
+            backgroundColor: "white"
+          }}>
 
-          {/* drugbox as nav */}
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style={{ alignItems: "center", justifyContent: "center" }}>
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" style={{ borderBottom: "3px solid #E2ECFF", borderRadius: "0px", color: "rgba(5, 5, 5, 0.35)" }}>Pharma</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false" style={{ borderBottom: "3px solid #E2ECFF", borderRadius: "0px", color: "rgba(5, 5, 5, 0.35)" }}>clinicaldevices</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false" style={{ borderBottom: "3px solid #E2ECFF", borderRadius: "0px", color: "rgba(5, 5, 5, 0.35)" }}>medicaldevices</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-economic-tab" data-toggle="pill" href="#pills-economic" role="tab" aria-controls="pills-economic" aria-selected="false" style={{ borderBottom: "3px solid #E2ECFF", borderRadius: "0px", color: "rgba(5, 5, 5, 0.35)" }}>Genomics</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 
-          <div class="container mb-5">
-            <nav>
-              <div
-                class="nav nav-tabs justify-content-center"
-                id="nav-tab"
-                role="tablist"
-                style={{ border: "0px" }}
-              >
-                <a
-                  class="nav-item nav-link active pharmalink"
-                  id="nav-pharma-tab"
-                  data-toggle="tab"
-                  href="#nav-pharma"
-                  role="tab"
-                  aria-controls="nav-pharma"
-                  aria-selected="true"
-                >
-                  pharma
-                </a>
-                <a
-                  class="nav-item nav-link pharmalink"
-                  id="nav-clinicaldevices-tab"
-                  data-toggle="tab"
-                  href="#nav-clinicaldevices"
-                  role="tab"
-                  aria-controls="nav-clinicaldevices"
-                  aria-selected="false"
-                >
-                  clinicaldevices
-                </a>
-                <a
-                  class="nav-item nav-link pharmalink"
-                  id="nav-medicaldevices-tab"
-                  data-toggle="tab"
-                  href="#nav-medicaldevices"
-                  role="tab"
-                  aria-controls="nav-medicaldevices"
-                  aria-selected="false"
-                >
-                  medicaldevices
-                </a>
-                <a
-                  class="nav-item nav-link pharmalink"
-                  id="nav-Genomics-tab"
-                  data-toggle="tab"
-                  href="#nav-Genomics"
-                  role="tab"
-                  aria-controls="nav-Genomics"
-                  aria-selected="false"
-                >
-                  Genomics
-                </a>
-              </div>
-            </nav>
-            <div class="tab-content" id="nav-tabContent">
-              <div
-                class="tab-pane fade show active"
-                id="nav-pharma"
-                role="tabpanel"
-                aria-labelledby="nav-pharma-tab"
-              >
-                <div className="row mt-5">
-                  <div className="col-md-6 pharmacardtab">
-                    <div className="container">
-                      <p>
-                        Our life sciences solutions are designed to assist
-                        organizations in producing improved medications and
-                        enhancing operational efficiency, all while minimizing
-                        downtime.
-                      </p>
+                <div className="row">
+                  <div className="col-md-8">
+                    <div>
+                      <p>Our life sciences solutions are designed to assist organizations in producing improved medications and enhancing operational efficiency, all while minimizing downtime.</p>
                     </div>
-                    <div
-                      class="card text-center pharmacardtab2"
-                      style={{ border: "0px" }}
-                    >
-                      <div
-                        class="card-body pharmacardtab3"
-                        style={{ padding: "0px !important" }}
-                      >
-                        <div
-                          class="accordion"
-                          id="accordionExample"
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            alignItems: "flex-start",
-                            justifyContent: "space-around",
-                          }}
-                        >
-                          <div
-                            class="card"
-                            style={{
-                              backgroundColor: "#F3F6FF",
-                              color: "black",
-                              margin: "10px",
-                              width: "80%",
-                            }}
-                          >
-                            <div
-                              class="card-header"
-                              id="headingOne"
-                              style={{ textAlign: "left" }}
-                            >
-                              <h2 class="mb-0">
-                                <button
-                                  onClick={() => handleAccordianToggle()}
-                                  class="btn btn-link"
-                                  type="button"
-                                  data-toggle="collapse"
-                                  data-target="#collapseOne"
-                                  aria-expanded="true"
-                                  aria-controls="collapseOne"
-                                  style={{
-                                    color: "black",
-                                    textDecoration: "none",
-                                    width: "100%",
-                                    textAlign: "left",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "space-between",
-                                  }}
-                                >
-                                  <p
-                                    className="ind-dg-head"
-                                    style={{ margin: "0px" }}
-                                  >
-                                    Drug Discovery
-                                  </p>
-                                  <p
-                                    style={{
-                                      margin: "0px",
-                                      backgroundColor:
-                                        "rgba(255, 255, 255, 0.05)",
-                                      borderRadius: "3px",
-                                      width: "18px",
-                                      height: "20px",
-                                      display: "flex",
-                                      alignItems: "center",
-                                      justifyContent: "center",
-                                    }}
-                                  >
-                                    <i
-                                      class="fa fa-times"
-                                      style={{ color: "blue" }}
-                                      aria-hidden="true"
-                                    ></i>
-                                  </p>
-                                </button>
-                              </h2>
-                            </div>
+                    <div>
+                      <div class="accordion" id="accordionExamplee" style={{ height: "400px", overflowY: "auto", border: "none" }}>
+                        <div class="card" style={{
+                          border: "none", marginBottom: "10px",
+                          backgroundColor: "#F3F6FF"
+                        }}>
+                          <div class="card-header pcmg-border" id="headingOnee">
+                            <h2 class="ind-pcmg-heading mb-0">
+                              <button class="btn btn-link d-flex" style={{
+                                alignItems: "center",
+                                justifyContent: "space-between"
+                              }} type="button" data-toggle="collapse" data-target="#collapseOnee" aria-expanded="true" aria-controls="collapseOnee">
+                                Drug Discovery
+                                <i class="fa fa-times" style={{color: "#0046E8"}}  aria-hidden="true"></i>
+                              </button>
 
-                            <div
-                              id="collapseOne"
-                              class="collapse show"
-                              aria-labelledby="headingOne"
-                              data-parent="#accordionExample"
-                            >
-                              <div
-                                class="card-body ind-dg-pr "
-                                style={{ textAlign: "left" }}
-                              >
-                                Biopharma companies are already harnessing
-                                advanced insights through big data and analytics
-                                in the field of life sciences. They can access
-                                molecular lab data and perform quantum
-                                computations on the fly, speeding up the drug
-                                discovery process.
-                              </div>
+                            </h2>
+                          </div>
+
+                          <div id="collapseOnee" class="collapse show" aria-labelledby="headingOnee" data-parent="#accordionExamplee">
+                            <div class="ind-pcmgdata card-body">
+                              Biopharma companies are already harnessing advanced insights through big data and analytics in the field of life sciences. They can access molecular lab data and perform quantum computations on the fly, speeding up the drug discovery process.
                             </div>
                           </div>
-                          <div
-                            class="card"
-                            style={{
-                              backgroundColor: "#F3F6FF",
-                              color: "black",
-                              margin: "10px",
-                              width: "80%",
-                            }}
-                          >
-                            <div
-                              class="card-header"
-                              id="headingTwo"
-                              style={{ textAlign: "left" }}
-                            >
-                              <h2 class="mb-0">
-                                <button
-                                  onClick={() => handleAccordianToggle()}
-                                  class="btn btn-link collapsed"
-                                  type="button"
-                                  data-toggle="collapse"
-                                  data-target="#collapseTwo"
-                                  aria-expanded="false"
-                                  aria-controls="collapseTwo"
-                                  style={{
-                                    color: "black",
-                                    textDecoration: "none",
-                                    width: "100%",
-                                    textAlign: "left",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "space-between",
-                                  }}
-                                >
-                                  <p
-                                    className="ind-dg-head"
-                                    style={{ margin: "0px" }}
-                                  >
-                                    Drug Commercialization
-                                  </p>
-                                  <p
-                                    style={{
-                                      margin: "0px",
-                                      backgroundColor: "#F3F6FF",
-                                      borderRadius: "3px",
-                                      width: "18px",
-                                      height: "20px",
-                                      display: "flex",
-                                      alignItems: "center",
-                                      justifyContent: "center",
-                                    }}
-                                  >
-                                    <i
-                                      class="fa fa-times"
-                                      style={{ color: "blue" }}
-                                      aria-hidden="true"
-                                    ></i>
-                                  </p>
-                                </button>
-                              </h2>
-                            </div>
-                            <div
-                              id="collapseTwo"
-                              class="collapse"
-                              aria-labelledby="headingTwo"
-                              data-parent="#accordionExample"
-                            >
-                              <div
-                                class="card-body ind-dg-pr "
-                                style={{ textAlign: "left" }}
-                              >
-                                DataObserve offers powerful cloud tools and data
-                                lakes that can serve a multitude of purposes,
-                                spanning analytics, data organization, lab data
-                                aggregation, drug life cycle management, and the
-                                commercialization process.{" "}
-                              </div>
+                        </div>
+                        <div class="card" style={{
+                          border: "none", marginBottom: "10px",
+                          backgroundColor: "#F3F6FF"
+                        }}>
+                          <div class="card-header  pcmg-border" id="headingTwoo">
+                            <h2 class="ind-pcmg-heading mb-0">
+                              <button class="btn btn-link d-flex" style={{
+                                alignItems: "center",
+                                justifyContent: "space-between"
+                              }} type="button" data-toggle="collapse" data-target="#collapseTwoo" aria-expanded="false" aria-controls="collapseTwoo">
+                                Drug Commercialization
+                                <i class="fa fa-times" style={{color: "#0046E8"}}  aria-hidden="true"></i>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwoo" class="collapse" aria-labelledby="headingTwoo" data-parent="#accordionExamplee">
+                            <div class="ind-pcmgdata card-body">
+                              DataObserve offers powerful cloud tools and data lakes that can serve a multitude of purposes, spanning analytics, data organization, lab data aggregation, drug life cycle management, and the commercialization process.
                             </div>
                           </div>
-                          <div
-                            class="card"
-                            style={{
-                              backgroundColor: "#F3F6FF",
-                              color: "black",
-                              margin: "10px",
-                              width: "80%",
-                            }}
-                          >
-                            <div
-                              class="card-header"
-                              id="headingThree"
-                              style={{ textAlign: "left" }}
-                            >
-                              <h2 class="mb-0">
-                                <button
-                                  onClick={() => handleAccordianToggle()}
-                                  class="btn btn-link collapsed"
-                                  type="button"
-                                  data-toggle="collapse"
-                                  data-target="#collapseThree"
-                                  aria-expanded="false"
-                                  aria-controls="collapseThree"
-                                  style={{
-                                    color: "black",
-                                    textDecoration: "none",
-                                    width: "100%",
-                                    textAlign: "left",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "space-between",
-                                  }}
-                                >
-                                  <p
-                                    className="ind-dg-head"
-                                    style={{ margin: "0px" }}
-                                  >
-                                    Operations and Supply-chain
-                                  </p>
-                                  <p
-                                    style={{
-                                      margin: "0px",
-                                      backgroundColor: "#F3F6FF",
-                                      borderRadius: "3px",
-                                      width: "18px",
-                                      height: "20px",
-                                      display: "flex",
-                                      alignItems: "center",
-                                      justifyContent: "center",
-                                    }}
-                                  >
-                                    <i
-                                      class="fa fa-times"
-                                      style={{ color: "blue" }}
-                                      aria-hidden="true"
-                                    ></i>
-                                  </p>
-                                </button>
-                              </h2>
-                            </div>
-                            <div
-                              id="collapseThree"
-                              class="collapse"
-                              aria-labelledby="headingThree"
-                              data-parent="#accordionExample"
-                            >
-                              <div
-                                class="card-body ind-dg-pr "
-                                style={{ textAlign: "left" }}
-                              >
-                                DataObserve's life science and pharma services
-                                make it possible to streamline pharmaceutical
-                                operations within your supply chain or
-                                orchestrate all your development processes in
-                                the cloud.{" "}
-                              </div>
+                        </div>
+                        <div class="card" style={{
+                          border: "none", marginBottom: "10px",
+                          backgroundColor: "#F3F6FF"
+                        }}>
+                          <div class="card-header  pcmg-border" id="headingThree">
+                            <h2 class="ind-pcmg-heading mb-0">
+                              <button class="btn btn-link d-flex" style={{
+                                alignItems: "center",
+                                justifyContent: "space-between"
+                              }} type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Operations and Supply-chain
+                                <i class="fa fa-times" style={{color: "#0046E8"}}  aria-hidden="true"></i>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExamplee">
+                            <div class="ind-pcmgdata card-body">
+                              DataObserve's life science and pharma services make it possible to streamline pharmaceutical operations within your supply chain or orchestrate all your development processes in the cloud.
                             </div>
                           </div>
-                          <div
-                            class="card"
-                            style={{
-                              backgroundColor: "#F3F6FF",
-                              color: "black",
-                              margin: "10px",
-                              width: "80%",
-                            }}
-                          >
-                            <div
-                              class="card-header"
-                              id="headingFour"
-                              style={{ textAlign: "left" }}
-                            >
-                              <h2 class="mb-0">
-                                <button
-                                  onClick={() => handleAccordianToggle()}
-                                  class="btn btn-link collapsed"
-                                  type="button"
-                                  data-toggle="collapse"
-                                  data-target="#collapseFour"
-                                  aria-expanded="false"
-                                  aria-controls="collapseFour"
-                                  style={{
-                                    color: "black",
-                                    textDecoration: "none",
-                                    width: "100%",
-                                    textAlign: "left",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "space-between",
-                                  }}
-                                >
-                                  <p
-                                    className="ind-dg-head"
-                                    style={{ margin: "0px" }}
-                                  >
-                                    Pharmacovigilance
-                                  </p>
-                                  <p
-                                    style={{
-                                      margin: "0px",
-                                      backgroundColor: "#F3F6FF",
-                                      borderRadius: "3px",
-                                      width: "18px",
-                                      height: "20px",
-                                      display: "flex",
-                                      alignItems: "center",
-                                      justifyContent: "center",
-                                    }}
-                                  >
-                                    <i
-                                      class="fa fa-times"
-                                      style={{ color: "blue" }}
-                                      aria-hidden="true"
-                                    ></i>
-                                  </p>
-                                </button>
-                              </h2>
-                            </div>
-                            <div
-                              id="collapseFour"
-                              class="collapse"
-                              aria-labelledby="headingFour"
-                              data-parent="#accordionExample"
-                            >
-                              <div
-                                class="card-body ind-dg-pr "
-                                style={{ textAlign: "left" }}
-                              >
-                                The field of pharmacovigilance or drug safety
-                                analysis is undergoing a significant
-                                transformation with the introduction of data
-                                analytics in life sciences. Our solutions are
-                                designed to assist you in aggregating reporting,
-                                mitigating risks, and enhancing precision in
-                                this domain.
-                              </div>
+                        </div>
+
+                        <div class="card" style={{
+                          border: "none", marginBottom: "10px",
+                          backgroundColor: "#F3F6FF"
+                        }}>
+                          <div class="card-header  pcmg-border" id="headingFour">
+                            <h2 class="ind-pcmg-heading mb-0">
+                              <button class="btn btn-link d-flex" style={{
+                                alignItems: "center",
+                                justifyContent: "space-between"
+                              }} type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapsefour">
+                                Pharmacovigilance
+                                <i class="fa fa-times" style={{color: "#0046E8"}}  aria-hidden="true"></i>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExamplee">
+                            <div class="ind-pcmgdata card-body">
+                              The field of pharmacovigilance or drug safety analysis is undergoing a significant transformation with the introduction of data analytics in life sciences. Our solutions are designed to assist you in aggregating reporting, mitigating risks, and enhancing precision in this domain.
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6">
-                    <img
-                      src="./images/longpharma.png"
-                      style={{ width: "88%", height: "76%", paddingTop: "20%" }}
-                    />
+                  <div className="col-md-4">
+                    <img src="./images/longpharma.png"
+                      style={{ width: "91%", height: "75%", paddingTop: "65px", }} />
                   </div>
                 </div>
               </div>
-
-              <div
-                class="tab-pane fade"
-                id="nav-clinicaldevices"
-                role="tabpanel"
-                aria-labelledby="nav-clinicaldevices-tab"
-              >
-                <div className="row mt-5">
-                  <div className="col-md-6 pharmacardtab">
-                    <div className="container">
-                      <p>
-                        From pilot studies to prevention trials, discover how
-                        our cloud partners and data analysis are revolutionizing
-                        traditional clinical trial approaches.
-                      </p>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <div className="row">
+                  <div className="col-md-8">
+                    <div>
+                      <p>From pilot studies to prevention trials, discover how our cloud partners and data analysis are revolutionizing traditional clinical trial approaches.</p>
                     </div>
-                    <div
-                      class="card text-center pharmacardtab2"
-                      style={{ border: "0px" }}
-                    >
-                      <div
-                        class="card-body pharmacardtab3"
-                        style={{ padding: "0px !important" }}
-                      >
-                        <div
-                          class="accordion"
-                          id="accordionExample"
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            alignItems: "flex-start",
-                            justifyContent: "space-around",
-                          }}
-                        >
-                          <div
-                            class="card"
-                            style={{
-                              backgroundColor: "#FEE",
-                              color: "black",
-                              margin: "10px",
-                              width: "80%",
-                            }}
-                          >
-                            <div
-                              class="card-header"
-                              id="headingOne"
-                              style={{ textAlign: "left" }}
-                            >
-                              <h2 class="mb-0">
-                                <button
-                                  onClick={() => handleAccordianToggle()}
-                                  class="btn btn-link"
-                                  type="button"
-                                  data-toggle="collapse"
-                                  data-target="#collapseMedicalOne"
-                                  aria-expanded="true"
-                                  aria-controls="collapseOne"
-                                  style={{
-                                    color: "black",
-                                    textDecoration: "none",
-                                    width: "100%",
-                                    textAlign: "left",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "space-between",
-                                  }}
-                                >
-                                  <p
-                                    className="ind-dg-head"
-                                    style={{ margin: "0px" }}
-                                  >
-                                    Clinical Trial Management
-                                  </p>
-                                  <p
-                                    style={{
-                                      margin: "0px",
-                                      backgroundColor:
-                                        "rgba(255, 255, 255, 0.05)",
-                                      borderRadius: "3px",
-                                      width: "18px",
-                                      height: "20px",
-                                      display: "flex",
-                                      alignItems: "center",
-                                      justifyContent: "center",
-                                    }}
-                                  >
-                                    <i
-                                      class="fa fa-times"
-                                      style={{ color: "blue" }}
-                                      aria-hidden="true"
-                                    ></i>
-                                  </p>
-                                </button>
-                              </h2>
-                            </div>
+                    <div>
+                      <div class="accordion" id="accordionExamplef" style={{ height: "400px", overflowY: "auto", border: "none" }}>
+                      
+                        <div class="card" style={{
+                           marginBottom: "10px",
+                          backgroundColor: "#FEE",
+                          border:"none"
 
-                            <div
-                              id="collapseMedicalOne"
-                              class="collapse show"
-                              aria-labelledby="headingOne"
-                              data-parent="#accordionExample"
-                            >
-                              <div
-                                class="card-body ind-dg-pr "
-                                style={{ textAlign: "left" }}
-                              >
-                                With the help of cloud-powered automated
-                                clinical trial monitoring, healthcare
-                                professionals can conduct complex clinical
-                                trials with improved data quality and reduced
-                                costs.
-                              </div>
+                        }}>
+                          <div class="card-header  pcmg-border-2" id="headingOnef">
+                            <h2 class="ind-pcmg-heading mb-0">
+                              <button class="btn btn-link d-flex" style={{
+                                alignItems: "center",
+                                justifyContent: "space-between"
+                              }} type="button" data-toggle="collapse" data-target="#collapseOnef" aria-expanded="true" aria-controls="collapseOnef">
+                                Clinical Trial Management
+                                <i class="fa fa-times" style={{color: "#0046E8"}}  aria-hidden="true"></i>
+                              </button>
+                            </h2>
+                          </div>
+
+                          <div id="collapseOnef" class="collapse show" aria-labelledby="headingOnef" data-parent="#accordionExamplef">
+                            <div class="ind-pcmgdata card-body">
+                              Using cloud-powered automated clinical trial monitoring, AWS in pharma allows medical professionals to run intricate clinical trials with better data quality and lower costs.
                             </div>
                           </div>
-                          <div
-                            class="card"
-                            style={{
-                              backgroundColor: "#FEE",
-                              color: "black",
-                              margin: "10px",
-                              width: "80%",
-                            }}
-                          >
-                            <div
-                              class="card-header"
-                              id="headingTwo"
-                              style={{ textAlign: "left" }}
-                            >
-                              <h2 class="mb-0">
-                                <button
-                                  onClick={() => handleAccordianToggle()}
-                                  class="btn btn-link collapsed"
-                                  type="button"
-                                  data-toggle="collapse"
-                                  data-target="#collapseMedicalTwo"
-                                  aria-expanded="false"
-                                  aria-controls="collapseTwo"
-                                  style={{
-                                    color: "black",
-                                    textDecoration: "none",
-                                    width: "100%",
-                                    textAlign: "left",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "space-between",
-                                  }}
-                                >
-                                  <p
-                                    className="ind-dg-head"
-                                    style={{ margin: "0px" }}
-                                  >
-                                    Patient Engagement
-                                  </p>
-                                  <p
-                                    style={{
-                                      margin: "0px",
-                                      backgroundColor: "#FEE",
-                                      borderRadius: "3px",
-                                      width: "18px",
-                                      height: "20px",
-                                      display: "flex",
-                                      alignItems: "center",
-                                      justifyContent: "center",
-                                    }}
-                                  >
-                                    <i
-                                      class="fa fa-times"
-                                      style={{ color: "blue" }}
-                                      aria-hidden="true"
-                                    ></i>
-                                  </p>
-                                </button>
-                              </h2>
-                            </div>
-                            <div
-                              id="collapseMedicalTwo"
-                              class="collapse"
-                              aria-labelledby="headingTwo"
-                              data-parent="#accordionExample"
-                            >
-                              <div
-                                class="card-body ind-dg-pr "
-                                style={{ textAlign: "left" }}
-                              >
-                                Through our collaboration with cloud partners,
-                                we strive to enhance patient engagement by
-                                leveraging interactive cloud solutions and
-                                profound data insights, thereby fostering
-                                stronger connections between doctors and
-                                patients.{" "}
-                              </div>
+                        </div>
+                        <div class="card" style={{
+                           marginBottom: "10px",
+                          backgroundColor: "#FEE",
+                          border:"none"
+
+                        }}>
+                          <div class="card-header  pcmg-border-2" id="headingTwof">
+                            <h2 class="ind-pcmg-heading mb-0">
+                              <button class="btn btn-link d-flex" style={{
+                                alignItems: "center",
+                                justifyContent: "space-between"
+                              }} type="button" data-toggle="collapse" data-target="#collapseTwof" aria-expanded="false" aria-controls="collapseTwoof">
+                                Patient Engagement
+                                <i class="fa fa-times" style={{color: "#0046E8"}}  aria-hidden="true"></i>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwof" class="collapse" aria-labelledby="headingTwof" data-parent="#accordionExamplef">
+                            <div class="ind-pcmgdata card-body" >
+                              AWS in pharma aims to bridge the gap between doctors and patients by boosting the engagement rate using interactive cloud solutions and deep data insights.
                             </div>
                           </div>
-                          <div
-                            class="card"
-                            style={{
-                              backgroundColor: "#FEE",
-                              color: "black",
-                              margin: "10px",
-                              width: "80%",
-                            }}
-                          >
-                            <div
-                              class="card-header"
-                              id="headingThree"
-                              style={{ textAlign: "left" }}
-                            >
-                              <h2 class="mb-0">
-                                <button
-                                  onClick={() => handleAccordianToggle()}
-                                  class="btn btn-link collapsed"
-                                  type="button"
-                                  data-toggle="collapse"
-                                  data-target="#collapseMedicalThree"
-                                  aria-expanded="false"
-                                  aria-controls="collapseThree"
-                                  style={{
-                                    color: "black",
-                                    textDecoration: "none",
-                                    width: "100%",
-                                    textAlign: "left",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "space-between",
-                                  }}
-                                >
-                                  <p
-                                    className="ind-dg-head"
-                                    style={{ margin: "0px" }}
-                                  >
-                                    Real-world Evidence
-                                  </p>
-                                  <p
-                                    style={{
-                                      margin: "0px",
-                                      backgroundColor: "#FEE",
-                                      borderRadius: "3px",
-                                      width: "18px",
-                                      height: "20px",
-                                      display: "flex",
-                                      alignItems: "center",
-                                      justifyContent: "center",
-                                    }}
-                                  >
-                                    <i
-                                      class="fa fa-times"
-                                      style={{ color: "blue" }}
-                                      aria-hidden="true"
-                                    ></i>
-                                  </p>
-                                </button>
-                              </h2>
-                            </div>
-                            <div
-                              id="collapseMedicalThree"
-                              class="collapse"
-                              aria-labelledby="headingThree"
-                              data-parent="#accordionExample"
-                            >
-                              <div
-                                class="card-body ind-dg-pr "
-                                style={{ textAlign: "left" }}
-                              >
-                                Professionals can harness the power of cloud
-                                solutions to deploy real-world evidence
-                                platforms, allowing them to analyze diverse
-                                pharmaceutical data and uncover authentic
-                                patterns. This invaluable insight can drive
-                                advancements in the field of life sciences.{" "}
-                              </div>
+                        </div>
+                        <div class="card"style={{
+                           marginBottom: "10px",
+                          backgroundColor: "#FEE",
+                          border:"none"
+
+                        }}>
+                          <div class="card-header  pcmg-border-2" id="headingThreef">
+                            <h2 class="ind-pcmg-heading mb-0">
+                              <button class="btn btn-link d-flex" style={{
+                                alignItems: "center",
+                                justifyContent: "space-between"
+                              }} type="button" data-toggle="collapse" data-target="#collapseThreef" aria-expanded="false" aria-controls="collapseThreef">
+                                Real-world Evidence
+                                <i class="fa fa-times" style={{color: "#0046E8"}}  aria-hidden="true"></i>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseThreef" class="collapse" aria-labelledby="headingThreef" data-parent="#accordionExamplef">
+                            <div class="ind-pcmgdata card-body">
+                              By deploying real-world evidence platforms using a variety of AWS solutions, professionals can interpret disparate pharmaceutical data and track genuine patterns. This, in turn, can be used to advance life sciences.
                             </div>
                           </div>
-                          <div
-                            class="card"
-                            style={{
-                              backgroundColor: "#FEE",
-                              color: "black",
-                              margin: "10px",
-                              width: "80%",
-                            }}
-                          >
-                            <div
-                              class="card-header"
-                              id="headingFour"
-                              style={{ textAlign: "left" }}
-                            >
-                              <h2 class="mb-0">
-                                <button
-                                  onClick={() => handleAccordianToggle()}
-                                  class="btn btn-link collapsed"
-                                  type="button"
-                                  data-toggle="collapse"
-                                  data-target="#collapseMedicalFour"
-                                  aria-expanded="false"
-                                  aria-controls="collapseFour"
-                                  style={{
-                                    color: "black",
-                                    textDecoration: "none",
-                                    width: "100%",
-                                    textAlign: "left",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "space-between",
-                                  }}
-                                >
-                                  <p
-                                    className="ind-dg-head"
-                                    style={{ margin: "0px" }}
-                                  >
-                                    Digital Therapeutics{" "}
-                                  </p>
-                                  <p
-                                    style={{
-                                      margin: "0px",
-                                      backgroundColor: "#FEE",
-                                      borderRadius: "3px",
-                                      width: "18px",
-                                      height: "20px",
-                                      display: "flex",
-                                      alignItems: "center",
-                                      justifyContent: "center",
-                                    }}
-                                  >
-                                    <i
-                                      class="fa fa-times"
-                                      style={{ color: "blue" }}
-                                      aria-hidden="true"
-                                    ></i>
-                                  </p>
-                                </button>
-                              </h2>
-                            </div>
-                            <div
-                              id="collapseMedicalFour"
-                              class="collapse"
-                              aria-labelledby="headingFour"
-                              data-parent="#accordionExample"
-                            >
-                              <div
-                                class="card-body ind-dg-pr "
-                                style={{ textAlign: "left" }}
-                              >
-                                Leveraging cutting-edge cloud solutions,
-                                organizations can seamlessly create, tailor, and
-                                implement autonomous yet interconnected
-                                therapeutic devices to enhance patient care
-                                within the realm of digital therapeutics.
-                              </div>
+                        </div>
+                        <div class="card"style={{
+                           marginBottom: "10px",
+                          backgroundColor: "#FEE",
+                          border:"none"
+
+                        }}>
+                          <div class="card-header  pcmg-border-2" id="headingFourf">
+                            <h2 class="ind-pcmg-heading mb-0">
+                              <button class="btn btn-link d-flex" style={{
+                                alignItems: "center",
+                                justifyContent: "space-between"
+                              }} type="button" data-toggle="collapse" data-target="#collapseFourf" aria-expanded="false" aria-controls="collapseFourf">
+                                Digital Therapeutics
+                                <i class="fa fa-times" style={{color: "#0046E8"}}  aria-hidden="true"></i>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseFourf" class="collapse" aria-labelledby="headingf" data-parent="#accordionExamplef">
+                            <div class="ind-pcmgdata card-body">
+                              Digital Therapeutics integrated with top-of-the-line AWS solutions enables organizations to build, customize and deploy independent yet interconnected medication devices for optimal patient care.
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6">
-                    <img
-                      src="./images/longclinicaltrials.png"
-                      style={{ width: "88%", height: "80%", paddingTop: "20%" }}
-                    />
+                  <div className="col-md-4">
+                    <img src="./images/longclinicaltrials.png"
+                      style={{ width: "86%", height: "81%", paddingTop: "60px", }} />
                   </div>
+
                 </div>
               </div>
-
-              <div
-                class="tab-pane fade"
-                id="nav-medicaldevices"
-                role="tabpanel"
-                aria-labelledby="nav-medicaldevices-tab"
-              >
-                <div className="row mt-5">
-                  <div className="col-md-6 pharmacardtab">
-                    <div className="container">
-                      <p>
-                        The convergence of medical devices with the vast
-                        capabilities of cloud technology and data analytics in
-                        the field of life sciences has democratized diagnostics,
-                        making them more accessible to patients around the
-                        world. Explore the diverse impacts it has across various
-                        sectors within the domain.
-                      </p>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <div className="row">
+                  <div className="col-md-8">
+                    <div>
+                      <p>The convergence of medical devices with the vast capabilities of cloud technology and data analytics in the field of life sciences has democratized diagnostics, making them more accessible to patients around the world. Explore the diverse impacts it has across various sectors within the domain.</p>
                     </div>
-                    <div
-                      class="card text-center pharmacardtab2"
-                      style={{ border: "0px" }}
-                    >
-                      <div
-                        class="card-body pharmacardtab3"
-                        style={{ padding: "0px !important" }}
-                      >
-                        <div
-                          class="accordion"
-                          id="accordionExample"
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            alignItems: "flex-start",
-                            justifyContent: "space-around",
-                          }}
-                        >
-                          <div
-                            class="card"
-                            style={{
-                              backgroundColor: "#D9F5ED",
-                              color: "black",
-                              margin: "10px",
-                              width: "80%",
-                            }}
-                          >
-                            <div
-                              class="card-header"
-                              id="headingOne"
-                              style={{ textAlign: "left" }}
-                            >
-                              <h2 class="mb-0">
-                                <button
-                                onClick={() => handleAccordianToggle()}
-                                  class="btn btn-link"
-                                  type="button"
-                                  data-toggle="collapse"
-                                  data-target="#collapseOne"
-                                  aria-expanded="true"
-                                  aria-controls="collapseOne"
-                                  style={{
-                                    color: "black",
-                                    textDecoration: "none",
-                                    width: "100%",
-                                    textAlign: "left",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "space-between",
-                                  }}
-                                >
-                                  <p
-                                    className="ind-dg-head"
-                                    style={{ margin: "0px" }}
-                                  >
-                                    Digital Health Monitoring
-                                  </p>
-                                  <p
-                                    style={{
-                                      margin: "0px",
-                                      backgroundColor:
-                                        "rgba(255, 255, 255, 0.05)",
-                                      borderRadius: "3px",
-                                      width: "18px",
-                                      height: "20px",
-                                      display: "flex",
-                                      alignItems: "center",
-                                      justifyContent: "center",
-                                    }}
-                                  >
-                                    <i
-                                      class="fa fa-times"
-                                      style={{ color: "blue" }}
-                                      aria-hidden="true"
-                                    ></i>
-                                  </p>
-                                </button>
-                              </h2>
-                            </div>
+                    <div>
+                      <div class="accordion" id="accordionExampleg" style={{ height: "343px", overflowY: "auto", border:"none" }}>
+                        <div class="card" style={{
+                           marginBottom: "10px",
+                          backgroundColor: "#D9F5ED",
+                          border:"none"
 
-                            <div
-                              id="collapseOne"
-                              class="collapse show"
-                              aria-labelledby="headingOne"
-                              data-parent="#accordionExample"
-                            >
-                              <div
-                                class="card-body ind-dg-pr "
-                                style={{ textAlign: "left" }}
-                              >
-                                Utilizing remote patient monitoring capabilities
-                                and seamless real-time data sharing,
-                                cloud-powered digital health monitoring empowers
-                                pharmaceutical professionals to maintain
-                                continuous oversight of their patients'
-                                well-being.
-                              </div>
+                        }}>
+                          <div class="card-header  pcmg-border-3" id="headingOneg">
+                            <h2 class="ind-pcmg-heading mb-0">
+                              <button class="btn btn-link d-flex" style={{
+                                alignItems: "center",
+                                justifyContent: "space-between"
+                              }} type="button" data-toggle="collapse" data-target="#collapseOneg" aria-expanded="true" aria-controls="collapseOneg">
+                                Digital Health Monitoring
+                                <i class="fa fa-times" style={{color: "#0046E8"}}  aria-hidden="true"></i>
+                              </button>
+                            </h2>
+                          </div>
+
+                          <div id="collapseOneg" class="collapse show" aria-labelledby="headingOneg" data-parent="#accordionExampleg">
+                            <div class="ind-pcmgdata card-body">
+                              Leveraging remote patient monitoring facilities and real-time data sharing, AWS-driven digital health monitoring allows pharma professionals to keep constant tabs on their patient’s health.
                             </div>
                           </div>
-                          <div
-                            class="card"
-                            style={{
-                              backgroundColor: "#D9F5ED",
-                              color: "black",
-                              margin: "10px",
-                              width: "80%",
-                            }}
-                          >
-                            <div
-                              class="card-header"
-                              id="headingTwo"
-                              style={{ textAlign: "left" }}
-                            >
-                              <h2 class="mb-0">
-                                <button
-                                onClick={() => handleAccordianToggle()}
-                                  class="btn btn-link collapsed"
-                                  type="button"
-                                  data-toggle="collapse"
-                                  data-target="#collapseTwo"
-                                  aria-expanded="false"
-                                  aria-controls="collapseTwo"
-                                  style={{
-                                    color: "black",
-                                    textDecoration: "none",
-                                    width: "100%",
-                                    textAlign: "left",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "space-between",
-                                  }}
-                                >
-                                  <p
-                                    className="ind-dg-head"
-                                    style={{ margin: "0px" }}
-                                  >
-                                    Advanced Analytics for Medical Imaging
-                                  </p>
-                                  <p
-                                    style={{
-                                      margin: "0px",
-                                      backgroundColor: "#D9F5ED",
-                                      borderRadius: "3px",
-                                      width: "18px",
-                                      height: "20px",
-                                      display: "flex",
-                                      alignItems: "center",
-                                      justifyContent: "center",
-                                    }}
-                                  >
-                                    <i
-                                      class="fa fa-times"
-                                      style={{ color: "blue" }}
-                                      aria-hidden="true"
-                                    ></i>
-                                  </p>
-                                </button>
-                              </h2>
-                            </div>
-                            <div
-                              id="collapseTwo"
-                              class="collapse"
-                              aria-labelledby="headingTwo"
-                              data-parent="#accordionExample"
-                            >
-                              <div
-                                class="card-body ind-dg-pr "
-                                style={{ textAlign: "left" }}
-                              >
-                                Our solutions expedite the adoption of
-                                technology and foster innovation within research
-                                teams and radiology departments. They enable
-                                professionals to harness the complete potential
-                                of medical imaging by incorporating advanced
-                                analytics.{" "}
-                              </div>
+                        </div>
+                        <div class="card" style={{
+                           marginBottom: "10px",
+                          backgroundColor: "#D9F5ED",
+                          border:"none"
+
+                        }}>
+                          <div class="card-header pcmg-border-3" id="headingTwog">
+                            <h2 class="ind-pcmg-heading mb-0">
+                              <button class="btn btn-link d-flex" style={{
+                                alignItems: "center",
+                                justifyContent: "space-between"
+                              }} type="button" data-toggle="collapse" data-target="#collapseTwog" aria-expanded="false" aria-controls="collapseTwog">
+                                Advanced Analytics for Medical Imaging
+                                <i class="fa fa-times" style={{color: "#0046E8"}}  aria-hidden="true"></i>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwog" class="collapse" aria-labelledby="headingTwog" data-parent="#accordionExampleg">
+                            <div class="ind-pcmgdata card-body">
+                              AWS allows research teams and radiologists to accelerate the pace of tech adoption and innovations while also helping them unleash the full potential of medical imagery with advanced analytics.
                             </div>
                           </div>
-                          <div
-                            class="card"
-                            style={{
-                              backgroundColor: "#D9F5ED",
-                              color: "black",
-                              margin: "10px",
-                              width: "80%",
-                            }}
-                          >
-                            <div
-                              class="card-header"
-                              id="headingThree"
-                              style={{ textAlign: "left" }}
-                            >
-                              <h2 class="mb-0">
-                                <button
-                                onClick={() => handleAccordianToggle()}
-                                  class="btn btn-link collapsed"
-                                  type="button"
-                                  data-toggle="collapse"
-                                  data-target="#collapseThree"
-                                  aria-expanded="false"
-                                  aria-controls="collapseThree"
-                                  style={{
-                                    color: "black",
-                                    textDecoration: "none",
-                                    width: "100%",
-                                    textAlign: "left",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "space-between",
-                                  }}
-                                >
-                                  <p
-                                    className="ind-dg-head"
-                                    style={{ margin: "0px" }}
-                                  >
-                                    Web Apps for Medical Devices
-                                  </p>
-                                  <p
-                                    style={{
-                                      margin: "0px",
-                                      backgroundColor: "#D9F5ED",
-                                      borderRadius: "3px",
-                                      width: "18px",
-                                      height: "20px",
-                                      display: "flex",
-                                      alignItems: "center",
-                                      justifyContent: "center",
-                                    }}
-                                  >
-                                    <i
-                                      class="fa fa-times"
-                                      style={{ color: "blue" }}
-                                      aria-hidden="true"
-                                    ></i>
-                                  </p>
-                                </button>
-                              </h2>
-                            </div>
-                            <div
-                              id="collapseThree"
-                              class="collapse"
-                              aria-labelledby="headingThree"
-                              data-parent="#accordionExample"
-                            >
-                              <div
-                                class="card-body ind-dg-pr "
-                                style={{ textAlign: "left" }}
-                              >
-                                Our pharmaceutical and life science web
-                                applications provide convenient access to
-                                pharmaceutical services on smartphones. These
-                                user-friendly web apps facilitate seamless
-                                communication and service delivery.{" "}
-                              </div>
+                        </div>
+                        <div class="card" style={{
+                           marginBottom: "10px",
+                          backgroundColor: "#D9F5ED",
+                          border:"none"
+
+                        }}>
+                          <div class="card-header pcmg-border-3" id="headingThreeg">
+                            <h2 class="ind-pcmg-heading mb-0">
+                              <button class="btn btn-link d-flex" style={{
+                                alignItems: "center",
+                                justifyContent: "space-between"
+                              }} type="button" data-toggle="collapse" data-target="#collapseThreeg" aria-expanded="false" aria-controls="collapseThreeg">
+                                WebApps for Medical Device
+                                <i class="fa fa-times" style={{color: "#0046E8"}}  aria-hidden="true"></i>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseThreeg" class="collapse" aria-labelledby="headingThreeg" data-parent="#accordionExampleg">
+                            <div class="ind-pcmgdata card-body">
+                              Pharma and life science web apps are software that brings pharmaceutical services to your fingertips. These smartphone-friendly web apps utilize AWS for life sciences to ensure seamless communication and delivery.
                             </div>
                           </div>
-                          <div
-                            class="card"
-                            style={{
-                              backgroundColor: "#D9F5ED",
-                              color: "black",
-                              margin: "10px",
-                              width: "80%",
-                            }}
-                          >
-                            <div
-                              class="card-header"
-                              id="headingFour"
-                              style={{ textAlign: "left" }}
-                            >
-                              <h2 class="mb-0">
-                                <button
-                                onClick={() => handleAccordianToggle()}
-                                  class="btn btn-link collapsed"
-                                  type="button"
-                                  data-toggle="collapse"
-                                  data-target="#collapseFour"
-                                  aria-expanded="false"
-                                  aria-controls="collapseFour"
-                                  style={{
-                                    color: "black",
-                                    textDecoration: "none",
-                                    width: "100%",
-                                    textAlign: "left",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "space-between",
-                                  }}
-                                >
-                                  <p
-                                    className="ind-dg-head"
-                                    style={{ margin: "0px" }}
-                                  >
-                                    Wearables and IoT{" "}
-                                  </p>
-                                  <p
-                                    style={{
-                                      margin: "0px",
-                                      backgroundColor: "#D9F5ED",
-                                      borderRadius: "3px",
-                                      width: "18px",
-                                      height: "20px",
-                                      display: "flex",
-                                      alignItems: "center",
-                                      justifyContent: "center",
-                                    }}
-                                  >
-                                    <i
-                                      class="fa fa-times"
-                                      style={{ color: "blue" }}
-                                      aria-hidden="true"
-                                    ></i>
-                                  </p>
-                                </button>
-                              </h2>
+                        </div>
+                        <div class="card" style={{
+                           marginBottom: "10px",
+                          backgroundColor: "#D9F5ED",
+                          border:"none"
+
+                        }}>
+                          <div class="card-header pcmg-border-3" id="headingFourg">
+                            <h2 class="ind-pcmg-heading mb-0">
+                              <button class="btn btn-link d-flex" style={{
+                                alignItems: "center",
+                                justifyContent: "space-between"
+                              }} type="button" data-toggle="collapse" data-target="#collapseFourg" aria-expanded="false" aria-controls="collapseFourg">
+                                Wearables and IoT
+                                <i class="fa fa-times" style={{color: "#0046E8"}}  aria-hidden="true"></i>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseFourg" class="collapse" aria-labelledby="headingFourg" data-parent="#accordionExampleg">
+                            <div class="ind-pcmgdata card-body">
+                              Wearables have become an integral part of life sciences and pharmaceutical testing. Data analytics for life sciences enables wearable pharma devices to share, upload, and process participants’ data in real-time.
                             </div>
-                            <div
-                              id="collapseFour"
-                              class="collapse"
-                              aria-labelledby="headingFour"
-                              data-parent="#accordionExample"
-                            >
-                              <div
-                                class="card-body ind-dg-pr "
-                                style={{ textAlign: "left" }}
-                              >
-                                Wearables have become an essential component of
-                                life sciences and pharmaceutical testing. Data
-                                analytics for life sciences allows wearable
-                                pharmaceutical devices to share, upload, and
-                                process participants' data in real-time.
-                              </div>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <img src="./images/longmedicaldevices.png"
+                      style={{ width: "79%", height: "93%", paddingTop: "104px", }} />
+                  </div>
+
+                </div>
+              </div>
+              <div class="tab-pane fade" id="pills-economic" role="tabpanel" aria-labelledby="pills-economic-tab">
+                <div className="row">
+                  <div className="col-md-8">
+                    <div>
+                      <p>In broad terms, Genomics is a field that focuses on the examination of DNA genomes' structure, evolution, and functionality. DO, in collaboration with its partners, has been at the forefront of driving innovation in genomics through the following approaches.</p>
+                    </div>
+                    <div>
+                      <div class="accordion" id="accordionExampleh" style={{ height: "343px", overflowY: "auto", border:"none" }}>
+                        <div class="card"style={{
+                           marginBottom: "10px",
+                          backgroundColor: "#FFFBE6",
+                          border:"none"
+
+                        }}>
+                          <div class="card-header pcmg-border-4" id="headingOneh">
+                            <h2 class="ind-pcmg-heading mb-0">
+                              <button class="btn btn-link d-flex" style={{
+                                alignItems: "center",
+                                justifyContent: "space-between"
+                              }} type="button" data-toggle="collapse" data-target="#collapseOneh" aria-expanded="true" aria-controls="collapseOneh">
+                                Pharmacogenomics
+                                <i class="fa fa-times" style={{color: "#0046E8"}} aria-hidden="true"></i>
+                              </button>
+                            </h2>
+                          </div>
+
+                          <div id="collapseOneh" class="collapse show" aria-labelledby="headingOneh" data-parent="#accordionExampleh">
+                            <div class="ind-pcmgdata card-body">
+                              Pharmacogenomics is the study of analyzing genes responsible for variable actions that drugs trigger. AWS solutions enable researchers to draw more refined pharmacogenomic results in lesser time.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card" style={{
+                           marginBottom: "10px",
+                          backgroundColor: "#FFFBE6",
+                          border:"none"
+
+                        }}>
+                          <div class="card-header pcmg-border-4" id="headingTwoh">
+                            <h2 class="ind-pcmg-heading mb-0">
+                              <button class="btn btn-link d-flex" style={{
+                                alignItems: "center",
+                                justifyContent: "space-between"
+                              }} type="button" data-toggle="collapse" data-target="#collapseTwoh" aria-expanded="false" aria-controls="collapseTwoh">
+                                Tertiary Analysis
+                                <i class="fa fa-times" style={{color: "#0046E8"}}  aria-hidden="true"></i>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwoh" class="collapse" aria-labelledby="headingTwoh" data-parent="#accordionExampleh">
+                            <div class="ind-pcmgdata card-body">
+                              Transform genomic data into biological interpretations with the help of potent machine learning and high-performance cloud computing resources. Ask Agilisium for help today.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card" style={{
+                           marginBottom: "10px",
+                          backgroundColor: "#FFFBE6",
+                          border:"none"
+
+                        }}>
+                          <div class="card-header pcmg-border-4" id="headingThreeh">
+                            <h2 class="ind-pcmg-heading mb-0">
+                              <button class="btn btn-link d-flex" style={{
+                                alignItems: "center",
+                                justifyContent: "space-between"
+                              }} type="button" data-toggle="collapse" data-target="#collapseThreeh" aria-expanded="false" aria-controls="collapseThreeh">
+                                Clinical Genomics
+                                <i class="fa fa-times" style={{color: "#0046E8"}}  aria-hidden="true"></i>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseThreeh" class="collapse" aria-labelledby="headingThreeh" data-parent="#accordionExampleh">
+                            <div class="ind-pcmgdata card-body">
+                              Data analytics for life sciences grant clinical professionals the power to diagnose with utmost precision using better genetic data. AWS has been the leading choice for safe and fast clinical genomics for years.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card" style={{
+                           marginBottom: "10px",
+                          backgroundColor: "#FFFBE6",
+                          border:"none"
+
+                        }}>
+                          <div class="card-header pcmg-border-4" id="headingFourh">
+                            <h2 class="ind-pcmg-heading mb-0">
+                              <button class="btn btn-link d-flex" style={{
+                                alignItems: "center",
+                                justifyContent: "space-between"
+                              }} type="button" data-toggle="collapse" data-target="#collapseFourh" aria-expanded="false" aria-controls="collapseFourh">
+                                Multi-modal and Multi-omics
+                                <i class="fa fa-times" style={{color: "#0046E8"}}  aria-hidden="true"></i>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseFourh" class="collapse" aria-labelledby="headingFourh" data-parent="#accordionExampleh">
+                            <div class="ind-pcmgdata card-body">
+                              Experience increased computer efficiency at scale and achieved high data integration capabilities, making discovering clinical data correlations easier than ever with multi-modal and multi-omics.
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6">
-                    <img
-                      src="./images/longmedicaldevices.png"
-                      style={{ width: "90%", height: "90%", paddingTop: "20%" }}
-                    />
+                  <div className="col-md-4">
+                    <img src="./images/longgenomics.png"
+                      style={{ width: "72%", height: "86%", paddingTop: "86px", }} />
                   </div>
-                </div>
-              </div>
 
-              <div
-                class="tab-pane fade"
-                id="nav-Genomics"
-                role="tabpanel"
-                aria-labelledby="nav-Genomics-tab"
-              >
-                <div className="row mt-5">
-                  <div className="col-md-6 pharmacardtab">
-                    <div className="container">
-                      <p>
-                        In broad terms, Genomics is a field that focuses on the
-                        examination of DNA genomes' structure, evolution, and
-                        functionality. DO, in collaboration with its partners,
-                        has been at the forefront of driving innovation in
-                        genomics through the following approaches.
-                      </p>
-                    </div>
-                    <div
-                      class="card text-center pharmacardtab2"
-                      style={{ border: "0px" }}
-                    >
-                      <div
-                        class="card-body pharmacardtab3"
-                        style={{ padding: "0px !important" }}
-                      >
-                        <div
-                          class="accordion"
-                          id="accordionExample"
-                          style={{
-                            display: "flex",
-                            flexDirection: "column",
-                            alignItems: "flex-start",
-                            justifyContent: "space-around",
-                          }}
-                        >
-                          <div
-                            class="card"
-                            style={{
-                              backgroundColor: "#FFFBE6",
-                              color: "black",
-                              margin: "10px",
-                              width: "80%",
-                            }}
-                          >
-                            <div
-                              class="card-header"
-                              id="headingOne"
-                              style={{ textAlign: "left" }}
-                            >
-                              <h2 class="mb-0">
-                                <button
-                                onClick={() => handleAccordianToggle()}
-                                  class="btn btn-link"
-                                  type="button"
-                                  data-toggle="collapse"
-                                  data-target="#collapseOne"
-                                  aria-expanded="true"
-                                  aria-controls="collapseOne"
-                                  style={{
-                                    color: "black",
-                                    textDecoration: "none",
-                                    width: "100%",
-                                    textAlign: "left",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "space-between",
-                                  }}
-                                >
-                                  <p
-                                    className="ind-dg-head"
-                                    style={{ margin: "0px" }}
-                                  >
-                                    Pharmacogenomics
-                                  </p>
-                                  <p
-                                    style={{
-                                      margin: "0px",
-                                      backgroundColor:
-                                        "rgba(255, 255, 255, 0.05)",
-                                      borderRadius: "3px",
-                                      width: "18px",
-                                      height: "20px",
-                                      display: "flex",
-                                      alignItems: "center",
-                                      justifyContent: "center",
-                                    }}
-                                  >
-                                    <i
-                                      class="fa fa-times"
-                                      style={{ color: "blue" }}
-                                      aria-hidden="true"
-                                    ></i>
-                                  </p>
-                                </button>
-                              </h2>
-                            </div>
-
-                            <div
-                              id="collapseOne"
-                              class="collapse show"
-                              aria-labelledby="headingOne"
-                              data-parent="#accordionExample"
-                            >
-                              <div
-                                class="card-body ind-dg-pr "
-                                style={{ textAlign: "left" }}
-                              >
-                                Pharmacogenomics, the study of genes influencing
-                                variable drug responses, benefits from our
-                                solutions, allowing researchers to obtain more
-                                precise results in less time.
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            class="card"
-                            style={{
-                              backgroundColor: "#FFFBE6",
-                              color: "black",
-                              margin: "10px",
-                              width: "80%",
-                            }}
-                          >
-                            <div
-                              class="card-header"
-                              id="headingTwo"
-                              style={{ textAlign: "left" }}
-                            >
-                              <h2 class="mb-0">
-                                <button
-                                onClick={() => handleAccordianToggle()}
-                                  class="btn btn-link collapsed"
-                                  type="button"
-                                  data-toggle="collapse"
-                                  data-target="#collapseTwo"
-                                  aria-expanded="false"
-                                  aria-controls="collapseTwo"
-                                  style={{
-                                    color: "black",
-                                    textDecoration: "none",
-                                    width: "100%",
-                                    textAlign: "left",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "space-between",
-                                  }}
-                                >
-                                  <p
-                                    className="ind-dg-head"
-                                    style={{ margin: "0px" }}
-                                  >
-                                    Tertiary Analysis
-                                  </p>
-                                  <p
-                                    style={{
-                                      margin: "0px",
-                                      backgroundColor: "#FFFBE6",
-                                      borderRadius: "3px",
-                                      width: "18px",
-                                      height: "20px",
-                                      display: "flex",
-                                      alignItems: "center",
-                                      justifyContent: "center",
-                                    }}
-                                  >
-                                    <i
-                                      class="fa fa-times"
-                                      style={{ color: "blue" }}
-                                      aria-hidden="true"
-                                    ></i>
-                                  </p>
-                                </button>
-                              </h2>
-                            </div>
-                            <div
-                              id="collapseTwo"
-                              class="collapse"
-                              aria-labelledby="headingTwo"
-                              data-parent="#accordionExample"
-                            >
-                              <div
-                                class="card-body ind-dg-pr "
-                                style={{ textAlign: "left" }}
-                              >
-                                Leverage the power of machine learning and
-                                high-performance cloud computing resources to
-                                translate genomic data into meaningful
-                                biological insights. Contact DataObserve for
-                                assistance today.{" "}
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            class="card"
-                            style={{
-                              backgroundColor: "#FFFBE6",
-                              color: "black",
-                              margin: "10px",
-                              width: "80%",
-                            }}
-                          >
-                            <div
-                              class="card-header"
-                              id="headingThree"
-                              style={{ textAlign: "left" }}
-                            >
-                              <h2 class="mb-0">
-                                <button
-                                onClick={() => handleAccordianToggle()}
-                                  class="btn btn-link collapsed"
-                                  type="button"
-                                  data-toggle="collapse"
-                                  data-target="#collapseThree"
-                                  aria-expanded="false"
-                                  aria-controls="collapseThree"
-                                  style={{
-                                    color: "black",
-                                    textDecoration: "none",
-                                    width: "100%",
-                                    textAlign: "left",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "space-between",
-                                  }}
-                                >
-                                  <p
-                                    className="ind-dg-head"
-                                    style={{ margin: "0px" }}
-                                  >
-                                    Clinical Genomics
-                                  </p>
-                                  <p
-                                    style={{
-                                      margin: "0px",
-                                      backgroundColor: "#FFFBE6",
-                                      borderRadius: "3px",
-                                      width: "18px",
-                                      height: "20px",
-                                      display: "flex",
-                                      alignItems: "center",
-                                      justifyContent: "center",
-                                    }}
-                                  >
-                                    <i
-                                      class="fa fa-times"
-                                      style={{ color: "blue" }}
-                                      aria-hidden="true"
-                                    ></i>
-                                  </p>
-                                </button>
-                              </h2>
-                            </div>
-                            <div
-                              id="collapseThree"
-                              class="collapse"
-                              aria-labelledby="headingThree"
-                              data-parent="#accordionExample"
-                            >
-                              <div
-                                class="card-body ind-dg-pr  "
-                                style={{ textAlign: "left" }}
-                              >
-                                Data analytics in life sciences empowers
-                                clinical professionals with the precision to
-                                diagnose using enhanced genetic data. AWS and
-                                Azure have been the preferred choices for secure
-                                and rapid clinical genomics for years.{" "}
-                              </div>
-                            </div>
-                          </div>
-                          <div
-                            class="card"
-                            style={{
-                              backgroundColor: "#FFFBE6",
-                              color: "black",
-                              margin: "10px",
-                              width: "80%",
-                            }}
-                          >
-                            <div
-                              class="card-header"
-                              id="headingFour"
-                              style={{ textAlign: "left" }}
-                            >
-                              <h2 class="mb-0">
-                                <button
-                                onClick={() => handleAccordianToggle()}
-                                  class="btn btn-link collapsed"
-                                  type="button"
-                                  data-toggle="collapse"
-                                  data-target="#collapseFour"
-                                  aria-expanded="false"
-                                  aria-controls="collapseFour"
-                                  style={{
-                                    color: "black",
-                                    textDecoration: "none",
-                                    width: "100%",
-                                    textAlign: "left",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    justifyContent: "space-between",
-                                  }}
-                                >
-                                  <p
-                                    className="ind-dg-head"
-                                    style={{ margin: "0px" }}
-                                  >
-                                    Multi-modal and Multi-omics{" "}
-                                  </p>
-                                  <p
-                                    style={{
-                                      margin: "0px",
-                                      backgroundColor: "#FFFBE6",
-                                      borderRadius: "3px",
-                                      width: "18px",
-                                      height: "20px",
-                                      display: "flex",
-                                      alignItems: "center",
-                                      justifyContent: "center",
-                                    }}
-                                  >
-                                    <i
-                                      class="fa fa-times"
-                                      style={{ color: "blue" }}
-                                      aria-hidden="true"
-                                    ></i>
-                                  </p>
-                                </button>
-                              </h2>
-                            </div>
-                            <div
-                              id="collapseFour"
-                              class="collapse"
-                              aria-labelledby="headingFour"
-                              data-parent="#accordionExample"
-                            >
-                              <div
-                                class="card-body ind-dg-pr "
-                                style={{ textAlign: "left" }}
-                              >
-                                Enhance computational efficiency on a larger
-                                scale and achieve superior data integration
-                                capabilities, simplifying the discovery of
-                                clinical data correlations with multi-modal and
-                                multi-omics approaches.
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <img
-                      src="./images/longgenomics.png"
-                      style={{ width: "88%", height: "80%", paddingTop: "20%" }}
-                    />
-                  </div>
                 </div>
               </div>
             </div>
+
           </div>
+
         </div>
+
+        {/* jgutihjg */}
+
       </section>
       <div style={{ marginTop: "50px" }}>
         <h3 className="platforms">
@@ -1627,21 +600,26 @@ const Industries = () => {
         </p>
         <div className="container mt-3">
           <div className="row box">
-            <div className="col-md-4">
+            <div className="col-md-4 ind-bb-sg-1">
               <div className="bx1-border">
                 <div
-                  className="text-center box-padding"
-                  style={{ height: "360px" }}
+                  className="text-initial box-padding"
+                  style={{ height: "306px" }}
                 >
-                  <img
-                    src="./images/business.png"
-                    className="App-logo business"
-                    alt="logo"
-                    width={45}
-                  />
-                  <h5 className="boxhead">Advanced Business Intelligence</h5>
-
-                  <p className="boxtext text-justify">
+                  <div className="d-flex">
+                    <img
+                      src="./images/business.png"
+                      className="App-logo business"
+                      alt="logo"
+                      width={45}
+                      style={{
+                        marginBottom: "10px",
+                        marginTop: "-2px"
+                      }}
+                    />
+                    <h5 className="ind-boxhead">Advanced Business Intelligence</h5>
+                  </div>
+                  <p className="boxtext text-initial">
                     Harness the potential of big data analysis in the life
                     sciences sector through collaborative advanced business
                     intelligence and EPM optimization tools.
@@ -1650,20 +628,21 @@ const Industries = () => {
               </div>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4 ind-bb-sg-2">
               <div
-                className="text-center box-padding"
-                style={{ height: "360px" }}
+                className="text-initial box-padding"
+                style={{ height: "306px" }}
               >
-                <img
-                  src="./images/comercialdatalake.png"
-                  className="App-logo arrow"
-                  alt="logo"
-                  width={100}
-                />
-                <h5 className="boxhead">Commercial Data Lake Platforms</h5>
-
-                <p className="boxtext text-justify">
+                <div className="d-flex">
+                  <img
+                    src="./images/comercialdatalake.png"
+                    className="App-logo arrow"
+                    alt="logo"
+                    width={100}
+                  />
+                  <h5 className="ind-boxhead" >Commercial Data Lake Platforms</h5>
+                </div>
+                <p className="boxtext text-initial">
                   Establish a centralized repository for personalized life
                   sciences data, facilitating storage and organization within a
                   single, limitless realm of possibilities through DataObserve's
@@ -1672,20 +651,21 @@ const Industries = () => {
               </div>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4 ind-bb-sg-3">
               <div
-                className="text-center box-padding"
-                style={{ height: "360px" }}
+                className="text-initial box-padding"
+                style={{ height: "306px" }}
               >
-                <img
-                  src="./images/Data-driven.png"
-                  className="App-logo arrow"
-                  alt="logo"
-                  width={100}
-                />
-                <h5 className="boxhead">Data-driven R&D</h5>
-
-                <p className="boxtext text-justify">
+                <div className="d-flex">
+                  <img
+                    src="./images/Data-driven.png"
+                    className="App-logo arrow"
+                    alt="logo"
+                    width={100}
+                  />
+                  <h5 className="ind-boxhead" >Data-driven R&D</h5>
+                </div>
+                <p className="boxtext text-initial">
                   Leverage the capabilities of data with our cloud-driven lab
                   informatics to gain intricate life science insights that drive
                   human-centered research and development (R&D). Harnessing this
@@ -1695,20 +675,21 @@ const Industries = () => {
               </div>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4 ind-bb-sg-4">
               <div
-                className="text-center box-padding"
-                style={{ height: "360px" }}
+                className="text-initial box-padding"
+                style={{ height: "306px" }}
               >
-                <img
-                  src="./images/supply-chain.png"
-                  className="App-logo arrow"
-                  alt="logo"
-                  width={100}
-                />
-                <h5 className="boxhead">Manufacturing and supply chain</h5>
-
-                <p className="boxtext text-justify">
+                <div className="d-flex">
+                  <img
+                    src="./images/supply-chain.png"
+                    className="App-logo arrow"
+                    alt="logo"
+                    width={100}
+                  />
+                  <h5 className="ind-boxhead">Manufacturing and supply chain</h5>
+                </div>
+                <p className="boxtext text-initial">
                   By implementing cutting-edge big data analytics solutions in
                   manufacturing and supply chain, we provide comprehensive
                   capabilities to convert raw data into actionable roadmaps.
@@ -1716,20 +697,21 @@ const Industries = () => {
               </div>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4 ind-bb-sg-5">
               <div
-                className="text-center box-padding"
-                style={{ height: "360px" }}
+                className="text-initial box-padding"
+                style={{ height: "306px" }}
               >
-                <img
-                  src="./images/decentralized.png"
-                  className="App-logo arrow"
-                  alt="logo"
-                  width={100}
-                />
-                <h5 className="boxhead">Decentralized Clinical Trials</h5>
-
-                <p className="boxtext text-justify">
+                <div className="d-flex">
+                  <img
+                    src="./images/decentralized.png"
+                    className="App-logo arrow"
+                    alt="logo"
+                    width={100}
+                  />
+                  <h5 className="ind-boxhead">Decentralized Clinical Trials</h5>
+                </div>
+                <p className="boxtext text-initial">
                   Step into the future of clinical trials with DataObserve's
                   life sciences cloud. Utilize our human-centric decentralized
                   solutions for pharmaceutical tasks.
@@ -1737,20 +719,21 @@ const Industries = () => {
               </div>
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4 ind-bb-sg-6">
               <div
-                className="text-center box-padding"
-                style={{ height: "360px" }}
+                className="text-initial box-padding"
+                style={{ height: "306px" }}
               >
-                <img
-                  src="./images/m-devices.png"
-                  className="App-logo arrow"
-                  alt="logo"
-                  width={100}
-                />
-                <h5 className="boxhead">Medical Devices</h5>
-
-                <p className="boxtext text-justify">
+                <div className="d-flex">
+                  <img
+                    src="./images/m-devices.png"
+                    className="App-logo arrow"
+                    alt="logo"
+                    width={100}
+                  />
+                  <h5 className="ind-boxhead">Medical Devices</h5>
+                </div>
+                <p className="boxtext text-initial ">
                   DataObserve empowers life science organizations and
                   pharmaceutical labs to enhance their outcomes and digitize
                   their processes using cloud-enabled medical devices.
@@ -1763,7 +746,7 @@ const Industries = () => {
 
       <div className="cs-div">
         <h1 className="case">Our Case Studies</h1>
-        <div
+        {/* <div
           class="container card mb-3 mt-5"
           style={{
             backgroundColor: "#1A4AB9",
@@ -1838,7 +821,100 @@ const Industries = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+         <div
+            class="container card mb-3 mt-5 Built-back-colour-1"
+            style={{
+              backgroundColor: "#1A4AB9",
+              borderRadius: "20px",
+            }}
+          >
+            <div className="right-media-Corner-1">
+              <img
+                className="built-corner-image-1"
+                src="./images/zyssp.png"
+                alt="media"
+                width={100}
+                height={100}
+              />
+            </div>
+
+            <div
+              class="row overall-built-Corner"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "spacebetween",
+              }}
+            >
+              <div class="col-md-5">
+                <img
+                  style={{ height: "278px", width: "100%", paddingTop:"8px" }}
+                  src="./images/pxmb.png"
+                  className="card-img"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5
+                    class="card-title"
+                    style={{ color: "white", letterSpacing: "0.68px",fontSize:"19px" }}
+                  >
+                    Built A Unified Augmented Analytics
+                    <br /> decision intelligence Platform
+                  </h5>
+                  <p class="card-text-3">
+                    Learn how we created a self-service, predictive, insights
+                    platform driven
+                    <br /> by an adaptive machine learning engine which helps
+                    improve decision-
+                    <br />
+                    making.
+                  </p>
+                  <p class="card-text" style={{ color: "white" }}>
+                    <p style={{ fontSize: 16 }}>
+                      Read case study
+                      <i
+                        class="fa fa-long-arrow-right ml-2"
+                        aria-hidden="true"
+                      ></i>
+                    </p>
+                  </p>
+                  <div
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-around",
+                      marginLeft: "-20px",
+                    }}
+                  >
+                    <img
+                      src="./images/newaccede.png"
+                      alt=""
+                      style={{ width: "60px", height: "20px" }}
+                    />
+                    <img
+                      src="./images/slokaenergy.png"
+                      alt=""
+                      style={{ width: "100px" }}
+                    />
+                    <img
+                      src="./images/gbreco.png"
+                      alt=""
+                      style={{ width: "95px" }}
+                    />
+                    <img
+                      src="./images/newsrdsystems.png"
+                      alt=""
+                      style={{ width: "70px" }}
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         <div className="bles-div">
           <div className="container">
             <div className="management row" aria-live="center">
@@ -1870,7 +946,7 @@ const Industries = () => {
                       <img className="searcheye" src="./images/searcheye.png" />
                     </p>
                     <h5 className="ble-s">Findable</h5>
-                    <p className="text-justify bles-data">
+                    <p className="bles-data">
                       Data is characterized by comprehensive metadata and
                       possesses a distinct and enduring identifier.
                     </p>
@@ -1881,7 +957,7 @@ const Industries = () => {
                       <img className="searcheye" src="./images/amt.png" />
                     </p>
                     <h5 className="ble-s">Accessible</h5>
-                    <p className="text-justify bles-data">
+                    <p className=" bles-data">
                       Data, along with its associated metadata, is
                       comprehensible to both humans and machines and can be
                       accessed through clearly defined protocols.
@@ -1896,7 +972,7 @@ const Industries = () => {
                       />
                     </p>
                     <h5 className="ble-s">Interoperable</h5>
-                    <p className="text-justify bles-data">
+                    <p className="bles-data">
                       Data and their accompanying metadata employ formal and
                       accessible knowledge representation methods to ensure
                       their reusability.
@@ -1905,10 +981,10 @@ const Industries = () => {
                   <div className="col-md-3 text-left">
                     <p className="logo-images">
                       {" "}
-                      <img className="searcheye" src="./images/reusable.png" />
+                      <img className="searcheye" src="./images/Reusable.png" />
                     </p>
                     <h5 className="ble-s">Reusable</h5>
-                    <p className="text-justify bles-data">
+                    <p className="bles-data">
                       Metadata precisely detail the <br />
                       origin and terms of use for the
                       <br /> data.
@@ -1921,51 +997,7 @@ const Industries = () => {
         </div>
       </div>
 
-      {/* <div class="container" >
-        <div>
-          <h1 className="testmonials">Client Testimonials</h1>
-        </div>
-        <div className="tst-card">+
-          <div class="row">
-            <div class="col-md-4">
-              <div className="tst-nm">
-                <h1 className="nm">$1.5M</h1>
-                <p className="nm-para">Achieved through advanced Data<br />
-                  Lakehouse Solution</p>
-              </div>
-            </div>
-            <div class="col-md-8">
-              <div className="tst-data">
-                <h2 className="tst-heading">
-                  GBR ECO
-                </h2>
-                <p className="tst-para">
-                  From endless computing power, to reduced cycle time and<br />
-                  easier data access, the new efficiency supported by Agilisium<br />
-                  and enabled by AWS helps us to produce timely insights<br />
-                  about products, customers, and patients and significantly<br />
-                  enhance their experiences.
-                </p>
-              </div>
-              <div className="namecard">
-                <h2 className="vishnu">Vishnu Maddileti</h2>
-                <p className="director">Director Data Sciences, Amgen</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-        <div className='mt-5'>
-          <ul className='d-flex logo-ul justify-content-between'>
-            <li> <img src="./images/bamgen.png" /></li>
-            <li><img src="./images/gncbuniversal.png" /></li>
-            <li><img src="./images/universal.png" /></li>
-            <li><img src="./images/reliance.png" /></li>
-            <li><img src="./images/bonduelleind.png" /></li>
-            <li><img src="./images/greendot.png" /></li>
-          </ul>
-        </div>
-      </div> */}
+      {/* talent as service */}
 
       <div className="container" style={{ marginTop: "130px" }}>
         <div className="talent-div ">
@@ -2004,7 +1036,7 @@ const Industries = () => {
                 style={{
                   border: "none",
                   borderRadius: "4px",
-                  marginTop: "32px",
+                  marginTop: "72px",
                   marginBottom: "32px",
                 }}
               >
@@ -2022,6 +1054,9 @@ const Industries = () => {
                   Explore DoCreater{" "}
                   <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
                 </button>
+                <div className="dood">
+                  <img src="./images/dood.png" style={{height:"100px"}}/>
+                </div>
               </div>
             </div>
           </div>
@@ -2040,8 +1075,9 @@ const Industries = () => {
               border: "none",
               background: "none",
               transform: "translatey(-10px)",
-              width: "500px",
-              marginLeft: "14px",
+              width: "390px",
+              paddingLeft:"129px"
+              // marginLeft: "15px",
             }}
           >
             <div
@@ -2065,7 +1101,7 @@ const Industries = () => {
               </h5>
               <h6
                 class="card-subtitle mb-2 "
-                style={{ fontSize: "11px", marginTop: "5px" }}
+                style={{ fontSize: "11px", marginTop: "5px" , lineHeight:"16px"}}
               >
                 Today’s world is data-driven. From your phone, to your laptop,
                 <br />
@@ -2075,7 +1111,7 @@ const Industries = () => {
                 <br />
                 business.
               </h6>
-              <p class="readmore" style={{ color: "white", marginTop: "25px" }}>
+              <p class="readmore" style={{ color: "white", marginTop: "14px" }}>
                 <small>
                   Read more
                   <i class="fa fa-long-arrow-right ghgh" aria-hidden="true"></i>
@@ -2148,7 +1184,7 @@ const Industries = () => {
       {/* !--faq's--! */}
 
       <div class="card text-center" style={{ border: "0px" }}>
-        {/* {/ <div class="card-header">Featured</div> /} */}
+
         <div class="card-body faq-class">
           <h5 class="card-title" style={{ color: "white" }}>
             FAQs
@@ -2179,7 +1215,7 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                  onClick={() => handleAccordianToggle()}
+                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link"
                     type="button"
                     data-toggle="collapse"
@@ -2249,7 +1285,7 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                  onClick={() => handleAccordianToggle()}
+                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
@@ -2319,7 +1355,7 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                  onClick={() => handleAccordianToggle()}
+                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
@@ -2388,7 +1424,7 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                  onClick={() => handleAccordianToggle()}
+                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
@@ -2457,7 +1493,7 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                  onClick={() => handleAccordianToggle()}
+                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
@@ -2526,7 +1562,7 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                  onClick={() => handleAccordianToggle()}
+                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
@@ -2594,7 +1630,7 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                  onClick={() => handleAccordianToggle()}
+                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
@@ -2663,7 +1699,7 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                  onClick={() => handleAccordianToggle()}
+                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
@@ -2732,7 +1768,7 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                  onClick={() => handleAccordianToggle()}
+                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
@@ -2801,7 +1837,7 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                    onClick={() => handleAccordianToggle()}
+                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
@@ -2858,9 +1894,17 @@ const Industries = () => {
         </div>
       </div>
 
+
+
       {/* !----footer----! */}
 
       <Footer />
+
+
+
+
+
+
     </div>
   );
 };

@@ -96,14 +96,15 @@ const Devops = () => {
         }}
       >
         <h4 style={{ textAlign: "center", fontWeight: 700, fontSize: "43px" }}>
-          Our Expertise in Cloud Migration Services
+          Our DevOps Services
         </h4>
         <p style={{ textAlign: "center", marginTop: "10px", width: "755px" }}>
-          with over 40years of combined industry experience ,our cloud migration
-          services are tailored to set you on the path of operational excellence
-          and holistic growth. we transform organizations of every scale and
-          sizes with robust cloud ecosystems - moving IT infrastructure,
-          applications and processes
+          DataObserve's DevOps services offer cutting-edge and established
+          technologies to enhance your organization's efficiency. By
+          streamlining data flow, we foster improved collaboration between your
+          IT operations and software engineering teams, ensuring seamless
+          continuous deployment and integration through the amalgamation of
+          software development and automation expertise.
         </p>
       </div>
       <div className="cloudcards">
@@ -1037,7 +1038,7 @@ const Devops = () => {
                     }}
                   >
                     <p style={{ margin: "0px" }}>
-                      WhHow does DevOps as a Service address security concerns
+                      How does DevOps as a Service address security concerns
                       in software development?
                     </p>
                     <p

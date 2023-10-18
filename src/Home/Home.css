@@ -62,6 +62,8 @@ line-height: 30.49px;
 /* .....navabar end.... */
 
 /* ...slide start.... */
+
+
 .slide{
   width: 100%;
 }
@@ -76,13 +78,13 @@ background-size: cover;
 
 .homeslide-1{
   padding-top: 12%;
-  padding-left: 4%;
+  padding-left: 6%;
 }
 
 
 .home-slide-heading{
   color: white;
-  font-size: 49px;
+  font-size: 47px;
   font-weight: 800;
 }
 .home-slide-paragraph{
@@ -145,6 +147,10 @@ font-size: 12px;
 }
 
 /* ....happy .customers images... */
+
+.Digital-Overall-gap{
+  margin-bottom: 6%;
+}
 
 .acco{
   margin-top: 27px;
@@ -237,7 +243,11 @@ font-size: 12px;
 
 .cloud-head{
   text-align: center;
-  font-weight: 700;
+  font-weight: 800;
+}
+
+.digital-transfor-mation{
+  margin-bottom: 10px!important;
 }
 /* .box{
  
@@ -279,7 +289,8 @@ font-size: 12px;
   background-color: white;
   /* margin-top: 57px; */
   /* height: fit-content; */
-  padding: 15px;
+  padding: 21px;
+  padding-top: 36px;
   border-radius: 30px;
   height: 320px;
   box-shadow: 2px 2px 35px -18px #323c8d;
@@ -291,12 +302,50 @@ font-size: 12px;
 
 .cloud-trans-formation{
   font-weight: 600;
-  font-size: 19px;
+  font-size: 18px;
+  margin-bottom: 13px;
+  margin-top: 10px;
 }
 
 /* ....digital transformation end... */
 
 /* .....circles start unleash....  */
+
+.homeland-page{
+  width: 100%;
+  
+}
+
+.main-home-page{
+  position: relative;
+}
+.main-landing-Page{
+  position: absolute;
+  top: 5%;
+  left: 10%;
+
+}
+
+.landingpage-paragraph{
+  color: white;
+  font-size: 22px;
+  font-family: Poppins;
+  font-weight: 700;
+  line-height: 33.50px;
+  letter-spacing: 0.90px;
+  word-wrap: break-word
+}
+
+.landingpage-paragraph2{
+  color: white;
+  font-size: 11px;
+  /* font-family: Roboto; */
+  font-weight: 700;
+  line-height: 25.50px;
+  letter-spacing: 0.90px;
+  word-wrap: break-word
+  
+}
 .circle-background{
   background-color: #EDF5FF;
   /* padding: 10px 0px 30px 0px; */
@@ -345,7 +394,7 @@ font-size: 12px;
 
 .image2{
   width: 200px;
-  margin-top: 64px;
+  margin-top: 81px;
 }
 /* .aws-azure-images{
   display: flex;
@@ -377,7 +426,8 @@ margin-left: 13px;
 .datalake-half-piece-01{
   position: absolute;
   bottom: 13%;
-  left: 87%;
+  /* left: 87%; */
+  right: 5%;
 }
 .lake-text{
   text-align: center;
@@ -442,6 +492,12 @@ text-align: center;
   }
   .lake-pad{
     padding: 37px 0px 30px 0px;
+  }
+
+  .lake-House{
+    margin-top: 6px;
+    font-weight: 700;
+
   }
   /* ....data lake end..  */
 

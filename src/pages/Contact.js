@@ -12,6 +12,8 @@ function Contact() {
             <div className="row">
               <div className="col-md-5">
                 <div>
+              <p style={{fontWeight:"600" ,color:"white",fontSize:"20px",letterSpacing:"1px"}}>Contact</p>
+
                   <h3 className="contact-heading">
                     Let’s
                     <br />
@@ -229,7 +231,20 @@ function Contact() {
                   </ul>
                   <h1 className="footer-heading company">Solutions</h1>
                   <ul>
-                    <li>Data Observability</li>
+                    <li>DO{" "}
+                    <span
+                        style={{
+                          color: "rgba(255, 255, 255, 0.70)",
+                          fontSize: "15px",
+                          fontWeight: "700",
+                          lineHeight: "22.5px",
+                          letterSpacing: "-0.32px",
+                        }}
+                      >
+                        360
+                      </span>
+                    </li>
+                    <li>DOInsights</li>
                   </ul>
                 </div>
               </div>

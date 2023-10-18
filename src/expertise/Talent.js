@@ -27,6 +27,16 @@ const Talent = () => {
                 left: "-121px",
               }}
             >
+              <p
+                style={{
+                  color: "white",
+                  fontSize: "18px",
+                  fontStyle: "normal",
+                  fontWeight: "600",
+                }}
+              >
+                Talent as a Service
+              </p>
               <h4
                 style={{
                   color: "white",
@@ -89,62 +99,66 @@ const Talent = () => {
           marginTop: "50px",
         }}
       >
-        <div style={{ display: "flex", width: "983px" }}>
-          <div className="col-md-1">
-            <h5
-              className="text-muted"
-              style={{
-                textAlign: "left",
-                alignItems: "center",
-                display: "flex",
-                justifyContent: "center",
-                fontSize: "10px",
-                width: "140px",
-                marginTop: "30px",
-              }}
-            >
-              Trusted by Leading brands and startups
-            </h5>
+      
+          
+          <div className=" container d-flex talent-leading-icons">
+          <div>
+          <img
+              className=""
+              src="./images/talentleading.png"
+              alt="..."
+              // style={{ width: "153px", height: "70px" }}
+              width={150}
+            />
+            </div>
+            <div>
+            <img
+              className=""
+              src="./images/talentsolakh.png"
+              alt="..."
+              // style={{ width: "153px", height: "70px" }}
+              width={100}
+            />
+            </div>
+            <div>
+            <img
+              className=""
+              src="./images/talentgbreco.png"
+              alt="..."
+              // style={{ width: "153px", height: "70px" }}
+              width={100}
+            />
+            </div>
+            <div>
+            <img
+              className=""
+              src="./images/talentsrd.png"
+              alt="..."
+              // style={{ width: "153px", height: "70px" }}
+              width={100}
+            />
+            </div>
+            <div>
+            <img
+              className=""
+              src="./images/talentcliq.png"
+              alt="..."
+              // style={{ width: "153px", height: "70px" }}
+              width={100}
+            />
+            </div>
+            <div>
+            <img
+              className=""
+              src="./images/talentfusion.png"
+              alt="..."
+              // style={{ width: "153px", height: "70px" }}
+              width={100}
+            />
+            </div>
+           
           </div>
-          <div className="col-md-11 ml-5">
-            <img
-              className="col-md-2"
-              src="./images/bonduelle.png"
-              alt="..."
-              style={{ width: "153px", height: "70px" }}
-            />
-            <img
-              className="col-md-2"
-              src="./images/lucernal.png"
-              alt="..."
-              style={{ width: "153px", height: "70px" }}
-            />
-            <img
-              className="col-md-2"
-              src="./images/thermof.png"
-              alt="..."
-              style={{ width: "153px", height: "70px" }}
-            />
-            <img
-              className="col-md-2"
-              src="./images/acco.png"
-              alt="..."
-              style={{ width: "153px", height: "70px" }}
-            />
-            <img
-              className="col-md-2"
-              src="./images/igt1.png"
-              alt="..."
-              style={{ width: "153px", height: "70px" }}
-            />
-            <img
-              className="col-md-2"
-              src="./images/universalm.png"
-              alt="..."
-              style={{ width: "153px", height: "70px" }}
-            />
-          </div>
-        </div>
+       
         <div style={{ marginTop: "50px" }}>
           <h4 className="cloudcardheadings">What DataObserve Offers</h4>
         </div>
@@ -991,44 +1005,55 @@ const Talent = () => {
           width: "1210px",
         }}
       >
-        <div className="col-md-11 ml-5">
-          <img
-            className="col-md-2"
-            src="./images/bonduelle.png"
-            alt="..."
-            style={{ width: "153px", height: "70px" }}
-          />
-          <img
-            className="col-md-2"
-            src="./images/lucernal.png"
-            alt="..."
-            style={{ width: "153px", height: "70px" }}
-          />
-          <img
-            className="col-md-2"
-            src="./images/thermof.png"
-            alt="..."
-            style={{ width: "153px", height: "70px" }}
-          />
-          <img
-            className="col-md-2"
-            src="./images/acco.png"
-            alt="..."
-            style={{ width: "153px", height: "70px" }}
-          />
-          <img
-            className="col-md-2"
-            src="./images/igt1.png"
-            alt="..."
-            style={{ width: "153px", height: "70px" }}
-          />
-          <img
-            className="col-md-2"
-            src="./images/universalm.png"
-            alt="..."
-            style={{ width: "153px", height: "70px" }}
-          />
-        </div>
+                <div className=" container d-flex talent-leading-icons-1">
+          
+            <div>
+            <img
+              className=""
+              src="./images/talentsolakh.png"
+              alt="..."
+              // style={{ width: "153px", height: "70px" }}
+              width={100}
+            />
+            </div>
+          <div>
+            <img
+              className=""
+              src="./images/talentgbreco.png"
+              alt="..."
+              // style={{ width: "153px", height: "70px" }}
+              width={100}
+            />
+            </div>
+            <div>
+            <img
+              className=""
+              src="./images/talentsrd.png"
+              alt="..."
+              // style={{ width: "153px", height: "70px" }}
+              width={100}
+            />
+            </div>
+            <div>
+            <img
+              className=""
+              src="./images/talentcliq.png"
+              alt="..."
+              // style={{ width: "153px", height: "70px" }}
+              width={100}
+            />
+            </div>
+            <div>
+            <img
+              className=""
+              src="./images/talentfusion.png"
+              alt="..."
+              // style={{ width: "153px", height: "70px" }}
+              width={100}
+            />
+            </div>
+           
+          </div>
         <div
           className="container"
           style={{
