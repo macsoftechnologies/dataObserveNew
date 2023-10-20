@@ -16,12 +16,9 @@ import Dataeng from "./expertise/Dataeng";
 import Industries from "./Industries/Industries";
 import Gaming from "./Industries/Gaming";
 import Media from "./Industries/Media";
-<<<<<<< Updated upstream
 import BlogsRedirect from "./redirectpages/BlogsRedirect";
 import CasestudiesRedirect from "./redirectpages/CasestudiesRedirect";
-=======
 import Ebooks from "./Ebooks/Ebooks";
->>>>>>> Stashed changes
 
 function App() {
   return (
@@ -44,12 +41,9 @@ function App() {
           <Route path="/industries" element={<Industries />} />
           <Route path="/gaming" element={<Gaming />} />
           <Route path="/media" element={<Media />} />
-<<<<<<< Updated upstream
           <Route path="/blog" element={<BlogsRedirect />} />
           <Route path="/casestudies" element={<CasestudiesRedirect />} />
-=======
           <Route path="/ebooks" element={<Ebooks />} />
->>>>>>> Stashed changes
         </Routes>
       </BrowserRouter>
     </div>
