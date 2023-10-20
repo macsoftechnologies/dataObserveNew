@@ -1,0 +1,134 @@
+.redefine-genai {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.Ai-genai {
+  width: 470px;
+}
+.Aitech-genai {
+  font-size: 20px;
+  font-weight: 700;
+}
+.forntier-genai {
+  font-size: 15px;
+}
+.genaibg {
+  background: url("/public/images/genaibg.png");
+  height: 600px;
+  width: 100%;
+  font-size: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.generative-genai {
+  font-size: 30px;
+  color: aliceblue;
+  font-weight: 400;
+}
+.sparkin-genai {
+  font-size: 15px;
+  color: #fff;
+  opacity: 0.5;
+}
+.generativeai-genai {
+  padding: 200px 625px 50px 150px;
+}
+.Genaicon {
+  color: black;
+  font-size: 20px;
+  font-weight: 100;
+}
+.Genaicon-text {
+  font-size: 14px;
+}
+.generativeAI {
+  background-color: #1a4ab9;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  margin-top: 50px;
+}
+.btn-genai {
+  border-radius: 4px;
+  padding: 10px;
+  border: none;
+  background: linear-gradient(110deg, #146dff 0%, #5346ff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.businessachive-genai {
+  color: #fff;
+  font-size: 20px;
+}
+.text-btn {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.btn-text {
+  color: #fff;
+}
+.generative-genai1 {
+  color: black;
+  font-size: 25px;
+  font-weight: 700;
+}
+.para-genai {
+  font-size: 15px;
+}
+.texthead-genai {
+  background: #1a4ab9;
+  display: flex;
+  width: 300px;
+  height: 100px;
+  padding: -1px 91.3px 0px 91.5px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+.texthead1-genai {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.icon-genai {
+  height: 44px;
+  width: 135px;
+}
+.generative-genai2 {
+  color: black;
+  font-size: 20px;
+}
+.genaiviewrecentbutton {
+  margin-top: 43px;
+  display: inline-flex;
+  padding: 18px 32.17px 18px 50px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12.83px;
+  border-radius: 4px;
+  background: #1a4ab9;
+  color: #fff;
+  font-size: 17.6px;
+  font-weight: 600;
+  line-height: 25.6px;
+  letter-spacing: -0.32px;
+  margin-left: 38%;
+}
+#v-pills-tab .nav-link.active,
+#v-pills-tab .show > .nav-link {
+  color: #fff;
+  background-color: #146DFF;
+  border-radius: 0px;
+  border-bottom: 0px !important;
+}
+.healthcare-genai{
+    color: black;
+}
