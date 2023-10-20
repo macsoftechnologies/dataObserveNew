@@ -19,6 +19,7 @@ import Media from "./Industries/Media";
 import BlogsRedirect from "./redirectpages/BlogsRedirect";
 import CasestudiesRedirect from "./redirectpages/CasestudiesRedirect";
 import Ebooks from "./Ebooks/Ebooks";
+import Genai from "./expertise/Genai";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route path="/blog" element={<BlogsRedirect />} />
           <Route path="/casestudies" element={<CasestudiesRedirect />} />
           <Route path="/ebooks" element={<Ebooks />} />
+          <Route path="/genai" element={<Genai />} />
         </Routes>
       </BrowserRouter>
     </div>
