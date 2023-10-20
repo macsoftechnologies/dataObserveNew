@@ -746,82 +746,7 @@ const Industries = () => {
 
       <div className="cs-div">
         <h1 className="case">Our Case Studies</h1>
-        {/* <div
-          class="container card mb-3 mt-5"
-          style={{
-            backgroundColor: "#1A4AB9",
-            maxWidth: "800px",
-            borderRadius: "20px",
-          }}
-        >
-          <div
-            class="row no-gutters"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "spacebetween",
-            }}
-          >
-            <div class="col-md-5">
-              <img
-                style={{ height: "235px", width: "325px" }}
-                src="./images/card.png"
-                className="card-img"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-7">
-              <div class="card-body">
-                <h5 class="card-title" style={{ color: "white" }}>
-                  Built A Unified Augmented Analytics decision intelligence
-                  Platform
-                </h5>
-                <p class="card-text" style={{ color: "white" }}>
-                  Learn how we created a self-service, predictive, insights
-                  platform driven by an adaptive machine learning engine which
-                  helps improve decision-making.
-                </p>
-                <p class="card-text" style={{ color: "white" }}>
-                  <small>
-                    Read case study
-                    <i
-                      class="fa fa-long-arrow-right ml-2"
-                      aria-hidden="true"
-                    ></i>
-                  </small>
-                </p>
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                  }}
-                >
-                  <img
-                    src="./images/newaccede.png"
-                    alt=""
-                    style={{ width: "60px" }}
-                  />
-                  <img
-                    src="./images/slokaenergy.png"
-                    alt=""
-                    style={{ width: "100px" }}
-                  />
-                  <img
-                    src="./images/gbreco.png"
-                    alt=""
-                    style={{ width: "95px" }}
-                  />
-                  <img
-                    src="./images/newsrdsystems.png"
-                    alt=""
-                    style={{ width: "70px" }}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
+       
          <div
             class="container card mb-3 mt-5 Built-back-colour-1"
             style={{
@@ -1215,7 +1140,6 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link"
                     type="button"
                     data-toggle="collapse"
@@ -1285,7 +1209,6 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
@@ -1355,7 +1278,6 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
@@ -1424,7 +1346,6 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
@@ -1493,7 +1414,6 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
@@ -1562,7 +1482,6 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
@@ -1630,7 +1549,6 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
@@ -1699,7 +1617,6 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
@@ -1768,7 +1685,6 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                    // onClick={() => handleAccordianToggle()}
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
@@ -1837,7 +1753,7 @@ const Industries = () => {
               >
                 <h2 class="mb-0">
                   <button
-                    // onClick={() => handleAccordianToggle()}
+                  
                     class="btn btn-link collapsed"
                     type="button"
                     data-toggle="collapse"
