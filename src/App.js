@@ -16,6 +16,8 @@ import Dataeng from "./expertise/Dataeng";
 import Industries from "./Industries/Industries";
 import Gaming from "./Industries/Gaming";
 import Media from "./Industries/Media";
+import BlogsRedirect from "./redirectpages/BlogsRedirect";
+import CasestudiesRedirect from "./redirectpages/CasestudiesRedirect";
 
 function App() {
   return (
@@ -39,6 +41,8 @@ function App() {
           <Route path="/industries" element={<Industries />} />
           <Route path="/gaming" element={<Gaming />} />
           <Route path="/media" element={<Media />} />
+          <Route path="/blog" element={<BlogsRedirect />} />
+          <Route path="/casestudies" element={<CasestudiesRedirect />} />
         </Routes>
       </BrowserRouter>
     </div>

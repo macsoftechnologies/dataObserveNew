@@ -1,0 +1,122 @@
+.blogtitlepara {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  letter-spacing: -0.32px;
+  margin-top: 10px;
+}
+.casestudiespara {
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28.8px;
+}
+.casestudiesheading {
+  color: #000;
+  font-size: 31.84px;
+  font-weight: 400;
+}
+.casestudystar {
+  width: 22px;
+  height: 28px;
+  margin-right: 15px;
+}
+.casestartext {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28.8px;
+}
+.casevalueclass {
+  border-top: 1px solid #bfbfbf;
+  padding: 25px;
+  padding-top: 60px;
+}
+.caseheading {
+  color: #000;
+  font-size: 32.484px;
+  font-weight: 400;
+}
+.casestudymatterimage {
+  width: 101px;
+  height: 100px;
+}
+.casevaluepara {
+  color: #000;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 28.8px;
+}
+.casevalueheading {
+  color: #000;
+  font-size: 21.625px;
+  font-weight: 400;
+}
+.casevalueclass2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.caseheading1 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+}
+.casevertical {
+  height: 1px;
+  width: 100%;
+  opacity: 0.1;
+  background: #000;
+}
+.casemoreclass{
+    width: 100%;
+}
+.caseskills{
+    align-items: center;
+    justify-content: space-between;
+}
+.casemoreheading{
+    color: #000;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+}
+.caseskill{
+    color: #000;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.5;
+}
+.casefinalclass{
+    border-top: 1px solid #BFBFBF;
+    padding: 30px;
+    /* padding-right: 20%; */
+}
+.caseapproachheading{
+    color: #000;
+font-size: 32.098px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.caseapproachspan{
+    color: #000;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 28.8px;
+}
+.caseapproachpara{
+    color: #000;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 28.8px;
+margin-top: 20px;
+}

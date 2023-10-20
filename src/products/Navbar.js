@@ -48,23 +48,28 @@ function Navbar() {
                       <a class="dropdown-item linksclass" href="/databi">
                         Data Analytics & BI
                       </a>
-                      <a class="dropdown-item linksclass" href="/aiml">
-                        AI & Machine Learning
-                      </a>
-                      <a class="dropdown-item linksclass" href="/application">
-                        Application Modernization
-                      </a>
-                    </a>
-                    <a href="#" className="navcard2 pt-4 pl-2 mt-2">
-                      
-                    <a class="dropdown-item linksclass" href="/devops">
+                      <a class="dropdown-item linksclass" href="/devops">
                         DevOps-as-a-service
                       </a>
                       <a class="dropdown-item linksclass" href="/talent">
                         Talent-as-a-service
                       </a>
+                      
+                    </a>
+                    <a href="#" className="navcard2 pt-4 pl-2">
+                      
+                    
                       <a class="dropdown-item linksclass" href="/dataeng">
                         Data Engineering
+                      </a>
+                      <a class="dropdown-item linksclass" href="/aiml">
+                        AI & Machine Learning
+                      </a>
+                      <a class="dropdown-item linksclass" href="/genai">
+                        Gen AI as a Service
+                      </a>
+                      <a class="dropdown-item linksclass" href="/application">
+                        Application Modernization
                       </a>
                     </a>
                     <img
@@ -163,26 +168,31 @@ function Navbar() {
                 <div
                   class="dropdown-menu navlinksdropdown"
                   aria-labelledby="navbarDropdownMenuLink"
-                  style={{ width: "950px", left: "-540%" }}
+                  style={{ width: "1000px", left: "-600%" }}
                 >
                   <a href="#" className="row d-flex navcard ml-3">
-                    <a href="#" className="col-md-4 navcard2 mt-4 pl-2">
+                    <a href="#" className="col-md-3 navcard2 mt-5 pl-2">
+                      <a class="dropdown-item linksclass" href="#">
+                        All Insights
+                      </a>
                       <a class="dropdown-item linksclass" href="#">
                         Case Studies
                       </a>
                       <a class="dropdown-item linksclass" href="#">
                         Blogs
                       </a>
+                    </a>
+                    <a href="#" className="col-md-3 navcard2 pt-5 pl-2">
                       <a class="dropdown-item linksclass" href="#">
-                        EBooks
+                        Ebooks
                       </a>
                       <a class="dropdown-item linksclass" href="#">
-                        Webinars & Videos
+                        Whitepapers
                       </a>
                       <a class="dropdown-item linksclass" href="#">
                         Events
                       </a>
-                    </a>
+                      </a>
 
                     {/* coming soon part  */}
 
@@ -192,7 +202,7 @@ function Navbar() {
                       height="191"
                       viewBox="0 0 191 191"
                       fill="none"
-                      className="col-md-4 mt-4"
+                      className="col-md-3 mt-4"
                     >
                       <path
                         d="M56.6628 155.019C56.7376 155.019 56.798 155.621 56.798 156.364C56.798 157.108 56.7376 157.711 56.6628 157.711C56.5883 157.711 56.5275 157.108 56.5275 156.364C56.5279 155.621 56.5883 155.019 56.6628 155.019Z"
@@ -725,7 +735,7 @@ function Navbar() {
                     </svg>
 
                     {/* coming soon image ends */}
-                    <div className="col-md-4 comingsoonclass">
+                    <div className="col-md-3 comingsoonclass pr-3">
                       <p
                         style={{
                           textAlign: "center",
@@ -743,7 +753,7 @@ function Navbar() {
                         src="./images/navlink4gif.gif"
                         alt="navgif"
                         className="navlinkgifclass"
-                        style={{ width: "280px", height: "200px" }}
+                        style={{ width: "213px", height: "166px" }}
                       />
                     </div>
                   </a>
@@ -786,6 +796,7 @@ function Navbar() {
             </ul>
           </div>
         </nav>
+        <button className="acceleratorsclass">Accelerators & Tools</button>
         <div>
         <Link to="/contact">
         <button className="contact">contact</button>

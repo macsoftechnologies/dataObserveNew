@@ -76,3 +76,21 @@ line-height: 30.49px;
   display: flex;
   flex-direction: column;
 }
+.acceleratorsclass{
+  color: rgba(0, 70, 232, 0.69);
+/* font-size: 14px; */
+font-style: normal;
+font-weight: 500;
+line-height: 18.2px;
+border-radius: 242px;
+border: 1px solid #0046E8;
+padding: 10px;
+margin-right: 10px;
+}
+.acceleratorsclass:focus-visible{
+  outline: 0px !important;
+}
+
+.acceleratorsclass:focus{
+  outline: 0px !important;
+}
