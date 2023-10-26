@@ -10,14 +10,21 @@ function company() {
       <Navbar />
 
       <div>
-        <video className="company-play-bg-video" autoPlay loop muted>
+        <video className="company-play-bg-video-1" autoPlay loop muted>
           <source src={companyvideo} type="video/mp4" />
         </video>
 
         <div className="body-science">
-       
           <p className="journey">
-          <p style={{fontWeight:"600" ,fontSize:"20px",letterSpacing:"1px"}}>About Us</p>
+            <p
+              style={{
+                fontWeight: "600",
+                fontSize: "20px",
+                letterSpacing: "1px",
+              }}
+            >
+              About Us
+            </p>
             <span className="our-story">Our Story </span>
             <br />
             Navigating your journey
@@ -222,110 +229,111 @@ function company() {
 
       <section>
         <div className="global-data-customer-background">
-        <div className="container everyperson-data">
-          <div className="row">
-            <div className="col-md-6">
-              <li className="d-flex">
-                <div>
-                  <img
-                    className="data-science-image"
-                    src="./images/data-scientist.png"
-                    alt="one"
-                    width={100}
-                  />
-                </div>
-                <div className="global-left-customers">
-                  <h4 className="global-data">Data Scientists</h4>
-                  <p className="data-science-paragraph">
-                    Every person at DataObserve brings their whole self to work
-                    and helps us create a culture of curiosity and innovation
-                  </p>
-                </div>
-              </li>
-              <li className="d-flex">
-                <div>
-                  <img
-                    className="data-science-image"
-                    src="./images/global-delivery.png"
-                    alt="one"
-                    width={100}
-                  />
-                </div>
-                <div className="global-left-customers">
-                  <h4 className="global-data">Global Delivery Centres</h4>
-                  <p className="data-science-paragraph">
-                    Ready to Enable user-driven analytics for some of the
-                    world’s largest Fortune 50 companies
-                  </p>
-                </div>
-              </li>
-              <li className="d-flex">
-                <div>
-                  <img
-                    className="data-science-image"
-                    src="./images/global-customer.png"
-                    alt="one"
-                    width={100}
-                  />
-                </div>
-                <div className="global-left-customers">
-                  <h4 className="global-data">Global Customers</h4>
-                  <p className="data-science-paragraph">
-                    Trust us to help them create sustainable impact by
-                    systematizing the last mile adoption of analytics
-                  </p>
-                </div>
-              </li>
-              <li className="d-flex">
-                <div>
-                  <img
-                    className="data-science-image"
-                    src="./images/global-message.png"
-                    alt="one"
-                    width={100}
-                  />
-                </div>
-                <div className="global-left-customers">
-                  <h4 className="global-data">
-                    Unprecedented operational excellence
-                  </h4>
-                  <p className="data-science-paragraph">
-                    with AI and self-service to solve complex problems across
-                    the enterprise value chain
-                  </p>
-                </div>
-              </li>
-              <li className="d-flex">
-                <div>
-                  <img
-                    className="data-science-image"
-                    src="./images/global-computer.png"
-                    alt="one"
-                    width={100}
-                  />
-                </div>
-                <div className="global-left-customers">
-                  <h4 className="global-data">
-                    One enterprise AI Studio & Labs
-                  </h4>
-                  <p className="data-science-paragraph">
-                    offering a co-innovation platform and marketplacefor AI and
-                    advanced analytics solutions to move innovation from
-                    experimentation to value realization
-                  </p>
-                </div>
-              </li>
-            </div>
+          <div className="container everyperson-data">
+            <div className="row">
+              <div className="col-md-6">
+                <li className="d-flex">
+                  <div>
+                    <img
+                      className="data-science-image"
+                      src="./images/data-scientist.png"
+                      alt="one"
+                      width={100}
+                    />
+                  </div>
+                  <div className="global-left-customers">
+                    <h4 className="global-data">Data Scientists</h4>
+                    <p className="data-science-paragraph">
+                      Every person at DataObserve brings their whole self to
+                      work and helps us create a culture of curiosity and
+                      innovation
+                    </p>
+                  </div>
+                </li>
+                <li className="d-flex">
+                  <div>
+                    <img
+                      className="data-science-image"
+                      src="./images/global-delivery.png"
+                      alt="one"
+                      width={100}
+                    />
+                  </div>
+                  <div className="global-left-customers">
+                    <h4 className="global-data">Global Delivery Centres</h4>
+                    <p className="data-science-paragraph">
+                      Ready to Enable user-driven analytics for some of the
+                      world’s largest Fortune 50 companies
+                    </p>
+                  </div>
+                </li>
+                <li className="d-flex">
+                  <div>
+                    <img
+                      className="data-science-image"
+                      src="./images/global-customer.png"
+                      alt="one"
+                      width={100}
+                    />
+                  </div>
+                  <div className="global-left-customers">
+                    <h4 className="global-data">Global Customers</h4>
+                    <p className="data-science-paragraph">
+                      Trust us to help them create sustainable impact by
+                      systematizing the last mile adoption of analytics
+                    </p>
+                  </div>
+                </li>
+                <li className="d-flex">
+                  <div>
+                    <img
+                      className="data-science-image"
+                      src="./images/global-message.png"
+                      alt="one"
+                      width={100}
+                    />
+                  </div>
+                  <div className="global-left-customers">
+                    <h4 className="global-data">
+                      Unprecedented operational excellence
+                    </h4>
+                    <p className="data-science-paragraph">
+                      with AI and self-service to solve complex problems across
+                      the enterprise value chain
+                    </p>
+                  </div>
+                </li>
+                <li className="d-flex">
+                  <div>
+                    <img
+                      className="data-science-image"
+                      src="./images/global-computer.png"
+                      alt="one"
+                      width={100}
+                    />
+                  </div>
+                  <div className="global-left-customers">
+                    <h4 className="global-data">
+                      One enterprise AI Studio & Labs
+                    </h4>
+                    <p className="data-science-paragraph">
+                      offering a co-innovation platform and marketplacefor AI
+                      and advanced analytics solutions to move innovation from
+                      experimentation to value realization
+                    </p>
+                  </div>
+                </li>
+              </div>
 
-            <div className="col-md-6">
-              <img
-                className="how-we"
-                src="./images/datascientist.png"
-                alt="how"
-              />
+              <div className="col-md-6">
+                <img
+                  className="how-we"
+                  src="./images/datascientist.png"
+                  alt="how"
+                />
+              </div>
             </div>
           </div>
-        </div>
         </div>
       </section>
 
