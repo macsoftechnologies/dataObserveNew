@@ -8,7 +8,9 @@ const CasestudiesRedirect = () => {
       <Navbar />
       <section>
         <div className="container">
+          <a href="/allinsights">
           <button className="previousButton">Back</button>
+          </a>
         </div>
       </section>
       <section className="blogsheader mb-5">

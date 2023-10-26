@@ -4,12 +4,16 @@ import "./BlogRedirect.css";
 import Footer from "../products/Footer";
 
 const BlogsRedirect = () => {
+
+  
   return (
     <>
       <Navbar />
       <section>
         <div className="container">
+          <a href="/allinsights">
           <button className="previousButton">Back</button>
+          </a>
         </div>
       </section>
       <section className="blogsheader">

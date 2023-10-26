@@ -4,12 +4,14 @@ import Navbar from "../products/Navbar"
 
 function Ebooks() {
   return (
-    <div>
+    <div id='ebooks'>
       <Navbar />
 
       <section>
         <div className="container">
+          <a href='/allinsights'>
           <button className="previousButton">Back</button>
+          </a>
         </div>
       </section>
       <section className="ebooksheader">

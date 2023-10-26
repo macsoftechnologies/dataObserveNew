@@ -3,6 +3,17 @@ import "./Navbar.css";
 import {Link} from 'react-router-dom';
 
 function Navbar() {
+
+ 
+    const scrollToSection = (sectionId) => {
+      const section = document.getElementById(sectionId);
+      if (section) {
+        section.scrollIntoView({ behavior: 'smooth' });
+      }
+    };
+  
+
+
   return (
     <div className="bg-white" style={{ paddingTop: "0px" }}>
       <div className="container d-flex justify-content-between align-items-center">
@@ -172,24 +183,25 @@ function Navbar() {
                 >
                   <a href="#" className="row d-flex navcard ml-3">
                     <a href="#" className="col-md-3 navcard2 mt-5 pl-2">
-                      <a class="dropdown-item linksclass" href="#">
+                      <a class="dropdown-item linksclass" href="allinsights">
                         All Insights
                       </a>
-                      <a class="dropdown-item linksclass" href="#">
+                      <a class="dropdown-item linksclass" href="#casestudies" onClick={() => scrollToSection('casestudies')}>
                         Case Studies
                       </a>
-                      <a class="dropdown-item linksclass" href="#">
+           
+                      <a class="dropdown-item linksclass" href="#blogs" onClick={() => scrollToSection('blogs')}>
                         Blogs
                       </a>
                     </a>
                     <a href="#" className="col-md-3 navcard2 pt-5 pl-2">
-                      <a class="dropdown-item linksclass" href="#">
+                      <a class="dropdown-item linksclass" href="#ebooks" onClick={() => scrollToSection('ebooks')}>
                         Ebooks
                       </a>
-                      <a class="dropdown-item linksclass" href="#">
+                      <a class="dropdown-item linksclass" href="#whitepapers" onClick={() => scrollToSection('whitepapers')}>
                         Whitepapers
                       </a>
-                      <a class="dropdown-item linksclass" href="#">
+                      <a class="dropdown-item linksclass" href="#top10insights"  onClick={() => scrollToSection('top10insights')}>
                         Events
                       </a>
                       </a>

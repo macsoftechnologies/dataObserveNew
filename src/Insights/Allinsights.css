@@ -1,0 +1,186 @@
+.company-play-bg-video-1{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+  }
+
+.body-science-1{
+            position:absolute;
+            top:73px;
+            left:35px;
+}
+
+.home-company-ourstory-1{
+    margin-top: 10px;
+    margin-bottom: 41px;
+}
+.color-black-1{
+    color: black;
+}
+.home-color-1{
+    color: #FE5000;
+}
+.journey-1{
+    color: white;
+    padding-top: 73px;
+    padding-left: 100px;
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 500;
+
+}
+.our-story-1{
+font-size: 32px;
+font-family: Poppins;
+font-weight: 700;
+
+}
+
+.All-insights-back-ground{
+  background-color: #F8F8F8;
+  padding-top: 3%;
+  margin-top: -7px;
+
+}
+
+.insights-two-number{
+  width: 46px;
+}
+
+.hide-text{
+    display: none;
+    font-size: 10px;
+    font-weight: 400;
+    /* text-align: justify; */
+    cursor: pointer;
+    color: #505050;
+    margin-top: 10px;
+}
+
+.myDIV:hover .hide-text {
+    display: block;
+    color: #505050;
+    font-weight: 400;
+    cursor: pointer;
+
+
+  }
+
+  .myDIV:hover{
+    height: 360px;
+  }
+  .insights-li-ke{
+    display: flex;
+padding: 10px;
+justify-content: space-between;
+align-items: center;
+align-self: stretch;
+  }
+
+  .insights-main{
+    text-decoration: none!important;
+  }
+
+  .case-study-insights{
+    color: #505050;
+
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+/* line-height: 55.2px; */
+letter-spacing: -0.32px;
+/* margin-top: 5%; */
+
+  }
+
+ 
+
+  .insights-paragraph-future{
+    color: #505050;
+
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 137.5% */
+    letter-spacing: -0.32px;
+    
+  }
+
+  .insights-paragraph-future-blog{
+    color: #505050;
+
+    font-family: Poppins;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 137.5% */
+    letter-spacing: -0.32px;
+    margin-bottom: 37px;
+    
+  }
+
+  .case-study-image{
+    border-radius: 5px;
+    height: 106px;
+    width: 412px;
+
+  }
+
+  .rvs-praveen{
+    margin-left: -14px;
+    margin-bottom: 16px;
+    color: #505050;
+  }
+
+  .read-more-insights{
+    color: blue;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+
+  .domain-insigts{
+    margin-left: -15px;
+    color: #505050;
+
+  }
+.myDIV{
+  width: 95%!important;
+  padding: 10px;
+    background-color: white;
+    border: 1px solid white;
+    height: 286px;
+}
+.like-numbers{
+  width: 96px;
+padding: 4px 8px;
+justify-content: space-between;
+align-items: center!important;
+border-radius: 20px;
+border: 1px solid #EDE4E4;
+height: 35px;
+
+}
+.domain{
+display: flex;
+width: 96px;
+padding: 4px 19px;
+justify-content: space-between;
+align-items: center;
+border-radius: 20px;
+border: 1px solid #EDE4E4;
+}
+
+.number-insight{
+  margin-top: 18px;
+  color: #505050;
+}
+
+.share{
+  margin-top: 4px;
+}
+.like-share-number{
+  margin-left: 18%;
+}
+

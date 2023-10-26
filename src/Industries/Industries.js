@@ -1095,7 +1095,7 @@ const Industries = () => {
           </div>
 
           <div class="col-md-3 text-center">
-            <img className="down-logo" src="./images/Accelerators.png" />
+            <img className="down-logo-1" src="./images/Accelerators.png" />
             <h2 className="percentage">25%</h2>
             <p className="pp-data">
               Efficiency Achieved in Patient
