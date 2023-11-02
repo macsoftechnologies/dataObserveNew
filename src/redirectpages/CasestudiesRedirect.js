@@ -2,6 +2,7 @@ import React from "react";
 import "./CasestudiesRedirect.css";
 import Navbar from "../products/Navbar";
 
+
 const CasestudiesRedirect = () => {
   return (
     <>
@@ -9,310 +10,292 @@ const CasestudiesRedirect = () => {
       <section>
         <div className="container">
           <a href="/allinsights">
-          <button className="previousButton">Back</button>
-          </a>
+          <button className="previousButton">Back</button></a>
         </div>
       </section>
       <section className="blogsheader mb-5">
         <div className="container blogmatter">
           <h3 className="blogtitle1">Case Study</h3>
           <h1 className="blogtitle2 col-md-10">
-            Generative AI Vs. Traditional AI: A Simple Breakdown
+            Enhanced data management for a fintech firm using Snowflake
           </h1>
-          <p className="blogtitlepara">
-            Learn the key differences between generative AI and traditional AI,
-            and how they are transforming our world.
-          </p>
+          <button className="domainbuttonclass">Domain</button>
         </div>
       </section>
       <section>
         <div className="container">
           <div className="row">
             <div className="col-md-9">
-              <p className="casestudiespara text-justify">
-                Our client, a US travel club, offers branded leisure programs to
-                tens of thousands of private members. Initially, they focused on
-                renting out timeshare condos and villas but gradually started
-                selling other products — such as cruises, hotels, and car
-                rentals. As they integrated with more vendors, it became
-                difficult to navigate their website. This led to the growth of
-                concierge services, which, in turn, suffered from employee
-                turnover and caused significant financial losses.
-              </p>
-              <p className="casestudiespara text-justify mt-3">
-                Another problem the company faced was the lack of direct
-                connections with travel suppliers.  Most of their content came
-                from intermediaries, so our client could count on only a tiny
-                fraction of commissions.
-              </p>
-              <p className="casestudiespara text-justify mt-3">
-                The travel club reached out to AltexSoft to build a modern
-                platform with an intuitive interface and access to a wide range
-                of products from direct suppliers and resellers.
-              </p>
-              <h1 className="casestudiesheading mt-5">Business challenges</h1>
-              <p className="casestudiespara text-justify mt-4">
-                The self-service booking platform designed by AltexSoft
-                addresses the following business challenges.
-              </p>
-              <div className="mb-5">
-                <div className="d-flex">
-                  <img
-                    src="images/casestudystar.png"
-                    alt="#"
-                    className="casestudystar"
-                  />
-                  <p className="casestartext">
-                    Cut costs on concierge services
-                  </p>
-                </div>
-                <div className="d-flex">
-                  <img
-                    src="images/casestudystar.png"
-                    alt="#"
-                    className="casestudystar"
-                  />
-                  <p className="casestartext">
-                    Create a seamless booking experience for closed user groups
-                  </p>
-                </div>
-                <div className="d-flex">
-                  <img
-                    src="images/casestudystar.png"
-                    alt="#"
-                    className="casestudystar"
-                  />
-                  <p className="casestartext">
-                    Establish direct integrations with suppliers to increase
-                    revenue
-                  </p>
-                </div>
-                <div className="d-flex">
-                  <img
-                    src="images/casestudystar.png"
-                    alt="#"
-                    className="casestudystar"
-                  />
-                  <p className="casestartext">
-                    Expand the range of available travel products
-                  </p>
-                </div>
-                <div className="d-flex">
-                  <img
-                    src="images/casestudystar.png"
-                    alt="#"
-                    className="casestudystar"
-                  />
-                  <p className="casestartext">
-                    Minimize the manual work and human error when managing
-                    prices
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3 tablecolumn">
-              <div className="tableclass">
-                <h1 className="blogtableheading">Table of Content</h1>
-                <div className="pt-3 blogtableparadiv">
-                  <p className="blogtablepara">Bussiness Challenge</p>
-                </div>
-                <div className="pt-3 blogtableparadiv">
-                  <p className="blogtablepara">VALUE DELIVERED</p>
-                </div>
-                <div className="pt-3 blogtableparadiv">
-                  <p className="blogtablepara">
-                    Generative AI Vs. Traditional AI - A Simple Breakdown for
-                    Easier Understanding
-                  </p>
-                </div>
-                <div className="pt-3 blogtableparadiv">
-                  <p className="blogtablepara">
-                    APPROACH & Technical Traditional AI
-                  </p>
-                </div>
-                <div className="pt-3 blogtableparadiv">
-                  <p className="blogtablepara">Concluding Thoughts</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section>
-        <div className="container">
-          <div className="row">
-            <div className="col-md-9 casevalueclass">
-              <h1 className="caseheading">Value Delivered</h1>
-              <div className="d-flex mt-5">
-                <img
-                  src="images/casestudycursor.png"
-                  alt="#"
-                  className="casestudymatterimage"
-                />
-                <div className="ml-3">
-                  <h1 className="casevalueheading">
-                    Providing a consistent look and feel across the website
-                  </h1>
-                  <p className="casevaluepara mt-3 text-justify">
-                    The client’s website was a combination of white-label
-                    solutions from numerous travel providers, which didn’t feel
-                    consistent. Our experts redesigned UI/UX to bring uniformity
-                    across different visual elements, enhancing user
-                    interactions with the system. As a result, non-tech-savvy
-                    clients can easily buy whatever they want, with little to no
-                    help from live support.
-                  </p>
-                </div>
-              </div>
-
-              <div className="d-flex mt-5">
-                <img
-                  src="images/casestudycursor2.png"
-                  alt="#"
-                  className="casestudymatterimage"
-                />
-                <div className="ml-3">
-                  <h1 className="casevalueheading">
-                    Integrating with timeshare resorts, payment gateways, and a
-                    review platform
-                  </h1>
-                  <p className="casevaluepara mt-3 text-justify">
-                    AltexSoft established direct connections with two timeshare
-                    companies — the first leveraging content from over 4,200
-                    resorts and the second maintaining a network of nearly 3,000
-                    resorts globally. We also built integrations with payment
-                    gateways to accept credit cards and a guest feedback
-                    platform to collect and analyze customer reviews and hotel
-                    ratings.
-                  </p>
-                </div>
-              </div>
-
-              <div className="d-flex mt-5">
-                <img
-                  src="images/casestudycursor3.png"
-                  alt="#"
-                  className="casestudymatterimage"
-                />
-                <div className="ml-3">
-                  <h1 className="casevalueheading">
-                    Getting Priceline content via Travolutionary, an all-in-one
-                    hotel aggregation platform
-                  </h1>
-                  <p className="casevaluepara mt-3 text-justify">
-                    Travolutionary links travel resellers to inventory from 80
-                    suppliers via a single API, eliminating the need to build
-                    multiple integrations. However, you must get a separate
-                    certification from each vendor you want to partner with. So,
-                    after connecting the client’s platform to Travolutionary,
-                    our team navigated a complex approval process with the
-                    supplier of choice — Priceline. We successfully verified
-                    that the website correctly presents data from Priceline.
-                  </p>
-                </div>
-              </div>
-
-              <div className="d-flex mt-5">
-                <img
-                  src="images/casestudycursor4.png"
-                  alt="#"
-                  className="casestudymatterimage"
-                />
-                <div className="ml-3">
-                  <h1 className="casevalueheading">
-                    Automating price calculation
-                  </h1>
-                  <p className="casevaluepara mt-3 text-justify">
-                    We also built a commission engine for hotels and condos that
-                    automates adding markups (a flat fee or a percentage of a
-                    sale price) to a base rate. It applies predefined rules to
-                    calculate a final price depending on property location,
-                    supplier, and user group. The module lets our client be
-                    flexible with commissions while reducing manual work and
-                    human error.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3 casevalueclass2">
-              <div className="casemoreclass">
-                <p className="caseheading1 text-align-start">
-                  More related casestudies
+              <div className="casestudycustomer" id="customercase">
+                <h1 className="caseheading1">Customer Background</h1>
+                <p className="casestudypara1 pt-3 mb-3 text-justify">
+                  Our client, a long-standing financial services institution,
+                  excels in investment banking, asset management, and wealth
+                  advisory. With a legacy extending over three decades, they
+                  have garnered a strong reputation for providing exceptional
+                  financial solutions and have become trusted partners to a
+                  diverse clientele spanning various industries.
                 </p>
-                <div className="casevertical"></div>
-                <div className="mt-3">
-                  <h6 className="casemoreheading">
-                    What's new in Angular version 12?🔥
-                  </h6>
-                  <div className="d-flex caseskills">
-                    <p className="caseskill">#angular</p>
-                    <p className="caseskill">#html</p>
-                    <p className="caseskill">#css</p>
-                    <p className="caseskill">#javascript</p>
+                <div className="casecustomersidecards w-100 d-flex">
+                  <div className="casecustomercard1">
+                    <h3 className="casecustomercardheaing1">Industry</h3>
+                    <p className="casecustomerpara1">
+                      Financial Services and Technology
+                    </p>
+                  </div>
+                  <div className="casecustomercard1 mr-4">
+                    <h3 className="casecustomercardheaing1">
+                      Technologies / Platforms / Frameworks
+                    </h3>
+                    <p className="casecustomerpara1">
+                      Snowflake CDP, Power BI, Python, AWS
+                    </p>
                   </div>
                 </div>
-                <div className="casevertical"></div>
-                <div className="mt-3">
-                  <h6 className="casemoreheading">
-                    Nulam magna tincidu nunc ante 🏆
-                  </h6>
-                  <div className="d-flex caseskills">
-                    <p className="caseskill">#angular</p>
-                    <p className="caseskill">#html</p>
-                    <p className="caseskill">#css</p>
-                    <p className="caseskill">#javascript</p>
+              </div>
+              
+            </div>
+            <div className="col-md-3 mb-5 casetablecolumn">
+              <div className="tableclass container">
+                <h1 className="blogtableheading text-center">
+                  Table of Content
+                </h1>
+                <div className="pt-3 pb-3 blogtableparadiv">
+                  <a href="#customercase" className="blogtablepara">
+                  <span className="tablebullet text-center"><i class="fa fa-angle-double-right" aria-hidden="true"></i>{" "}</span>Customer Background
+                  </a>
+                </div>
+                <div className="pt-3 pb-3 blogtableparadiv">
+                  <a href="#challengecase" className="blogtablepara">
+                  <span className="tablebullet text-center"><i class="fa fa-angle-double-right" aria-hidden="true"></i>{" "}</span>Challenges
+                  </a>
+                </div>
+                <div className="pt-3 pb-3 blogtableparadiv">
+                  <a href="#solutioncase" className="blogtablepara">
+                    <span className="tablebullet text-center"><i class="fa fa-angle-double-right" aria-hidden="true"></i>{" "}</span>Solutions
+                  </a>
+                </div>
+                <div className="pt-3 pb-3 blogtableparadiv">
+                  <a href="#benefitcase" className="blogtablepara">
+                    <span className="tablebullet text-center"><i class="fa fa-angle-double-right" aria-hidden="true"></i>{" "}</span>Benefits
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-9">
+            <div className="casestudychallenge" id="challengecase">
+                <h3 className="caseheading1 pt-5">Challenges</h3>
+                <p className="casestudypara2 mt-4">
+                  Our client encountered a range of challenges within their data
+                  ecosystem, which hindered their operational efficiency and
+                  decision-making capabilities:
+                </p>
+                <p className="casestudypara2 mt-2 text-justify">
+                  1. Data Silos and Fragmentation: Data scattered across various
+                  departments, systems, and databases created an inconsistent
+                  information landscape. This disjointed data ecosystem made it
+                  difficult to make accurate decisions, as they relied on
+                  disconnected data sources
+                </p>
+                <p className="casestudypara2 mt-2 text-justify">
+                  2. Limited Scalability for Growing Demands: With their
+                  business expansion, the existing data infrastructure struggled
+                  to handle increasing data volumes. This resulted in
+                  performance bottlenecks during peak usage, leading to slower
+                  response times for data processing and analysis.
+                </p>
+                <p className="casestudypara2 mt-2 text-justify">
+                  3. Lack of Real-Time Insights: Delays in data processing and
+                  reporting hampered their ability to respond swiftly to market
+                  changes and opportunities. The absence of real-time insights
+                  affected their agility in making timely decisions.
+                </p>
+                <p className="casestudypara2 mt-2 text-justify">
+                  4. Poor Data Quality and Consistency: Challenges in
+                  maintaining accurate and consistent data undermined their
+                  analytical capabilities, eroding confidence in decision-making
+                  and hindering strategic planning.
+                </p>
+                <p className="casestudypara2 mt-2 text-justify">
+                  5. Data Security and Compliance Concerns: The organization
+                  grappled with ensuring data security and regulatory
+                  compliance, both of which are critical for any business.
+                  Striking a balance between safeguarding sensitive financial
+                  data and facilitating efficient data sharing proved to be a
+                  complex task due to the paramount importance of data privacy
+                  and compliance.
+                </p>
+              </div>
+            <div className="casestudysolutions" id="solutioncase">
+                <h3 className="caseheading1">Solutions</h3>
+                <p className="casestudypara2 mt-3 text-justify">
+                  In their quest for enhanced data management efficiency,
+                  DataObserve proposed a strategic utilization of Snowflake
+                  services to address specific challenges and revolutionize
+                  their operational landscape:
+                </p>
+                <p className="casestudypara2 mt-3 text-justify">
+                  <p>1. Snowflake Integration:</p>
+                  <p>
+                    {" "}
+                    By adopting Snowflake's modern data platform, we engineered
+                    a significant shift by centralizing their data storage
+                    infrastructure. This integration effectively dismantled data
+                    silos, streamlining data management. The platform's
+                    capabilities allowed for the seamless aggregation of data
+                    from various departments, fostering a cohesive and
+                    synchronized view of information.
+                  </p>
+                </p>
+                <p className="casestudypara2 mt-3 text-justify">
+                  <p>2. Unified Data Ecosystem:</p>
+                  <p>
+                    {" "}
+                    Snowflake's architecture played a crucial role in their
+                    pursuit of unified insights. Leveraging this innovative
+                    technology, they established a singular data repository that
+                    efficiently consolidated diverse data sources. This
+                    consolidation served as the foundation for acquiring
+                    accurate and timely insights. With a comprehensive view of
+                    client portfolios and market trends, our client can make
+                    well-informed decisions with improved agility and precision.
+                  </p>
+                </p>
+                <p className="casestudypara2 mt-3 text-justify">
+                  <p>3. Scalable Performance:</p>
+                  <p>
+                    {" "}
+                    Recognizing the importance of scalability in addressing
+                    their expanding needs, Snowflake's elasticity enabled
+                    resource adaptation based on varying workloads. This dynamic
+                    scalability integration empowered our client to overcome
+                    performance bottlenecks, ensuring consistent and reliable
+                    data processing and analysis even during periods of high
+                    demand.
+                  </p>
+                </p>
+                <p className="casestudypara2 mt-3 text-justify">
+                  <p>4. Advanced Data Protection and Compliance:</p>
+                  <p>
+                    {" "}
+                    In the ever-evolving realm of data security and compliance,
+                    we harnessed Snowflake's advanced security features as a
+                    protective shield. This strategic approach fortified their
+                    data protection measures, encompassing encryption and access
+                    controls. By meticulously aligning with regulatory
+                    standards, we assured the safeguarding of sensitive
+                    financial information while promoting transparent and secure
+                    data sharing within the organization.
+                  </p>
+                </p>
+              </div>
+              <div className="casestudybenefits" id="benefitcase">
+                <h3 className="caseheading1">Benefits</h3>
+                <p className="casestudypara2 mt-3 text-justify">
+                  {"->"} Comprehensive Insights: The centralized data repository
+                  provides a comprehensive view of client portfolios, elevating
+                  decision-making capabilities.
+                </p>
+                <p className="casestudypara2 mt-3 text-justify">
+                  {"->"} Agile Analytics: With real-time data accessibility, our
+                  client can swiftly respond to market fluctuations and emerging
+                  trends.
+                </p>
+                <p className="casestudypara2 mt-3 text-justify">
+                  {"->"} Enhanced Scalability and Performance: Snowflake's
+                  scalability enhances performance and reduces response times,
+                  optimizing operations
+                </p>
+                <p className="casestudypara2 mt-3 text-justify">
+                  {"->"} Robust Data Security: Advanced security features ensure
+                  strict regulatory compliance, safeguarding sensitive
+                  information.
+                </p>
+                <p className="casestudypara2 mt-3 text-justify">
+                  {"->"} Operational Efficiency: Streamlined data management
+                  processes have bolstered operational efficiency, resulting in
+                  reduced overhead costs.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-9 d-flex casepercentclass mb-3">
+              <div className="container">
+                <div className="row">
+                  <div className="col-md-3 mt-5 mb-4">
+                    <h1 className="text-center casefinalcardhead">75%</h1>
+                    <p className="text-center casefinalpara">
+                      reduction in time to access data
+                    </p>
+                  </div>
+                  <div className="col-md-3 mt-5 mb-4">
+                    <h1 className="text-center casefinalcardhead">60%</h1>
+                    <p className="text-center casefinalpara">
+                      Increase in data processing speed
+                    </p>
+                  </div>
+                  <div className="col-md-3 mt-5 mb-4">
+                    <h1 className="text-center casefinalcardhead">80%</h1>
+                    <p className="text-center casefinalpara">
+                      improvement in resource scalability
+                    </p>
+                  </div>
+                  <div className="col-md-3 mt-5 mb-4">
+                    <h1 className="text-center casefinalcardhead">30%</h1>
+                    <p className="text-center casefinalpara">
+                      decrease in operational costs
+                    </p>
                   </div>
                 </div>
-                <div className="casevertical"></div>
-                <div className="mt-3">
-                  <h6 className="casemoreheading">
-                    Morbi sit volutpat, varius odio et.{" "}
-                  </h6>
-                  <div className="d-flex caseskills">
-                    <p className="caseskill">#angular</p>
-                    <p className="caseskill">#html</p>
-                    <p className="caseskill">#css</p>
-                    <p className="caseskill">#javascript</p>
-                  </div>
+              </div>
+            </div>
+            <div className="col-md-9 caseiconsclass p-3">
+              <h6 className="caseheading2 text-center"><em>SERVICES</em></h6>
+
+              <div className="container pt-3 caseiconsdiv d-flex">
+                <div>
+                  <img src="images/caseoptimization.png" alt="#" className="casefinalcardicon" />
+                  <p className="casefinalcardpara">Optimization</p>
+                </div>
+                <div>
+                  <img src="images/casemanagement.png" alt="#" className="casefinalcardicon" />
+                  <p className="casefinalcardpara">Management</p>
+                </div>
+                <div>
+                  <img src="images/casetransaction.png" alt="#" className="casefinalcardicon" />
+                  <p className="casefinalcardpara">Transaction</p>
+                </div>
+                <div>
+                  <img src="images/casesecurity.png" alt="#" className="casefinalcardicon" />
+                  <p className="casefinalcardpara">Security</p>
+                </div>
+                <div>
+                  <img src="images/casemetadata.png" alt="#" className="casefinalcardicon" />
+                  <p className="casefinalcardpara">Metadata</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-9">
+              <img src="images/casedatastorage.png" alt="#" className="finalcaseimage" />
+              <div className="casecompanyclass">
+                <h4 className="caseheading3 text-center"><em>CLOUD</em></h4>
+                <div className="d-flex casecompanyimages">
+                  <img src="images/casecloud.png" alt="#" className="casecompanyimage" />
+                  <img src="images/caseazure.png" alt="#" className="casecompanyimage" />
+                  <img src="images/caseaws.png" alt="#" className="casecompanyawsimage" />
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="mt-5 mb-5">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-9 casefinalclass">
-              <h1 className="caseapproachheading">
-                Approach and Technical Info
-              </h1>
-              <p className="caseapproachpara">
-                The partnership lasted about two years, involving{" "}
-                <span className="caseapproachspan">
-                  two front-end developers; three back-end developers; two QA
-                  engineers
-                </span>
-                , a <span className="caseapproachspan">solution architect</span>
-                , a<span className="caseapproachspan"> project manager</span>, a
-                <span className="caseapproachspan"> business analyst</span>, and
-                a<span className="caseapproachspan"> UI/UX designer</span>
-              </p>
-              <p className="caseapproachpara">
-                The technology stack includes{" "}
-                <span className="caseapproachspan">React</span>,
-                <span className="caseapproachspan"> Redux</span>,
-                <span className="caseapproachspan"> Ant Design, ASP.NET Core, Entity Framework (EF) Core, Microsoft SQL Server, Terraform, Amazon Elastic Container Register (ECR) </span>and
-                <span className="caseapproachspan"> Elastic Container Service (ECS), AWS Elastic Beanstalk, </span>and
-                <span className="caseapproachspan"> AWS Lambda.</span>
-
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
       <section>
-      <div class="footer">
+        <div class="footer">
           <div className="container">
             <div className="row">
               <div className="col-md-3">

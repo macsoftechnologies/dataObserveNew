@@ -13,7 +13,13 @@
 .forntier-genai {
   font-size: 15px;
 }
-.genaibg {
+.genai-transform-video {
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  /* height: 600px; */
+}
+/* .genaibg {
   background: url("/public/images/genaibg.png");
   height: 600px;
   width: 100%;
@@ -21,7 +27,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
+} */
 .generative-genai {
   font-size: 30px;
   color: aliceblue;
@@ -51,19 +57,21 @@
   height: 200px;
   width: 100%;
   margin-top: 50px;
+  margin-bottom: 30px;
 }
 .btn-genai {
   border-radius: 4px;
   padding: 10px;
   border: none;
-  background: linear-gradient(110deg, #146dff 0%, #5346ff 100%);
+  /* background: linear-gradient(110deg, #146dff 0%, #5346ff 100%); */
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
 .businessachive-genai {
   color: #fff;
-  font-size: 20px;
+  font-size: 40px;
 }
 .text-btn {
   justify-content: center;
@@ -71,15 +79,28 @@
   align-items: center;
 }
 .btn-text {
-  color: #fff;
+  color: blue;
+  padding-right: 12px;
+  /* background-color: white; */
 }
 .generative-genai1 {
   color: black;
   font-size: 25px;
   font-weight: 700;
+  margin-bottom: 20px;
+}
+.generative-genai3 {
+  color: black;
+  font-size: 19px;
+  font-weight: 700;
+  /* margin-bottom: 32px; */
 }
 .para-genai {
   font-size: 15px;
+  list-style: none;
+  display: flex;
+  margin-top: 2px;
+  margin-bottom: -7px;
 }
 .texthead-genai {
   background: #1a4ab9;
@@ -90,6 +111,10 @@
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+}
+.card-text{
+  margin-bottom: 10px;
+  text-align: justify;
 }
 .texthead1-genai {
   color: #fff;
@@ -104,7 +129,9 @@
 }
 .generative-genai2 {
   color: black;
+  font-weight: 600;
   font-size: 20px;
+  margin-bottom: 18px;
 }
 .genaiviewrecentbutton {
   margin-top: 43px;
@@ -125,10 +152,153 @@
 #v-pills-tab .nav-link.active,
 #v-pills-tab .show > .nav-link {
   color: #fff;
-  background-color: #146DFF;
+  background-color: #146dff;
   border-radius: 0px;
   border-bottom: 0px !important;
 }
-.healthcare-genai{
-    color: black;
+.healthcare-genai {
+  color: black;
 }
+.cloudimgcard1 {
+  width: 25%;
+  height: 450px;
+  padding: 10px;
+  padding-right: 0px;
+  position: relative;
+}
+.cloudcard1 {
+  position: absolute;
+  top: 55%;
+  background: rgba(31, 31, 31, 0.4);
+  backdrop-filter: blur(13px);
+  max-width: 100%;
+  height: 42.9%;
+  padding: 9px;
+  border-radius: 0px !important;
+  
+}
+.cloudcardheading1 {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  /* line-height: 27.5px; */
+  letter-spacing: -0.32px;
+}
+.cloudcardpara1 {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 8.5px;
+  font-weight: 400;
+  /* line-height: 23.2px; */
+  letter-spacing: -0.32px;
+  visibility: visible;
+}
+.cloudimgcard1:hover {
+  cursor: pointer;
+}
+.cloudimgcard1 {
+  transition: transform 0.5s ease;
+}
+.cardimgcard1 .cloudcard1:hover {
+  color: #03b5d2;
+}
+.cloudimgcard1:hover {
+  transform: scale(1.1);
+}
+.cloudimgcard1:hover .cloudcardpara1 {
+  font-size: 11px;
+  opacity: 1;
+}
+.cloudimgcard1:hover .cloudcard1 {
+  top: 30%;
+  height: 304px;
+}
+.cloudimgcard1:hover .cloudcardheading1 {
+  font-size: 18px;
+  opacity: 1;
+}
+.cloudcardheadings {
+  font-weight: 700;
+}
+
+.unleash-gen-ai{
+  padding-top: 17px;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1200px) {
+  .cloudcard1 {
+    position: absolute;
+    top: 55%;
+    background: rgba(31, 31, 31, 0.4);
+    backdrop-filter: blur(13px);
+    width: 88.4%;
+    height: 42.6%;
+    padding: 9px;
+    border-radius: 0px !important;
+  }
+  .cardimgcard1 .cloudcard1:hover {
+    color: #03b5d2;
+  }
+  .cloudimgcard1:hover {
+    transform: scale(1.1);
+  }
+  .cloudimgcard1:hover .cloudcardpara1 {
+    font-size: 14px;
+    opacity: 1;
+  }
+  .cloudimgcard1:hover .cloudcard1 {
+    top: 40%;
+    height: 259px;
+  }
+  .cloudimgcard1:hover .cloudcardheading1 {
+    font-size: 19px;
+    opacity: 1;
+  }
+  .cloudcardheadings {
+    font-weight: 700;
+  }
+}
+.table td,
+.table th {
+  padding: 0.51rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+p {
+  margin-top: 0;
+  /* margin-bottom: 0.3rem; */
+}
+.cloudcards1 {
+  /* margin-left: 10%; */
+  width: 100%;
+  position: relative;
+
+  margin: 4px, 4px;
+  padding: 4px;
+  /* background-color: #08c708; */
+  /* width: 300px; */
+  /* overflow-x: auto;
+  overflow-y: hidden; */
+  /* white-space: nowrap; */
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.cloudcards1::-webkit-scrollbar {
+  display: none;
+}
+.ccdiv1 {
+  display: flex;
+  width: 117%;
+  margin-top: 25px;
+}
+.prev1{
+  left: -115px;
+}
+.next1{
+  right: -115px;
+}
+
+
+

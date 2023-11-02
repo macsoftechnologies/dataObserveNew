@@ -1,23 +1,27 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import "./Navbar.css";
 import {Link} from 'react-router-dom';
+import { HashLink } from "react-router-hash-link";
+
+
 
 function Navbar() {
-
- 
-    const scrollToSection = (sectionId) => {
-      const section = document.getElementById(sectionId);
-      if (section) {
-        section.scrollIntoView({ behavior: 'smooth' });
-      }
-    };
-  
-
 
   return (
     <div className="bg-white" style={{ paddingTop: "0px" }}>
       <div className="container d-flex justify-content-between align-items-center">
         <nav class="navbar navbar-expand-lg navbar-light">
+        <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <div className="logo d-flex">
               <a className="d-flex homenavigateclass" href="/">
@@ -186,24 +190,24 @@ function Navbar() {
                       <a class="dropdown-item linksclass" href="allinsights">
                         All Insights
                       </a>
-                      <a class="dropdown-item linksclass" href="#casestudies" onClick={() => scrollToSection('casestudies')}>
+                      <HashLink  to="/allinsights#casestudies" class="dropdown-item linksclass">
                         Case Studies
-                      </a>
+                      </HashLink>
            
-                      <a class="dropdown-item linksclass" href="#blogs" onClick={() => scrollToSection('blogs')}>
+                      <HashLink to="/allinsights#blogs" class="dropdown-item linksclass">
                         Blogs
-                      </a>
+                      </HashLink>
                     </a>
-                    <a href="#" className="col-md-3 navcard2 pt-5 pl-2">
-                      <a class="dropdown-item linksclass" href="#ebooks" onClick={() => scrollToSection('ebooks')}>
+                    <a href="#ebooks" className="col-md-3 navcard2 pt-5 pl-2">
+                      <HashLink to="/allinsights#ebooks" class="dropdown-item linksclass" >
                         Ebooks
-                      </a>
-                      <a class="dropdown-item linksclass" href="#whitepapers" onClick={() => scrollToSection('whitepapers')}>
+                      </HashLink>
+                      <HashLink to="/allinsights#whitepapers" class="dropdown-item linksclass">
                         Whitepapers
-                      </a>
-                      <a class="dropdown-item linksclass" href="#top10insights"  onClick={() => scrollToSection('top10insights')}>
+                      </HashLink>
+                      <HashLink to="/allinsights#top10insights"class="dropdown-item linksclass">
                         Events
-                      </a>
+                      </HashLink>
                       </a>
 
                     {/* coming soon part  */}

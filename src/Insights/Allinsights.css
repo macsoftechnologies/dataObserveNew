@@ -30,7 +30,7 @@
 
 }
 .our-story-1{
-font-size: 32px;
+font-size: 28px;
 font-family: Poppins;
 font-weight: 700;
 
@@ -67,7 +67,7 @@ font-weight: 700;
   }
 
   .myDIV:hover{
-    height: 360px;
+    height: 375px;
   }
   .insights-li-ke{
     display: flex;
@@ -77,6 +77,18 @@ align-items: center;
 align-self: stretch;
   }
 
+  .domain-share{
+    justify-content: space-between;
+  }
+
+  .snow-flake-width{
+    width: 150px !important;
+  }
+
+  
+  .snow-flake-width-1{
+    width: 130px !important;
+  }
   .insights-main{
     text-decoration: none!important;
   }
@@ -91,6 +103,7 @@ font-weight: 700;
 /* line-height: 55.2px; */
 letter-spacing: -0.32px;
 /* margin-top: 5%; */
+margin-left: 14px;
 
   }
 
@@ -125,6 +138,14 @@ letter-spacing: -0.32px;
     border-radius: 5px;
     height: 106px;
     width: 412px;
+
+  }
+  .case-study-image-1{
+    border-radius: 0px;
+    height: 106px;
+    width: 412px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 
   }
 

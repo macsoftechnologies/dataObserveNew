@@ -16,20 +16,20 @@ function Ebooks() {
       </section>
       <section className="ebooksheader">
         <div className="container ebooksmatter">
-          <h3 className="ebooktitle1">Ebooks</h3>
+          {/* <h3 className="ebooktitle1">Ebooks</h3> */}
           <h1 className="ebooktitle2 col-md-10">
-            Generative AI Vs. Traditional AI: A Simple
-            Breakdown
+          AWS FOR APPLICATION MODERNIZATION: UPDATING YOUR LEGACY SYSTEMS FOR THE CLOUD
           </h1>
-          <p className='ebooktitle3'>Learn the key differences between generative AI and traditional AI, and how they are transforming our world.</p>
+          <button className="domainbuttonclass">Domain</button>
+          {/* <p className='ebooktitle3'>Learn the key differences between generative AI and traditional AI, and how they are transforming our world.</p> */}
         </div>
       </section>
       <div className='container' style={{ marginTop: "100px" }}>
         <div className='row'>
           <div className='col-md-8'>
-            <p className='insights'>Insights</p>
+            <p className='insights'>Whitepaper</p>
             <h1 className='ebooktitle4'>AWS for application modernization: Updating your legacy systems for the cloud</h1>
-            <p className='ebooktitle5'>Are outdated legacy systems hindering your business's growth? Don't wait any longer to modernize and migrate to the cloud with Amazon Web Services (AWS). The digital landscape is constantly evolving,and keeping up is no longer an option but a necessity. Act now to stay ahead of the competition!</p>
+            <p className='ebooktitle5'>Is your business growth being hampered by outdated legacy systems? Delay no further – it's time to embark on the journey of modernization and cloud migration with Amazon Web Services (AWS). In today's ever-evolving digital landscape, staying abreast of changes is not just a choice but a vital requirement. Take action now to maintain your competitive edge!</p>
             <div className='jeffBezos'>
               <p>“A recent In today's era of volatility, there is no other way but to re-
                 invent. The only sustainable advantage you can have over others is
@@ -37,7 +37,7 @@ function Ebooks() {
                 create, somebody else will replicate.</p>
               <p className='eb-text-end'>– Jeff Bezos </p>
             </div>
-            <p className='ebooktitle5'>Our whitepaper delves into the crucial need for modernizing legacy systems and highlights the benefits of moving to the cloud. Don't miss out on exploring the various migration paths available to you. Time is of the essence, so download our whitepaper today to take the first step towards transforming your business with AWS.</p>
+            <p className='ebooktitle5'>Our whitepaper thoroughly explores the essential imperative of modernizing legacy systems and underscores the advantages of transitioning to the cloud. Don't pass up the opportunity to delve into the diverse migration options at your disposal. Act promptly, and secure your download of our whitepaper today to initiate the initial stride in reshaping your business with AWS.</p>
             <div>
               <h2 className='papercover'>This whitepaper covers:</h2>
 

@@ -33,63 +33,90 @@
 }
 
 .ebooktitle2 {
-  color: #fff;
+  color: #FFF;
+  font-family: Poppins;
   font-size: 44px;
+  font-style: normal;
   font-weight: 700;
   line-height: 52.8px;
+  /* 120% */
   text-transform: capitalize;
-  padding-left: 0px;
 }
-.ebooktitle3{
+
+.domainbuttonclass {
+  border-radius: 20px;
+  border: 1px solid #ede4e4;
+  display: flex;
+  width: 96px;
+  padding: 10px 20px;
+  justify-content: space-between;
+  background-color: transparent;
+  align-items: center;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.32px;
+  margin-top: 20px;
+}
+
+.ebooktitle3 {
   color: rgba(255, 255, 255, 0.80);
-font-family: Poppins;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 25.6px;
-letter-spacing: -0.32px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+  letter-spacing: -0.32px;
 }
-.ebooktitle4{
+
+.ebooktitle4 {
   color: #000;
-/* font-family: Roboto; */
-font-size: 23px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 1px;
-text-transform: uppercase;
+  /* font-family: Roboto; */
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
-.ebooktitle5{
+
+.ebooktitle5 {
   color: #484848;
-font-family: Raleway;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 25px;
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
 }
-.papercover{
+
+.papercover {
   color: #484848;
-font-family: Raleway;
-font-size: 15px;
-font-style: normal;
-font-weight: 700;
-line-height: 25px; /* 166.667% */
+  font-family: Raleway;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  /* 166.667% */
 }
-.listyle{
+
+.listyle {
   color: #484848;
-font-family: Raleway;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.insights{
+
+.insights {
   color: #0282C3;
-font-family: Roboto;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 36px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
 }
 
 .jeffBezos {
@@ -102,18 +129,20 @@ line-height: 36px;
   border-left: 5px solid #E0E0E0;
   background: #F5F5F5;
 }
-.eb-text-end{
+
+.eb-text-end {
   text-align: end;
 }
-.freecopy{
+
+.freecopy {
   padding-left: 52px;
-    padding-top: 30px;
-    color: #FFF;
-/* font-family: Roboto; */
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+  padding-top: 30px;
+  color: #FFF;
+  /* font-family: Roboto; */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .ebooks-long-bg-card {
@@ -195,11 +224,12 @@ line-height: normal;
   padding: 30px;
 }
 
-.eb-label{
+.eb-label {
   margin-top: 10px;
   margin-left: 10px;
 }
-.listyle{
-  margin-top:10px;
+
+.listyle {
+  margin-top: 10px;
   margin-bottom: 10px;
 }

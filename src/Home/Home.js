@@ -380,55 +380,64 @@ function Home() {
 
         <div className="main-landing-Page">
           <p className="landingpage-paragraph">
-            DataObserve offers robust cloud capabilities<br/> to create an Integrated
-            Data<br/> Democratization Solution that enhances the <br/>end-user experience
-            significantly.
+            DataObserve offers robust cloud capabilities
+            <br /> to create an Integrated Data
+            <br /> Democratization Solution that enhances the <br />
+            end-user experience significantly.
           </p>
           <p className="landingpage-paragraph2">
             At last, there's a consulting organization with the expertise to
-            construct a unified solution for <br/>seamlessly discovering and
-            comprehending data from various sources. It all begins with your<br/>
+            construct a unified solution for <br />
+            seamlessly discovering and comprehending data from various sources.
+            It all begins with your
+            <br />
             data catalog, providing comprehensive visibility and maximizing the
-            value of your data.<br/> Regain trust in your data today.
+            value of your data.
+            <br /> Regain trust in your data today.
           </p>
-         
-          <button
+          <a href="/contact" style={{textDecoration:"none"}}>
+            <button
+              style={{
+                display: "flex",
+                height: "61px",
+                maxWidth: "255px",
+                padding: "20px 46px 21px 48px",
+                justifyContent: "center",
+                alignItems: "center",
+                border: "none",
+                marginTop: "45px",
+                borderRadius: "5px",
+                textDecoration: "none",
+              }}
+            >
+              <span
+                className="contact-decoration"
                 style={{
-                  display: "flex",
-                  height: "61px",
-                  maxWidth: "255px",
-                  padding: "20px 46px 21px 48px",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  border: "none",
-                  marginTop: "45px",
-                  borderRadius: "5px",
-                  textDecoration:"none"
+                  color: "blue",
+                  fontSize: "14px",
+                  fontStyle: "normal",
+                  fontWeight: "600",
+                  lineHeight: "19px",
+              
+
                 }}
               >
-                <span
-                  style={{
-                    color: "blue",
-                    fontSize: "14px",
-                    fontStyle: "normal",
-                    fontWeight: "600",
-                    lineHeight: "19px",
-                  }}
-                >
-                  Contact Us
-                </span>{" "}
-                <i
-                  className="fa fa-long-arrow-right ml-3"
-                  style={{
-                    width: "23px",
-                    fontSize: "29px",
-                    flexShrink: "0",
-                    color: "blue",
-                  }}
-                  aria-hidden="true"
-                ></i>
-              </button>
-              
+                Contact Us
+              </span>{" "}
+              <i
+                className="fa fa-long-arrow-right ml-3 contact-decoration"
+                style={{
+                  width: "23px",
+                  fontSize: "29px",
+                  flexShrink: "0",
+                  color: "blue",
+                textDecoration: "none",
+
+                }}
+                aria-hidden="true"
+              ></i>
+            </button>
+          </a>
         </div>
       </div>
 
@@ -1472,7 +1481,7 @@ function Home() {
         </div>
         <div>
           <a href="/contact">
-          <button className="contact-us">Contact Us</button>
+            <button className="contact-us">Contact Us</button>
           </a>
         </div>
       </div>

@@ -42,7 +42,10 @@ function Footer() {
                       <label>Contact Number</label>
                       <input type="text" className="form-control name" />
 
-                      <button className="contact-us-2">Contact Us</button>
+                      
+                      <button className="contact-us-2"><a href="/contact" className="c-t">Contact Us</a></button>
+                      
+                      
                     </div>
                   </form>
                 </div>

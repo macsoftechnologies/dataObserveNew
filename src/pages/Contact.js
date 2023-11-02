@@ -301,7 +301,7 @@ function Contact() {
                     </span>
                   </span>
                    
-                  <span className="privacy-policy">Privacy Policy &nbsp;|</span>
+                  <span className="privacy-policy-1">Privacy Policy &nbsp;|</span>
                   &nbsp;
                   <span className="terms-condition-1">
                     Terms and Conditions

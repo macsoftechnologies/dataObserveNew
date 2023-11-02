@@ -3,478 +3,1221 @@ import Navbar from "../products/Navbar";
 import "../expertise/Genai.css";
 import Faq from "../products/Faq";
 import Footer from "../products/Footer";
+import { Link } from "react-router-dom";
+import genai from "../../src/videos/genaivdbg.mp4";
 
 function Genai() {
   return (
     <div>
       <Navbar />
       <div className="genaibg">
-        <div className="generativeai-genai">
-          <h1 className="generative-genai">
-            Generative AI Consulting Services
-          </h1>
-          <p className="sparkin-genai">
-            Spark innovation in your business with the creative power of AI.
-          </p>
-        </div>
-      </div>
-      <div className="container redefine-genai">
-        <div>
-          <h2 className="Aitech-genai">Redefine what’s possible for</h2>
-          <h2 className="Aitech-genai">your business with generative</h2>
-          <h2 className="Aitech-genai">AI technology</h2>
-        </div>
-        <div className="Ai-genai">
-          <p className="forntier-genai">
-            Pioneering the frontier of AI innovation, generative AI harnesses
-            cutting-edge methodologies, including transformers, reinforcement
-            learning, flow-based models, and autoregressive models, to craft
-            AI-generated models and applications. At DataObserve, a leading
-            generative AI firm, we boast a team of expert AI professionals
-            dedicated to assisting businesses in realizing their objectives
-            through the power of generative AI solutions.
-          </p>
-          <li className="forntier-genai">
-            Seamlessly integrating generative AI into your existing processes.
-          </li>
-          <li className="forntier-genai">
-            Tailoring personalized generative AI solutions to meet your specific
-            needs
-          </li>
-          <li className="forntier-genai">
-            Provide ongoing support and maintenance
-          </li>
-        </div>
-      </div>
-      <div className="container mt-5">
-        <h2>Our generative AI consulting services</h2>
-        <div class="card-deck mt-5">
-          <div class="card">
-            <div class="card-body">
-              <h5 className="card-title Genaicon">Generative AI consulting</h5>
-              <p class="card-text Genaicon-text">
-                Our team of experts identifies opportunities to integrate
-                generative AI into your existing business processes and
-                products.We provide customized solutions tailored to your
-                specific needs. Our services include data preparation and
-                modeling, algorithm development and implementation,and ongoing
-                support and maintenance.
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            {/* <img src="..." class="card-img-top" alt="..."> */}
-            <div class="card-body">
-              <h5 class="card-title Genaicon">
-                Generative AI strategy development
-              </h5>
-              <p class="card-text Genaicon-text">
-                Our experts develop a strategy to help leverage generative AI
-                techniques such as transformers,flow-based models, reinforcement
-                learning and generative adversarial networks to develop
-                customized solutions for your spacific use cases
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            {/* <img src="..." class="card-img-top" alt="..."> */}
-            <div class="card-body">
-              <h5 class="card-title Genaicon">
-                Generative AI appication development
-              </h5>
-              <p class="card-text Genaicon-text">
-                Our team develops customized generative Ai applications that
-                cater to your business. we specialize in performance
-                optimization, model integration and deployment, and ongoing
-                support and maintenance. this is to ensure the seamless
-                integration of generative AI technologies intlp existing systems
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="card-deck mt-5">
-          <div class="card">
-            {/* <img src="..." class="card-img-top" alt="..."> */}
-            <div class="card-body">
-              <h5 class="card-title Genaicon">Fine-turning LLMs</h5>
-              <p class="card-text Genaicon-text">
-                Our experts employ prompt engineering to fine-tune LLM for your
-                tasks . We select suitable pretrained models and train them on
-                relevant datasets.utilizing transfer learning, data augmetation
-                gradient descent and hyperparameter tuning, we enhance
-                preformance.Careful data curation, precise instructions and
-                performance evaluation ensure LLMs efficacys
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            {/* <img src="..." class="card-img-top" alt="..."> */}
-            <div class="card-body">
-              <h5 class="card-title Genaicon">
-                Generative AI model replication
-              </h5>
-              <p class="card-text Genaicon-text">
-                we replicate generative AI models rto enhance your business
-                performance. our experts use advenced techniques such as
-                flowbased model, reinforcement learning, and other
-                state-of-the-art methods to replicate models that meets your
-                needs
-              </p>
-            </div>
-          </div>
-          <div class="card">
-            {/* <img src="..." class="card-img-top" alt="..."> */}
-            <div class="card-body">
-              <h5 class="card-title Genaicon">
-                Model integration and deployment
-              </h5>
-              <p class="card-text Genaicon-text">
-                Our team provides end-to-end model integration and deployment
-                services. we specialize in data preparation and modeling
-                performance optimization, algorithm development and
-                implementation, and ongoing support and maintenance. this is to
-                ensure the successful deployment of generative AI models in your
-                business operations
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="generativeAI">
-        <h3 className="businessachive-genai">
-          Make your business achieve more using generative AI now
-        </h3>
-        <button className="btn-genai">
-          <span className="btn-text">Let's the ball rolling</span>
-          <i
-            class="fa fa-arrow-circle-o-right"
-            style={{ color: "white", marginLeft: "5px" }}
-            aria-hidden="true"
-          ></i>
-        </button>
-      </div>
-      <div className="container mt-5">
-        <h2>
-          Unleash the limitless possibilities of generative AI for your business
-        </h2>
-        <div class="row mt-5">
-          <div class="col-3" style={{ background: "#F8F8F8" }}>
-            <div
-              class="nav flex-column nav-pills"
-              id="v-pills-tab"
-              role="tablist"
-              aria-orientation="vertical"
-            >
-              <a
-                class="nav-link active healthcare-genai"
-                id="v-pills-home-tab"
-                data-toggle="pill"
-                href="#v-pills-home"
-                role="tab"
-                aria-controls="v-pills-home"
-                aria-selected="true"
-              >
-                Healthcare
-              </a>
-              <a
-                class="nav-link healthcare-genai"
-                id="v-pills-profile-tab"
-                data-toggle="pill"
-                href="#v-pills-profile"
-                role="tab"
-                aria-controls="v-pills-profile"
-                aria-selected="false"
-              >
-                Manufacturing
-              </a>
-              <a
-                class="nav-link healthcare-genai"
-                id="v-pills-messages-tab"
-                data-toggle="pill"
-                href="#v-pills-messages"
-                role="tab"
-                aria-controls="v-pills-messages"
-                aria-selected="false"
-              >
-                Retail
-              </a>
-              <a
-                class="nav-link healthcare-genai"
-                id="v-pills-settings-tab"
-                data-toggle="pill"
-                href="#v-pills-settings"
-                role="tab"
-                aria-controls="v-pills-settings"
-                aria-selected="false"
-              >
-                Supply Chain & Logistics
-              </a>
-              <a
-                class="nav-link healthcare-genai"
-                id="v-pills-bank-tab"
-                data-toggle="pill"
-                href="#v-pills-bank"
-                role="tab"
-                aria-controls="v-pills-bank"
-                aria-selected="false"
-              >
-                Banking & Finance
-              </a>
-              <a
-                class="nav-link healthcare-genai"
-                id="v-pills-insurance-tab"
-                data-toggle="pill"
-                href="#v-pills-insurance"
-                role="tab"
-                aria-controls="v-pills-insurance"
-                aria-selected="false"
-              >
-                Insurance
-              </a>
-            </div>
-          </div>
-          <div class="col-9">
-            <div class="tab-content" id="v-pills-tabContent">
-              <div
-                class="tab-pane fade show active"
-                id="v-pills-home"
-                role="tabpanel"
-                aria-labelledby="v-pills-home-tab"
-              >
-                <h3>Generative AI for healthcare industry</h3>
-                <p>
-                  Our generative AI consulting services help healthcare
-                  providers enhance patient care and streamline operations. We
-                  use machine learning and natural language processing to
-                  analyze medical data and provide personalized treatment
-                  recommendations. Our generative AI solutions for the
-                  healthcare industry optimize processes and improve patient
-                  outcomes through:
-                </p>
-                <li>Diagnosis and treatment recommendation generation</li>
-                <li>Patient monitoring and predictive analytics</li>
-                <li>Medical image analysis and interpretation</li>
-                <li>Healthcare fraud detection and prevention</li>
-                <li>Drug discovery and development</li>
-              </div>
-              <div
-                class="tab-pane fade"
-                id="v-pills-profile"
-                role="tabpanel"
-                aria-labelledby="v-pills-profile-tab"
-              >
-                <h3>Generative AI for manufacturing industry</h3>
-                <p>
-                  Our generative AI consulting services help manufacturers
-                  improve product design, reduce waste, and enhance production
-                  processes. We leverage machine learning algorithms and
-                  generative design to optimize product development and reduce
-                  time-to-market. Our generative AI solutions for the
-                  manufacturing industry help businesses make data-driven
-                  decisions and improve efficiency through:
-                </p>
-                <li>
-                  Generative design and optimization for product development
-                </li>
-                <li>Machine learning-based process optimization</li>
-                <li>Waste reduction and material optimization</li>
-                <li>Real-time quality control and defect detection</li>
-                <li>Intelligent automation for manufacturing processes</li>
-              </div>
-              <div
-                class="tab-pane fade"
-                id="v-pills-messages"
-                role="tabpanel"
-                aria-labelledby="v-pills-messages-tab"
-              >
-                <h3>Generative AI for retail industry</h3>
-                <p>
-                  Our generative AI consulting services help retailers increase
-                  sales and customer engagement through personalized experiences
-                  and improved supply chain management. We use machine learning
-                  algorithms and generative models to provide personalized
-                  recommendations and optimize inventory management. Our
-                  generative AI solutions for the retail industry help
-                  businesses make data-driven decisions and improve customer
-                  experiences through:
-                </p>
-                <li>Personalized product recommendations and promotions</li>
-                <li>Optimization of inventory management and supply chain</li>
-                <li>
-                  In-store analytics for personalized customer experiences
-                </li>
-                <li>Real-time demand forecasting and predictive analytics</li>
-                <li>Intelligent automation for retail processes</li>
-              </div>
-              <div
-                class="tab-pane fade"
-                id="v-pills-settings"
-                role="tabpanel"
-                aria-labelledby="v-pills-settings-tab"
-              >
-                <h3>Generative AI for supply chain & logistics industry</h3>
-                <p>
-                  Our generative AI consulting services help supply chain and
-                  logistics companies optimize operations and efficiency. We use
-                  machine learning algorithms and predictive analytics to
-                  optimize inventory management and distribution. Our generative
-                  AI solutions for the supply chain industry help businesses
-                  make data-driven decisions and improve customer satisfaction
-                  through:
-                </p>
-                <li>Supply chain optimization and demand forecasting</li>
-                <li>Inventory management and predictive maintenance</li>
-                <li>Real-time monitoring and tracking of shipments</li>
-                <li>Warehouse automation and management</li>
-                <li>Transportation and route optimization</li>
-              </div>
-              <div
-                class="tab-pane fade"
-                id="v-pills-bank"
-                role="tabpanel"
-                aria-labelledby="v-pills-bank-tab"
-              >
-                <h3>Generative AI for banking & finance industry</h3>
-                <p>
-                  Our generative AI consulting services help financial
-                  institutions improve customer experiences and reduce risks. We
-                  use machine learning algorithms and natural language
-                  processing to analyze financial data and provide personalized
-                  recommendations. Our generative AI solutions for the finance
-                  industry help businesses make data-driven decisions and
-                  improve compliance through:
-                </p>
-                <li>
-                  Personalized financial advice and recommendation generation
-                </li>
-                <li>Investment analysis and portfolio optimization</li>
-                <li>Automated customer service and support</li>
-                <li>Credit scoring and risk assessment</li>
-                <li>Fraud detection and prevention</li>
-              </div>
-              <div
-                class="tab-pane fade"
-                id="v-pills-insurance"
-                role="tabpanel"
-                aria-labelledby="v-pills-insurance-tab"
-              >
-                <h3>Generative AI for insurance industry</h3>
-                <p>
-                  Our generative AI consulting services help insurance companies
-                  optimize operations and improve customer satisfaction. We use
-                  machine learning algorithms and predictive analytics to
-                  automate underwriting and claims processing. Our generative AI
-                  solutions for the insurance industry help businesses make
-                  data-driven decisions and improve compliance through:
-                </p>
-                <li>Customer segmentation and personalized recommendations</li>
-                <li>Automated underwriting and claims processing</li>
-                <li>Automated customer service and support</li>
-                <li>Real-time data analysis and forecasting</li>
-                <li>Risk assessment and fraud detection</li>
-              </div>
-            </div>
-          </div>
-        </div>
+        <video className="genai-transform-video" autoPlay loop muted>
+          <source src={genai} type="video/mp4" />
+        </video>
         <div
-          class="card mb-3"
           style={{
-            maxWidth: "100%",
-            marginTop: "50px",
-            border: "none",
+            display: "inline-flex",
+            // minHeight: "1080px",
+            // padding: "42px 570px 100px 690px",
+            flexDirection: "column",
+            alignItems: "flex-start",
+            position: "absolute",
+            top: "234px",
+            right: "0%",
+            left: "21%",
+            paddingLeft:"31%"
           }}
         >
-          <div class="row no-gutters">
-            <div
-              class="col-md-4"
-              style={{ display: "flex", alignItems: "center" }}
-            >
-              <img src="/images/assessment.png" class="card-img" alt="..." />
+          <h4
+            style={{
+              color: "white",
+              fontSize: "45px",
+              fontStyle: "normal",
+              fontWeight: "700",
+              lineHeight: "45px",
+            }}
+          >
+            Generative AI Consulting <br/>Services
+          </h4>
+          <p className="text-muted" style={{ fontSize: "22px" }}>
+            Ignite your business with AI's creative spark
+          </p>
+        </div>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          marginTop: "30px",
+          alignItems: "center",
+        }}
+      >
+        <h4 style={{ textAlign: "center", fontWeight: 700, fontSize: "35px" }}>
+          Redefine what’s possible for your business with <br />
+          Generative AI technology
+        </h4>
+        <p
+          style={{
+            textAlign: "center",
+            marginTop: "10px",
+            width: "755px",
+            fontSize: "13px",
+          }}
+        >
+          Pioneering the frontier of AI innovation, generative AI harnesses
+          cutting-edge methodologies, including transformers, reinforcement
+          learning, flow-based models, and autoregressive models, to craft
+          AI-generated models and applications. At DataObserve, a leading
+          generative AI firm, we boast a team of expert AI professionals
+          dedicated to assisting businesses in realizing their objectives
+          through the power of generative AI solutions.
+        </p>
+      </div>
+      <div className="cloudcards1">
+        <div class="ccdiv1">
+          <div className="cloudimgcard1">
+            <img className="notrepimg" src="/images/ccon.png" alt="" />
+            <div className="cloudcard1 card">
+              <h1 className="cloudcardheading1">Generative AI consulting</h1>
+              <p className="cloudcardpara1 mb-0">
+                Our expert team discerns chances for seamlessly incorporating
+                generative AI into your current business operations and
+                products. We offer tailored solutions designed to meet your
+                precise requirements, encompassing data preparation and
+                modeling, algorithm creation and integration, along with
+                continuous support and maintenance.
+              </p>
             </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title generative-genai1">
-                  Generative AI opportunity assessment
-                </h5>
-                <p class="card-text para-genai">
-                  Our AI experts leverage text, vision, audio,
-                  multimodal,reinforcement learning, time-series, and graph
-                  models to fulfill your requirements. To determine the ideal
-                  LLM, write and execute code, and achieve your business
-                  objectives, we offer a comprehensive generative AI opportunity
-                  assessment.
-                </p>
-                <li className="para-genai">
-                  Stakeholder interviews: understand & prioritize generative AI
-                  opportunities.
-                </li>
-                <li className="para-genai">Identify the right use cases.</li>
-                <li className="para-genai">
-                  How do you decide when it makes sense to fine-tune or train
-                  entire domain specific LLMs?
-                </li>
-                <li className="para-genai">Identify the right tools.</li>
-                <li className="para-genai">
-                  Proceed with respective generative AI solutions.
-                </li>
-              </div>
+          </div>
+          <div className="cloudimgcard1">
+            <img className="notrepimg" src="/images/cmig.png" alt="" />
+            <div className="cloudcard1 card">
+              <h1 className="cloudcardheading1">Generative AI strategy</h1>
+              <p className="cloudcardpara1 mb-0">
+                Our team offers comprehensive services for model integration and
+                deployment, covering everything from data preparation and
+                modeling, performance optimization, to algorithm development and
+                implementation, along with continuous support and maintenance.
+                These services are designed to ensure the successful deployment
+                of generative AI models within your business operations.
+              </p>
+            </div>
+          </div>
+          <div className="cloudimgcard1">
+            <img className="notrepimg" src="/images/ccop.png" alt="" />
+            <div className="cloudcard1 card">
+              <h1 className="cloudcardheading1">
+                Generative AI ApplicationDevelopment
+              </h1>
+              <p className="cloudcardpara1 mb-0">
+                Our team offers comprehensive services for model integration and
+                deployment, covering everything from data preparation and
+                modeling, performance optimization, to algorithm development and
+                implementation, along with continuous support and maintenance.
+                These services are designed to ensure the successful deployment
+                of generative AI models within your business operations.
+              </p>
+            </div>
+          </div>
+          <div className="cloudimgcard1">
+            <img className="notrepimg" src="/images/cops.png" alt="" />
+            <div className="cloudcard1 card">
+              <h1 className="cloudcardheading1">
+                Generative AI model replication
+              </h1>
+              <p className="cloudcardpara1 mb-0">
+                Our team offers comprehensive services for model integration and
+                deployment, covering everything from data preparation and
+                modeling, performance optimization, to algorithm development and
+                implementation, along with continuous support and maintenance.
+                These services are designed to ensure the successful deployment
+                of generative AI models within your business operations.
+              </p>
+            </div>
+          </div>
+          <div className="cloudimgcard1">
+            <img className="notrepimg" src="/images/inas.png" alt="" />
+            <div className="cloudcard1 card">
+              <h1 className="cloudcardheading1">
+                Model Integration & Deployment
+              </h1>
+              <p className="cloudcardpara1 mb-0">
+                Our team offers comprehensive services for model integration and
+                deployment, covering everything from data preparation and
+                modeling, performance optimization, to algorithm development and
+                implementation, along with continuous support and maintenance.
+                These services are designed to ensure the successful deployment
+                of generative AI models within your business operations.
+              </p>
+            </div>
+          </div>
+          <div className="cloudimgcard1">
+            <img className="notrepimg" src="/images/rtct-genai.png" alt="" />
+            <div className="cloudcard1 card">
+              <h1 className="cloudcardheading1">Fine Tuning LLMs</h1>
+              <p className="cloudcardpara1 mb-0">
+                Our experts employ prompt engineering, selecting suitable
+                pretrained models and enhancing their performance through
+                transfer learning, data augmentation, gradient descent, and
+                hyperparameter tuning. Rigorous data curation, precise
+                instructions, and performance evaluations guarantee the efficacy
+                of LLMs for your specific tasks.
+              </p>
             </div>
           </div>
         </div>
       </div>
       <div className="generativeAI">
         <h3 className="businessachive-genai">
-          Discover the power of generative AI to reduce turnaround time
+          Make your business achieve more using
+          <br /> generative AI now
         </h3>
-        <button className="btn-genai">
-          <span className="btn-text">Initiate your assessment</span>
-          <i
-            class="fa fa-arrow-circle-o-right"
-            style={{ color: "white", marginLeft: "5px" }}
-            aria-hidden="true"
-          ></i>
-        </button>
+        <Link to="/contact" style={{ textDecoration: "none" }}>
+          <button className="btn-genai">
+            <span className="btn-text">
+              Let's Get The
+              <br /> Ball Rolling
+            </span>
+            <i
+              class="fa fa-arrow-circle-o-right"
+              style={{ color: "blue", marginLeft: "5px", fontSize: "20px" }}
+              aria-hidden="true"
+            ></i>
+          </button>
+        </Link>
       </div>
-      <div className="container">
-        <div
-          class="card mb-3"
-          style={{ maxWidth: "100%", marginTop: "50px", border: "none" }}
-        >
-          <div class="row no-gutters">
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title generative-genai1">
-                  Generative AI solutions for better hardware schematics
-                </h5>
-                <p class="card-text para-genai">
-                  An OEM based in the US was looking to optimize their design
-                  process to provide better quality products in less time. Our
-                  AI consultants offered generative AI solutions. With our
-                  expertise in processing EAGLE files and hardware schematic
-                  software, we offered the client with the following benefits:
+      <div className="container mt-5">
+        <h2>Generative AI Applications</h2>
+        <table class="table table-striped">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Task</th>
+              <th scope="col">Description</th>
+              <th scope="col">Model</th>
+            </tr>
+          </thead>
+          <tbody style={{ fontSize: "15px" }}>
+            <tr>
+              <td>Text classification</td>
+              <td>Assigns labels to a given text sequence</td>
+              <td>NLP</td>
+            </tr>
+            <tr>
+              <td>Text generation</td>
+              <td>Generates text based on a provided prompt</td>
+              <td>NLP</td>
+            </tr>
+            <tr>
+              <td>Summarization</td>
+              <td>Generates a summary of a text or document</td>
+              <td>NLP</td>
+            </tr>
+            <tr>
+              <td>Image classification</td>
+              <td>Labels an image with appropriate categories</td>
+              <td>Computer vision</td>
+            </tr>
+            <tr>
+              <td>Image segmentation</td>
+              <td>
+                Labels each pixel in an image (supports semantic, panoptic, and
+                instance segmentation)
+              </td>
+              <td>Computer vision</td>
+            </tr>
+            <tr>
+              <td>Object detection</td>
+              <td>
+                Predicts bounding boxes and classes of objects in an image
+              </td>
+              <td>Computer vision</td>
+            </tr>
+            <tr>
+              <td>Audio classification</td>
+              <td>Assigns labels to audio data</td>
+              <td>Audio</td>
+            </tr>
+            <tr>
+              <td>Automatic speech recognition</td>
+              <td>Converts speech into written text</td>
+              <td>Audio</td>
+            </tr>
+            <tr>
+              <td>Visual question answering</td>
+              <td>
+                Answers questions about an image given the image and a question
+              </td>
+              <td>Multimodal</td>
+            </tr>
+            <tr>
+              <td>Document question answering</td>
+              <td>
+                Answers questions about a document given an image and a question
+              </td>
+              <td>Multimodal</td>
+            </tr>
+            <tr>
+              <td>Image captioning</td>
+              <td>Generates a caption for a given image</td>
+              <td>Multimodal</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div
+        class="container card"
+        style={{
+          maxWidth: "100%",
+          marginTop: "50px",
+          border: "none",
+          background: "#F8F8F8",
+        }}
+      >
+        <div class="row no-gutters">
+          <div
+            class="col-md-4"
+            style={{ display: "flex", alignItems: "center" }}
+          >
+            <img src="/images/generativeaibg.png" class="card-img" alt="..." />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title generative-genai1">
+                Generative AI
+                <br /> opportunity assessment
+              </h5>
+              <p class="card-text para-genai">
+                Our AI specialists harness a wide array of models, including
+                text, vision, audio, multimodal, reinforcement learning,
+                time-series, and graph models to cater to your needs. To
+                pinpoint the perfect Large Language Model (LLM), create and
+                execute code, and achieve your business goals, we provide a
+                comprehensive generative AI opportunity assessment.
+              </p>
+              <li className="para-genai">
+                <i
+                  class="fa fa-angle-double-right"
+                  style={{ color: "blue", marginTop: "3px" }}
+                  aria-hidden="true"
+                >
+                  {" "}
+                </i>
+                <p style={{ marginLeft: "5px" }}>
+                  Stakeholder Interviews: Understanding and Prioritizing
+                  Generative AI Opportunities
                 </p>
-                <li className="para-genai">Improved design accuracy</li>
-                <li className="para-genai">Time and cost savings</li>
-                <li className="para-genai">
-                  Enhanced performance and reliability
-                </li>
-                <li className="para-genai">Design optimization</li>
-              </div>
-            </div>
-            <div
-              class="col-md-4"
-              style={{ display: "flex", alignItems: "center" }}
-            >
-              <img
-                src="/images/G-AI-img2.webp.png"
-                class="card-img"
-                alt="..."
-              />
+              </li>
+              <li className="para-genai">
+                <i
+                  class="fa fa-angle-double-right"
+                  style={{ color: "blue", marginTop: "3px" }}
+                  aria-hidden="true"
+                ></i>{" "}
+                <p style={{ marginLeft: "5px" }}>
+                  Identifying the Optimal Use Cases .
+                </p>
+              </li>
+              <li className="para-genai">
+                <i
+                  class="fa fa-angle-double-right"
+                  style={{ color: "blue", marginTop: "3px" }}
+                  aria-hidden="true"
+                ></i>
+                <p style={{ marginLeft: "5px" }}>
+                  Determining the Right Approach for Fine-Tuning or Training
+                  Domain-Specific LLMs
+                </p>
+              </li>
+              <li className="para-genai">
+                <i
+                  class="fa fa-angle-double-right"
+                  style={{ color: "blue", marginTop: "3px" }}
+                  aria-hidden="true"
+                ></i>
+                <p style={{ marginLeft: "5px" }}>
+                  {" "}
+                  Selecting the Appropriate Tools
+                </p>
+              </li>
+              <li className="para-genai">
+                <i
+                  class="fa fa-angle-double-right"
+                  style={{ color: "blue", marginTop: "3px" }}
+                  aria-hidden="true"
+                ></i>
+                <p style={{ marginLeft: "5px" }}>
+                  Implementing the Relevant Generative AI Solutions
+                </p>
+              </li>
             </div>
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="generativeAI">
+        <h3 className="businessachive-genai">
+          Discover the power of generative AI to
+          <br /> reduce turnaround time
+        </h3>
+        <a href="/contact" style={{ textDecoration: "none" }}>
+          <button className="btn-genai">
+            <span className="btn-text">
+              Let's Get The
+              <br /> Ball Rolling
+            </span>
+            <i
+              class="fa fa-arrow-circle-o-right"
+              style={{ color: "blue", marginLeft: "5px", fontSize: "20px" }}
+              aria-hidden="true"
+            ></i>
+          </button>
+        </a>
+      </div>
+      <div style={{ background: "#F8F8F8" }}>
+        <div className="container">
+          <h2 className="unleash-gen-ai">
+            Unleash the limitless possibilities of generative AI for your
+            business
+          </h2>
+          <div class="row" style={{ marginTop: "2rem" }}>
+            <div class="col-3" style={{ background: "#F8F8F8" }}>
+              <div
+                class="nav flex-column nav-pills"
+                id="v-pills-tab"
+                role="tablist"
+                aria-orientation="vertical"
+              >
+                <a
+                  class="nav-link active healthcare-genai"
+                  id="v-pills-home-tab"
+                  data-toggle="pill"
+                  href="#v-pills-home"
+                  role="tab"
+                  aria-controls="v-pills-home"
+                  aria-selected="true"
+                >
+                  Healthcare
+                </a>
+                <a
+                  class="nav-link healthcare-genai"
+                  id="v-pills-profile-tab"
+                  data-toggle="pill"
+                  href="#v-pills-profile"
+                  role="tab"
+                  aria-controls="v-pills-profile"
+                  aria-selected="false"
+                >
+                  Manufacturing
+                </a>
+                <a
+                  class="nav-link healthcare-genai"
+                  id="v-pills-messages-tab"
+                  data-toggle="pill"
+                  href="#v-pills-messages"
+                  role="tab"
+                  aria-controls="v-pills-messages"
+                  aria-selected="false"
+                >
+                  Retail
+                </a>
+                <a
+                  class="nav-link healthcare-genai"
+                  id="v-pills-settings-tab"
+                  data-toggle="pill"
+                  href="#v-pills-settings"
+                  role="tab"
+                  aria-controls="v-pills-settings"
+                  aria-selected="false"
+                >
+                  Supply Chain & Logistics
+                </a>
+                <a
+                  class="nav-link healthcare-genai"
+                  id="v-pills-bank-tab"
+                  data-toggle="pill"
+                  href="#v-pills-bank"
+                  role="tab"
+                  aria-controls="v-pills-bank"
+                  aria-selected="false"
+                >
+                  Banking & Finance
+                </a>
+                <a
+                  class="nav-link healthcare-genai"
+                  id="v-pills-insurance-tab"
+                  data-toggle="pill"
+                  href="#v-pills-insurance"
+                  role="tab"
+                  aria-controls="v-pills-insurance"
+                  aria-selected="false"
+                >
+                  Insurance
+                </a>
+              </div>
+            </div>
+            <div class="col-9">
+              <div class="tab-content" id="v-pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="v-pills-home"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-home-tab"
+                >
+                  <h3>Generative AI for healthcare industry</h3>
+                  <p>
+                    Our generative AI consulting services help healthcare
+                    providers enhance patient care and streamline operations. We
+                    use machine learning and natural language processing to
+                    analyze medical data and provide personalized treatment
+                    recommendations. Our generative AI solutions for the
+                    healthcare industry optimize processes and improve patient
+                    outcomes through:
+                  </p>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Diagnosis and treatment recommendation generation
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Patient monitoring and predictive analytics
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Medical image analysis and interpretation
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Healthcare fraud detection and prevention
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      {" "}
+                      Drug discovery and development
+                    </p>
+                  </li>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-profile"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-profile-tab"
+                >
+                  <h3>Generative AI for manufacturing industry</h3>
+                  <p>
+                    Our generative AI consulting services help manufacturers
+                    improve product design, reduce waste, and enhance production
+                    processes. We leverage machine learning algorithms and
+                    generative design to optimize product development and reduce
+                    time-to-market. Our generative AI solutions for the
+                    manufacturing industry help businesses make data-driven
+                    decisions and improve efficiency through:
+                  </p>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      {" "}
+                      Generative design and optimization for product development
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Machine learning-based process optimization
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Waste reduction and material optimization
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Real-time quality control and defect detection
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Intelligent automation for manufacturing processes
+                    </p>
+                  </li>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-messages"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-messages-tab"
+                >
+                  <h3>Generative AI for retail industry</h3>
+                  <p>
+                    Our generative AI consulting services help retailers
+                    increase sales and customer engagement through personalized
+                    experiences and improved supply chain management. We use
+                    machine learning algorithms and generative models to provide
+                    personalized recommendations and optimize inventory
+                    management. Our generative AI solutions for the retail
+                    industry help businesses make data-driven decisions and
+                    improve customer experiences through:
+                  </p>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Personalized product recommendations and promotions
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Optimization of inventory management and supply chain
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      In-store analytics for personalized customer experiences
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Real-time demand forecasting and predictive analytics
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Intelligent automation for retail processes
+                    </p>
+                  </li>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-settings"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-settings-tab"
+                >
+                  <h3>Generative AI for supply chain & logistics industry</h3>
+                  <p>
+                    Our generative AI consulting services help supply chain and
+                    logistics companies optimize operations and efficiency. We
+                    use machine learning algorithms and predictive analytics to
+                    optimize inventory management and distribution. Our
+                    generative AI solutions for the supply chain industry help
+                    businesses make data-driven decisions and improve customer
+                    satisfaction through:
+                  </p>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Supply chain optimization and demand forecasting
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Inventory management and predictive maintenance
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Real-time monitoring and tracking of shipments
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Warehouse automation and management
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Transportation and route optimization
+                    </p>
+                  </li>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-bank"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-bank-tab"
+                >
+                  <h3>Generative AI for banking & finance industry</h3>
+                  <p>
+                    Our generative AI consulting services help financial
+                    institutions improve customer experiences and reduce risks.
+                    We use machine learning algorithms and natural language
+                    processing to analyze financial data and provide
+                    personalized recommendations. Our generative AI solutions
+                    for the finance industry help businesses make data-driven
+                    decisions and improve compliance through:
+                  </p>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Personalized financial advice and recommendation
+                      generation
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Investment analysis and portfolio optimization
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Automated customer service and support
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Credit scoring and risk assessment
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Fraud detection and prevention
+                    </p>
+                  </li>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="v-pills-insurance"
+                  role="tabpanel"
+                  aria-labelledby="v-pills-insurance-tab"
+                >
+                  <h3>Generative AI for insurance industry</h3>
+                  <p>
+                    Our generative AI consulting services help insurance
+                    companies optimize operations and improve customer
+                    satisfaction. We use machine learning algorithms and
+                    predictive analytics to automate underwriting and claims
+                    processing. Our generative AI solutions for the insurance
+                    industry help businesses make data-driven decisions and
+                    improve compliance through:
+                  </p>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Customer segmentation and personalized recommendations
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Automated underwriting and claims processing
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Automated customer service and support
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Real-time data analysis and forecasting
+                    </p>
+                  </li>
+                  <li className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    ></i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Risk assessment and fraud detection
+                    </p>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{ background: "#0046E8", height: "579px" }}>
+        <div className="container">
+          <div
+            class="card mb-3"
+            style={{
+              maxWidth: "100%",
+              border: "none",
+              background: "#0046E8",
+            }}
+          >
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                {/* <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> */}
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row no-gutters">
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p
+                          style={{
+                            color: "white",
+                            fontWeight: "700",
+                            letterSpacing: "1px",
+                          }}
+                        >
+                          <em>Success Stories</em>
+                        </p>
+                        <h5
+                          class="card-title generative-genai1"
+                          style={{ color: "white" }}
+                        >
+                          Generative AI solutions for better hardware schematics
+                        </h5>
+                        <p
+                          class="card-text para-genai"
+                          style={{ color: "white" }}
+                        >
+                          Simplifying Resume Screening for a Leading Staffing
+                          Firm with Generative AI Our client, a well-established
+                          talent acquisition company boasting decades of
+                          experience, grappled with managing an extensive influx
+                          of resumes and the challenge of pinpointing
+                          specialized skills while ensuring an unbiased
+                          approach. To tackle this, we engineered a generative
+                          AI-powered resume pre-screening solution,
+                          incorporating cutting-edge AI algorithms and the Power
+                          Platform, which led to streamlined evaluations and
+                          more informed decision-making.
+                        </p>
+                        <li className="para-genai" style={{ color: "white" }}>
+                          <i
+                            class="fa fa-angle-double-right"
+                            style={{ color: "white", marginTop: "3px" }}
+                            aria-hidden="true"
+                          >
+                            {" "}
+                          </i>
+                          <p style={{ marginLeft: "5px" }}>
+                            Automated Resume Analysis
+                          </p>
+                        </li>
+                        <li className="para-genai" style={{ color: "white" }}>
+                          <i
+                            class="fa fa-angle-double-right"
+                            style={{ color: "white", marginTop: "3px" }}
+                            aria-hidden="true"
+                          >
+                            {" "}
+                          </i>
+                          <p style={{ marginLeft: "5px" }}>
+                            Accelerated Screening, Minimizing Bias
+                          </p>
+                        </li>
+                        <li className="para-genai" style={{ color: "white" }}>
+                          <i
+                            class="fa fa-angle-double-right"
+                            style={{ color: "white", marginTop: "3px" }}
+                            aria-hidden="true"
+                          >
+                            {" "}
+                          </i>
+                          <p style={{ marginLeft: "5px" }}>
+                            Customizable Workflows
+                          </p>
+                        </li>
+                        <li className="para-genai" style={{ color: "white" }}>
+                          <i
+                            class="fa fa-angle-double-right"
+                            style={{ color: "white", marginTop: "3px" }}
+                            aria-hidden="true"
+                          >
+                            {" "}
+                          </i>
+                          <p style={{ marginLeft: "5px" }}>
+                            Rapid Identification of Best-Fit Candidates
+                          </p>
+                        </li>
+                        <li className="para-genai" style={{ color: "white" }}>
+                          <i
+                            class="fa fa-angle-double-right"
+                            style={{ color: "white", marginTop: "3px" }}
+                            aria-hidden="true"
+                          >
+                            {" "}
+                          </i>
+                          <p style={{ marginLeft: "5px" }}>
+                            Interactive Q&A Chatbot
+                          </p>
+                        </li>
+                        <li className="para-genai" style={{ color: "white" }}>
+                          <i
+                            class="fa fa-angle-double-right"
+                            style={{ color: "white", marginTop: "3px" }}
+                            aria-hidden="true"
+                          >
+                            {" "}
+                          </i>
+                          <p style={{ marginLeft: "5px" }}>
+                            Skill Development Recommendations
+                          </p>
+                        </li>
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-4"
+                      style={{ display: "flex", alignItems: "center" }}
+                    >
+                      <img
+                        src="/images/G-AI-img2.webp1.png"
+                        class="card-img"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row no-gutters">
+                    <div class="col-md-8">
+                      <div class="card-body">
+                        <p
+                          style={{
+                            color: "white",
+                            fontWeight: "700",
+                            letterSpacing: "1px",
+                          }}
+                        >
+                          <em>Success Stories</em>
+                        </p>
+                        <h5
+                          class="card-title generative-genai3"
+                          style={{ color: "white" }}
+                        >
+                          Revolutionizing Hardware Schematic Design with
+                          Generative AI Solutions
+                        </h5>
+                        <p class="card-text" style={{ color: "white" }}>
+                          <p>
+                            In a quest to enhance their product quality and
+                            expedite the design phase, a US-based OEM embarked
+                            on a journey to optimize their processes. Leveraging
+                            the proficiency of our AI consultants, we introduced
+                            cutting-edge generative AI solutions. Drawing upon
+                            our extensive knowledge of EAGLE files and hardware
+                            schematic software.
+                          </p>
+
+                          <p>
+                            We delivered the following invaluable advantages to
+                            our client:
+                          </p>
+                        </p>
+                        <li className="para-genai" style={{ color: "white" }}>
+                          <i
+                            class="fa fa-angle-double-right"
+                            style={{ color: "white", marginTop: "0px" }}
+                            aria-hidden="true"
+                          >
+                            {" "}
+                          </i>
+                          <p
+                            style={{
+                              marginLeft: "5px",
+                              fontSize: "12px",
+                              letterSpacing: "0.2px",
+                            }}
+                          >
+                            Elevated Design Precision: Our generative AI
+                            solutions dramatically improved the accuracy of
+                            their designs
+                          </p>
+                        </li>
+                        <li className="para-genai" style={{ color: "white" }}>
+                          <i
+                            class="fa fa-angle-double-right"
+                            style={{ color: "white", marginTop: "0px" }}
+                            aria-hidden="true"
+                          >
+                            {" "}
+                          </i>
+                          <p
+                            style={{
+                              marginLeft: "5px",
+                              fontSize: "12px",
+                              letterSpacing: "0.2px",
+                            }}
+                          >
+                            Time and Cost Efficiency: By streamlining their
+                            design process, we enabled substantial time and cost
+                            savings.
+                          </p>
+                        </li>
+                        <li className="para-genai" style={{ color: "white" }}>
+                          <i
+                            class="fa fa-angle-double-right"
+                            style={{ color: "white", marginTop: "0px" }}
+                            aria-hidden="true"
+                          >
+                            {" "}
+                          </i>
+                          <p
+                            style={{
+                              marginLeft: "5px",
+                              fontSize: "12px",
+                              letterSpacing: "0.2px",
+                            }}
+                          >
+                            Amplified Performance and Reliability: The resultant
+                            designs exhibited enhanced performance and
+                            reliability.
+                          </p>
+                        </li>
+                        <li className="para-genai" style={{ color: "white" }}>
+                          <i
+                            class="fa fa-angle-double-right"
+                            style={{ color: "white", marginTop: "0px" }}
+                            aria-hidden="true"
+                          >
+                            {" "}
+                          </i>
+                          <p
+                            style={{
+                              marginLeft: "5px",
+                              fontSize: "12px",
+                              letterSpacing: "0.2px",
+                            }}
+                          >
+                            Design Perfection: Through optimization, we achieved
+                            designs that surpassed expectations in every aspect
+                          </p>
+                        </li>
+                        <p style={{ color: "white", fontSize: "13px" }}>
+                          These successes reflect the transformative power of AI
+                          in revolutionizing hardware schematic design,
+                          ultimately elevating product quality and
+                          competitiveness.
+                        </p>
+                        <button
+                          style={{
+                            display: "flex",
+                            height: "61px",
+                            maxWidth: "255px",
+                            padding: "20px 46px 21px 48px",
+                            justifyContent: "center",
+                            alignItems: "center",
+                            border: "none",
+                            marginTop: "27px",
+                            borderRadius: "5px",
+                          }}
+                        >
+                          <span
+                            style={{
+                              color: "rgb(0, 70, 232)",
+                              fontSize: "20px",
+                              fontStyle: "normal",
+                              fontWeight: "600",
+                              lineHeight: "19px",
+                              letterSpacing: "1px",
+                            }}
+                          >
+                            Read More
+                          </span>{" "}
+                          <i
+                            className="fa fa-arrow-circle-o-right"
+                            style={{
+                              width: "23px",
+                              fontSize: "24px",
+                              flexShrink: "0",
+                              color: "rgb(0, 70, 232)",
+                              marginLeft: "12px",
+                            }}
+                            aria-hidden="true"
+                          ></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div
+                      class="col-md-4"
+                      style={{ display: "flex", alignItems: "center" }}
+                    >
+                      <img
+                        src="/images/success-genai-2.png"
+                        class="card-img"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev prev1"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next next1"
+                href="#carouselExampleIndicators"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container mt-5">
         <div className="row">
           <div className="col-md-4 texthead-genai">
             <h4 className="texthead1-genai">Frame Work</h4>
@@ -512,69 +1255,82 @@ function Genai() {
           </div>
         </div>
         <div className="row mt-1">
-          <div className="col-md-4 texthead-genai">
+          <div
+            className="col-md-4 texthead-genai"
+            style={{ background: "#062D89" }}
+          >
             <h4 className="texthead1-genai">Language</h4>
           </div>
-          <div className="col-md-8" style={{ background: "#F8F8F8" }}>
-            <img
-              src="/images/python.png"
-              alt="..."
-              className="icon-genai col-md-3"
-            />
+          <div className="col-md-8" style={{ background: "#D7D7D7" }}>
+            <div style={{ marginTop: "25px" }}>
+              <img
+                src="/images/python.png"
+                alt="..."
+                className="icon-genai col-md-3"
+              />
+            </div>
           </div>
         </div>
         <div className="row mt-1">
           <div className="col-md-4 texthead-genai">
             <h4 className="texthead1-genai">IDEs</h4>
           </div>
+
           <div className="col-md-8" style={{ background: "#F8F8F8" }}>
-            <img
-              src="/images/pycharm.png"
-              alt="..."
-              className="icon-genai col-md-3"
-            />
-            <img
-              src="/images/jupyter.png"
-              alt="..."
-              className="icon-genai col-md-3"
-              style={{ marginLeft: "15px" }}
-            />
-            <img
-              src="/images/vscode.png"
-              alt="..."
-              className="icon-genai col-md-3"
-              style={{ marginLeft: "15px" }}
-            />
+            <div style={{ marginTop: "25px" }}>
+              <img
+                src="/images/pycharm.png"
+                alt="..."
+                className="icon-genai col-md-3"
+              />
+              <img
+                src="/images/jupyter.png"
+                alt="..."
+                className="icon-genai col-md-3"
+                style={{ marginLeft: "15px" }}
+              />
+              <img
+                src="/images/vscode.png"
+                alt="..."
+                className="icon-genai col-md-3"
+                style={{ marginLeft: "15px" }}
+              />
+            </div>
           </div>
         </div>
         <div className="row mt-1">
-          <div className="col-md-4 texthead-genai">
+          <div
+            className="col-md-4 texthead-genai"
+            style={{ background: "#062D89" }}
+          >
             <h4 className="texthead1-genai">Deployments</h4>
           </div>
-          <div className="col-md-8" style={{ background: "#F8F8F8" }}>
-            <img
-              src="/images/azure1.png"
-              alt="..."
-              className="icon-genai col-md-3"
-            />
-            <img
-              src="/images/aws1.png"
-              alt="..."
-              className="icon-genai col-md-3"
-              style={{ marginLeft: "15px" }}
-            />
-            <img
-              src="/images/googlecloud1.png"
-              alt="..."
-              className="icon-genai col-md-3"
-              style={{ marginLeft: "15px" }}
-            />
-            <img
-              src="/images/ibmwatson.png"
-              alt="..."
-              className="icon-genai col-md-3"
-              style={{ marginLeft: "15px" }}
-            />
+          <div className="col-md-8" style={{ background: "#D7D7D7" }}>
+            <div style={{ marginTop: "25px" }}>
+              <img
+                src="/images/azure1.png"
+                alt="..."
+                className="icon-genai col-md-3"
+              />
+              <img
+                src="/images/aws1.png"
+                alt="..."
+                className="icon-genai col-md-3"
+                style={{ marginLeft: "15px" }}
+              />
+              <img
+                src="/images/googlecloud1.png"
+                alt="..."
+                className="icon-genai col-md-3"
+                style={{ marginLeft: "15px" }}
+              />
+              <img
+                src="/images/ibmwatson.png"
+                alt="..."
+                className="icon-genai col-md-3"
+                style={{ marginLeft: "15px" }}
+              />
+            </div>
           </div>
         </div>
         <div className="row mt-1">
@@ -614,33 +1370,38 @@ function Genai() {
           </div>
         </div>
         <div className="row mt-1">
-          <div className="col-md-4 texthead-genai">
+          <div
+            className="col-md-4 texthead-genai"
+            style={{ background: "#062D89" }}
+          >
             <h4 className="texthead1-genai">Commercial platforms</h4>
           </div>
-          <div className="col-md-8" style={{ background: "#F8F8F8" }}>
-            <img
-              src="/images/openai.png"
-              alt="..."
-              className="icon-genai col-md-3"
-            />
-            <img
-              src="/images/openai1.png"
-              alt="..."
-              className="icon-genai col-md-3"
-              style={{ marginLeft: "15px" }}
-            />
-            <img
-              src="/images/vertexai.png"
-              alt="..."
-              className="icon-genai col-md-3"
-              style={{ marginLeft: "15px" }}
-            />
-            <img
-              src="/images/ibmwatson.png"
-              alt="..."
-              className="icon-genai col-md-3"
-              style={{ marginLeft: "15px" }}
-            />
+          <div className="col-md-8" style={{ background: "#D7D7D7" }}>
+            <div style={{ marginTop: "25px" }}>
+              <img
+                src="/images/openai.png"
+                alt="..."
+                className="icon-genai col-md-3"
+              />
+              <img
+                src="/images/openai1.png"
+                alt="..."
+                className="icon-genai col-md-3"
+                style={{ marginLeft: "15px" }}
+              />
+              <img
+                src="/images/vertexai.png"
+                alt="..."
+                className="icon-genai col-md-3"
+                style={{ marginLeft: "15px" }}
+              />
+              <img
+                src="/images/ibmwatson.png"
+                alt="..."
+                className="icon-genai col-md-3"
+                style={{ marginLeft: "15px" }}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -653,26 +1414,64 @@ function Genai() {
             <div class="card">
               <div
                 class="card-body"
-                style={{ height: "225px", background: "#F8F8F8" }}
+                style={{ height: "256px", background: "#F8F8F8" }}
               >
                 <h5 class="generative-genai2">
-                  Partner with a business-driven mindset
+                  Collaborate with a Business-Centric Approach
                 </h5>
-                <li style={{ fontSize: "13px" }}>
-                  DataObserve understands your business goals and develops AI
-                  solutions aligned with them.
-                </li>
-                <li style={{ fontSize: "13px" }}>
-                  We use our expertise to optimize AI solutions to meet your
-                  unique needs.
-                </li>
-                <li style={{ fontSize: "13px" }}>
-                  Our AI solutions drive business growth and success.
-                </li>
-                <li style={{ fontSize: "13px" }}>
-                  We are committed to providing AI solutions that deliver value
-                  and maximize ROI.
-                </li>
+                <div>
+                  <li style={{ fontSize: "13px" }} className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    >
+                      {" "}
+                    </i>
+                    <p style={{ marginLeft: "5px" }}>
+                      DataObserve comprehends your business objectives and
+                      tailors AI solutions accordingly
+                    </p>
+                  </li>
+                  <li style={{ fontSize: "13px" }} className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    >
+                      {" "}
+                    </i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Our proficiency is dedicated to fine-tuning AI solutions
+                      to cater to your distinct requirements.
+                    </p>
+                  </li>
+                  <li style={{ fontSize: "13px" }} className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    >
+                      {" "}
+                    </i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Our AI solutions propel business expansion and triumph.
+                    </p>
+                  </li>
+                  <li style={{ fontSize: "13px" }} className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    >
+                      {" "}
+                    </i>
+                    <p style={{ marginLeft: "5px" }}>
+                      We are dedicated to furnishing AI solutions that bring
+                      value and maximize your return on investment (ROI).
+                    </p>
+                  </li>
+                </div>
               </div>
             </div>
           </div>
@@ -680,27 +1479,129 @@ function Genai() {
             <div class="card">
               <div
                 class="card-body"
-                style={{ height: "225px", background: "#F8F8F8" }}
+                style={{ height: "256px", background: "#F8F8F8" }}
+              >
+                <h5 class="generative-genai2">Boost Ecosystem Innovation</h5>
+                <div>
+                  <li style={{ fontSize: "13px" }} className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    >
+                      {" "}
+                    </i>
+                    <p style={{ marginLeft: "5px" }}>
+                      DataObserve harnesses cutting-edge AI technologies to
+                      ignite innovation within your enterprise.
+                    </p>
+                  </li>
+                  <li style={{ fontSize: "13px" }} className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    >
+                      {" "}
+                    </i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Our AI solutions are meticulously crafted to revolutionize
+                      your business processes and attain your objectives.
+                    </p>
+                  </li>
+                  <li style={{ fontSize: "13px" }} className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    >
+                      {" "}
+                    </i>
+                    <p style={{ marginLeft: "5px" }}>
+                      We expedite the pace of innovation and position you at the
+                      forefront of your competitive landscape.
+                    </p>
+                  </li>
+                  <li style={{ fontSize: "13px" }} className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    >
+                      {" "}
+                    </i>
+                    <p style={{ marginLeft: "5px" }}>
+                      With our AI solutions, you can seize fresh prospects and
+                      propel the growth of your business.
+                    </p>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <div
+                class="card-body"
+                style={{ height: "256px", background: "#F8F8F8" }}
               >
                 <h5 class="generative-genai2">
-                  Accelerate ecosystem innovation
+                  Elevate Responsible AI Practices
                 </h5>
-                <li style={{ fontSize: "13px" }}>
-                  DataObserve leverages the latest AI technologies to drive
-                  innovation in your business.
-                </li>
-                <li style={{ fontSize: "13px" }}>
-                  Our AI solutions are designed to transform how you do business
-                  and achieve your goals.
-                </li>
-                <li style={{ fontSize: "13px" }}>
-                  We help you accelerate innovation and stay ahead of the
-                  competition.
-                </li>
-                <li style={{ fontSize: "13px" }}>
-                  Our AI solutions enable you to capitalize on new opportunities
-                  and grow your business.
-                </li>
+                <div>
+                  <li style={{ fontSize: "13px" }} className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    >
+                      {" "}
+                    </i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Softweb Solutions is committed to developing AI solutions
+                      that are ethical, transparent, and responsible.
+                    </p>
+                  </li>
+                  <li style={{ fontSize: "13px" }} className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    >
+                      {" "}
+                    </i>
+                    <p style={{ marginLeft: "5px" }}>
+                      We ensure that our AI solutions comply with regulatory and
+                      industry standards.
+                    </p>
+                  </li>
+                  <li style={{ fontSize: "13px" }} className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    >
+                      {" "}
+                    </i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Our team of experts develops AI solutions that are secure,
+                      trustworthy, and protect user privacy.
+                    </p>
+                  </li>
+                  <li style={{ fontSize: "13px" }} className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    >
+                      {" "}
+                    </i>
+                    <p style={{ marginLeft: "5px" }}>
+                      We believe that responsible AI is critical to building
+                      trust and achieving long-term success.
+                    </p>
+                  </li>
+                </div>
               </div>
             </div>
           </div>
@@ -708,51 +1609,64 @@ function Genai() {
             <div class="card">
               <div
                 class="card-body"
-                style={{ height: "225px", background: "#F8F8F8" }}
-              >
-                <h5 class="generative-genai2">Level up responsible AI</h5>
-                <li style={{ fontSize: "13px" }}>
-                  DataObserve is committed to developing AI solutions that are
-                  ethical, transparent, and responsible.
-                </li>
-                <li style={{ fontSize: "13px" }}>
-                  We ensure that our AI solutions comply with regulatory and
-                  industry standards.
-                </li>
-                <li style={{ fontSize: "13px" }}>
-                  Our team of experts develops AI solutions that are secure,
-                  trustworthy, and protect user privacy.
-                </li>
-                <li style={{ fontSize: "13px" }}>
-                  We believe that responsible AI is critical to building trust
-                  and achieving long-term success.
-                </li>
-              </div>
-            </div>
-          </div>
-          <div class="col mb-4">
-            <div class="card">
-              <div
-                class="card-body"
-                style={{ height: "225px", background: "#F8F8F8" }}
+                style={{ height: "256px", background: "#F8F8F8" }}
               >
                 <h5 class="generative-genai2">Expertise in generative AI</h5>
-                <li style={{ fontSize: "13px" }}>
-                  DataObserve has unparalleled expertise in generative AI
-                  technologies.
-                </li>
-                <li style={{ fontSize: "13px" }}>
-                  Our team of experts develops innovative generative AI
-                  solutions that help you stay ahead of the competition.
-                </li>
-                <li style={{ fontSize: "13px" }}>
-                  We work closely with you to understand your unique needs and
-                  deliver customized generative AI solutions.
-                </li>
-                <li style={{ fontSize: "13px" }}>
-                  Our generative AI solutions drive business growth, enable
-                  creativity, and deliver exceptional results.
-                </li>
+                <div>
+                  <li style={{ fontSize: "13px" }} className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    >
+                      {" "}
+                    </i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Softweb Solutions has unparalleled expertise in generative
+                      <br />
+                      AI technologies.
+                    </p>
+                  </li>
+                  <li style={{ fontSize: "13px" }} className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    >
+                      {" "}
+                    </i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Our team of experts develops innovative generative AI
+                      solutions that help you stay ahead of the competition.
+                    </p>
+                  </li>
+                  <li style={{ fontSize: "13px" }} className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    >
+                      {" "}
+                    </i>
+                    <p style={{ marginLeft: "5px" }}>
+                      We work closely with you to understand your unique needs
+                      and deliver customized generative AI solutions.
+                    </p>
+                  </li>
+                  <li style={{ fontSize: "13px" }} className="para-genai">
+                    <i
+                      class="fa fa-angle-double-right"
+                      style={{ color: "blue", marginTop: "3px" }}
+                      aria-hidden="true"
+                    >
+                      {" "}
+                    </i>
+                    <p style={{ marginLeft: "5px" }}>
+                      Our generative AI solutions drive business growth, enable
+                      creativity, and deliver exceptional results.
+                    </p>
+                  </li>
+                </div>
               </div>
             </div>
           </div>
@@ -834,7 +1748,718 @@ function Genai() {
           </div>
         </div>
       </section>
-      <Faq />
+      {/* <Faq /> */}
+      <div class="card text-center" style={{ border: "0px" }}>
+        {/* {/ <div class="card-header">Featured</div> /} */}
+        <div class="card-body faq-class">
+          <h5 class="card-title" style={{ color: "white" }}>
+            FAQs
+          </h5>
+          <div
+            class="accordion"
+            id="accordionExample"
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              justifyContent: "space-around",
+            }}
+          >
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingOne"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      What is generative AI, and how does it differ from
+                      traditional AI?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+
+              <div
+                id="collapseOne"
+                class="collapse show"
+                aria-labelledby="headingOne"
+                data-parent="#accordionExample"
+              >
+                <div
+                  class="card-body"
+                  style={{ textAlign: "left", listStyle: "none" }}
+                >
+                  Generative AI in the Insurance Industry:
+                  <p>
+                    {" "}
+                    Our generative AI consultancy empowers insurance companies
+                    to streamline operations and enhance customer satisfaction.
+                    We harness machine learning algorithms and predictive
+                    analytics to automate underwriting and claims processing.
+                    Our generative AI solutions for the insurance sector enable
+                    data-driven decision-making and bolster compliance through:{" "}
+                  </p>
+                  <li>
+                    1. Customer segmentation and personalized recommendations{" "}
+                  </li>
+                  <li>2. Automated underwriting and claims processing</li>
+                  <li>
+                    {" "}
+                    3. Implementing automated customer service and support
+                  </li>
+                  <li>4. Conducting real-time data analysis and forecasting</li>
+                  <li>5. Enhancing risk assessment and detecting fraud.</li>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingTwo"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      What are some real-world applications of generative AI?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseTwo"
+                class="collapse"
+                aria-labelledby="headingTwo"
+                data-parent="#accordionExample"
+              >
+                <div
+                  class="card-body"
+                  style={{ textAlign: "left", listStyle: "none" }}
+                >
+                  Generative AI in the Insurance Industry:{" "}
+                  <p>
+                    Our generative AI consultancy empowers insurance companies
+                    to streamline operations and enhance customer satisfaction.
+                    We harness machine learning algorithms and predictive
+                    analytics to automate underwriting and claims processing.
+                    Our generative AI solutions for the insurance sector enable
+                    data-driven decision-making and bolster compliance through:
+                  </p>
+                  <li>
+                    1. Customer segmentation and personalized recommendations{" "}
+                  </li>
+                  <li>2. Automated underwriting and claims processing</li>
+                  <li>
+                    {" "}
+                    3. Implementing automated customer service and support
+                  </li>
+                  <li>4. Conducting real-time data analysis and forecasting</li>
+                  <li>5. Enhancing risk assessment and detecting fraud.</li>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingThree"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      How does generative AI work, and what technologies are
+                      used in its process?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseThree"
+                class="collapse"
+                aria-labelledby="headingThree"
+                data-parent="#accordionExample"
+              >
+                <div
+                  class="card-body"
+                  style={{ textAlign: "left", listStyle: "none" }}
+                >
+                  Generative AI in the Insurance Industry:
+                  <p>
+                    {" "}
+                    Our generative AI consultancy empowers insurance companies
+                    to streamline operations and enhance customer satisfaction.
+                    We harness machine learning algorithms and predictive
+                    analytics to automate underwriting and claims processing.
+                    Our generative AI solutions for the insurance sector enable
+                    data-driven decision-making and bolster compliance through:
+                  </p>
+                  <li>
+                    1. Customer segmentation and personalized recommendations{" "}
+                  </li>
+                  <li>2. Automated underwriting and claims processing</li>
+                  <li>
+                    {" "}
+                    3. Implementing automated customer service and support
+                  </li>
+                  <li>4. Conducting real-time data analysis and forecasting</li>
+                  <li>5. Enhancing risk assessment and detecting fraud.</li>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingFour"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      How will generative AI benefit my business, and improve
+                      operations?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseFour"
+                class="collapse"
+                aria-labelledby="headingFour"
+                data-parent="#accordionExample"
+              >
+                <div
+                  class="card-body"
+                  style={{ textAlign: "left", listStyle: "none" }}
+                >
+                  Generative AI in the Insurance Industry:
+                  <p>
+                    {" "}
+                    Generative AI in the Insurance Industry: Our generative AI
+                    consultancy empowers insurance companies to streamline
+                    operations and enhance customer satisfaction. We harness
+                    machine learning algorithms and predictive analytics to
+                    automate underwriting and claims processing. Our generative
+                    AI solutions for the insurance sector enable data-driven
+                    decision-making and bolster compliance through:
+                  </p>
+                  <li>
+                    1. Customer segmentation and personalized recommendations{" "}
+                  </li>
+                  <li>2. Automated underwriting and claims processing</li>
+                  <li>
+                    {" "}
+                    3. Implementing automated customer service and support
+                  </li>
+                  <li>4. Conducting real-time data analysis and forecasting</li>
+                  <li>5. Enhancing risk assessment and detecting fraud.</li>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingFive"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseFive"
+                    aria-expanded="false"
+                    aria-controls="collapseFive"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      How can generative AI help me better understand my
+                      customers and their needs?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseFive"
+                class="collapse"
+                aria-labelledby="headingFiver"
+                data-parent="#accordionExample"
+              >
+                <div
+                  class="card-body"
+                  style={{ textAlign: "left", listStyle: "none" }}
+                >
+                  Generative AI in the Insurance Industry:
+                  <p>
+                    {" "}
+                    Generative AI in the Insurance Industry: Our generative AI
+                    consultancy empowers insurance companies to streamline
+                    operations and enhance customer satisfaction. We harness
+                    machine learning algorithms and predictive analytics to
+                    automate underwriting and claims processing. Our generative
+                    AI solutions for the insurance sector enable data-driven
+                    decision-making and bolster compliance through:
+                  </p>
+                  <li>
+                    1. Customer segmentation and personalized recommendations{" "}
+                  </li>
+                  <li>2. Automated underwriting and claims processing</li>
+                  <li>
+                    {" "}
+                    3. Implementing automated customer service and support
+                  </li>
+                  <li>4. Conducting real-time data analysis and forecasting</li>
+                  <li>5. Enhancing risk assessment and detecting fraud.</li>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingSix"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseSix"
+                    aria-expanded="false"
+                    aria-controls="collapseSix"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      How does generative AI fit into my company’s overall AI
+                      strategy, and what are the potential risks and rewards?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseSix"
+                class="collapse"
+                aria-labelledby="headingSix"
+                data-parent="#accordionExample"
+              >
+                <div
+                  class="card-body"
+                  style={{ textAlign: "left", listStyle: "none" }}
+                >
+                  Generative AI in the Insurance Industry:
+                  <p>
+                    {" "}
+                    Generative AI in the Insurance Industry: Our generative AI
+                    consultancy empowers insurance companies to streamline
+                    operations and enhance customer satisfaction. We harness
+                    machine learning algorithms and predictive analytics to
+                    automate underwriting and claims processing. Our generative
+                    AI solutions for the insurance sector enable data-driven
+                    decision-making and bolster compliance through:
+                  </p>
+                  <li>
+                    1. Customer segmentation and personalized recommendations{" "}
+                  </li>
+                  <li>2. Automated underwriting and claims processing</li>
+                  <li>
+                    {" "}
+                    3. Implementing automated customer service and support
+                  </li>
+                  <li>4. Conducting real-time data analysis and forecasting</li>
+                  <li>5. Enhancing risk assessment and detecting fraud.</li>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingSeven"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseSeven"
+                    aria-expanded="false"
+                    aria-controls="collapseSeven"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      How much does it cost to implement generative AI, and what
+                      factors should I consider?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseSeven"
+                class="collapse"
+                aria-labelledby="headingSeven"
+                data-parent="#accordionExample"
+              >
+                <div
+                  class="card-body"
+                  style={{ textAlign: "left", listStyle: "none" }}
+                >
+                  Generative AI in the Insurance Industry:
+                  <p>
+                    {" "}
+                    Generative AI in the Insurance Industry: Our generative AI
+                    consultancy empowers insurance companies to streamline
+                    operations and enhance customer satisfaction. We harness
+                    machine learning algorithms and predictive analytics to
+                    automate underwriting and claims processing. Our generative
+                    AI solutions for the insurance sector enable data-driven
+                    decision-making and bolster compliance through:
+                  </p>
+                  <li>
+                    1. Customer segmentation and personalized recommendations{" "}
+                  </li>
+                  <li>2. Automated underwriting and claims processing</li>
+                  <li>
+                    {" "}
+                    3. Implementing automated customer service and support
+                  </li>
+                  <li>4. Conducting real-time data analysis and forecasting</li>
+                  <li>5. Enhancing risk assessment and detecting fraud.</li>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card"
+              style={{
+                backgroundColor: "rgba(255, 255, 255, 0.05)",
+                color: "white",
+                margin: "10px",
+                width: "80%",
+              }}
+            >
+              <div
+                class="card-header"
+                id="headingEight"
+                style={{ textAlign: "left" }}
+              >
+                <h2 class="mb-0">
+                  <button
+                    class="btn btn-link collapsed"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#collapseEight"
+                    aria-expanded="false"
+                    aria-controls="collapseEight"
+                    style={{
+                      color: "white",
+                      textDecoration: "none",
+                      width: "100%",
+                      textAlign: "left",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <p style={{ margin: "0px" }}>
+                      How can I get started with generative AI, and what
+                      resources or support are available to me?
+                    </p>
+                    <p
+                      style={{
+                        margin: "0px",
+                        backgroundColor: "rgba(255, 255, 255, 0.05)",
+                        borderRadius: "3px",
+                        width: "18px",
+                        height: "20px",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                      }}
+                    >
+                      +
+                    </p>
+                  </button>
+                </h2>
+              </div>
+              <div
+                id="collapseEight"
+                class="collapse"
+                aria-labelledby="headingEight"
+                data-parent="#accordionExample"
+              >
+                <div
+                  class="card-body"
+                  style={{ textAlign: "left", listStyle: "none" }}
+                >
+                  Generative AI in the Insurance Industry:
+                  <p>
+                    {" "}
+                    Generative AI in the Insurance Industry: Our generative AI
+                    consultancy empowers insurance companies to streamline
+                    operations and enhance customer satisfaction. We harness
+                    machine learning algorithms and predictive analytics to
+                    automate underwriting and claims processing. Our generative
+                    AI solutions for the insurance sector enable data-driven
+                    decision-making and bolster compliance through:
+                  </p>
+                  <li>
+                    1. Customer segmentation and personalized recommendations{" "}
+                  </li>
+                  <li>2. Automated underwriting and claims processing</li>
+                  <li>
+                    {" "}
+                    3. Implementing automated customer service and support
+                  </li>
+                  <li>4. Conducting real-time data analysis and forecasting</li>
+                  <li>5. Enhancing risk assessment and detecting fraud.</li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <Footer />
     </div>
   );

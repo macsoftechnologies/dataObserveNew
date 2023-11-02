@@ -378,6 +378,10 @@ font-size: 12px;
   text-align: center;
 }
 
+.contact-decoration{
+  text-decoration: none!important;
+}
+
 
 
 /* .....circles start unleash end....  */

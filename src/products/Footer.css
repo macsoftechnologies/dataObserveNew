@@ -47,7 +47,15 @@
       font-weight: 500;
       padding: 10px 5px;
       border-radius: 8px;
+
       }
+.c-t{
+  color: white;
+}
+.c-t:hover{
+  color: white;
+  text-decoration: none;
+}  
 
       .footer {
         margin-top: -4px;

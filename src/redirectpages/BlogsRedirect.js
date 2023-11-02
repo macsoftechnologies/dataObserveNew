@@ -4,16 +4,13 @@ import "./BlogRedirect.css";
 import Footer from "../products/Footer";
 
 const BlogsRedirect = () => {
-
-  
   return (
     <>
       <Navbar />
       <section>
         <div className="container">
           <a href="/allinsights">
-          <button className="previousButton">Back</button>
-          </a>
+          <button className="previousButton">Back</button></a>
         </div>
       </section>
       <section className="blogsheader">
@@ -23,6 +20,7 @@ const BlogsRedirect = () => {
             The future of data engineering in digital product engineering lies
             with Gen AI
           </h1>
+          <button className="domainbuttonclass">Domain</button>
         </div>
       </section>
       <section>
@@ -32,46 +30,7 @@ const BlogsRedirect = () => {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-md-9">
-              <div className="likesandcomments">
-                <div className="d-flex">
-                  <div>
-                    <img
-                      src="images/blogapplauseimg.png"
-                      alt="#"
-                      className="blogapplause ml-2"
-                    />
-                    {"   "}11
-                  </div>
-                  <img
-                    src="images/blogcommentimg.png"
-                    alt="#"
-                    className="blogcommentimg ml-4"
-                  />
-                </div>
-                <div className="mr-2">
-                  <img
-                    src="images/blogbookmark.png"
-                    alt="#"
-                    className="blogcommentimg mr-4"
-                  />
-                  <img
-                    src="images/blogplay.png"
-                    alt="#"
-                    className="blogcommentimg mr-4"
-                  />
-                  <img
-                    src="images/blogshare.png"
-                    alt="#"
-                    className="blogcommentimg mr-4"
-                  />
-                  <img
-                    src="images/blogmore.png"
-                    alt="#"
-                    className="blogcommentimg"
-                  />
-                </div>
-              </div>
+            <div className="col-md-8">
               <div>
                 <img
                   src="images/blogbackgroundimg.png"
@@ -83,35 +42,6 @@ const BlogsRedirect = () => {
                   lies with Gen AI
                 </h1>
               </div>
-            </div>
-            <div className="col-md-3 tablecolumn">
-              <div className="tableclass">
-                <h1 className="blogtableheading">Table of Content</h1>
-                <div className="pt-3 blogtableparadiv">
-                  <p className="blogtablepara">
-                    Generative AI: Creativity and Data-Driven Learning
-                  </p>
-                </div>
-                <div className="pt-3 blogtableparadiv">
-                  <p className="blogtablepara">Traditional AI</p>
-                </div>
-                <div className="pt-3 blogtableparadiv">
-                  <p className="blogtablepara">
-                    Generative AI Vs. Traditional AI - A Simple Breakdown for
-                    Easier Understanding
-                  </p>
-                </div>
-                <div className="pt-3 blogtableparadiv">
-                  <p className="blogtablepara">
-                    Applications of Generative AI and Traditional AI
-                  </p>
-                </div>
-                <div className="pt-3 blogtableparadiv">
-                  <p className="blogtablepara">Concluding Thoughts</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-8 mt-5 pt-3">
               <p className="blogpara1 text-justify">
                 The practice of data engineering in digital product engineering,
                 involving data collection, transformation, and organization for
@@ -135,7 +65,58 @@ const BlogsRedirect = () => {
                 society.
               </p>
             </div>
-            <div className="col-md-9 mt-5">
+            <div className="col-md-4 tablecolumn">
+              <div className="tableclass container">
+                <h1 className="blogtableheading text-center">
+                  Table of Content
+                </h1>
+                <div className="pt-2 pb-2 blogtableparadiv">
+                  <a href="#significance" className="blogtablepara">
+                    <span className="tablebullet text-center"><i class="fa fa-angle-double-right" aria-hidden="true"></i>{" "}</span>The
+                    significance of GenAI
+                  </a>
+                </div>
+                <div className="pt-2 pb-2 blogtableparadiv">
+                  <a href="#advan&obst" className="blogtablepara">
+                    <span className="tablebullet text-center"><i class="fa fa-angle-double-right" aria-hidden="true"></i>{" "}</span>Exploring
+                    the advantages and obstacles of automating data engineering
+                    tasks with Gen AI
+                  </a>
+                </div>
+                <div className="pt-2 pb-2 blogtableparadiv">
+                  <a href="#advantagesofgenai" className="blogtablepara">
+                    <span className="tablebullet text-center"><i class="fa fa-angle-double-right" aria-hidden="true"></i>{" "}</span>Advantages
+                    of employing Gen AI for automating data engineering tasks
+                  </a>
+                </div>
+                <div className="pt-2 pb-2 blogtableparadiv">
+                  <a href="#obstaclesid" className="blogtablepara">
+                    <span className="tablebullet text-center"><i class="fa fa-angle-double-right" aria-hidden="true"></i>{" "}</span>Obstacles
+                    involved in automating data engineering tasks with Gen AI
+                  </a>
+                </div>
+                <div className="pt-2 pb-2 blogtableparadiv">
+                  <a href="#investigating" className="blogtablepara">
+                    <span className="tablebullet text-center"><i class="fa fa-angle-double-right" aria-hidden="true"></i>{" "}</span>
+                    Investigating the contribution of Gen AI to data integration
+                    and management
+                  </a>
+                </div>
+                <div className="pt-2 pb-2 blogtableparadiv">
+                  <a href="#maintaining" className="blogtablepara">
+                    <span className="tablebullet text-center"><i class="fa fa-angle-double-right" aria-hidden="true"></i>{" "}</span>
+                    Maintaining data privacy and security in the age of Gen AI
+                  </a>
+                </div>
+                <div className="pt-2 pb-2 blogtableparadiv">
+                  <a href="#revealing" className="blogtablepara">
+                    <span className="tablebullet text-center"><i class="fa fa-angle-double-right" aria-hidden="true"></i>{" "}</span>Revealing
+                    the new horizons of data engineering
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-8 mt-5" id="significance">
               <h1 className="blogheading2">The significance of GenAI</h1>
               <p className="blogpara1 mt-4">
                 In order to grasp the significance of Gen AI’s future
@@ -148,7 +129,7 @@ const BlogsRedirect = () => {
                 className="w-100 mt-2"
               />
             </div>
-            <div className="col-md-9 mt-5">
+            <div className="col-md-8 mt-5">
               <div className="d-flex align-items-start">
                 <p className="blogpara1">1.</p>
                 <p className="blogpara1 pl-2 text-justify">
@@ -218,135 +199,139 @@ const BlogsRedirect = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-9 mt-3">
-              <h1 className="blogheading3">
-                Advantages of employing Gen AI for automating data engineering
-                tasks
-              </h1>
-              <img
-                src="images/blogmatterimage2.png"
-                alt="#"
-                className="w-100 mt-2"
-              />
-              <div>
-                <p className="mt-5 text-justify d-flex blogpara1">
-                  <p className="blogmatterdot">.</p>
-                  Enhanced efficiency: By automating laborious and
-                  time-consuming data engineering tasks like data extraction,
-                  transformation, loading (ETL), data integration, and data
-                  pipeline creation, Gen AI streamlines processes leading to
-                  reduced manual effort, faster data processing, and improved
-                  overall efficiency in managing extensive data volumes for
-                  organizations.
-                </p>
-                <p className="mt-3 text-justify d-flex blogpara1">
-                  <p className="blogmatterdot">.</p>
-                  Gen AI brings about heightened accuracy and consistency:
-                  Traditional manual data engineering processes are susceptible
-                  to human errors, resulting in data inconsistencies and
-                  inaccuracies. Leveraging Gen AI techniques, which possess the
-                  capability to process data consistently and precisely,
-                  enhances data accuracy, reduces errors, and ensures
-                  consistency in data engineering pipelines. Consequently, this
-                  fosters more reliable and trustworthy data analysis outcomes.
-                </p>
-                <p className="mt-3 text-justify d-flex blogpara1">
-                  <p className="blogmatterdot">.</p>
-                  Scalability and adaptability aspects: Given the exponential
-                  growth in data volumes, scalability becomes a crucial factor
-                  in data engineering. Gen AI-driven automation empowers
-                  organizations to efficiently scale their data engineering
-                  processes, be it handling larger datasets, incorporating new
-                  data sources, or adapting to evolving business requirements.
-                  Gen AI-powered automation offers the much-needed flexibility
-                  and scalability to address these challenges effectively.
-                </p>
-                <p className="mt-3 text-justify d-flex blogpara1">
-                  <p className="blogmatterdot">.</p>
-                  Achieving quicker time-to-insights: The integration of Gen
-                  AI-driven automation expedites data engineering processes,
-                  resulting in faster delivery of insights. By minimizing manual
-                  intervention, organizations can optimize data pipelines,
-                  alleviate bottlenecks, and expedite the transformation of raw
-                  data into actionable insights. This equips decision-makers
-                  with timely and pertinent information, empowering them to make
-                  data-driven decisions more effectively.
-                </p>
-              </div>
-            </div>
-            <div className="col-md-9 mt-5">
-              <h1 className="blogheading3">
-                Obstacles involved in automating data engineering tasks with Gen
-                AI
-              </h1>
-              <img
-                src="images/blogmatterimage3.png"
-                alt="#"
-                className="w-100 mt-3"
-              />
-              <div>
-                <p className="mt-5 text-justify d-flex blogpara2">
-                  <p className="blogmatterdot">.</p>
-                  Intricacies and variations in data: Data engineering
-                  encompasses the management of a wide array of data sources,
-                  formats, and structures. Gen AI algorithms need to comprehend
-                  and adjust to this complexity. However, ensuring the accuracy
-                  and dependability of automated processes when dealing with
-                  diverse data sources can be challenging. It necessitates
-                  meticulous validation and testing to accommodate the nuances
-                  of distinct datasets.
-                </p>
-                <p className="mt-3 text-justify d-flex blogpara2">
-                  <p className="blogmatterdot">.</p>
-                  Security and privacy of data: While automation enhances
-                  efficiency, it also raises concerns about data security and
-                  privacy. With Gen AI automating sensitive data handling tasks,
-                  organizations must implement robust security measures to
-                  safeguard against unauthorized access, data breaches, and
-                  potential misuse. Employing encryption, access controls, and
-                  monitoring mechanisms becomes imperative to uphold data
-                  privacy and security.
-                </p>
-                <p className="mt-3 text-justify d-flex blogpara2">
-                  <p className="blogmatterdot">.</p>
-                  Issue of algorithmic bias and fairness: Gen AI systems utilize
-                  algorithms that learn from historical data, which can lead to
-                  unintended bias if the training data is biased or reflects
-                  existing inequalities. To maintain fairness and equity in data
-                  engineering tasks, it is crucial to thoroughly assess and
-                  mitigate algorithmic bias.
-                </p>
-                <p className="mt-3 text-justify d-flex blogpara2">
-                  <p className="blogmatterdot">.</p>
-                  Demands for skills and expertise: Integrating Gen AI for
-                  automating data engineering tasks requires a proficient
-                  workforce. Organizations must have data engineers with
-                  expertise in understanding and effectively leveraging Gen AI
-                  technologies. Upskilling and reskilling initiatives are vital
-                  to bridge the skills gap and empower data engineering teams to
-                  fully harness the potential of Gen AI.
-                </p>
-                <p className="mt-3 text-justify d-flex blogpara2">
-                  <p className="blogmatterdot">.</p>
-                  Adherence to legal and regulatory requirements: With the
-                  evolution of Gen AI, legal and regulatory frameworks may
-                  necessitate adaptation. Organizations must stay abreast of
-                  changing regulations concerning data privacy, security, and
-                  algorithmic transparency. Complying with these regulations
-                  ensures that Gen AI deployment aligns with legal requirements
-                  and mitigates potential risks.
-                </p>
-              </div>
-              {/* <img src="images/blogmatterimage4.png" alt="#" className="w-100" /> */}
-              <div className="d-flex horizonline">
-                <h1 className="blogheading4 pl-5">
-                  Organizations can optimize the benefits of automation and
-                  reduce potential risks by prudently addressing these
-                  challenges and implenting suitable strategies.
+            <div className="col-md-8 mt-3" id="advan&obst">
+              <div id="advantagesofgenai">
+                <h1 className="blogheading3">
+                  Advantages of employing Gen AI for automating data engineering
+                  tasks
                 </h1>
+                <img
+                  src="images/blogmatterimage2.png"
+                  alt="#"
+                  className="w-100 mt-2"
+                />
+                <div>
+                  <p className="mt-5 text-justify d-flex blogpara1">
+                    <p className="blogmatterdot">.</p>
+                    Enhanced efficiency: By automating laborious and
+                    time-consuming data engineering tasks like data extraction,
+                    transformation, loading (ETL), data integration, and data
+                    pipeline creation, Gen AI streamlines processes leading to
+                    reduced manual effort, faster data processing, and improved
+                    overall efficiency in managing extensive data volumes for
+                    organizations.
+                  </p>
+                  <p className="mt-3 text-justify d-flex blogpara1">
+                    <p className="blogmatterdot">.</p>
+                    Gen AI brings about heightened accuracy and consistency:
+                    Traditional manual data engineering processes are
+                    susceptible to human errors, resulting in data
+                    inconsistencies and inaccuracies. Leveraging Gen AI
+                    techniques, which possess the capability to process data
+                    consistently and precisely, enhances data accuracy, reduces
+                    errors, and ensures consistency in data engineering
+                    pipelines. Consequently, this fosters more reliable and
+                    trustworthy data analysis outcomes.
+                  </p>
+                  <p className="mt-3 text-justify d-flex blogpara1">
+                    <p className="blogmatterdot">.</p>
+                    Scalability and adaptability aspects: Given the exponential
+                    growth in data volumes, scalability becomes a crucial factor
+                    in data engineering. Gen AI-driven automation empowers
+                    organizations to efficiently scale their data engineering
+                    processes, be it handling larger datasets, incorporating new
+                    data sources, or adapting to evolving business requirements.
+                    Gen AI-powered automation offers the much-needed flexibility
+                    and scalability to address these challenges effectively.
+                  </p>
+                  <p className="mt-3 text-justify d-flex blogpara1">
+                    <p className="blogmatterdot">.</p>
+                    Achieving quicker time-to-insights: The integration of Gen
+                    AI-driven automation expedites data engineering processes,
+                    resulting in faster delivery of insights. By minimizing
+                    manual intervention, organizations can optimize data
+                    pipelines, alleviate bottlenecks, and expedite the
+                    transformation of raw data into actionable insights. This
+                    equips decision-makers with timely and pertinent
+                    information, empowering them to make data-driven decisions
+                    more effectively.
+                  </p>
+                </div>
+              </div>
+              <div className="obstaclesclass mt-5" id="obstaclesid">
+                <h1 className="blogheading3">
+                  Obstacles involved in automating data engineering tasks with
+                  Gen AI
+                </h1>
+                <img
+                  src="images/blogmatterimage3.png"
+                  alt="#"
+                  className="w-100 mt-3"
+                />
+                <div>
+                  <p className="mt-5 text-justify d-flex blogpara2">
+                    <p className="blogmatterdot">.</p>
+                    Intricacies and variations in data: Data engineering
+                    encompasses the management of a wide array of data sources,
+                    formats, and structures. Gen AI algorithms need to
+                    comprehend and adjust to this complexity. However, ensuring
+                    the accuracy and dependability of automated processes when
+                    dealing with diverse data sources can be challenging. It
+                    necessitates meticulous validation and testing to
+                    accommodate the nuances of distinct datasets.
+                  </p>
+                  <p className="mt-3 text-justify d-flex blogpara2">
+                    <p className="blogmatterdot">.</p>
+                    Security and privacy of data: While automation enhances
+                    efficiency, it also raises concerns about data security and
+                    privacy. With Gen AI automating sensitive data handling
+                    tasks, organizations must implement robust security measures
+                    to safeguard against unauthorized access, data breaches, and
+                    potential misuse. Employing encryption, access controls, and
+                    monitoring mechanisms becomes imperative to uphold data
+                    privacy and security.
+                  </p>
+                  <p className="mt-3 text-justify d-flex blogpara2">
+                    <p className="blogmatterdot">.</p>
+                    Issue of algorithmic bias and fairness: Gen AI systems
+                    utilize algorithms that learn from historical data, which
+                    can lead to unintended bias if the training data is biased
+                    or reflects existing inequalities. To maintain fairness and
+                    equity in data engineering tasks, it is crucial to
+                    thoroughly assess and mitigate algorithmic bias.
+                  </p>
+                  <p className="mt-3 text-justify d-flex blogpara2">
+                    <p className="blogmatterdot">.</p>
+                    Demands for skills and expertise: Integrating Gen AI for
+                    automating data engineering tasks requires a proficient
+                    workforce. Organizations must have data engineers with
+                    expertise in understanding and effectively leveraging Gen AI
+                    technologies. Upskilling and reskilling initiatives are
+                    vital to bridge the skills gap and empower data engineering
+                    teams to fully harness the potential of Gen AI.
+                  </p>
+                  <p className="mt-3 text-justify d-flex blogpara2">
+                    <p className="blogmatterdot">.</p>
+                    Adherence to legal and regulatory requirements: With the
+                    evolution of Gen AI, legal and regulatory frameworks may
+                    necessitate adaptation. Organizations must stay abreast of
+                    changing regulations concerning data privacy, security, and
+                    algorithmic transparency. Complying with these regulations
+                    ensures that Gen AI deployment aligns with legal
+                    requirements and mitigates potential risks.
+                  </p>
+                </div>
+                {/* <img src="images/blogmatterimage4.png" alt="#" className="w-100" /> */}
+                <div className="d-flex horizonline">
+                  <h1 className="blogheading4 pl-5">
+                    Organizations can optimize the benefits of automation and
+                    reduce potential risks by prudently addressing these
+                    challenges and implenting suitable strategies.
+                  </h1>
+                </div>
               </div>
             </div>
-            <div className="col-md-9 mt-5">
+            <div className="col-md-8 mt-5" id="investigating">
               <h1 className="blogheading3">
                 Investigating the contribution of Gen AI to data integration and
                 management
@@ -445,7 +430,7 @@ const BlogsRedirect = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-9 mt-3">
+            <div className="col-md-8 mt-3" id="maintaining">
               <h1 className="blogheading5">
                 Maintaining data privacy and security in the age of Gen AI
               </h1>
@@ -529,7 +514,7 @@ const BlogsRedirect = () => {
                 identifying and rectifying security gaps or compliance issues.
               </p>
             </div>
-            <div className="col-md-9 mt-3">
+            <div className="col-md-8 mt-3" id="revealing">
               <h1 className="blogheading5">
                 Revealing the new horizons of data engineering
               </h1>
@@ -550,10 +535,13 @@ const BlogsRedirect = () => {
                 AI and thrive in the data-driven era.
               </p>
             </div>
-            <div className="col-md-9 d-flex mt-5 mb-5" style={{alignItems: "center", justifyContent: "center"}}>
-                <div className="mr-5 bloglinkhead">Data Engineering</div>
-                <div className="mr-5 bloglinkhead">Genai</div>
-                <div className="mr-5 bloglinkhead">Data Engineering Skills</div>
+            <div
+              className="col-md-8 d-flex mt-5 mb-5"
+              style={{ alignItems: "center", justifyContent: "center" }}
+            >
+              <div className="mr-5 bloglinkhead">Data Engineering</div>
+              <div className="mr-5 bloglinkhead">Genai</div>
+              <div className="mr-5 bloglinkhead">Data Engineering Skills</div>
             </div>
           </div>
         </div>

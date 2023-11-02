@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useEffect,useRef} from"react";
 import "./Allinsights.css";
 import Navbar from "../products/Navbar";
 import allinsights from "../../src/videos/allinsights-banner.MOV";
@@ -7,6 +7,8 @@ import Footer from "../products/Footer";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+// import { useSection } from './SectionContext';
+
 
 function Arrow(props) {
   const { className, style, onClick } = props;
@@ -45,6 +47,10 @@ function Allinsights() {
       },
     ],
   };
+
+
+
+
 
   return (
     <div>
@@ -109,38 +115,48 @@ function Allinsights() {
         </div>
       </section>
       {/* case studies */}
-      <section className="All-insights-back-ground" id="casestudies">
-        <div className="container">
+      <section className="All-insights-back-ground section" id="casestudies">
+        <div className="container-fluid">
           <div>
             <h3 className="case-study-insights">case studies</h3>
           </div>
 
           <div>
-            <div className="container">
+            <div className="container-fluid">
               <div>
                 <Slider {...settings}>
                   <div>
                     <Link to="/casestudies" className="insights-main">
                       <div className="card myDIV">
                         <div>
-                          <p className="insights-paragraph-future">
+                          <p className="insights-paragraph-future-blog">
                             Enhanced data management for a fintech firm using
                             Snowflake
                           </p>
                         </div>
-                        <div>
-                          <img
-                            src="./images/aws-casestudy.png"
-                            alt="recent-1"
-                            className="w-100 case-study-image"
-                          />
+                        <div className="d-flex">
+                          <div>
+                            <img
+                              src="./images/snowflake-aws.png"
+                              alt="recent-1"
+                              className="w-100 case-study-image snow-flake-width"
+                            />
+                          </div>
+                          <div>
+                            <img
+                              src="./images/aws-casestudy.png"
+                              alt="recent-1"
+                              className="w-100 case-study-image-1"
+                            />
+                          </div>
                         </div>
                         <div>
                           <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the
-                            1500s,when an unkonwn printer...
+                            Our client is a financial firm. We revolutionized
+                            their data management with Snowflake's cloud
+                            platform integration. This offered them consolidated
+                            data sources, real-time analytics and
+                            scalability....
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -149,32 +165,19 @@ function Allinsights() {
 
                         <div className="card-body">
                           <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
+                          <div className="d-flex domain-share">
                             <div className="domain-insigts">
                               <p className="domain">Domain</p>
                             </div>
-                            <d  iv className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
-                              </div>
-                              &nbsp;
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
-                            </d>
+                            <div>
+                              <img
+                                className="share"
+                                src="./images/share.png"
+                                alt="like"
+                                width={28}
+                                height={28}
+                              />
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -184,7 +187,7 @@ function Allinsights() {
                     <Link to="#" className="insights-main">
                       <div className="card myDIV">
                         <div>
-                          <p className="insights-paragraph-future">
+                          <p className="insights-paragraph-future-blog">
                             Coming SMaximizing manufacturing efficiency with
                             data engineeringoon
                           </p>
@@ -198,12 +201,7 @@ function Allinsights() {
                         </div>
                         <div>
                           <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            <br /> typesetting industry. Lorem Ipsum has been
-                            the industry's <br />
-                            standard dummy text ever since the 1500s,when an
-                            unkonwn
-                            <br /> printer...
+                           Coming Soon
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -212,31 +210,18 @@ function Allinsights() {
 
                         <div className="card-body">
                           <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
+                          <div className="d-flex domain-share">
                             <div className="domain-insigts">
                               <p className="domain">Domain</p>
                             </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
-                              </div>
-                              &nbsp;
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
+                            <div>
+                              <img
+                                className="share"
+                                src="./images/share.png"
+                                alt="like"
+                                width={28}
+                                height={28}
+                              />
                             </div>
                           </div>
                         </div>
@@ -261,12 +246,7 @@ function Allinsights() {
                         </div>
                         <div>
                           <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            <br /> typesetting industry. Lorem Ipsum has been
-                            the industry's <br />
-                            standard dummy text ever since the 1500s,when an
-                            unkonwn
-                            <br /> printer...
+                           Coming Soon
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -275,38 +255,24 @@ function Allinsights() {
 
                         <div className="card-body">
                           <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
+                          <div className="d-flex domain-share">
                             <div className="domain-insigts">
                               <p className="domain">Domain</p>
                             </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
-                              </div>
-                              &nbsp;
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
+                            <div>
+                              <img
+                                className="share"
+                                src="./images/share.png"
+                                alt="like"
+                                width={28}
+                                height={28}
+                              />
                             </div>
                           </div>
                         </div>
                       </div>
                     </Link>
                   </div>
-
                 </Slider>
               </div>
             </div>
@@ -317,13 +283,13 @@ function Allinsights() {
 
       {/* //top 10 insights */}
       <section className="All-insights-back-ground" id="top10insights">
-        <div className="container">
+        <div className="container-fluid">
           <div>
             <h3 className="case-study-insights">Top 10 Insights</h3>
           </div>
 
           <div>
-            <div className="container">
+            <div className="container-fluid">
               <div>
                 <Slider {...settings}>
                   <div className="d-flex">
@@ -336,50 +302,40 @@ function Allinsights() {
                     </div>
                     <div>
                       <Link to="#" className="insights-main">
-                      <div className="card myDIV">
-                        <div>
-                          <p className="insights-paragraph-future">
-                            Enhanced data management for a fintech firm using
-                            Snowflake
-                          </p>
-                        </div>
-                        <div>
-                          <img
-                            src="./images/top10-insights.png"
-                            alt="recent-1"
-                            className="w-100 case-study-image"
-                          />
-                        </div>
-                        <div>
-                          <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the
-                            1500s,when an unkonwn printer...
-                            <span className="read-more-insights">
-                              Read more
-                            </span>{" "}
-                          </p>
-                        </div>
+                        <div className="card myDIV">
+                          <div>
+                            <p className="insights-paragraph-future-blog">
+                              Enhanced data management for a fintech firm using
+                              Snowflake
+                            </p>
+                          </div>
+                          <div>
+                            <img
+                              src="./images/top10-insights.png"
+                              alt="recent-1"
+                              className="w-100 case-study-image"
+                            />
+                          </div>
+                          <div>
+                            <p className="hide-text">
+                              The practice of data engineering in digital
+                              product engineering, involving data collection,
+                              transformation, and organization for analysis, is
+                              on the brink of a major revolution thanks to the
+                              emergence of Generative Artificial Intelligence
+                              (Gen AI)....
+                              <span className="read-more-insights">
+                                Read more
+                              </span>{" "}
+                            </p>
+                          </div>
 
-                        <div className="card-body">
-                          <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
-                            <div className="domain-insigts">
-                              <p className="domain">Domain</p>
-                            </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
+                          <div className="card-body">
+                            <h6 className="rvs-praveen">Posted by D.O Team</h6>
+                            <div className="d-flex domain-share">
+                              <div className="domain-insigts">
+                                <p className="domain">Domain</p>
                               </div>
-                              &nbsp;
                               <div>
                                 <img
                                   className="share"
@@ -392,7 +348,6 @@ function Allinsights() {
                             </div>
                           </div>
                         </div>
-                      </div>
                       </Link>
                     </div>
                   </div>
@@ -408,50 +363,45 @@ function Allinsights() {
                     </div>
                     <div>
                       <Link to="#" className="insights-main">
-                      <div className="card myDIV">
-                        <div>
-                          <p className="insights-paragraph-future">
-                            Enhanced data management for a fintech firm using
-                            Snowflake
-                          </p>
-                        </div>
-                        <div>
-                          <img
-                            src="./images/aws-casestudy.png"
-                            alt="recent-1"
-                            className="w-100 case-study-image"
-                          />
-                        </div>
-                        <div>
-                          <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the
-                            1500s,when an unkonwn printer...
-                            <span className="read-more-insights">
-                              Read more
-                            </span>{" "}
-                          </p>
-                        </div>
-
-                        <div className="card-body">
-                          <h6 className="rvs-praveen">Posted by D.O Team</h6>
+                        <div className="card myDIV">
+                          <div>
+                            <p className="insights-paragraph-future-blog">
+                              Enhanced data management for a fintech firm using
+                              Snowflake
+                            </p>
+                          </div>
                           <div className="d-flex">
-                            <div className="domain-insigts">
-                              <p className="domain">Domain</p>
+                            <div>
+                              <img
+                                src="./images/snowflake-aws.png"
+                                alt="recent-1"
+                                className="w-100 case-study-image snow-flake-width-1"
+                              />
                             </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
+
+                            <div>
+                              <img
+                                src="./images/aws-casestudy.png"
+                                alt="recent-1"
+                                className="w-100 case-study-image-1"
+                              />
+                            </div>
+                          </div>
+                          <div>
+                            <p className="hide-text">
+                           Coming Soon
+                              <span className="read-more-insights">
+                                Read more
+                              </span>{" "}
+                            </p>
+                          </div>
+
+                          <div className="card-body">
+                            <h6 className="rvs-praveen">Posted by D.O Team</h6>
+                            <div className="d-flex domain-share">
+                              <div className="domain-insigts">
+                                <p className="domain">Domain</p>
                               </div>
-                              &nbsp;
                               <div>
                                 <img
                                   className="share"
@@ -464,7 +414,6 @@ function Allinsights() {
                             </div>
                           </div>
                         </div>
-                      </div>
                       </Link>
                     </div>
                   </div>
@@ -479,49 +428,35 @@ function Allinsights() {
                     </div>
                     <div>
                       <Link to="#" className="insights-main">
-                      <div className="card myDIV">
-                        <div>
-                          <p className="insights-paragraph-future">
-                          AWS FOR APPLICATION MODERNIZATION: UPDATING YOUR LEGACY SYSTEMS FOR THE CLOUD
-                          </p>
-                        </div>
-                        <div>
-                          <img
-                            src="./images/top3-insights.png"
-                            alt="recent-1"
-                            className="w-100 case-study-image"
-                          />
-                        </div>
-                        <div>
-                          <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the
-                            1500s,when an unkonwn printer...
-                            <span className="read-more-insights">
-                              Read more
-                            </span>{" "}
-                          </p>
-                        </div>
+                        <div className="card myDIV">
+                          <div>
+                            <p className="insights-paragraph-future">
+                              AWS FOR APPLICATION MODERNIZATION: UPDATING YOUR
+                              LEGACY SYSTEMS FOR THE CLOUD
+                            </p>
+                          </div>
+                          <div>
+                            <img
+                              src="./images/top3-insights.png"
+                              alt="recent-1"
+                              className="w-100 case-study-image"
+                            />
+                          </div>
+                          <div>
+                            <p className="hide-text">
+                           Coming Soon
+                              <span className="read-more-insights">
+                                Read more
+                              </span>{" "}
+                            </p>
+                          </div>
 
-                        <div className="card-body">
-                          <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
-                            <div className="domain-insigts">
-                              <p className="domain">Domain</p>
-                            </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
+                          <div className="card-body">
+                            <h6 className="rvs-praveen">Posted by D.O Team</h6>
+                            <div className="d-flex domain-share">
+                              <div className="domain-insigts">
+                                <p className="domain">Domain</p>
                               </div>
-                              &nbsp;
                               <div>
                                 <img
                                   className="share"
@@ -534,32 +469,27 @@ function Allinsights() {
                             </div>
                           </div>
                         </div>
-                      </div>
                       </Link>
                     </div>
                   </div>
                   <div>
                     <Link to="#" className="insights-main">
-                    <div className="card myDIV">
+                      <div className="card myDIV">
                         <div>
-                          <p className="insights-paragraph-future">
-                            Enhanced data management for a fintech firm using
-                            Snowflake
+                          <p className="insights-paragraph-future-blog">
+                           Coming Soon
                           </p>
                         </div>
                         <div>
                           <img
-                            src="./images/aws-casestudy.png"
+                            src="./images/Coming-Soon.png"
                             alt="recent-1"
                             className="w-100 case-study-image"
                           />
                         </div>
                         <div>
                           <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the
-                            1500s,when an unkonwn printer...
+                         Coming Soon
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -568,31 +498,18 @@ function Allinsights() {
 
                         <div className="card-body">
                           <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
+                          <div className="d-flex domain-share">
                             <div className="domain-insigts">
                               <p className="domain">Domain</p>
                             </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
-                              </div>
-                              &nbsp;
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
+                            <div>
+                              <img
+                                className="share"
+                                src="./images/share.png"
+                                alt="like"
+                                width={28}
+                                height={28}
+                              />
                             </div>
                           </div>
                         </div>
@@ -601,26 +518,22 @@ function Allinsights() {
                   </div>
                   <div>
                     <Link to="#" className="insights-main">
-                    <div className="card myDIV">
+                      <div className="card myDIV">
                         <div>
-                          <p className="insights-paragraph-future">
-                            Enhanced data management for a fintech firm using
-                            Snowflake
+                          <p className="insights-paragraph-future-blog">
+                            Coming-Soon
                           </p>
                         </div>
                         <div>
                           <img
-                            src="./images/aws-casestudy.png"
+                            src="./images/Coming-Soon.png"
                             alt="recent-1"
                             className="w-100 case-study-image"
                           />
                         </div>
                         <div>
                           <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the
-                            1500s,when an unkonwn printer...
+                            Coming Soon
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -629,31 +542,18 @@ function Allinsights() {
 
                         <div className="card-body">
                           <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
+                          <div className="d-flex domain-share">
                             <div className="domain-insigts">
                               <p className="domain">Domain</p>
                             </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
-                              </div>
-                              &nbsp;
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
+                            <div>
+                              <img
+                                className="share"
+                                src="./images/share.png"
+                                alt="like"
+                                width={28}
+                                height={28}
+                              />
                             </div>
                           </div>
                         </div>
@@ -662,26 +562,22 @@ function Allinsights() {
                   </div>
                   <div>
                     <Link to="#" className="insights-main">
-                    <div className="card myDIV">
+                      <div className="card myDIV">
                         <div>
-                          <p className="insights-paragraph-future">
-                            Enhanced data management for a fintech firm using
-                            Snowflake
+                          <p className="insights-paragraph-future-blog">
+                            Coming-Soon
                           </p>
                         </div>
                         <div>
                           <img
-                            src="./images/aws-casestudy.png"
+                            src="./images/Coming-Soon.png"
                             alt="recent-1"
                             className="w-100 case-study-image"
                           />
                         </div>
                         <div>
                           <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the
-                            1500s,when an unkonwn printer...
+                            Coming Soon
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -690,31 +586,18 @@ function Allinsights() {
 
                         <div className="card-body">
                           <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
+                          <div className="d-flex domain-share">
                             <div className="domain-insigts">
                               <p className="domain">Domain</p>
                             </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
-                              </div>
-                              &nbsp;
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
+                            <div>
+                              <img
+                                className="share"
+                                src="./images/share.png"
+                                alt="like"
+                                width={28}
+                                height={28}
+                              />
                             </div>
                           </div>
                         </div>
@@ -732,21 +615,22 @@ function Allinsights() {
 
       {/* blog and articles */}
       <section className="All-insights-back-ground" id="blogs">
-        <div className="container">
+        <div className="container-fluid">
           <div>
             <h3 className="case-study-insights">Blogs & Articles</h3>
           </div>
 
           <div>
-            <div className="container">
+            <div className="container-fluid">
               <div>
                 <Slider {...settings}>
                   <div>
                     <Link to="/blog" className="insights-main">
-                    <div className="card myDIV">
+                      <div className="card myDIV">
                         <div>
                           <p className="insights-paragraph-future">
-                          The future of data engineering in digital product engineering lies with Gen AI
+                            The future of data engineering in digital product
+                            engineering lies with Gen AI
                           </p>
                         </div>
                         <div>
@@ -758,10 +642,12 @@ function Allinsights() {
                         </div>
                         <div>
                           <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the
-                            1500s,when an unkonwn printer...
+                            The practice of data engineering in digital product
+                            engineering, involving data collection,
+                            transformation, and organization for analysis, is on
+                            the brink of a major revolution thanks to the
+                            emergence of Generative Artificial Intelligence (Gen
+                            AI)....
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -770,31 +656,18 @@ function Allinsights() {
 
                         <div className="card-body">
                           <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
+                          <div className="d-flex domain-share">
                             <div className="domain-insigts">
                               <p className="domain">Domain</p>
                             </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
-                              </div>
-                              &nbsp;
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
+                            <div>
+                              <img
+                                className="share"
+                                src="./images/share.png"
+                                alt="like"
+                                width={28}
+                                height={28}
+                              />
                             </div>
                           </div>
                         </div>
@@ -803,10 +676,10 @@ function Allinsights() {
                   </div>
                   <div>
                     <Link to="#" className="insights-main">
-                    <div className="card myDIV">
+                      <div className="card myDIV">
                         <div>
                           <p className="insights-paragraph-future-blog">
-                          How Does Multi-cloud Differ From A Hybrid Cloud
+                            How Does Multi-cloud Differ From A Hybrid Cloud
                           </p>
                         </div>
                         <div>
@@ -818,10 +691,7 @@ function Allinsights() {
                         </div>
                         <div>
                           <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the
-                            1500s,when an unkonwn printer...
+                            Coming Soon
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -830,31 +700,18 @@ function Allinsights() {
 
                         <div className="card-body">
                           <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
+                          <div className="d-flex domain-share">
                             <div className="domain-insigts">
                               <p className="domain">Domain</p>
                             </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
-                              </div>
-                              &nbsp;
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
+                            <div>
+                              <img
+                                className="share"
+                                src="./images/share.png"
+                                alt="like"
+                                width={28}
+                                height={28}
+                              />
                             </div>
                           </div>
                         </div>
@@ -865,7 +722,7 @@ function Allinsights() {
                     <Link to="#" className="insights-main">
                     <div className="card myDIV">
                         <div>
-                          <p className="insights-paragraph-future">
+                          <p className="insights-paragraph-future-blog">
                           Design Thinking Led Approach to Building Digital Product Ecosystem
                           </p>
                         </div>
@@ -878,10 +735,7 @@ function Allinsights() {
                         </div>
                         <div>
                           <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the
-                            1500s,when an unkonwn printer...
+                            Coming Soon
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -890,352 +744,24 @@ function Allinsights() {
 
                         <div className="card-body">
                           <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
+                          <div className="d-flex domain-share">
                             <div className="domain-insigts">
                               <p className="domain">Domain</p>
                             </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
-                              </div>
-                              &nbsp;
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
+                            <div>
+                              <img
+                                className="share"
+                                src="./images/share.png"
+                                alt="like"
+                                width={28}
+                                height={28}
+                              />
                             </div>
                           </div>
                         </div>
                       </div>
                     </Link>
                   </div>
-                  {/* <div>
-                    <Link to="#" className="insights-main">
-                      <div className="card myDIV">
-                        <div>
-                          <p className="insights-paragraph-future">
-                            The future of data engineering in <br />
-                            digital product engineering lies with Gen AI
-                          </p>
-                        </div>
-                        <div>
-                          <img
-                            src="./images/blogs.png"
-                            alt="recent-1"
-                            className="w-100 case-study-image"
-                          />
-                        </div>
-                        <div>
-                          <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            <br /> typesetting industry. Lorem Ipsum has been
-                            the industry's <br />
-                            standard dummy text ever since the 1500s,when an
-                            unkonwn
-                            <br /> printer...
-                            <span className="read-more-insights">
-                              Read more
-                            </span>{" "}
-                          </p>
-                        </div>
-
-                        <div className="card-body">
-                          <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
-                            <div className="domain-insigts">
-                              <p className="domain">Domain</p>
-                            </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
-                              </div>
-                              &nbsp;
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </Link>
-                  </div>
-                  <div>
-                    <Link to="#" className="insights-main">
-                      <div className="card myDIV">
-                        <div>
-                          <p className="insights-paragraph-future">
-                            The future of data engineering in <br />
-                            digital product engineering lies with Gen AI
-                          </p>
-                        </div>
-                        <div>
-                          <img
-                            src="./images/blogs.png"
-                            alt="recent-1"
-                            className="w-100 case-study-image"
-                          />
-                        </div>
-                        <div>
-                          <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            <br /> typesetting industry. Lorem Ipsum has been
-                            the industry's <br />
-                            standard dummy text ever since the 1500s,when an
-                            unkonwn
-                            <br /> printer...
-                            <span className="read-more-insights">
-                              Read more
-                            </span>{" "}
-                          </p>
-                        </div>
-
-                        <div className="card-body">
-                          <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
-                            <div className="domain-insigts">
-                              <p className="domain">Domain</p>
-                            </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
-                              </div>
-                              &nbsp;
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </Link>
-                  </div>
-                  <div>
-                    <Link to="#" className="insights-main">
-                      <div className="card myDIV">
-                        <div>
-                          <p className="insights-paragraph-future">
-                            The future of data engineering in <br />
-                            digital product engineering lies with Gen AI
-                          </p>
-                        </div>
-                        <div>
-                          <img
-                            src="./images/blogs.png"
-                            alt="recent-1"
-                            className="w-100 case-study-image"
-                          />
-                        </div>
-                        <div>
-                          <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            <br /> typesetting industry. Lorem Ipsum has been
-                            the industry's <br />
-                            standard dummy text ever since the 1500s,when an
-                            unkonwn
-                            <br /> printer...
-                            <span className="read-more-insights">
-                              Read more
-                            </span>{" "}
-                          </p>
-                        </div>
-
-                        <div className="card-body">
-                          <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
-                            <div className="domain-insigts">
-                              <p className="domain">Domain</p>
-                            </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
-                              </div>
-                              &nbsp;
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </Link>
-                  </div>
-                  <div>
-                    <Link to="#" className="insights-main">
-                      <div className="card myDIV">
-                        <div>
-                          <p className="insights-paragraph-future">
-                            The future of data engineering in <br />
-                            digital product engineering lies with Gen AI
-                          </p>
-                        </div>
-                        <div>
-                          <img
-                            src="./images/blogs.png"
-                            alt="recent-1"
-                            className="w-100 case-study-image"
-                          />
-                        </div>
-                        <div>
-                          <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            <br /> typesetting industry. Lorem Ipsum has been
-                            the industry's <br />
-                            standard dummy text ever since the 1500s,when an
-                            unkonwn
-                            <br /> printer...
-                            <span className="read-more-insights">
-                              Read more
-                            </span>{" "}
-                          </p>
-                        </div>
-
-                        <div className="card-body">
-                          <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
-                            <div className="domain-insigts">
-                              <p className="domain">Domain</p>
-                            </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
-                              </div>
-                              &nbsp;
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </Link>
-                  </div>
-                  <div>
-                    <Link to="#" className="insights-main">
-                      <div className="card myDIV">
-                        <div>
-                          <p className="insights-paragraph-future">
-                            The future of data engineering in <br />
-                            digital product engineering lies with Gen AI
-                          </p>
-                        </div>
-                        <div>
-                          <img
-                            src="./images/blogs.png"
-                            alt="recent-1"
-                            className="w-100 case-study-image"
-                          />
-                        </div>
-                        <div>
-                          <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            <br /> typesetting industry. Lorem Ipsum has been
-                            the industry's <br />
-                            standard dummy text ever since the 1500s,when an
-                            unkonwn
-                            <br /> printer...
-                            <span className="read-more-insights">
-                              Read more
-                            </span>{" "}
-                          </p>
-                        </div>
-
-                        <div className="card-body">
-                          <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
-                            <div className="domain-insigts">
-                              <p className="domain">Domain</p>
-                            </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
-                              </div>
-                              &nbsp;
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </Link>
-                  </div> */}
                 </Slider>
               </div>
             </div>
@@ -1247,21 +773,22 @@ function Allinsights() {
 
       {/* ebooks and whitepapers */}
       <section className="All-insights-back-ground" id="ebooks">
-        <div className="container">
+        <div className="container-fluid">
           <div>
             <h3 className="case-study-insights">Ebook & Whitepapers</h3>
           </div>
 
           <div>
-            <div className="container">
+            <div className="container-fluid">
               <div>
                 <Slider {...settings}>
                   <div>
                     <Link to="/ebooks" className="insights-main">
-                    <div className="card myDIV">
+                      <div className="card myDIV">
                         <div>
                           <p className="insights-paragraph-future">
-                          AWS FOR APPLICATION MODERNIZATION: UPDATING YOUR LEGACY SYSTEMS FOR THE CLOUD
+                            AWS FOR APPLICATION MODERNIZATION: UPDATING YOUR
+                            LEGACY SYSTEMS FOR THE CLOUD
                           </p>
                         </div>
                         <div>
@@ -1273,10 +800,8 @@ function Allinsights() {
                         </div>
                         <div>
                           <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the
-                            1500s,when an unkonwn printer...
+                            Are outdated legacy systems hindering your
+                            business’s growth? Don’t wait any longer to m...
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -1285,31 +810,18 @@ function Allinsights() {
 
                         <div className="card-body">
                           <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
+                          <div className="d-flex domain-share">
                             <div className="domain-insigts">
                               <p className="domain">Domain</p>
                             </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
-                              </div>
-                              &nbsp;
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
+                            <div>
+                              <img
+                                className="share"
+                                src="./images/share.png"
+                                alt="like"
+                                width={28}
+                                height={28}
+                              />
                             </div>
                           </div>
                         </div>
@@ -1318,10 +830,11 @@ function Allinsights() {
                   </div>
                   <div>
                     <Link to="#" className="insights-main">
-                    <div className="card myDIV">
+                      <div className="card myDIV">
                         <div>
                           <p className="insights-paragraph-future">
-                          Why is it important to understand application modernization more than ever?
+                            Why is it important to understand application
+                            modernization more than ever?
                           </p>
                         </div>
                         <div>
@@ -1333,10 +846,7 @@ function Allinsights() {
                         </div>
                         <div>
                           <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the
-                            1500s,when an unkonwn printer...
+                            Coming Soon
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -1345,31 +855,18 @@ function Allinsights() {
 
                         <div className="card-body">
                           <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
+                          <div className="d-flex domain-share">
                             <div className="domain-insigts">
                               <p className="domain">Domain</p>
                             </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
-                              </div>
-                              &nbsp;
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
+                            <div>
+                              <img
+                                className="share"
+                                src="./images/share.png"
+                                alt="like"
+                                width={28}
+                                height={28}
+                              />
                             </div>
                           </div>
                         </div>
@@ -1378,10 +875,11 @@ function Allinsights() {
                   </div>
                   <div>
                     <Link to="#" className="insights-main">
-                    <div className="card myDIV">
+                      <div className="card myDIV">
                         <div>
                           <p className="insights-paragraph-future-blog">
-                          Enhance your software development process with DevOps
+                            Enhance your software development process with
+                            DevOps
                           </p>
                         </div>
                         <div>
@@ -1393,10 +891,7 @@ function Allinsights() {
                         </div>
                         <div>
                           <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been the
-                            industry's standard dummy text ever since the
-                            1500s,when an unkonwn printer...
+                            Coming Soon
                             <span className="read-more-insights">
                               Read more
                             </span>{" "}
@@ -1405,100 +900,25 @@ function Allinsights() {
 
                         <div className="card-body">
                           <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
+                          <div className="d-flex domain-share">
                             <div className="domain-insigts">
                               <p className="domain">Domain</p>
                             </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
-                              </div>
-                              &nbsp;
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
+                            <div>
+                              <img
+                                className="share"
+                                src="./images/share.png"
+                                alt="like"
+                                width={28}
+                                height={28}
+                              />
                             </div>
                           </div>
                         </div>
                       </div>
                     </Link>
                   </div>
-                  {/* <div>
-                    <Link to="#" className="insights-main">
-                      <div className="card myDIV">
-                        <div>
-                          <p className="insights-paragraph-future">
-                            The future of data engineering in <br />
-                            digital product engineering lies with Gen AI
-                          </p>
-                        </div>
-                        <div>
-                          <img
-                            src="./images/ebooks.png"
-                            alt="recent-1"
-                            className="w-100 case-study-image"
-                          />
-                        </div>
-                        <div>
-                          <p className="hide-text">
-                            Lorem Ipsum is simply dummy text of the printing and
-                            <br /> typesetting industry. Lorem Ipsum has been
-                            the industry's <br />
-                            standard dummy text ever since the 1500s,when an
-                            unkonwn
-                            <br /> printer...
-                            <span className="read-more-insights">
-                              Read more
-                            </span>{" "}
-                          </p>
-                        </div>
-
-                        <div className="card-body">
-                          <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                          <div className="d-flex">
-                            <div className="domain-insigts">
-                              <p className="domain">Domain</p>
-                            </div>
-                            <div className="d-flex like-share-number">
-                              <div className="like-numbers d-flex">
-                                <p className="number-insight">9182</p>&nbsp;
-                                &nbsp;
-                                <img
-                                  src="./images/like.png"
-                                  alt="like"
-                                  width={20}
-                                  height={20}
-                                />
-                              </div>
-                              &nbsp;
-                              <div>
-                                <img
-                                  className="share"
-                                  src="./images/share.png"
-                                  alt="like"
-                                  width={28}
-                                  height={28}
-                                />
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </Link>
-                  </div> */}
+              
                 </Slider>
               </div>
             </div>
@@ -1507,276 +927,6 @@ function Allinsights() {
       </section>
 
       {/* ebooks close */}
-
-      {/* whitepapers */}
-      {/* <section className="All-insights-back-ground" id="whitepapers">
-        <div className="container">
-          <div>
-            <h3 className="case-study-insights">Whitepapers</h3>
-          </div>
-
-          <div>
-            <div className="container">
-              <div>
-                <Slider {...settings}>
-                 
-                 
-                  <div>
-                  <Link to="#"  className="insights-main"  >
-                  <div className="card myDIV">
-                    <div>
-                      <p className="insights-paragraph-future">
-                        The future of data engineering in <br />
-                        digital product engineering lies with Gen AI
-                      </p>
-                    </div>
-                    <div>
-                      <img
-                        src="./images/ebooks.png"
-                        alt="recent-1"
-                        className="w-100 case-study-image"
-                      />
-                    </div>
-                    <div>
-                      <p className="hide-text">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        <br /> typesetting industry. Lorem Ipsum has been the
-                        industry's <br />
-                        standard dummy text ever since the 1500s,when an unkonwn
-                        <br /> printer...
-                        <span className="read-more-insights">
-                          Read more
-                        </span>{" "}
-                      </p>
-                    </div>
-
-                    <div className="card-body">
-                      <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                      <div className="d-flex">
-                        <div className="domain-insigts">
-                          <p className="domain">Domain</p>
-                        </div>
-                        <div className="d-flex like-share-number">
-                          <div className="like-numbers d-flex">
-                            <p className="number-insight">9182</p>&nbsp; &nbsp;
-                            <img
-                              src="./images/like.png"
-                              alt="like"
-                              width={20}
-                              height={20}
-                            />
-                          </div>
-                          &nbsp;
-                          <div>
-                            <img
-                              className="share"
-                              src="./images/share.png"
-                              alt="like"
-                              width={28}
-                              height={28}
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  </Link>
-                  </div>
-                  <div>
-                  <Link to="#"  className="insights-main"  >
-                  <div className="card myDIV">
-                    <div>
-                      <p className="insights-paragraph-future">
-                        The future of data engineering in <br />
-                        digital product engineering lies with Gen AI
-                      </p>
-                    </div>
-                    <div>
-                      <img
-                        src="./images/ebooks.png"
-                        alt="recent-1"
-                        className="w-100 case-study-image"
-                      />
-                    </div>
-                    <div>
-                      <p className="hide-text">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        <br /> typesetting industry. Lorem Ipsum has been the
-                        industry's <br />
-                        standard dummy text ever since the 1500s,when an unkonwn
-                        <br /> printer...
-                        <span className="read-more-insights">
-                          Read more
-                        </span>{" "}
-                      </p>
-                    </div>
-
-                    <div className="card-body">
-                      <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                      <div className="d-flex">
-                        <div className="domain-insigts">
-                          <p className="domain">Domain</p>
-                        </div>
-                        <div className="d-flex like-share-number">
-                          <div className="like-numbers d-flex">
-                            <p className="number-insight">9182</p>&nbsp; &nbsp;
-                            <img
-                              src="./images/like.png"
-                              alt="like"
-                              width={20}
-                              height={20}
-                            />
-                          </div>
-                          &nbsp;
-                          <div>
-                            <img
-                              className="share"
-                              src="./images/share.png"
-                              alt="like"
-                              width={28}
-                              height={28}
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  </Link>
-                  </div>
-                  <div>
-                  <Link to="#"  className="insights-main"  >
-                  <div className="card myDIV">
-                    <div>
-                      <p className="insights-paragraph-future">
-                        The future of data engineering in <br />
-                        digital product engineering lies with Gen AI
-                      </p>
-                    </div>
-                    <div>
-                      <img
-                        src="./images/ebooks.png"
-                        alt="recent-1"
-                        className="w-100 case-study-image"
-                      />
-                    </div>
-                    <div>
-                      <p className="hide-text">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        <br /> typesetting industry. Lorem Ipsum has been the
-                        industry's <br />
-                        standard dummy text ever since the 1500s,when an unkonwn
-                        <br /> printer...
-                        <span className="read-more-insights">
-                          Read more
-                        </span>{" "}
-                      </p>
-                    </div>
-
-                    <div className="card-body">
-                      <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                      <div className="d-flex">
-                        <div className="domain-insigts">
-                          <p className="domain">Domain</p>
-                        </div>
-                        <div className="d-flex like-share-number">
-                          <div className="like-numbers d-flex">
-                            <p className="number-insight">9182</p>&nbsp; &nbsp;
-                            <img
-                              src="./images/like.png"
-                              alt="like"
-                              width={20}
-                              height={20}
-                            />
-                          </div>
-                          &nbsp;
-                          <div>
-                            <img
-                              className="share"
-                              src="./images/share.png"
-                              alt="like"
-                              width={28}
-                              height={28}
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  </Link>
-                  </div>
-                  <div>
-                  <Link to="#"  className="insights-main"  >
-                  <div className="card myDIV">
-                    <div>
-                      <p className="insights-paragraph-future">
-                        The future of data engineering in <br />
-                        digital product engineering lies with Gen AI
-                      </p>
-                    </div>
-                    <div>
-                      <img
-                        src="./images/ebooks.png"
-                        alt="recent-1"
-                        className="w-100 case-study-image"
-                      />
-                    </div>
-                    <div>
-                      <p className="hide-text">
-                        Lorem Ipsum is simply dummy text of the printing and
-                        <br /> typesetting industry. Lorem Ipsum has been the
-                        industry's <br />
-                        standard dummy text ever since the 1500s,when an unkonwn
-                        <br /> printer...
-                        <span className="read-more-insights">
-                          Read more
-                        </span>{" "}
-                      </p>
-                    </div>
-
-                    <div className="card-body">
-                      <h6 className="rvs-praveen">Posted by D.O Team</h6>
-                      <div className="d-flex">
-                        <div className="domain-insigts">
-                          <p className="domain">Domain</p>
-                        </div>
-                        <div className="d-flex like-share-number">
-                          <div className="like-numbers d-flex">
-                            <p className="number-insight">9182</p>&nbsp; &nbsp;
-                            <img
-                              src="./images/like.png"
-                              alt="like"
-                              width={20}
-                              height={20}
-                            />
-                          </div>
-                          &nbsp;
-                          <div>
-                            <img
-                              className="share"
-                              src="./images/share.png"
-                              alt="like"
-                              width={28}
-                              height={28}
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  </Link>
-                  </div>
-                 
-                
-                 
-                 
-                </Slider>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-      {/* whitepapers close */}
     </div>
   );
 }
