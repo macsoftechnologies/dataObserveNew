@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "../products/Navbar";
+import Footer from "../products/Footer";
 import "./Datasense.css";
 import Faq from "./Faq";
 import bussiness from "../../src/videos/bussiness.MOV";
@@ -10,53 +10,70 @@ function Datasense() {
   return (
     <>
       <Navbar />
-      {/* <video className="doinsightsvideo w-100 h-100" autoPlay loop muted>
-        <source src={bussiness} type="video/mp4" />
-      </video> */}
-      <img
-        src="images/doinsightsfinalbanner.png"
-        alt="#"
-        className="doinsightsvideo w-100"
-      />
-      <section className="doinsightsheader">
-      <h1 className="container" style={{ color: "#FFF", fontSize: "20px", fontWeight: "700",marginBottom: "20px" }}>DOInsights</h1>
-        <div className="container">
-          <div className="row">
-            <h1 className="doinsightsheading col-md-6 mb-0">
-              Simple. Crafted. Powerful.
-            </h1>
-            
-            <h1 className="doinsightsheading col-md-12"> Data Analysis.</h1>
-            <p className="doinsightsheaderpara col-md-4">
-              Meet DO Insights, Business Intelligence Tool built for everyone on
-              your team.
-            </p>
-            <input
-              placeholder="Businees Email"
-              className="col-md-4 emailClass"
+
+      <section>
+        <div className="doinsightsvideo">
+          <img
+            src="images/doinsightsfinalbanner.png"
+            alt="#"
+            className="w-100 DO-insights-image"
+          />
+
+          <div className="doinsightsheader">
+            <h1
+              className="container"
               style={{
-                background: "none",
-                borderBottom: "1px solid #FFFFFF",
-                borderTop: "none",
-                borderLeft: "none",
-                borderRight: "none",
-                color: "#FFFFFF",
+                color: "#FFF",
+                fontSize: "20px",
+                fontWeight: "700",
+                marginBottom: "20px",
               }}
-            />
+            >
+              DOInsights
+            </h1>
             <div className="container">
-              <button className="demoClass">Get a demo</button>
-            </div>
-          </div>
-          <div className="productvideoClass col-md-8">
-              {/* <video className="productplayClass" autoPlay loop muted>
+              <div className="row">
+                <div className="col-md-6 new-mb">
+                  <h1 className="doinsightsheading mb-0">
+                    Simple. Crafted. Powerful.
+                  </h1>
+
+                  <h1 className="doinsightsheading"> Data Analysis.</h1>
+                  <p className="doinsightsheaderpara">
+                    Meet DO Insights, Business Intelligence Tool built for
+                    everyone on your team.
+                  </p>
+                  <input
+                    placeholder="Businees Email"
+                    className="col-md-6 emailClass"
+                    style={{
+                      background: "none",
+                      borderBottom: "1px solid #FFFFFF",
+                      borderTop: "none",
+                      borderLeft: "none",
+                      borderRight: "none",
+                      color: "#FFFFFF",
+                    }}
+                  />
+                  <div className="container">
+                    <button className="demoClass">Get a demo</button>
+                  </div>
+                </div>
+                <div className="col-md-6"></div>
+              </div>
+
+              <div className="productvideoClass col-md-8">
+                {/* <video className="productplayClass" autoPlay loop muted>
                 <source src={productVideo} type="video/mp4" />
               </video> */}
-              <img
-                src="images/product360videoimg.png"
-                alt="#"
-                className="playClass"
-              />
+                <img
+                  src="images/product360videoimg.png"
+                  alt="#"
+                  className="playClass"
+                />
+              </div>
             </div>
+          </div>
         </div>
       </section>
       {/* <section className="doinsightsplayvideoclass">
@@ -70,15 +87,15 @@ function Datasense() {
         <div className="container def1Class">
           <div>
             <h1 className="obsheading">What is Do Insights?</h1>
-            <div className="para container">
-              <p className="obspara1 text-center">
+            <div className="container">
+              <p className="obspara1-1">
                 DO Insights is meticulously crafted to streamline the process of
                 data analysis and reporting directly from your databases.
                 Powered by the Modern Data Stack, our platform offers an
                 intuitive interface, making it effortless for users to generate
                 intricate reports and extract valuable insights from their data.
               </p>
-              <p className="obspara2 text-center">
+              <p className="obspara2-2">
                 Do Insights strives to eliminate gaps by providing a
                 user-friendly solution that empowers non-technical users to
                 conduct data analysis independently, reducing the dependency on
@@ -93,7 +110,12 @@ function Datasense() {
               <div className="row">
                 <div className="col-md-4 text-center">
                   <div>
-                    <img src="images/dollarprod.png" alt="#" width={100} />
+                    <img
+                      className="mobile-size"
+                      src="images/dollarprod.png"
+                      alt="#"
+                      width={100}
+                    />
                     <p className="cardText">Reduce Cost</p>
                     <h1 className="cardHead">10x</h1>
                     <p className="cardText2">Reduction in Data</p>
@@ -103,7 +125,12 @@ function Datasense() {
 
                 <div className="col-md-4 text-center">
                   <div>
-                    <img src="images/minimizerisk.png" alt="#" width={100} />
+                    <img
+                      className="mobile-size"
+                      src="images/minimizerisk.png"
+                      alt="#"
+                      width={100}
+                    />
                     <p className="cardText">Minimize Risk</p>
                     <h1 className="cardHead">95%</h1>
                     <p className="cardText2">Reduction in</p>
@@ -113,7 +140,12 @@ function Datasense() {
 
                 <div className="col-md-4 text-center">
                   <div>
-                    <img src="images/savetime.png" alt="#" width={100} />
+                    <img
+                      className="mobile-size"
+                      src="images/savetime.png"
+                      alt="#"
+                      width={100}
+                    />
                     <p className="cardText">Save Time</p>
                     <h1 className="cardHead">70%</h1>
                     <p className="cardText2">Data Engineering Hours</p>
@@ -388,7 +420,7 @@ function Datasense() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 ">
+            <div className="col-md-4 mt-5">
               <div className="showdowclass">
                 <div className="issuesmatter">
                   <img
@@ -404,7 +436,7 @@ function Datasense() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 ">
+            <div className="col-md-4 mt-5">
               <div className="showdowclass">
                 <div className="issuesmatter">
                   <img

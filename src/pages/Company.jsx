@@ -9,14 +9,14 @@ function company() {
     <div>
       <Navbar />
 
-      <div>
-        <video className="company-play-bg-video-1" autoPlay loop muted>
+      <div className="company-play-bg-video">
+        <video className="COMPANY-VIdeo" autoPlay loop muted>
           <source src={companyvideo} type="video/mp4" />
         </video>
 
         <div className="body-science">
           <p className="journey">
-            <p
+            <p className="about-Company"
               style={{
                 fontWeight: "600",
                 fontSize: "20px",
@@ -26,10 +26,12 @@ function company() {
               About Us
             </p>
             <span className="our-story">Our Story </span>
-            <br />
-            Navigating your journey
-            <br /> from insights to value <br />
+           <p className="col-md-6 Navigate-Journey">
+           Navigating your journey
+             from insights to value
             realization
+           </p>
+          
           </p>
         </div>
       </div>
@@ -41,7 +43,7 @@ function company() {
         </h6>
       </div>
       <div
-        className="container"
+        className="container ourstory-heading-Main"
         style={{
           color: "black",
           fontSize: 47,
@@ -184,7 +186,7 @@ function company() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 our-card-boder">
               <div class="card our-card" style={{ width: "19.5rem" }}>
                 <div class="card-body">
                   <img
@@ -203,7 +205,7 @@ function company() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 our-card-boder">
               <div class="card our-card" style={{ width: "19.5rem" }}>
                 <div class="card-body">
                   <img

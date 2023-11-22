@@ -1,22 +1,17 @@
-/* .background{
-    width: 100%;
-    height: 350px;
-    background-image: url('../../public/images/bluecolor-background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 5%;
-} */
 
+.People-Careers-Main{
+  position: relative;
+
+}
 
 .people-careers-video{
   width: 100%;
   object-fit: cover;
-  position: relative;
 }
 
 .background{
   position:absolute;
-  top:239px;
+  top:126px;
   left:117px;
 }
 
@@ -165,9 +160,7 @@ color: rgba(255, 255, 255, 0.70);
 
 }
 
-.people-data-observe{
-padding-top: 9%;
-}
+
 
 .life{
 color: #050505;
@@ -204,12 +197,11 @@ text-align: center;
     height: 566px;
     background-image: url('../../public/images/empower.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: 100% 100%;
     margin-bottom: 5%;
     border-radius: 34px;
 }
-
-
 
 
 .empathy {
@@ -497,11 +489,11 @@ text-align: center;
 .team-ld{
     color: white;
     font-weight: 400;
+    font-size: 15px;
+    margin-left: 12px;
 }
 
-.che-cir-2{
-    padding: 32px 0px 32px 0px;
-}
+
 
 .teams-paragraph{
     margin: 0px 2px 0px -11px;
@@ -537,6 +529,7 @@ text-align: center;
     border-radius: 4px;
     border: 1px solid #1A4AB9;
     font-size: 17px;
+    letter-spacing: 1px;
     font-weight: 600;
 
 }
@@ -562,6 +555,7 @@ text-align: center;
    border-radius: 20px;
     background-image: url('../../public/images/joinus.png');
     background-size: cover;
+    /* background-size: 100% 100%; */
     background-position: center;
 }
 .over-join-us{
@@ -611,6 +605,206 @@ font-weight: 700;
   /* border-radius: 10px 10px 0px 0px !important; */
   height: fit-content;
   padding: 67px;
+}
+
+.People-Career-product{
+  text-align: center;
+}
+
+.data-observe-1{
+  padding-left: 0px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 468px){
+  .background{
+    top: 23px;
+    left: 15px;
+  }
+  .people-career{
+    font-size: 18px;
+  }
+  .data-observe{
+    font-size: 12px;
+  }
+  .life{
+    font-size: 25px;
+  }
+  .people-Cararees-Paragraph{
+    font-size: 13px;
+    line-height: 21px;
+  }
+
+  .circle-2{
+    width: 120px;
+    height: 120px;
+    margin-right: 0px !important;
+  }
+  .circle-1{
+    width: 120px;
+    height: 120px;
+  }
+  .Leadership{
+    font-size: 8px;
+    left: 92%;
+  }
+  .Growth{
+    font-size: 8px;
+  }
+  .Self-Reliance{
+    font-size: 8px;
+  }
+  .owner{
+    font-size: 8px;
+    right: 66px;
+  }
+  .team{
+    left: 68px;
+    font-size: 8px;
+  }
+  .Dedication-circle{
+    font-size: 8px;
+    left: 1px;
+    top: 20px;
+  }
+  .Ownership-circle{
+    font-size: 8px;
+    left: -16%;
+  }
+  .Teamwork-circle{
+    font-size: 8px;
+    left: -15%;
+  }
+  .Empathy-circle{
+    font-size: 8px;
+    left: 35px;
+  }
+
+  .life-2 {
+    font-size: 25px;
+  }
+  .card-style .card-number{
+    height: 100px;
+  }
+  .People-Career-product{
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .images-numbers-people{
+    margin-top: 5px;
+    width: 60px;
+  }
+  .respect-text{
+    margin-left: 21px;
+  }
+  .respect{
+    font-size: 13px;
+    margin-top: 16px;
+  }
+  .integrity{
+    font-size: 13px;
+    margin-top: 12px;
+
+  }
+  .trust{
+    font-size: 13px;
+    margin-top: 12px;
+
+  }
+  .equality{
+    font-size: 13px;
+    margin-top: 9px;
+
+  }
+  .customer{
+    font-size: 11px;
+    margin-top: 5px;
+  }
+  .innovation{
+    font-size: 13px;
+    margin-top: 10px;
+
+  }
+
+  .respect-text-3{
+    margin-left: 38px;
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+  .respect-text{
+    margin-top: 0px;
+  }
+  .respect-text-5{
+    margin-left: 14px;
+    margin-top: 0px;
+    margin-right: 10px;
+
+  }
+  .respect-text-6{
+    margin-left: 7px;
+    margin-top: 0px;
+    margin-right: 19px;
+  }
+  .data-observe-paragraph{
+    font-size: 11px;
+    line-height: 19px;
+
+  }
+  .people-career-1 {
+    font-size: 22px;
+  }
+  .data-observe-1 {
+    font-size: 11px;
+  }
+  .team-ld {
+    font-size: 12px;
+  }
+  .empower{
+    height: 435px;
+  }
+  .people-circle-top-1{
+    left: 36%;
+  }
+  .people-CirclE{
+    height: 59px !important;
+    }
+    .che-cir-1{
+      font-size: 19px;
+    }
+
+    .inclusive-heading {
+      font-size: 21px;
+    }
+    .all-workforce{
+      margin-left: 0px;
+    }
+    .work-para {
+      font-size: 13px;
+    }
+    .view-more {
+      font-size: 12px;
+      padding: 11px 20px 11px 20px;
+
+    }
+    .openings{
+      font-size: 11px;
+      padding: 10px 4px 11px 0px;
+
+    }
+    .joinus{
+      background-size: 100% 100%;
+    }
+    .joinus-heading{
+      font-size: 20px !important;
+    }
+    .joinus-paragraph{
+      font-size: 12px;
+      margin-left: 0px;
+    }
+    .current-opening{
+      margin-left: 0px;
+    }
+    
 }
 
 

@@ -9,18 +9,22 @@ function People() {
     <div>
       <Navbar />
       <section>
-        <div>
+        <div className="People-Careers-Main">
           <video className="people-careers-video" autoPlay loop muted>
             <source src={careers} type="video/mp4" />
           </video>
           <div className="background">
             <div className="container people-data-observe">
-              <h1 className="people-career">People & Careers</h1>
-              <p className="data-observe">
-                At DataObserve, we strive to bring together tech innovators and
-                problem solvers. <br />
-                Join our ever growing team for a long and rewarding career.
-              </p>
+              <div className="row">
+                <div className="col-md-8">
+                  <h1 className="people-career">People & Careers</h1>
+                  <p className="data-observe">
+                    At DataObserve, we strive to bring together tech innovators
+                    and problem solvers. Join our ever growing team for a long
+                    and rewarding career.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -29,16 +33,17 @@ function People() {
       <section>
         <div>
           <p className="life">Life at DataObserve</p>
-          <div className="dataobserve-paragraph-1">
-            <p className="paragraph-observe">
-            At DataObserve, we've cultivated a positive workplace that nurtures your excellence, 
-              <br />
-              <span>
-              encourages your inquisitiveness, and sparks your creativity. Regardless of your
-              </span>
-              <p>location, you can be an integral part of our cohesive team!
-</p>
-            </p>
+          <div className="container dataobserve-paragraph-1">
+            <div className="row">
+              <div className="col-md-12 paragraph-observe">
+                <p className="people-Cararees-Paragraph">
+                  At DataObserve, we've cultivated a positive workplace that
+                  nurtures your excellence, encourages your inquisitiveness, and
+                  sparks your creativity. Regardless of your location, you can
+                  be an integral part of our cohesive team!
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         {/* .....circle.... */}
@@ -89,7 +94,7 @@ function People() {
           <div>
             <p className="life-2">Our values</p>
             <div className="dataobserve-paragraph-2">
-              <p>
+              <p className="col-md-12 People-Career-product">
                 We are not just a great product company – we have a cool work
                 culture too! Here are the
                 <br />
@@ -370,59 +375,46 @@ function People() {
                   <br />
                   Graduation Labs
                 </h1>
-                <p className="data-observe-1">
+                <p className="col-md-6  data-observe-1">
                   Our internal team is dedicated to fostering agile and rapid
-                  learning, enabling
-                  <br />
-                  DataObserve team members to reach their maximum potential. We
-                  empower
-                  <br />
-                  the Graduation Labs with essential elements:
+                  learning, enabling DataObserve team members to reach their
+                  maximum potential. We empower the Graduation Labs with
+                  essential elements:
                 </p>
               </div>
               <div className="container">
                 <div className="row">
-                  <div className="col-md-1 check-icons">
+                  <div className="col-md-6 check-icons">
                     <li className="d-flex">
-                      <div>
-                        <i
-                          class="fa fa-check-circle che-cir-1"
-                          aria-hidden="true"
-                        ></i>
-                      </div>
+                      <i
+                        class="fa fa-check-circle che-cir-1"
+                        aria-hidden="true"
+                      ></i>
+                      <p className="team-ld">
+                        A team of highly experienced learning and development
+                        (L&D) professionals.
+                      </p>
                     </li>
                     <li className="d-flex">
-                      <div>
-                        <i
-                          class="fa fa-check-circle che-cir-2"
-                          aria-hidden="true"
-                        ></i>
-                      </div>
+                      <i
+                        class="fa fa-check-circle che-cir-1"
+                        aria-hidden="true"
+                      ></i>
+                      <p className="team-ld">
+                        An ecosystem of access-from-anywhere digital learning
+                        platforms.
+                      </p>
                     </li>
                     <li className="d-flex">
-                      <div>
-                        <i
-                          class="fa fa-check-circle che-cir-3"
-                          aria-hidden="true"
-                        ></i>
-                      </div>
+                      <i
+                        class="fa fa-check-circle che-cir-1"
+                        aria-hidden="true"
+                      ></i>
+
+                      <p className="team-ld">
+                        Best-in-class content curation partnerships.
+                      </p>
                     </li>
-                  </div>
-                  <div className="teams-paragraph">
-                    <p className="team-ld">
-                      A team of highly experienced learning and development
-                      (L&D)
-                      <br />
-                      professionals.
-                    </p>
-                    <p className="team-ld">
-                      An ecosystem of access-from-anywhere digital learning
-                      <br />
-                      platforms.
-                    </p>
-                    <p className="team-ld">
-                      Best-in-class content curation partnerships.
-                    </p>
                   </div>
                 </div>
               </div>
@@ -437,6 +429,7 @@ function People() {
             <div className="row">
               <div className="col-md-6">
                 <div className="row inclusive-work-main">
+                  <div className="d-flex">
                   <div className="col-md-6 people-pad-ing">
                     <img
                       className="inclusion-img-1"
@@ -453,6 +446,8 @@ function People() {
                       width={140}
                     />
                   </div>
+                  </div>
+                  <div className="d-flex">
                   <div className="col-md-6 people-pad-ing">
                     <img
                       className="inclusion-img-3"
@@ -469,11 +464,15 @@ function People() {
                       width={140}
                     />
                   </div>
+                  </div>
                 </div>
                 <div className="people-circle-top-1">
-              <img src="./images/people-circle-1.png" alt="people-circle" style={{height:"100px"}}/>
+                  <img className="people-CirclE"
+                    src="./images/people-circle-1.png"
+                    alt="people-circle"
+                    style={{ height: "100px" }}
+                  />
                 </div>
-
               </div>
               <div className="col-md-6">
                 <div className="all-workforce">
@@ -504,11 +503,10 @@ function People() {
             <div className="joinus">
               <div className="head-paragraph">
                 <h3 className="text-center joinus-heading">Join Us</h3>
-                <p className="text-center joinus-paragraph">
-                Explore our exciting array of job opportunities. Join us and 
-                  <br />
+                <p className="col-md-12 text-center joinus-paragraph">
+                  Explore our exciting array of job opportunities. Join us and
+                 <br/>
                   become a valuable part of this incredible journey.
-
                 </p>
               </div>
               <div className="current-opening d-flex">
@@ -1137,14 +1135,12 @@ function People() {
                     </div>
                   </div>
                 </div>
-                
               </div>
             </div>
           </div>
         </div>
       </section>
 
-     
       <Footer />
     </div>
   );

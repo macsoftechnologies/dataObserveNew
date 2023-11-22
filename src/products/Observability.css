@@ -491,10 +491,13 @@
   display: flex;
   height: 61.19px;
   max-width: 392.25px;
-  padding: 20px 25px 21.19px 25px;
+  padding: 20px 23px 21.19px 25px;
   justify-content: center;
   align-items: center;
   gap: 8.75px;
+}
+.observe-button{
+  padding: 20px 10px 21.19px 25px;
 }
 .guidedemobutton:focus-visible {
   outline: 0px;

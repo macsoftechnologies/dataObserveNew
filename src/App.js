@@ -2,6 +2,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Observability from "./products/Observability";
 import HealthEm from "./products/HealthEm";
 import Datasense from "./products/Datasense";
+import Datacharts from "./products/Datacharts";
+import Domonitor from "./products/Domonitor";
+import Doprompt from "./products/Doprompt";
 import Home from "./Home/Home";
 import Company from "./pages/Company";
 import People from "./pages/People";
@@ -21,6 +24,9 @@ import CasestudiesRedirect from "./redirectpages/CasestudiesRedirect";
 import Ebooks from "./Ebooks/Ebooks";
 import Genai from "./expertise/Genai";
 import Allinsights from "./Insights/Allinsights";
+
+
+
 
 function App() {
   return (
@@ -48,6 +54,13 @@ function App() {
           <Route path="/ebooks" element={<Ebooks />} />
           <Route path="/genai" element={<Genai />} />
           <Route path="/allinsights" element={<Allinsights />} />
+          <Route path="/datacharts" element={<Datacharts />} />
+          <Route path="/datamonitor" element={<Domonitor />} />
+          <Route path="/dataprompt" element={<Doprompt />} />
+
+
+
+          
 
         </Routes>
       </BrowserRouter>

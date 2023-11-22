@@ -1,0 +1,360 @@
+.headbg-domonitor {
+  background: #0046e8;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headicon-domonitor {
+  width: 300px;
+  margin-left: 150px;
+}
+.bg-head-domonitor {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 55.2px; /* 120% */
+  letter-spacing: -0.32px;
+}
+.bg-para-domonitor {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+  letter-spacing: -0.16px;
+}
+
+.bg-text-domonitor {
+  color: #a39e9e;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.horizontaltag-domonitor {
+  width: 90%;
+  color: #c8c2c2;
+  border-width: 1px;
+  background-color: #c8c2c2;
+}
+.btn-domonitor {
+  display: flex;
+  height: 61px;
+  max-width: "255px";
+  padding: 20px 46px 21px 48px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-top: 70px;
+  border-radius: 5px;
+}
+.btntext-domonitor {
+  color: #ff4925;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+}
+.bgheadmat-domonitor {
+  display: flex;
+  /* -ms-flex-wrap: wrap; */
+  flex-wrap: wrap;
+  /* align-items: baseline;
+  justify-content: center; */
+}
+.domonitor2ndbg {
+  background-image: url(../../public/images/domonitorbg2.png);
+  height: 340px;
+  width: 100%;
+  font-size: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.domoniter-2ndbg {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 70px;
+}
+.bg2ndhead-domonitor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn1-domonitor {
+  font-size: 15px;
+  /* width: 115px; */
+  color: #0275b8;
+  margin-top: 10px;
+}
+.btn-domonitor1 {
+  display: flex;
+  flex-direction: column;
+  height: 88px;
+  /* padding: 20px 46px 21px 48px; */
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-top: 20px;
+  border-radius: 5px;
+  background: #fff;
+  width: 223px;
+  
+}
+.section1head {
+  text-align: center;
+  margin-top: 50px;
+}
+.sectionhead-domonitor {
+  text-align: left;
+  font-size: 27px;
+}
+.sectionpara-domonitor {
+  text-align: left;
+}
+.sectioncard-domonitor {
+  /* border: 1px solid #dadada; */
+  border-radius: 4px;
+  margin: 5px;
+}
+.section-card-para-dom{
+  margin-left: 10px;
+  text-align: initial;
+  word-spacing: 3px;
+}
+
+.sectioncard-domonitor-1 {
+  /* border: 1px solid #dadada; */
+  border-radius: 4px;
+  margin: 5px;
+  height: 500px;
+  width: 100%;
+}
+.sectioncard-domonitor-2 {
+  /* border: 1px solid #dadada; */
+  border-radius: 4px;
+  margin: 5px;
+  height: 400px;
+  width: 100%;
+}
+.sectioncard-domonitor-3 {
+  /* border: 1px solid #dadada; */
+  /* border-radius: 4px; */
+  margin: 5px;
+  /* height: 450px; */
+  width: 100%;
+}
+.sectioncard-domonitor-4 {
+  /* border: 1px solid #dadada; */
+  border-radius: 4px;
+  margin: 5px;
+  /* height: 350px; */
+  width: 100%;
+}
+.sectioncard-domonitor-4-1 {
+  /* border: 1px solid #dadada; */
+  border-radius: 4px;
+  margin: 5px;
+  height: 145px;
+  width: 100%;
+}
+.sectioncard-domonitor-5 {
+  /* border: 1px solid #dadada; */
+  border-radius: 4px;
+  margin: 5px;
+  /* height: 310px; */
+  width: 100%;
+}
+.vendorsupport-domonitor {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.gainparain-domonitor {
+  font-size: 14px;
+  text-align: left;
+}
+.sectioncardm-domonitor {
+  text-align: left;
+}
+.check-domonitor {
+  display: flex;
+  align-items: start;
+  margin-top: 15px;
+}
+.matricsimg-domonitor {
+  width: 100%;
+}
+.sectioncards-domonitor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.finalsection-domonitor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.finalsection1-domonitor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+.headfinalsec-domonitor {
+  font-size: 25px;
+}
+.zabbix-domonitor {
+  height: 113px;
+}
+.detectprob-domonitor {
+  background: #fbfbfb;
+  height: 880px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.color-contain{
+  color: #0275b8 !important;
+}
+
+
+
+
+.sidebar-col{
+  padding-bottom: 0px;
+  width: 200px;
+    position: fixed;
+    top: 130px;
+    float: right;
+    margin-left: 24px;
+    margin: 0 0 0 auto;
+    max-width: 400px;
+    /* display: block; */
+}
+
+.swiper-container {
+  z-index: 1;
+  margin-left: 31px;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.side-nav{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.5;
+  position: relative;
+  z-index: 3;
+
+}
+
+.side-nav a{
+  color: #808b95;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 37px;
+
+
+}
+
+.swiper-container ul a{
+display: block;
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 0.6rem 0.3rem;
+  font-weight: 400;
+  transition: all ease-out 250ms;
+} 
+
+
+
+.side-nav li {
+  padding-bottom: 25px;
+  margin-left: 4px;
+}
+
+.side-nav li a.active {
+  color: #0275B8 !important;
+}
+.side-nav li a.active:before {
+  background-color: #0275B8;
+}
+.side-nav a:before{
+  position: absolute;
+    top: 0;
+    left: -3px;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    /* border: 6px solid #fff; */
+    background-color: #8e8f9c57;
+    /* box-shadow: 0 4px 13px rgb(0 0 0 / 15%); */
+    /* -webkit-transition: background 0.3s; */
+    /* transition: background .3s; */
+    content: "";
+}
+
+.linkclass-monitor{
+  font-size: 16px;
+}
+
+.list-type li{
+  list-style-type: disc;
+}
+.list-type-1 li{
+  list-style-type: disc;
+  margin-left: 42px;
+}
+
+
+.check-domonitor-retrive{
+  margin-top: 21%;
+}
+
+.deploy-3rd-div {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.deploy-4-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8%;
+  margin-bottom: 35%;
+}
+
+.deploy-5-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quality-image{
+  margin-bottom: 56% ;
+}
+
+.btn1-domonitor:hover{
+  color: #0046e8;
+  }
+

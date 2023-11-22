@@ -56,9 +56,9 @@ line-height: 30.49px;
 .text-dark{
   font-weight: 500;
 }
-.expertise{
+/* .expertise{
   margin-left: 50px;
-}
+} */
 /* .....navabar end.... */
 
 /* ...slide start.... */
@@ -92,6 +92,11 @@ color: rgba(255, 255, 255, 0.70);
 font-size: 12px;
 
 }
+.home-slide-paragraph-2{
+  color: rgba(255, 255, 255, 0.70);
+  font-size: 12px;
+  
+  }
 .halfcircle{
   width: 100%;
 }
@@ -100,8 +105,8 @@ font-size: 12px;
 }
 
 .allanimation-mainone{
-  margin: 82px 30px 86px 7px;
-  height: 53%;
+  margin: 82px 30px 86px 85px;
+  height: 60%;
   width: 90%;
 }
 
@@ -394,21 +399,67 @@ font-size: 12px;
 
 .competencies{
   margin-top: 23px;
+color: #1A4AB9;
+font-family: Poppins;
+font-size: 22px;
+font-style: normal;
+font-weight: 500;
+line-height: 26.4px; /* 120% */
+letter-spacing: -0.32px;
+border-bottom: 1px solid rgba(5, 5, 5, 0.10);
+/* padding: 0px 717.5px 18.39px 0px; */
+padding-bottom: 15px;
+align-items: center;
+width: 877.5px;
+
 }
 
+.dataobserve-heading{
+  color: #505050;
+font-family: Poppins;
+font-size: 31.348px;
+font-style: normal;
+font-weight: 700;
+line-height: 50.156px; /* 160% */
+letter-spacing: -0.627px;
+}
+
+.dataobserve-paragraph-cloud{
+  color: rgba(0, 0, 0, 0.70);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 25.6px; /* 160% */
+letter-spacing: -0.32px;
+}
+
+.tick-bullet{
+  margin-right: 10px;
+}
+.competen-text{
+  color: #050505;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+/* line-height: 25.6px;  */
+/* letter-spacing: -0.32px; */
+}
 .image2{
   width: 200px;
-  margin-top: 81px;
+  /* margin-top: 20px; */
+  height: fit-content;
 }
 /* .aws-azure-images{
   display: flex;
 } */
 
-.aws-cloud-base{
+/* .aws-cloud-base{
   margin-top: 73px;
-}
+} */
 .azure-cloud-base{
-margin-top: 84px;
+margin-top: 10px;
 margin-left: 13px;
 }
 
@@ -502,6 +553,12 @@ text-align: center;
     margin-top: 6px;
     font-weight: 700;
 
+  }
+  .landing-PageE{
+    margin-right: 0px;
+  }
+  .Contact-Home-redirect:hover{
+    text-decoration: none;  
   }
   /* ....data lake end..  */
 
@@ -707,9 +764,422 @@ text-align: center;
         font-size: 13px;
       }
   }
-  @media only screen and (max-width: 340px) {
-    .footer .col {
-      width: 100%;
+  @media only screen and (min-width: 320px) and (max-width: 468px)
+{
+    .lake-para{
+      text-align: justify;
     }
+    .boxPad{
+      padding: 17px;
+    /* padding-top: 27px; */
+    border-radius: 30px;
+    height: 286px;
+    }
+    .datalakes-names{
+      font-size: 14px;
+    }
+    .technology-platform{
+      flex-wrap: wrap!important;
+      text-align: center;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    .platform{
+      font-size: 18px;
+    }
+    .technology{
+      height: 364px;
+    }
+    .competencies{
+      width: 200px;
+    }
+    .contact-us{
+      margin-left: 14%;
+      margin-top: 23%;
+    }
+    .Homeslide{
+      height: 181px !important;
+    }
+    .image2{
+      width: 150px;
+    } 
+    .home-slide-heading {
+      font-size: 13px;
+      margin-left: 21px;
+      /* margin-bottom: 63px; */
+    }
+    .slide-contact{
+      padding: 6px 10px 8px 10px;
+      font-size: 10px;
+      margin-left: 23px;
+    }
+    .home-slide-paragraph {
+      color: rgba(255, 255, 255, 0.70);
+      font-size: 7px;
+      margin-bottom: 3px;
+    }
+    .home-slide-paragraph-2 {
+      color: rgba(255, 255, 255, 0.70);
+      font-size: 8px;
+      margin-left: 22px;
+    }
+  
+    .allanimation-mainone {
+      margin-left: 153px;
+    margin-top: -179px;
+    height: 244%;
+    width: 48%;
+    padding-left: 5%;
+}
+.customers{
+  font-size: 14px;
+}
+
+.cloud-head {
+  font-size: 15px;
+}
+.happy-customers-data-observe {
+  align-items: center;
+  justify-content: space-evenly;
+  /* margin-top: 15px; */
+  flex-wrap: wrap;
+  margin-top: 0px !important;
+}
+
+.happy-customers-shadowletters{
+  padding: 5px;
+ height: fit-content
+}
+.cloud-trans-formation{
+  font-size: 16px;
+}
+.arrowtext{
+  font-size: 13px;
+}
+.down-bot{
+  margin-top: 17px;
+}
+.text-center {
+  margin-bottom: 35px;
+  font-size: 13px !important;
+    } 
+    .homeland-page {
+      height: 337px;
+    }
+    .landingpage-paragraph {
+      font-size: 9px;
+      line-height: 13px;
+    }
+    .landingpage-paragraph2{
+      font-size: 9px;
+      line-height: 15.5px;
+    }
+
+    .home-button-main-page{
+      padding: 9px 18px !important;
+      height: 40px !important;
+      margin-left: 15px;
+    }
+
+    .home-ArroW{
+      font-size: 21px !important;
+    }
+    .dataobserve-heading{
+      font-size: 19px;
+    }
+    .dataobserve-paragraph-cloud {
+      font-size: 10px;
+    }
+    .competen-text {
+      font-size: 12px;
+      margin-top: 4px;
+    }
+    .lake-text {
+      font-size: 17px;
+      padding: 104px 13px 18px 18px;
+          }
+          .lake-House {
+            font-size: 17px;
+                }
+                .lake-para {
+                  font-size: 10px;
+                  line-height: 20.6px;
+                }
+
+                .datalake-card {
+                  bottom: -10%;
+                }
+
+                .datalake-half-piece-01 {
+                  position: absolute;
+                  bottom: 8%;
+                  /* left: 87%; */
+                  right: 1%;
+                }
+                .right{
+                  margin-left: 14%;
+                  width: 80px;
+                  height: 154px;
+                  margin-top: 66px;
+                }
+                .left{
+                  margin-left: 42%;
+                  width: 153px;
+                  height: 153px;
+                  margin-top: -152px;
+                }
+
+                .card-title{
+                  font-size: 20px;
+                }
+                .card-text{
+                  font-size: 11px !important;
+                line-height: 14px !important;
+
+                }
+              .card-title{
+                font-size: 20px !important;
+              }
+              .databricks{
+                width: 100px;
+              }
+              .azure{
+                width: 100px;
+              }
+              .snowflake{
+                width: 100px;
+              }
+              .salesforce{
+                width: 86px;
+                height: 68px;
+              }
+              .tablu{
+               width: 100px;
+              }
+              .partner{
+                font-size: 12px;
+                margin-top: 48px;
+              }
+              .googlecloud{
+                width: 100px;
+              }
+             .competencies{
+              font-size: 19px;
+              font-weight: 700 !important;
+             }
+             .landing-PageE{
+              margin-left: 0px !important;
+              margin-right: 0px !important;
+             }
+             .dataobserve-paragraph-cloud {
+              line-height: 18.6px;
+             }
+}
+
+@media only screen and (min-width: 469px) and (max-width: 759px){
+ 
+   
+  .technology-platform{
+    flex-wrap: wrap!important;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
   }
+
+  .platform{
+    font-size: 19px;
+  }
+  .technology{
+    height: 364px;
+  }
+  .competencies{
+    width: 200px;
+  }
+  .contact-us{
+    margin-left: 14%;
+    margin-top: 23%;
+  }
+  .Homeslide{
+    height: 263px !important;
+  }
+  .image2{
+    width: 150px;
+  } 
+  .home-slide-heading {
+    font-size: 16px;
+    margin-left: 24px;
+    /* margin-bottom: 63px; */
+    line-height: 27px;
+  }
+  .slide-contact{
+    padding: 6px 10px 8px 10px;
+    font-size: 10px;
+    margin-left: 23px;
+  }
+  .home-slide-paragraph {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 7px;
+    margin-bottom: 3px;
+  }
+  .home-slide-paragraph-2 {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 10px;
+    margin-left: 22px;
+  }
+
+  .allanimation-mainone {
+    margin-left: 181px;
+  margin-top: -210px;
+  height: 342%;
+  width: 50%;
+  padding-left: 5%;
+}
+.customers{
+font-size: 19px;
+}
+
+.cloud-head {
+font-size: 19px;
+}
+.happy-customers-data-observe {
+align-items: center;
+justify-content: space-evenly;
+margin-top: 0px !important;
+flex-wrap: wrap;
+}
+
+.happy-customers-shadowletters{
+padding: 5px;
+height: fit-content;
+}
+.cloud-trans-formation{
+font-size: 19px;
+}
+.arrowtext{
+font-size: 13px;
+}
+.down-bot{
+margin-top: 17px;
+}
+.text-center {
+margin-bottom: 35px;
+font-size: 15px !important;
+  } 
+  .homeland-page {
+    height: 337px;
+  }
+  .landingpage-paragraph {
+    font-size: 9px;
+    line-height: 13px;
+  }
+  .landingpage-paragraph2{
+    font-size: 9px;
+    line-height: 15.5px;
+  }
+
+  .home-button-main-page{
+    padding: 9px 18px !important;
+    height: 40px !important;
+    margin-left: 15px;
+  }
+
+  .home-ArroW{
+    font-size: 21px !important;
+  }
+  .dataobserve-heading{
+    font-size: 19px;
+  }
+  .dataobserve-paragraph-cloud {
+    font-size: 10px;
+  }
+  .competen-text {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  .lake-text {
+    font-size: 19px;
+    padding: 104px 13px 18px 18px;
+        }
+        .lake-House {
+          font-size: 17px;
+              }
+              .lake-para {
+                font-size: 14px;
+                line-height: 23.6px;
+              }
+
+              .datalake-card {
+                bottom: -10%;
+              }
+
+              .datalake-half-piece-01 {
+                position: absolute;
+                bottom: 8%;
+                /* left: 87%; */
+                right: 1%;
+              }
+              .right{
+                margin-left: 25%;
+                width: 80px;
+                height: 154px;
+                margin-top: 66px;
+              }
+              .left{
+                margin-left: 42%;
+                width: 153px;
+                height: 153px;
+                margin-top: -152px;
+              }
+
+              .card-title{
+                font-size: 20px;
+              }
+              .card-text{
+                font-size: 11px !important;
+              line-height: 14px !important;
+
+              }
+            .card-title{
+              font-size: 20px !important;
+            }
+            .databricks{
+              width: 100px;
+            }
+            .azure{
+              width: 100px;
+            }
+            .snowflake{
+              width: 100px;
+            }
+            .salesforce{
+              width: 86px;
+              height: 68px;
+            }
+            .tablu{
+             width: 100px;
+            }
+            .partner{
+              font-size: 14px;
+              margin-top: 48px;
+            }
+            .googlecloud{
+              width: 100px;
+            }
+           .competencies{
+            font-size: 19px;
+            font-weight: 700 !important;
+           }
+           .landing-PageE{
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+           }
+           .dataobserve-paragraph-cloud {
+            line-height: 18.6px;
+           }
+}
+
+
+
+
   

@@ -1,0 +1,527 @@
+.dopromptvideo {
+  position: relative;
+  /* height: 730px; */
+  width: 100%;
+}
+
+.dopromptheader {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  height: 964px;
+}
+
+.dopromptheading {
+  color: #fff;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 55.2px;
+  letter-spacing: -0.32px;
+}
+
+.dopromptheaderpara {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  letter-spacing: -0.16px;
+  margin-top: 3px;
+  margin-right: 100%;
+}
+
+.doinsightsplayvideoclass {
+  /* margin-top: 60px; */
+  margin-bottom: 60px;
+  position: absolute;
+}
+
+.dopromptvideoClass {
+  position: absolute;
+  width: 100%;
+  left: 21%;
+  top: 54%;
+}
+
+.promptsection2 {
+
+  margin-top: 30%;
+  width: 100%;
+  margin-bottom: 10%;
+
+}
+
+.generative {
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 28px 65px 0px #F1F4F9;
+  margin-bottom: 10%;
+}
+
+.generative-h1 {
+  color: #25252F;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 120% */
+  letter-spacing: 0.08px;
+  margin-top: 2%;
+  margin-left: 5%;
+}
+
+.generative-para {
+  color: rgba(37, 37, 47, 0.65);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+  /* 160% */
+  letter-spacing: 0.08px;
+}
+
+.feedback-loop {
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 28px 65px 0px #F1F4F9;
+}
+
+.prompt-library {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.applygai {
+  position: absolute;
+  left: 0%;
+  top: 75%;
+  width: 50%;
+}
+
+.reuse {
+  position: absolute;
+  right: -4%;
+  top: -21%;
+  width: 50%;
+}
+
+.promptsection3 {
+  background: #F7F6FE;
+}
+
+.available-full-div {
+  width: 1920px;
+  height: 705px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.available-h1 {
+  color: #25252F;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  /* 120% */
+  letter-spacing: 0.08px;
+}
+
+.available-p {
+  color: #25252F;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 160% */
+  letter-spacing: 0.08px;
+}
+
+.systemoperational {
+  width: 100%;
+}
+
+.doprompt-available {
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 0px 12px 0px rgba(0, 70, 232, 0.08);
+  display: flex;
+  width: 406px;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 2%;
+}
+
+.available-heads {
+  color: #25252F;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+  /* 160% */
+  letter-spacing: 0.08px;
+}
+
+.available-div2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.benfits-full-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 1920px;
+  height: 1007px;
+}
+
+/* .benfits-full-head{
+  margin-bottom: 20%;
+} */
+
+.benfits-head {
+  color: #050505;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 55px;
+  /* 125% */
+  letter-spacing: -0.32px;
+}
+
+.benfits-head-para {
+  color: #25252F;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 160% */
+  letter-spacing: 0.08px;
+  text-align: center;
+}
+
+.benfits-h1 {
+  color: #050505;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28.6px;
+  /* 130% */
+  margin-top: 38px;
+}
+
+.benfits-h1b{
+  color: #050505;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28.6px;
+  /* 130% */
+  margin-top: 10px;
+}
+
+.benfits-para {
+  color: #25252F;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+  /* 160% */
+  letter-spacing: 0.08px;
+}
+
+.benfit-divs {
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 28px 65px 0px #F1F4F9;
+
+  /* width: 351px; */
+  height: 331px;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.benfit-divs2ndrow {
+  margin-top: 4%;
+}
+
+
+.promptsection5 {
+  background: #F7F6FE;
+  /* width: 100px; */
+  height: 670px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.translate-h1 {
+  color: #25252F;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  /* 120% */
+  letter-spacing: 0.08px;
+}
+
+.translate-p {
+  color: #25252F;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 160% */
+  letter-spacing: 0.08px;
+}
+
+.doprompt-translate {
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 0px 12px 0px rgba(0, 70, 232, 0.08);
+  margin-bottom: 18px;
+  display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.translate-heads {
+  color: #25252F;
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30.6px;
+  letter-spacing: 0.08px;
+  margin-left: 10px;
+  /* height: 40px; */
+
+
+}
+
+.promptsection6 {
+  /* width: 1920px; */
+  height: 1507px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.library-head {
+  color: #25252F;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  /* 120% */
+  letter-spacing: 0.08px;
+  text-align: center;
+}
+
+.library-head-para {
+  color: #25252F;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 160% */
+  letter-spacing: 0.08px;
+  text-align: center;
+}
+
+.library-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.library-divs {
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 28px 65px 0px #F1F4F9;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  width: 351px;
+height: 331px;
+}
+
+/* .lbds-img{
+  transform: rotateY('-35px');
+} */
+
+.library-para {
+  color: #25252F;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.6px;
+  /* 160% */
+  letter-spacing: 0.08px;
+  margin-top: 5%;
+}
+
+.library-rowdiv2 {
+  margin-top: 4%;
+}
+
+.promptsection7 {
+  background: #F7F6FE;
+  /* width: 1920px; */
+  height: 800px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.everyone-h1 {
+  color: #25252F;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  /* 120% */
+  letter-spacing: 0.08px;
+}
+
+.everyone-p {
+  color: #25252F;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  /* 160% */
+  letter-spacing: 0.08px;
+}
+
+.doprompt-everyone {
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 0px 12px 0px rgba(0, 70, 232, 0.08);
+  margin-bottom: 4%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:  10px ;
+  
+}
+.everyone-heads{
+  margin-left: 15px;
+}
+
+.everyone-heads {
+  color: #25252F;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+  /* 160% */
+  letter-spacing: 0.08px;
+}
+
+.promptsection8 {
+  /* width: 1920px; */
+  height: 1500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ppt-api-h1 {
+  color: #25252F;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  /* 120% */
+  letter-spacing: 0.08px;
+  text-align: center;
+}
+
+.ppt-api-para {
+  color: #25252F;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 160% */
+  letter-spacing: 0.08px;
+
+}
+
+.ppt-api-img {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ppt-api-divs {
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0px 28px 65px 0px #F1F4F9;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+
+  width: 351px;
+  height: 331px;
+}
+
+.ppt-api-para {
+  color: #25252F;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+  /* 160% */
+  letter-spacing: 0.08px;
+}
+.ppt-api-para{
+  margin-top: 20px;
+}

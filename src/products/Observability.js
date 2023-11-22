@@ -789,7 +789,7 @@ function Observability() {
         <div className="container guidecontainer">
           <div className="guideclass">
             <div className="row">
-              <div className="col-md-8">
+              <div className="col-md-9">
                 <h1 className="guidehead">
                   Request Guidance from a DataObserve 360Expert
                 </h1>
@@ -798,8 +798,8 @@ function Observability() {
                   360.
                 </p>
               </div>
-              <div className="col-md-4">
-                <button className="guidedemobutton">
+              <div className="col-md-3">
+                <button className="guidedemobutton observe-button">
                   <p className="guidebuttontext">Get a demo</p>
                   <img
                     src="images/guidearrow.png"

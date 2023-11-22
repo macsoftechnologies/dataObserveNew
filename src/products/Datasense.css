@@ -4,9 +4,10 @@
 }
 .doinsightsheader {
   position: absolute;
-  top: 25%;
-  left: 10%;
+  top: 14%;
+  left: 0%;
   height: 964px;
+  width: 100%;
 }
 .doinsightsheading {
   color: #fff;
@@ -22,7 +23,7 @@
   line-height: 25.6px;
   letter-spacing: -0.16px;
   margin-top: 3px;
-  margin-right: 100%;
+  /* margin-right: 100%; */
 }
 .doinsightsplayvideoclass {
   margin-top: 60px;
@@ -93,4 +94,404 @@
   justify-content: center;
   /* margin-left: 10%; */
   /* transform: translateY(-96px); */
+}
+.obspara1-1 {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+  letter-spacing: -0.32px;
+}
+.obspara2-2 {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+  letter-spacing: -0.32px;
+}
+
+/* mobile respones */
+
+@media only screen and (min-width: 320px) and (max-width: 467px)  {
+
+  .mobile-text{
+    font-size: 22px !important;
+  }
+  .faq-class {
+
+    padding: 10px !important;
+
+  }
+  .accordion button {
+    font-size: 14px !important;
+  }
+  .card-body {
+    padding: 20px !important;
+    text-align: justify;
+  }
+  .card-title {
+    text-align: center;
+  }
+  /* .footercardbody {
+    padding: 30px!important;
+    height: 220px !important;
+  } */
+  .recentworks {
+    padding: 20px;
+  }
+  .viewrecentbutton {
+    margin-left: 20px !important;
+    padding: 10px !important;
+  }
+  .recentworkshead {
+    font-size: 20px;
+    line-height: 0px;
+  }
+  .showdowclass {
+  height: 220px;
+}
+.tenetsheading {
+  font-size: 16px !important;
+  line-height: 30px !important;
+
+}
+.ml-5{
+margin-left: 0px !important;
+}
+.issuesmatter {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.issuematterhead {
+  font-size: 13px;
+}
+.iodefinitionClass {
+  height: 1420px !important;
+}
+h1{
+  font-size: 1.5rem;
+}
+.qualitypara {
+  max-width: 100% !important;
+}
+.obsheading {
+  font-size: 23px;
+}
+.playClass {
+  width: 100%;
+}
+.productvideoClass {
+  margin-top: 15% !important;
+  left: 0% !important;
+}
+.def1Class {
+  padding-top: 25px;
+  width: 100%;
+}
+.doinsightsheaderpara {
+  margin-right: 0px !important;
+  font-size: 12px;
+  line-height: 13px;
+  width: 90%;
+}
+.doinsightsheading {
+  font-size: 20px;
+  line-height: 32px;
+}
+.doinsightsvideo {
+  height: 540px;
+}
+.emailClass {
+  width: 80%;
+  margin-left: 0px;
+}
+.guidehead {
+  font-size: 8px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.guidetext {
+  font-size: 9px;
+  line-height: 1px;
+}
+.guidedemobutton {
+  padding: 5px;
+  margin-bottom: 0px;
+  height: 32px;
+}
+.doinsightguideclass{
+  padding: 0px;
+}
+
+.demoClass {
+  width: 175px;
+  height: 40px;
+  padding: 0px;
+}
+.guidebuttontext {
+  font-size: 13px;
+}
+.guidearrowclass {
+  width: 18px;
+}
+.mobile-size{
+  width: 70px;
+  height: 91px;
+}
+.cardHead {
+  font-size: 30px;
+  line-height: 25px;
+}
+.tenetsclass{
+  margin: 30px 0px;
+}
+.obspara1-1{
+  font-size: 15px;
+  line-height: 20px;
+  text-align: justify;
+}
+.obspara2-2{
+  font-size: 15px;
+  line-height: 20px;
+  text-align: justify;
+}
+.cardcol{
+  margin-bottom: 13px;
+}
+.issuematterpara{
+  font-size: 14px;
+}
+.DO-insights-image{
+  height: 480px;
+}
+
+
+}
+@media only screen and (min-width: 468px) and (max-width: 767px)  {
+
+  .doinsightsheading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .doinsightsheaderpara {
+    margin-right: 0px !important;
+    font-size: 15px;
+    line-height: 20.6px;
+    width: 90%;
+  }
+  .doinsightsheader {
+    top: 17%;
+  }
+
+  .mobile-text{
+    font-size: 22px !important;
+  }
+  .faq-class {
+
+    padding: 10px !important;
+
+  }
+  .accordion button {
+    font-size: 16px !important;
+  }
+  .card-body {
+    padding: 5px !important;
+    text-align: justify;
+  }
+  .card-title {
+    text-align: center;
+  }
+  /* .footercardbody {
+    padding: 30px!important;
+    height: 220px !important;
+  } */
+  .recentworks {
+    padding: 20px;
+  }
+  .viewrecentbutton {
+    margin-left: 20px !important;
+    padding: 10px !important;
+  }
+  .recentworkshead {
+    font-size: 20px;
+    line-height: 0px;
+  }
+  .showdowclass {
+  height: 220px;
+}
+.tenetsheading {
+  font-size: 25px !important;
+  line-height: 30px !important;
+
+}
+.ml-5{
+margin-left: 0px !important;
+}
+.issuesmatter {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.issuematterhead {
+  font-size: 20px;
+}
+.iodefinitionClass {
+  height: 1630px !important;
+  margin-top: 30%;
+}
+h1{
+  font-size: 1.5rem;
+}
+.qualitypara {
+  max-width: 100% !important;
+}
+.obsheading {
+  font-size: 23px;
+}
+.playClass {
+  width: 100%;
+}
+.productvideoClass {
+  margin-top: 15% !important;
+  left: 0% !important;
+}
+.def1Class {
+  padding-top: 25px;
+  width: 100%;
+}
+/* .doinsightsheaderpara {
+  margin-right: 0px !important;
+  font-size: 10px;
+  line-height: 13px;
+}
+.doinsightsheading {
+  font-size: 20px;
+  line-height: 32px;
+} */
+.doinsightsvideo {
+  height: 550px;
+}
+.emailClass {
+  width: 82%;
+  margin-left: 0px;
+}
+.guidehead {
+  font-size: 8px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.guidetext {
+  font-size: 12px;
+  line-height: 2.5;
+}
+.guidedemobutton {
+  padding: 5px;
+  margin-bottom: 0px;
+  height: 32px;
+}
+.doinsightguideclass{
+  padding: 0px;
+}
+
+.demoClass {
+  width: 175px;
+  height: 40px;
+  padding: 0px;
+}
+.guidebuttontext {
+  font-size: 13px;
+}
+.guidearrowclass {
+  width: 18px;
+}
+.issueimage {
+  width: 65px;
+  height: 65px;
+}
+.issuematterpara {
+  font-size: 18px;
+}
+.guidehead {
+  font-size: 12px;
+}
+.card-text {
+  margin: 0px 20px;
+}
+.fa-envelope {
+  margin: 0px 20px;
+}
+.para{
+  width: 100% !important;
+}
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 990px)  {
+
+  .doinsightsheader{
+    top: 30%;
+    left: 1%;
+  }
+  .productvideoClass {
+    margin-top: 10% !important;
+    left: 16% !important;
+  }
+ .doinsightsheading {
+  font-size: 40px;
+  line-height: 45px;
+}
+.doinsightsvideo {
+  height: 730px;
+}
+.def1Class {
+  width: 100%;
+  padding-top: 60px;
+}
+.cardHead {
+  font-size: 35px;
+}
+.tenetsheading {
+  font-size: 35px;
+}
+.issuematterhead {
+  font-size: 15px;
+}
+.tenetsclass {
+  margin: 20px;
+}
+.doinsightguideclass{
+  padding: 15px;
+}
+.recentworks {
+  padding: 30px;
+}
+.faq-class {
+  padding: 20px !important;
+}
+
+
+}
+
+
+@media only screen and (min-width: 991px) and (max-width: 1024px)  {
+  .doinsightsheader{
+    top: 35%;
+    left: 0%;
+  }
+  .new-mb{
+    max-width: 100% !important;
+  }
+  .tenetsheading {
+    font-size: 35px;
+  }
+  .doinsightguideclass {
+    padding: 30px 15px;
+  }
+  .faq-class {
+    padding: 20px !important;
+  }
+
 }

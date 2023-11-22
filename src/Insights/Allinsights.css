@@ -1,7 +1,10 @@
-.company-play-bg-video-1{
+.company-play-bg-video{
     width: 100%;
     object-fit: cover;
+  }
+  .All-insights-Main{
     position: relative;
+
   }
 
 .body-science-1{
@@ -205,3 +208,47 @@ border: 1px solid #EDE4E4;
   margin-left: 18%;
 }
 
+
+
+@media only screen and (min-width: 320px) and (max-width: 468px){
+  .journey-1 {
+    color: white;
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+    
+    font-family: Poppins;
+    font-weight: 500;
+  }
+  .Journey-Head{
+    font-size: 16px !important;
+    margin-top: 7px;
+  }
+  .our-story-1{
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+  .body-science-1{
+    top: 0px;
+  }
+  .ALL-insigts-button{
+    margin-top: 0px !important;
+    margin-left: 5% !important;
+    padding: 10px 15px 10px 15px !important;
+    height: 36px !important;
+  }
+  .ALL-insight-button-text{
+    font-size: 12px !important;
+  }
+  .case-study-insights {
+    font-size: 19px;
+  }
+  .rvs-praveen{
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  .domain{
+    width: 100px;
+    font-size: 12px;
+    padding: 6px 27px;
+  }
+}

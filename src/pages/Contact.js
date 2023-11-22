@@ -89,7 +89,7 @@ function Contact() {
             <div className="icon-tool-1">
               <a href="#" data-tooltip="Canada comingsoon">
                 <i
-                  class="fa fa-map-marker"
+                  class="fa fa-map-marker map-location-size"
                   style={{ color: "red" }}
                   aria-hidden="true"
                 ></i>
@@ -99,7 +99,7 @@ function Contact() {
             <div className="icon-tool-2">
               <a href="#" data-tooltip="North America comingsoon">
                 <i
-                  class="fa fa-map-marker"
+                  class="fa fa-map-marker map-location-size"
                   style={{ color: "red" }}
                   aria-hidden="true"
                 ></i>
@@ -108,7 +108,7 @@ function Contact() {
             <div className="icon-tool-3">
               <a href="#" data-tooltip="Amsterdam comingsoon">
                 <i
-                  class="fa fa-map-marker"
+                  class="fa fa-map-marker map-location-size"
                   style={{ color: "red" }}
                   aria-hidden="true"
                 ></i>
@@ -117,7 +117,7 @@ function Contact() {
             <div className="icon-tool-4">
               <a href="#" data-tooltip="Dubai &nbsp; &nbsp;  comingsoon">
                 <i
-                  class="fa fa-map-marker"
+                  class="fa fa-map-marker map-location-size"
                   style={{ color: "red" }}
                   aria-hidden="true"
                 ></i>
@@ -129,7 +129,7 @@ function Contact() {
                 data-tooltip="India &nbsp; &nbsp; &nbsp; Kothaguda, North Hyderabad, Hyderabad, Ranga Reddy District, Telangana, India. 500084"
               >
                 <i
-                  class="fa fa-map-marker"
+                  class="fa fa-map-marker map-location-size location-india"
                   style={{ color: "blue" }}
                   aria-hidden="true"
                 ></i>
@@ -138,7 +138,7 @@ function Contact() {
             <div className="icon-tool-6">
               <a href="#" data-tooltip="Singapore comingsoon">
                 <i
-                  class="fa fa-map-marker"
+                  class="fa fa-map-marker map-location-size"
                   style={{ color: "red" }}
                   aria-hidden="true"
                 ></i>
@@ -151,6 +151,9 @@ function Contact() {
         <div className="container all-image-text-head-contact">
           <div className="row">
             <div className="col-md-8">
+              <div>
+                <img src="./images/location-background-contact.png" className="Location-Contact"/>
+              </div>
               <div className="location-places">
                 <div className="overall-location-text">
                   <h3 className="india-main">India</h3>
@@ -274,7 +277,7 @@ function Contact() {
           <div className="container">
             <div className="row">
               <div className="col-md-3">
-                <div className="logo">
+                <div className="logo logo-contact-page">
                   <a className="d-flex homenavigateclass" href="/">
                     <img
                       className="logo-main-footer"

@@ -112,10 +112,29 @@
         transition: 0.1s;
         -webkit-transition: 0.1s;
         -moz-transition: 0.1s;
-      }    
+      }  
+      
+      
 
       .faq-class{
           background-color: #1a4ab9;
           height: fit-content;
           padding: 67px;
       }
+
+      @media only screen and (min-width: 320px) and (max-width: 468px){
+.footercardbody {
+    padding: 56px!important;
+    height: 220px !important;
+}
+.question{
+font-size: 14px !important;
+line-height: 19px !important;
+}
+.hello{
+  font-size: 14px !important;
+}
+      }
+
+
+      

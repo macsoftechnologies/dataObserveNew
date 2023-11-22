@@ -43,6 +43,9 @@ function Allinsights() {
         breakpoint: 768,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+
         },
       },
     ],
@@ -57,14 +60,14 @@ function Allinsights() {
       <Navbar />
 
       <section>
-        <div>
+        <div className="All-insights-Main">
           <video className="company-play-bg-video" autoPlay loop muted>
             <source src={allinsights} type="video/mp4" />
           </video>
 
           <div className="body-science-1">
             <p className="journey-1">
-              <p
+              <p className="col-md-6 Journey-Head"
                 style={{
                   fontWeight: "600",
                   fontSize: "20px",
@@ -73,19 +76,19 @@ function Allinsights() {
               >
                 Insights
               </p>
-              <p className="our-story-1">
+              <p className="col-md-6 our-story-1">
                 Discover exclusive insights
-                <br /> with a sneak peek behind <br />
+             with a sneak peek behind
                 the scenes.
               </p>
-              <p className="our-story-1">
+              <p className="col-md-6 our-story-1">
                 Uncover valuable knowledge
-                <br /> about DataObserve that sets
-                <br />
+               about DataObserve that sets
+              
                 us apart.
               </p>
             </p>
-            <button
+            <button className="ALL-insigts-button"
               style={{
                 display: "flex",
                 height: "61px",
@@ -94,12 +97,12 @@ function Allinsights() {
                 justifyContent: "center",
                 alignItems: "center",
                 border: "none",
-                marginTop: "70px",
+                marginTop: "50px",
                 borderRadius: "5px",
-                marginLeft: "18%",
+                marginLeft: "10%",
               }}
             >
-              <span
+              <span className="ALL-insight-button-text"
                 style={{
                   color: "#0046E8",
                   fontSize: "16px",

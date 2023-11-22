@@ -1,7 +1,11 @@
 import React from "react";
 import "./Footer.css";
+import { Link, Navigate, useNavigate } from "react-router-dom";
+
 
 function Footer() {
+  const Navigate = useNavigate();
+
   return (
     <div>
       <div className="bg-color">
@@ -41,9 +45,10 @@ function Footer() {
                       <input type="text" className="form-control name" />
                       <label>Contact Number</label>
                       <input type="text" className="form-control name" />
-
                       
-                      <button className="contact-us-2"><a href="/contact" className="c-t">Contact Us</a></button>
+                      <Link to="/contact" className="c-t">
+                        <button className="contact-us-2">Contact Us</button>
+                      </Link>
                       
                       
                     </div>

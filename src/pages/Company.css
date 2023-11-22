@@ -25,15 +25,18 @@
 
 
 .company-play-bg-video{
+    
+    position: relative;
+  }
+  .COMPANY-VIdeo{
     width: 100%;
     object-fit: cover;
-    position: relative;
   }
 
 .body-science{
             position:absolute;
-            top:39px;
-            left:35px;
+            top:125px;
+            left:133px;
 }
 
 .home-company-ourstory{
@@ -48,8 +51,8 @@
 }
 .journey{
     color: white;
-    padding-top: 244px;
-    padding-left: 100px;
+    /* padding-top: 244px; */
+    /* padding-left: 100px; */
     font-size: 40px;
     font-family: Poppins;
     font-weight: 500;
@@ -180,4 +183,77 @@ font-weight: 400;
 
 .everyperson-data{
     margin-bottom: 65px;
+}
+
+.Navigate-Journey{
+    margin-left: -13px;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 468px)
+{
+    .journey{
+        padding-top: 0px;
+        padding-left: 0px;
+        font-size: 14px;
+    }
+    .ourstory-heading-Main{
+        font-size: 19px !important;
+    }
+    .about-Company{
+        font-size: 10px !important;
+    }
+
+    .body-science{
+        top:30px;
+        font-size: 14px;
+        left: 20px;
+        
+    }
+    .our-story{
+        font-size: 20px;
+    }
+
+    .marathon-1{
+        padding-top: 0px;
+        font-size: 14px;
+    }
+    .marathon-2{
+        font-size: 14px;
+    }
+    .how-we-text {
+        font-size: 20px;
+    }
+    .one-number{
+        height: 32px;
+        width: 39px;
+    }
+    .cultivate{
+        font-size: 12px;
+        text-align: left;
+    }
+    .data-science{
+        margin-left: 0px;
+    }
+    .our-card{
+        width: 100% !important;
+    }
+    .our-purpose-1 {
+        font-size: 20px;
+    }
+    .our-card-boder{
+        margin-bottom: 10px;
+    }
+    .data-science-image {
+        width: 45px;
+    }
+    .global-data {
+        font-size: 11px;
+    }
+    .data-science-paragraph {
+        font-size: 8px;
+    }
+
+
 }
