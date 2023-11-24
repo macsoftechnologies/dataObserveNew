@@ -888,7 +888,7 @@ function Navbar() {
 
       {/* ...mobile  */}
 
-      <div className="container d-flex justify-content-between  d-block d-md-none">
+      <div className="container d-flex justify-content-between d-tabblock d-block d-md-none">
         <nav class="navbar navbar-expand-lg navbar-light">
           <button
             class="navbar-toggler"

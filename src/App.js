@@ -49,7 +49,7 @@ function App() {
           <Route path="/industries" element={<Industries />} />
           <Route path="/gaming" element={<Gaming />} />
           <Route path="/media" element={<Media />} />
-          <Route path="/blog" element={<BlogsRedirect />} />
+          <Route path="/blog/:id" element={<BlogsRedirect />}  />
           <Route path="/casestudies" element={<CasestudiesRedirect />} />
           <Route path="/ebooks" element={<Ebooks />} />
           <Route path="/genai" element={<Genai />} />

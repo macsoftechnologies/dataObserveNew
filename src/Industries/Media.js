@@ -16,17 +16,17 @@ function Media() {
         <div className="media-main-img">
           <p className="headingmedia">
             <div className="mainhead">
-            <p
-                style={{
-                  color: "white",
-                  fontSize: "22px",
-                  fontStyle: "normal",
-                  fontWeight: "600",
-                }}
+            <p className="media"
+                // style={{
+                //   color: "white",
+                //   fontSize: "22px",
+                //   fontStyle: "normal",
+                //   fontWeight: "600",
+                // }}
               >
                Media & Entertainment
               </p>
-              <span>
+              <span className="para2">
                 Lead the digital transformation for an unparalleled media and
                 <br /> entertainment experience.
               </span>
@@ -212,21 +212,21 @@ function Media() {
       <div className="bg-white">
         <div className="container" style={{ marginTop: "18px" }}>
           <h1 className="case-mainheadname">Our Case Studies</h1>
-          <p className="media-case-para">
+          <p className=" col-md-12 media-case-para">
             Struggling with media production and distribution transformation?
-            Our experienced team has successfully <br />
+            Our experienced team has successfully 
             assisted numerous media-focused businesses in expanding globally and
-            improving their operations. Dive into our <br />
+            improving their operations. Dive into our 
             case studies to discover how our AWS media services can
             revolutionize your business.
           </p>
 
           <div
             class="container card mb-3 mt-5 Built-back-colour"
-            style={{
-              backgroundColor: "#1A4AB9",
-              borderRadius: "20px",
-            }}
+            // style={{
+            //   backgroundColor: "#1A4AB9",
+            //   borderRadius: "20px",
+            // }}
           >
             <div className="right-media-Corner">
               <img
@@ -258,7 +258,7 @@ function Media() {
                 <div class="card-body">
                   <h5
                     class="card-title"
-                    style={{ color: "white", letterSpacing: "0.68px",fontSize:"19px" }}
+                    // style={{ color: "white", letterSpacing: "0.68px",fontSize:"19px" }}
                   >
                     Built A Unified Augmented Analytics
                     <br /> decision intelligence Platform
@@ -288,25 +288,25 @@ function Media() {
                       marginLeft: "-20px",
                     }}
                   >
-                    <img
+                    <img className="newaccede"
                       src="./images/newaccede.png"
                       alt=""
-                      style={{ width: "60px", height: "20px" }}
+                      // style={{ width: "60px", height: "20px" }}
                     />
-                    <img
+                    <img className="slokaenergy"
                       src="./images/slokaenergy.png"
                       alt=""
-                      style={{ width: "100px" }}
+                      // style={{ width: "100px" }}
                     />
-                    <img
+                    <img className="gbreco"
                       src="./images/gbreco.png"
                       alt=""
-                      style={{ width: "95px" }}
+                      // style={{ width: "95px" }}
                     />
-                    <img
+                    <img className="newsrdsystems"
                       src="./images/newsrdsystems.png"
                       alt=""
-                      style={{ width: "70px" }}
+                      // style={{ width: "70px" }}
                     />
                   </div>
                 </div>
@@ -332,12 +332,12 @@ function Media() {
             >
               <div
                 class="card-body media-bg-pink"
-                style={{
-                  borderRadius: "27px",
-                  height: "271px",
-                  width: "435px",
-                  padding:"33px"
-                }}
+                // style={{
+                //   borderRadius: "27px",
+                //   height: "271px",
+                //   width: "435px",
+                //   padding:"33px"
+                // }}
               >
                 <p className="doc">
                   {" "}
@@ -442,7 +442,7 @@ function Media() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p className="faq">
                       What are Media and Entertainment Data Solutions, and how
                       do they contribute to creative excellence?
                     </p>
@@ -470,7 +470,7 @@ function Media() {
                 aria-labelledby="headingOne"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   Media and Entertainment Data Solutions involve leveraging
                   advanced data technologies to enhance creativity, streamline
                   operations, and optimize content delivery. These solutions
@@ -512,7 +512,7 @@ function Media() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p className="faq"> 
                       How do Media and Entertainment Data Solutions benefit
                       content creators and producers?
                     </p>
@@ -539,7 +539,7 @@ function Media() {
                 aria-labelledby="headingTwo"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   These solutions empower content creators and producers by
                   offering data-driven insights into audience preferences,
                   trends, and content performance. This enables them to make
@@ -580,7 +580,7 @@ function Media() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p className="faq">
                       What challenges do Media and Entertainment Data Solutions
                       address in the industry?
                     </p>
@@ -607,7 +607,7 @@ function Media() {
                 aria-labelledby="headingThree"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   Media and Entertainment Data Solutions address challenges
                   related to content discovery, audience segmentation,
                   monetization strategies, and the need for real-time analytics.
@@ -648,7 +648,7 @@ function Media() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p className="faq">
                       Can Media and Entertainment Data Solutions be customized
                       for specific content genres or platforms?
                     </p>
@@ -675,7 +675,7 @@ function Media() {
                 aria-labelledby="headingFour"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   Yes, our Media and Entertainment Data Solutions are highly
                   adaptable and can be customized to fit specific content
                   genres, platforms, and distribution channels. Whether it's
@@ -716,7 +716,7 @@ function Media() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p class="faq">
                       How do Data Solutions enhance collaboration in the Media
                       and Entertainment industry?
                     </p>
@@ -743,7 +743,7 @@ function Media() {
                 aria-labelledby="headingFiver"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   Our Data Solutions foster collaboration by providing a
                   centralized platform for content creators, marketers, and
                   distributors. This facilitates seamless communication,
@@ -784,7 +784,7 @@ function Media() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p className="faq">
                       Are Media and Entertainment Data Solutions compliant with
                       copyright and licensing regulations?
                     </p>
@@ -811,7 +811,7 @@ function Media() {
                 aria-labelledby="headingSix"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   Absolutely. Our solutions are designed to adhere to copyright
                   and licensing regulations, ensuring that content usage is in
                   compliance with legal standards. This is crucial in the media
@@ -852,7 +852,7 @@ function Media() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p className="faq">
                       How do Media and Entertainment Data Solutions contribute
                       to audience engagement and personalization?
                     </p>
@@ -879,7 +879,7 @@ function Media() {
                 aria-labelledby="headingSeven"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   By analyzing audience behavior, preferences, and viewing
                   habits, our solutions enable content providers to personalize
                   recommendations, advertising, and user experiences. This
@@ -920,7 +920,7 @@ function Media() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p class="faq">
                       Can Data Solutions be integrated with existing content
                       management and distribution systems?
                     </p>
@@ -947,7 +947,7 @@ function Media() {
                 aria-labelledby="headingEight"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   Yes, our Media and Entertainment Data Solutions are designed
                   to seamlessly integrate with existing content management and
                   distribution systems. This ensures a smooth workflow,
@@ -988,7 +988,7 @@ function Media() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p class="faq">
                       What kind of analytics capabilities do Media and
                       Entertainment Data Solutions offer?
                     </p>
@@ -1015,7 +1015,7 @@ function Media() {
                 aria-labelledby="headingNine"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   Our Data Solutions provide a wide range of analytics
                   capabilities, including content performance analytics,
                   audience segmentation, sentiment analysis, and predictive
@@ -1056,7 +1056,7 @@ function Media() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p class="faq">
                       How can organizations in the Media and Entertainment
                       industry get started with implementing Data Solutions?
                     </p>
@@ -1083,7 +1083,7 @@ function Media() {
                 aria-labelledby="headingTen"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   roadmap for implementing data solutions that drive creative
                   excellence in the media and entertainment industry.{" "}
                 </div>

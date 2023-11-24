@@ -36,6 +36,7 @@
 
 .gaming-bg-pink {
   background-color: #EF7179;
+
   
 }
 
@@ -64,4 +65,272 @@ line-height: 26px;
 margin-left: 17px;
 }
 
+.gaming{
+  color: white;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.button2{
+              display: flex;
+              height: 61px;
+              max-width: 255px;
+              padding: 20px 46px 21px 48px;
+              justify-content: center;
+              align-items: center;
+              border: none;
+              margin-Top: 40px;
+              border-radius: 5px;
+              margin-left: 14%;
+}
+.talk{
+                color: #FF4925;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 19px;
+}
+.fa fa-long-arrow-right ml-3{
+                 width: 23px;
+                font-size: 29px;
+                flex-shrink: 0;
+                color: #FF4925;
+}
+.newaccedes{
+width: 60px;
+height: 20px;
+}
+.slokaenergy{
+  width: 100px;
+}
+.gbreco{
+  width: 95px;
+}
+.newsedsystems{
+  width: 70px;
+}
+.imgs{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: -20px;
+}
+.media-bg-pink{
+  border-radius: 27px;
+  height: 271px;
+  width: 435px;
+  padding: "33px",
+}
+.empower{
+  background-image: none;
+}
+
+
+@media only screen  and (min-width:320px) and (max-width:430px){
+  .gaming-main-img{
+    top: 20px;
+    left: -97px;
+  }
+  .headinggame{
+    padding-top: 51px;
+    padding-left: 115px;
+  }
+  .mainhead{
+    font-size: 13px!important;
+    line-height: 13.2px!important;
+    font-weight: 400!important;
+  }
+  .gaming{
+    color: white;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .empower{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13.2px;
+    background-image: none!important;
+  }
+  .subhead{
+    font-size: 6px!important;
+    margin-left: 1px;
+    line-height: 8.6px!important;
+    margin-top: -19px!important;
+  }
+  .button2{
+    display: flex;
+    height: 25px;
+    max-width: 233px;
+    padding: 14px 25px 14px 25px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-top: -10px!important;
+    border-radius: 5px;
+    margin-left: 31%;
+}
+  
+ 
+
+  .talk{
+    font-size: 10px!important;
+    font-weight: 400!important;
+
+  }
+  .fa fa-long-arrow-right ml-3{
+    font-size: 11px!important;
+    font-weight: 400!important;
+  }
+  .platforms{
+    font-size: 18px!important;
+  }
+  .platformspara{
+    font-size: 11px!important;
+  }
+  .case{
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .media-case-para{
+    margin-top: 14px!important;
+    line-height: 23.6px;
+    font-size: 12px!important;
+
+  }
+  .newaccedes{
+    width: 80px!important;
+    height: 15px!important;
+  }
+  .slokaenergy{
+width: 85px!important;
+  }
+  .gbreco{
+    width: 75px!important;
+
+  }
+  .newsedsystems{
+    width: 65px;
+  }
+  .gameimg{
+    background-image: none;
+  }
+  .media-bg-pink{
+    width: 316px!important;
+    margin-left: -171px!important;
+  }
+  .imgs{
+    display: flex;
+    margin-left: -2px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  /* .card-title{
+    font-size: 10px!important;
+    padding-left: 71px!important;
+  } */
+
+  .industry{
+    font-size: 9px!important;
+  }
+  
+
+}
+
+@media only screen  and (min-width:469px) and (max-width:768px){
+.gaming-main-img{
+  width: 414px;
+  height: 204px;
+  top: 214px;
+}
+.gaming{
+  font-size: 17px!important;
+  font-weight: 500;
+}
+.subhead{
+  font-size: 7px!important;
+  line-height: 11.6px;
+  margin-top: -17px;
+}
+.button2{
+  height: 31px!important;
+  margin-left: 54px!important;
+  padding: 15px 25px 15px 25px!important;
+  margin-top: -13px!important;
+}
+.talk{
+  font-size: 12px;
+}
+.platforms {
+  font-size: 28px!important;
+  line-height: 43px;
+}
+
+.media-bg-pink{
+  margin-left: -239px!important;
+}
+.industry{
+  font-size: 11px!important;
+  margin: 0px;
+}
+
+}
+@media only screen  and (min-width:769px) and (max-width:991px){
+.mainhead{
+  width: 710px!important;
+  font-size: 28px!important;
+  line-height: 38.2px!important;
+}
+.subhead{
+  width: 643px!important;
+  font-size: 14px!important;
+  line-height: 25.6px;
+
+}
+
+.gaming-main-img{
+  top: 19px!important;
+  left: -64px!important;
+}
+.gaming{
+  font-size: 18px;
+  width: 718px;
+}
+.button2{
+  margin-left: 14%!important;
+  margin-top: 18px;
+  height: 45px;
+}
+.headinggame{
+  width: 769px;
+}
+.platformspara{
+  font-size: 15px!important;
+}
+.boxhead-1{
+  font-size: 13px!important;
+}
+.boxtext{
+  font-size: 10px!important;
+  font-weight: 500;
+}
+}
+
+@media only screen  and (min-width:769px) and (max-width:991px){
+
+.main-img{
+  top: 43px!important;
+  left: -60px!important;
+  
+}
+.button2{
+  margin-left: 16%!important;
+  margin-top: 54px;
+}
+.card-img{
+  margin-top: -27px;
+}
+
+}
 

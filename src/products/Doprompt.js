@@ -16,17 +16,16 @@ function Doprompt() {
           className="dopromptvideo"
         />
         <section className="dopromptheader">
-          <h1 className="container" style={{ color: "#FFF", fontSize: "20px", fontWeight: "700", marginBottom: "20px" }}>DOInsights</h1>
+          <h1 className="container" style={{ color: "#FFF", fontSize: "20px", fontWeight: "700", marginBottom: "20px" }}>DOPrompt</h1>
           <div className="container">
             <div className="row">
               <h1 className="dopromptheading col-md-6 mb-0">
-                Simple. Crafted. Powerful.
+              Get ahead in Generative AI with an advanced prompt engineering platform for teams
               </h1>
 
-              <h1 className="dopromptheading col-md-12"> Data Analysis.</h1>
+              {/* <h1 className="dopromptheading col-md-12"> Data Analysis.</h1> */}
               <p className="dopromptheaderpara col-md-4">
-                Meet DO Insights, Business Intelligence Tool built for everyone on
-                your team.
+              Simple interface for prompt engineers to create, test, and change prompts .
               </p>
               <input
                 placeholder="Businees Email"

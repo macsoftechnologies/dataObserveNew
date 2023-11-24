@@ -233,6 +233,11 @@ margin-bottom: 10px;
   .mobile-res{
     display: none!important;
   }
+
+  .d-tabblock{
+    display: block!important;
+    
+  }
   .navbar-light .navbar-toggler {
     margin-top: 10px;
     margin-bottom: 10px;

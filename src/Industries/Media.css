@@ -266,5 +266,280 @@ margin-left: 17px;
 .ReAD-More-media{
   font-size: 16px;
 }
+.media{
+  color: white;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+}
+.Built-back-colour{
+  background-color: #1a41b9;
+  border-radius: 20px;
+}
+.card-title{
+  color: white;
+  letter-spacing: 0.68px;
+  font-size: 19px;
+}
+.newaccede{
+  width: 60px;
+  height: 20px;
+}
+.slokaenergy{
+  width: 100px;
+}
+.gbreco{
+  width: 95px;
+}
+.newsrdsystems{
+  width: 65px;
+}
+.media-bg-pink{
+  border-radius: 27px;
+  height: 271px;
+  width: 435px;
+  padding: 33px;
+} 
+.study{
+  font-size: 16px;
+}
 
 
+
+
+
+
+@media only screen  and (min-width:320px) and (max-width:430px){
+  .media-main-img{
+    top: -143px;
+    left: -85px;
+  }
+  .headingmedia{
+    padding-top: 233px;
+    padding-left: 107px;
+  }
+  .mainhead{
+    color: #fff;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17.2px;
+    letter-spacing: -0.32px;
+    margin-bottom: 31px;
+
+  }
+  .media{
+    color: white;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .subhead{
+    line-height: 12.6px;
+    margin-left: 3px;
+    font-size: 7px;
+  }
+  .platforms{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 31px;
+
+  }
+  .platformspara{
+    font-size: 12px;
+    line-height: 22.6px;
+  }
+  .boxtext{
+    font-size: 12px;
+  }
+  .case-mainheadname{
+    margin-top: -33px;
+    font-size: 26px;
+    font-weight: 500!important;
+  }
+  .media-case-para{
+    margin-top: 9px;
+    font-size: 14px;
+    line-height: 25.6px;
+  }
+  .Built-back-colour{
+    height: 500px;
+    border-radius: 20px;
+    background-color: rgb(26,74,185);
+
+  }
+  .card-title{
+    font-size: 10px!important;
+    line-height: 17.5px;
+    font-weight: 500;
+    /* margin-left: 71px; */
+    text-wrap: pretty;
+
+  }
+  .card-text-3{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 17.8px;
+  }
+  .newaccede{
+    width: 40px!important;
+    height: 15px!important;
+  }
+  .slokaenergy{
+    width: 80px;
+  }
+  .newsrdsystems{
+    width: 65px!important;
+  }
+  .media-bg-pink{
+    border-radius: 27px;
+    height: 271px;
+    width: 100%;
+    padding: 33px;
+    margin-left: -303px!important;
+  } 
+  
+ 
+  .mediaimg{
+    background-image: none;
+  }
+  .faq{
+    font-size: 8px!important;
+    margin: 0px;
+  }
+  .row{
+    margin-right: 0px!important;
+    margin-left: -14px!important;
+  }
+
+  .card-img{
+    margin-left: -4px;
+    width: 110%!important;
+    border-radius: 25px;
+  }
+  .content{
+    font-size: 8px!important;
+  }
+
+
+  .boxhead{
+    color: #050505;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  margin-left: 17px;
+  }
+  .studys{
+    font-size: 16px!important;
+    margin-left: 10%;
+  }
+
+}
+@media only screen  and (min-width:469px) and (max-width:768px){
+
+
+  .headingmedia{
+    padding-top: 218px;
+  }
+.mainhead{
+  width: 360px;
+  margin-top: -203px;
+  margin-left: -65px;
+  font-size: 19px;
+  font-weight: 600;
+  line-height: 26.2px;
+}
+.media{
+  width: 323px;
+  font-size: 15px;
+
+}
+.para2{
+  width: 339px;
+}
+.subhead{
+  width: 333px;
+  margin-left: -62px;
+  font-size: 8px;
+  line-height: 13.6px;
+}
+.media-bg-pink{
+  margin-left: -339px;
+}
+.Built-back-colour{
+  height: 568px;
+}
+.platforms{
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 46px;
+}
+.case-mainheadname{
+  font-size: 38px;
+  font-weight: 600;
+}
+.media-case-para{
+  font-size: 15px;
+  line-height: 25.6px;
+  text-align: center;
+}
+.faq{
+  margin: 0px!important;
+  font-size: 11px!important;
+}
+.cards{
+  font-size: 11px!important;
+}
+}
+
+
+@media only screen  and (min-width:769px) and (max-width:991px){
+  .headingmedia{
+    padding-top: 63px;
+    padding-left: 29px;
+
+  }
+  .mainhead{
+    width: 710px!important;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 41.2px;
+  }
+  .media{
+    font-size: 19px;
+    font-weight: 500;
+  }
+  .boxhead{
+    font-size: 12px;
+    line-height: 20px;
+
+  }
+  .boxtext{
+    font-weight: 400;
+    line-height: 20.6px;
+    font-size: 9px;
+  }
+  .media-bg-pink{
+    margin-left: -404px;
+  }
+  .faq{
+    font-size: 12px!important;
+  }
+  .cards{
+    font-size: 12px!important;
+  }
+  
+  .boxhead{
+    color: #050505;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  margin-left: 17px;
+  }
+
+}

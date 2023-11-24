@@ -18,17 +18,17 @@ function Gaming() {
           <p className="headinggame">
             <div className="mainhead">
               {" "}
-              <p
-                style={{
-                  color: "white",
-                  fontSize: "20px",
-                  fontStyle: "normal",
-                  fontWeight: "600",
-                }}
+              <p className="gaming"
+                // style={{
+                //   color: "white",
+                //   fontSize: "20px",
+                //   fontStyle: "normal",
+                //   fontWeight: "600",
+                // }}
               >
                 Gaming
               </p>
-              <span>
+              <span className="empower">
                 Empower customer
                 <br /> experiences with data-
                 <br />
@@ -45,39 +45,39 @@ function Gaming() {
               <br /> gaming lifecycle.
             </p>
           </p>
-          <button
-            style={{
-              display: "flex",
-              height: "61px",
-              maxWidth: "255px",
-              padding: "20px 46px 21px 48px",
-              justifyContent: "center",
-              alignItems: "center",
-              border: "none",
-              marginTop: "40px",
-              borderRadius: "5px",
-              marginLeft: "14%",
-            }}
+          <button className="button2"
+            // style={{
+            //   display: "flex",
+            //   height: "61px",
+            //   maxWidth: "255px",
+            //   padding: "20px 46px 21px 48px",
+            //   justifyContent: "center",
+            //   alignItems: "center",
+            //   border: "none",
+            //   marginTop: "40px",
+            //   borderRadius: "5px",
+            //   marginLeft: "14%",
+            // }}
           >
-            <span
-              style={{
-                color: "#FF4925",
-                fontSize: "14px",
-                fontStyle: "normal",
-                fontWeight: "600",
-                lineHeight: "19px",
-              }}
+            <span className="talk"
+              // style={{
+              //   color: "#FF4925",
+              //   fontSize: "14px",
+              //   fontStyle: "normal",
+              //   fontWeight: "600",
+              //   lineHeight: "19px",
+              // }}
             >
               Talk to us now
             </span>{" "}
             <i
               className="fa fa-long-arrow-right ml-3"
-              style={{
-                width: "23px",
-                fontSize: "29px",
-                flexShrink: "0",
-                color: "#FF4925",
-              }}
+              // style={{
+              //   width: "23px",
+              //   fontSize: "29px",
+              //   flexShrink: "0",
+              //   color: "#FF4925",
+              // }}
               aria-hidden="true"
             ></i>
           </button>
@@ -325,33 +325,33 @@ function Gaming() {
                     ></i>
                   </p>
                 </p>
-                <div
-                  style={{
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-around",
-                    marginLeft: "-20px",
-                  }}
+                <div className="imgs"
+                  // style={{
+                  //   display: "flex",
+                  //   alignItems: "center",
+                  //   justifyContent: "space-around",
+                  //   marginLeft: "-20px",
+                  // }}
                 >
-                  <img
+                  <img className="newaccedes"
                     src="./images/newaccede.png"
                     alt=""
-                    style={{ width: "60px", height: "20px" }}
+                    // style={{ width: "60px", height: "20px" }}
                   />
-                  <img
+                  <img className="slokaenergy"
                     src="./images/slokaenergy.png"
                     alt=""
-                    style={{ width: "100px" }}
+                    // style={{ width: "100px" }}
                   />
-                  <img
+                  <img className="gbreco"
                     src="./images/gbreco.png"
                     alt=""
-                    style={{ width: "95px" }}
+                    // style={{ width: "95px" }}
                   />
-                  <img
+                  <img className="newsedsystems"
                     src="./images/newsrdsystems.png"
                     alt=""
-                    style={{ width: "70px" }}
+                    // style={{ width: "70px" }}
                   />
                 </div>
               </div>
@@ -429,12 +429,12 @@ function Gaming() {
             >
               <div
                 class="card-body media-bg-pink"
-                style={{
-                  borderRadius: "27px",
-                  height: "271px",
-                  width: "435px",
-                  padding: "33px",
-                }}
+                // style={{
+                //   borderRadius: "27px",
+                //   height: "271px",
+                //   width: "435px",
+                //   padding: "33px",
+                // }}
               >
                 <p className="doc">
                   {" "}
@@ -535,7 +535,7 @@ function Gaming() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p className="industry"  >
                       What are Gaming Industry Data Solutions, and how do they
                       enhance gaming experiences?
                     </p>
@@ -605,7 +605,7 @@ function Gaming() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p style={{ margin: "0px" }} className="industry" >
                       How do Gaming Industry Data Solutions benefit game
                       developers and publishers?
                     </p>
@@ -673,7 +673,7 @@ function Gaming() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p style={{ margin: "0px" }} className="industry" >
                       What challenges do Gaming Industry Data Solutions address
                       within the gaming sector?
                     </p>
@@ -741,7 +741,7 @@ function Gaming() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p style={{ margin: "0px" }} className="industry" >
                       Can Gaming Industry Data Solutions be customized for
                       specific game genres or platforms?
                     </p>
@@ -809,7 +809,7 @@ function Gaming() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p style={{ margin: "0px" }} className="industry"  >
                       How do Data Solutions foster collaboration within the
                       Gaming Industry?
                     </p>
@@ -877,7 +877,7 @@ function Gaming() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p style={{ margin: "0px" }} className="industry" >
                       Are Gaming Industry Data Solutions compliant with gaming
                       industry regulations and player privacy standards?
                     </p>
@@ -945,7 +945,7 @@ function Gaming() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p style={{ margin: "0px" }} className="industry" >
                       How do Gaming Industry Data Solutions contribute to player
                       engagement and personalization?
                     </p>
@@ -1013,7 +1013,7 @@ function Gaming() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p style={{ margin: "0px" }} className="industry" >
                       Can Data Solutions be integrated with existing game
                       development and distribution systems?
                     </p>
@@ -1081,7 +1081,7 @@ function Gaming() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p style={{ margin: "0px" }} className="industry" >
                       What kind of analytics capabilities do Gaming Industry
                       Data Solutions offer for game development?
                     </p>
@@ -1149,7 +1149,7 @@ function Gaming() {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p style={{ margin: "0px" }} className="industry" >
                       How can organizations in the Gaming Industry get started
                       with implementing Data Solutions?
                     </p>

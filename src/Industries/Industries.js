@@ -17,28 +17,23 @@ const Industries = () => {
   return (
     <div>
       <Navbar />
-      <div>
+      <div className="industries-play-bg-video">
         <video className="life-science-video" autoPlay loop muted>
           <source src={lifescience} type="video/mp4" />
         </video>
         <div className="mainimg">
           <p className="indheading">
             <div className="industies-mainhead">
-            <p
-                style={{
-                  color: "white",
-                  fontSize: "22px",
-                  fontStyle: "normal",
-                  fontWeight: "600",
-                }}
+            <p className="life"
+                
               >
                 Life Science
               </p>
-              <span>
+              <span className="data1">
                 Developing data solutions
-                <br />
+                
                 in the Life Sciences sector
-                <br /> to stimulate innovation.
+                to stimulate innovation.
               </span>
               <br />
             </div>
@@ -59,39 +54,39 @@ const Industries = () => {
               <img className="arpng" src="./images/vector.png" />
             </button>
           </div> */}
-          <button
-            style={{
-              display: "flex",
-              height: "61px",
-              maxWidth: "255px",
-              padding: "20px 46px 21px 48px",
-              justifyContent: "center",
-              alignItems: "center",
-              border: "none",
-              marginTop: "70px",
-              borderRadius: "5px",
-              marginLeft: "13%"
-            }}
+          <button className="button1"
+            // style={{
+            //   display: "flex",
+            //   height: "61px",
+            //   maxWidth: "255px",
+            //   padding: "20px 46px 21px 48px",
+            //   justifyContent: "center",
+            //   alignItems: "center",
+            //   border: "none",
+            //   marginTop: "70px",
+            //   borderRadius: "5px",
+            //   marginLeft: "13%"
+            // }}
           >
-            <span
-              style={{
-                color: "#FF4925",
-                fontSize: "14px",
-                fontStyle: "normal",
-                fontWeight: "600",
-                lineHeight: "19px",
-              }}
+            <span className="span1"
+              // style={{
+              //   color: "#FF4925",
+              //    fontSize: "14px",
+              //    fontStyle: "normal",
+              //    fontWeight: "600",
+              //    lineHeight: "19px",
+              // }}
             >
               Talk to us now
             </span>{" "}
             <i
               className="fa fa-long-arrow-right ml-3"
-              style={{
-                width: "23px",
-                fontSize: "29px",
-                flexShrink: "0",
-                color: "#FF4925",
-              }}
+              // style={{
+              //   width: "23px",
+              //   fontSize: "29px",
+              //   flexShrink: "0",
+              //   color: "#FF4925",
+              // }}
               aria-hidden="true"
             ></i>
           </button>
@@ -99,7 +94,7 @@ const Industries = () => {
       </div>
 
       <section className="industriesexpclass">
-        <div className="main-exp">
+        <div className="main-exp container">
           <div>
             <h4 className="expertiseind">Our Expertise</h4>
           </div>
@@ -107,9 +102,9 @@ const Industries = () => {
             <p className="exp-para">
               DataObserve provides a wide range of solutions tailored to the
               unique needs of the life
-              <br /> science and pharmaceutical industry. Explore the breadth of
+               science and pharmaceutical industry. Explore the breadth of
               our cloud-driven services
-              <br /> designed to meet industry-specific requirements.
+               designed to meet industry-specific requirements.
             </p>
           </div>
 
@@ -121,7 +116,7 @@ const Industries = () => {
             backgroundColor: "white"
           }}>
 
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist" style={{ alignItems: "center", justifyContent: "center" }}>
+            <ul class="nav nav-pills mb-3 pcmdheads" id="pills-tab" role="tablist" style={{ alignItems: "center", justifyContent: "center" }}>
               <li class="nav-item">
                 <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true" style={{ borderBottom: "3px solid #E2ECFF", borderRadius: "0px", color: "rgba(5, 5, 5, 0.35)" }}>Pharma</a>
               </li>
@@ -236,8 +231,8 @@ const Industries = () => {
                     </div>
                   </div>
                   <div className="col-md-4">
-                    <img src="./images/longpharma.png"
-                      style={{ width: "91%", height: "75%", paddingTop: "65px", }} />
+                    <img className="industries-pharama"     src="./images/longpharma.png" 
+                       />
                   </div>
                 </div>
               </div>
@@ -347,8 +342,8 @@ const Industries = () => {
                     </div>
                   </div>
                   <div className="col-md-4">
-                    <img src="./images/longclinicaltrials.png"
-                      style={{ width: "86%", height: "81%", paddingTop: "60px", }} />
+                    <img src="./images/longclinicaltrials.png"  className="longclinicaltrials"
+                      />
                   </div>
 
                 </div>
@@ -459,8 +454,8 @@ const Industries = () => {
                     </div>
                   </div>
                   <div className="col-md-4">
-                    <img src="./images/longmedicaldevices.png"
-                      style={{ width: "79%", height: "93%", paddingTop: "104px", }} />
+                    <img className="longmedicaldevices" src="./images/longmedicaldevices.png"
+                       />
                   </div>
 
                 </div>
@@ -570,8 +565,8 @@ const Industries = () => {
                     </div>
                   </div>
                   <div className="col-md-4">
-                    <img src="./images/longgenomics.png"
-                      style={{ width: "72%", height: "86%", paddingTop: "86px", }} />
+                    <img  className="multiomics"    src="./images/longgenomics.png"
+                      />
                   </div>
 
                 </div>
@@ -585,16 +580,17 @@ const Industries = () => {
         {/* jgutihjg */}
 
       </section>
-      <div style={{ marginTop: "50px" }}>
+
+      <div  className="pmt container" >
         <h3 className="platforms">
           Accelerate Life Sciences Data Transformation
           <br />
           Journey!
         </h3>
-        <p className="platformspara">
+        <p className="ind-platformspara">
           DataObserve aims to establish itself as a prominent provider of cloud
           and data solutions, serving a worldwide clientele of life science{" "}
-          <br />
+         
           organizations. We combine the ideal fusion of data and cloud
           technologies to support and empower the life sciences sector.
         </p>
@@ -774,28 +770,25 @@ const Industries = () => {
             >
               <div class="col-md-5">
                 <img
-                  style={{ height: "278px", width: "100%", paddingTop:"8px" }}
+                  style={{ height: "278px", width: "100%",}}
                   src="./images/pxmb.png"
-                  className="card-img"
-                  alt="..."
+                  className="card-imgs"
+                  alt="..." 
                 />
               </div>
               <div class="col-md-7">
                 <div class="card-body">
                   <h5
-                    class="card-title"
-                    style={{ color: "white", letterSpacing: "0.68px",fontSize:"19px" }}
+                    class="ind-card-title"
+                    style={{ color: "white", letterSpacing: "0.68px",fontSize:"21px" }}
                   >
                     Built A Unified Augmented Analytics
-                    <br /> decision intelligence Platform
+                    decision intelligence Platform
                   </h5>
-                  <p class="card-text-3">
+                  <p class="ind-card-text-3">
                     Learn how we created a self-service, predictive, insights
-                    platform driven
-                    <br /> by an adaptive machine learning engine which helps
-                    improve decision-
-                    <br />
-                    making.
+                    platform driven by an adaptive machine learning engine which helps
+                    improve decision-making.
                   </p>
                   <p class="card-text" style={{ color: "white" }}>
                     <p style={{ fontSize: 16 }}>
@@ -814,25 +807,25 @@ const Industries = () => {
                       marginLeft: "-20px",
                     }}
                   >
-                    <img
+                    <img className="newaccede"
                       src="./images/newaccede.png"
                       alt=""
-                      style={{ width: "60px", height: "20px" }}
+                      // style={{ width: "60px", height: "20px" }}
                     />
-                    <img
+                    <img className="slokaenergy"
                       src="./images/slokaenergy.png"
                       alt=""
-                      style={{ width: "100px" }}
+                      // style={{ width: "100px" }}
                     />
-                    <img
+                    <img className="gbreco"
                       src="./images/gbreco.png"
                       alt=""
-                      style={{ width: "95px" }}
+                      // style={{ width: "95px" }}
                     />
-                    <img
+                    <img className="newsrdsystems"
                       src="./images/newsrdsystems.png"
                       alt=""
-                      style={{ width: "70px" }}
+                      // style={{ width: "70px" }}
                     />
                   </div>
                 </div>
@@ -924,7 +917,7 @@ const Industries = () => {
 
       {/* talent as service */}
 
-      <div className="container" style={{ marginTop: "130px" }}>
+      <div className="container tasdiv" style={{ marginTop: "130px" }}>
         <div className="talent-div ">
           <div>
             <h1 className="tlnt-heading">Talent as a Service</h1>
@@ -936,18 +929,18 @@ const Industries = () => {
           </div>
           <div class="row tlnt-card" style={{ marginTop: "50px" }}>
             <div className="col-md-6 ">
-              <img
-                style={{
-                  width: "80%",
-                  borderRadius: "30px",
-                  marginLeft: "-15px",
-                }}
+              <img className="tlnt-card-web-img"
+                // style={{
+                //   width: "80%",
+                //   borderRadius: "30px",
+                //   marginLeft: "-15px",
+                // }}
                 src="./images/tlnt-card.png"
               />
             </div>
             <div
-              className="col-md-6 "
-              style={{ marginTop: "40px", marginLeft: "-100px" }}
+              className="col-md-6 eng"
+              // style={{ marginTop: "40px", marginLeft: "-100px" }}
             >
               <p className="tlnt-card-para">
                 We're introducing a new approach to hiring cloud Engineers. This
@@ -958,29 +951,29 @@ const Industries = () => {
 
               <div
                 className="tlnt-btn"
-                style={{
-                  border: "none",
-                  borderRadius: "4px",
-                  marginTop: "72px",
-                  marginBottom: "32px",
-                }}
+                // style={{
+                //   border: "none",
+                //   borderRadius: "4px",
+                //   marginTop: "72px",
+                //   marginBottom: "32px",
+                // }}
               >
                 <button
                   className="tlnt-botn"
-                  style={{
-                    padding: "16px 50px 16px 50px",
-                    fontSize: "15px",
-                    color: "white",
-                    borderradius: "4px",
-                    background: "#1A4AB9",
-                    border: "none",
-                  }}
+                  // style={{
+                  //   padding: "16px 50px 16px 50px",
+                  //   fontSize: "15px",
+                  //   color: "white",
+                  //   borderradius: "4px",
+                  //   background: "#1A4AB9",
+                  //   border: "none",
+                  // }}
                 >
                   Explore DoCreater{" "}
                   <i class="fa fa-long-arrow-right ml-2" aria-hidden="true"></i>
                 </button>
                 <div className="dood">
-                  <img src="./images/dood.png" style={{height:"100px"}}/>
+                  <img src="./images/dood.png"  className="doodpng"/>
                 </div>
               </div>
             </div>
@@ -990,24 +983,24 @@ const Industries = () => {
 
       <div className="labimg">
         <div className="lab-img-section">
-          <img src="./images/newlabdown.png" alt="#" />
+          <img src="./images/newlabdown.png" alt="#" className="lab-img"/>
         </div>
 
         <div className="lab-data-industries ">
           <div
             class="card-industries"
             style={{
-              border: "none",
-              background: "none",
-              transform: "translatey(-10px)",
-              width: "390px",
-              paddingLeft:"129px"
+              // border: "none",
+              // background: "none",
+              // transform: "translatey(-10px)",
+              // width: "390px",
+              // paddingLeft:"129px"
               // marginLeft: "15px",
             }}
           >
             <div
               class="card-body industries-bg-pink"
-              style={{ borderRadius: "27px", height: "250px", width: "390px" }}
+              style={{ borderRadius: "27px", height: "263px", width: "390px" }}
             >
               <p className="doc">
                 {" "}
@@ -1017,7 +1010,7 @@ const Industries = () => {
                 BLOG{" "}
               </p>
               <h5
-                class="card-title"
+                class="ind-card-title"
                 style={{ fontSize: "15px", fontWeight: "600px" }}
               >
                 Big data analytics for the pharmaceutical
@@ -1048,12 +1041,12 @@ const Industries = () => {
       </div>
       <div
         class="container"
-        style={{ marginTop: "100px", marginBottom: "100px" }}
+        // style={{ marginTop: "100px", marginBottom: "100px" }}
       >
         <h1 className="benfits">
           {" "}
           Digital Transformation Benefits
-          <br />
+         
           in Life Science
         </h1>
         <p className="benfits-para">
@@ -1111,7 +1104,7 @@ const Industries = () => {
       <div class="card text-center" style={{ border: "0px" }}>
 
         <div class="card-body faq-class">
-          <h5 class="card-title" style={{ color: "white" }}>
+          <h5 class="cardsdetails">
             FAQs
           </h5>
           <div
@@ -1156,7 +1149,7 @@ const Industries = () => {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p className="faq"  >
                       What are Data Solutions for Life Sciences, and how do they
                       contribute to innovation?
                     </p>
@@ -1184,7 +1177,7 @@ const Industries = () => {
                 aria-labelledby="headingOne"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   Data Solutions for Life Sciences involve leveraging advanced
                   technologies and analytics to harness the power of data in the
                   field of life sciences. These solutions aim to drive
@@ -1225,7 +1218,7 @@ const Industries = () => {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p className="faq">
                       How do Data Solutions benefit researchers and scientists
                       in the Life Sciences industry?
                     </p>
@@ -1252,7 +1245,7 @@ const Industries = () => {
                 aria-labelledby="headingTwo"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   Data Solutions empower researchers and scientists by providing
                   efficient tools for data collection, analysis, and
                   interpretation. This accelerates the pace of research,
@@ -1294,7 +1287,7 @@ const Industries = () => {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p className="faq">
                       What specific challenges do Data Solutions for Life
                       Sciences address?
                     </p>
@@ -1321,7 +1314,7 @@ const Industries = () => {
                 aria-labelledby="headingThree"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   These solutions address challenges related to data management,
                   integration of diverse data sources, scalability, and the need
                   for real-time analytics. By overcoming these hurdles,
@@ -1362,7 +1355,7 @@ const Industries = () => {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p className="faq">
                       Can Data Solutions for Life Sciences be customized to fit
                       specific research requirements?
                     </p>
@@ -1389,7 +1382,7 @@ const Industries = () => {
                 aria-labelledby="headingFour"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   Yes, our Data Solutions are highly customizable to meet the
                   unique needs of different research projects in the Life
                   Sciences domain. Whether it's adapting to specific data types,
@@ -1430,7 +1423,7 @@ const Industries = () => {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p className="faq">
                       How do Data Solutions enhance collaboration among
                       researchers and organizations?
                     </p>
@@ -1457,7 +1450,7 @@ const Industries = () => {
                 aria-labelledby="headingFive"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   Our Data Solutions facilitate seamless collaboration by
                   providing a centralized platform for data sharing,
                   collaboration, and real-time communication. This fosters
@@ -1498,7 +1491,7 @@ const Industries = () => {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p className="faq">
                       Are Data Solutions for Life Sciences compliant with
                       industry regulations and standards?
                     </p>
@@ -1525,7 +1518,7 @@ const Industries = () => {
                 aria-labelledby="headingSix"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   Absolutely. Our Data Solutions adhere to industry-specific
                   regulations and standards, such as HIPAA and GDPR, ensuring
                   the highest levels of data security, privacy, and compliance.
@@ -1565,7 +1558,7 @@ const Industries = () => {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p className="faq">
                       How do Data Solutions contribute to precision medicine and
                       personalized healthcare?
                     </p>
@@ -1592,7 +1585,7 @@ const Industries = () => {
                 aria-labelledby="headingSeven"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   By integrating and analyzing diverse datasets, including
                   genomic, clinical, and lifestyle data, our solutions enable
                   the development of personalized treatment plans. This
@@ -1633,7 +1626,7 @@ const Industries = () => {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p className="faq">
                       Can Data Solutions be integrated with existing laboratory
                       and research management systems?
                     </p>
@@ -1660,7 +1653,7 @@ const Industries = () => {
                 aria-labelledby="headingEight"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   Yes, our Data Solutions are designed to seamlessly integrate
                   with existing laboratory information management systems (LIMS)
                   and research management systems. This integration ensures a
@@ -1701,7 +1694,7 @@ const Industries = () => {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p className="faq">
                       What kind of analytics capabilities do Data Solutions
                       offer for life sciences research?
                     </p>
@@ -1728,7 +1721,7 @@ const Industries = () => {
                 aria-labelledby="headingNine"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   Our Data Solutions provide a range of analytics capabilities,
                   including predictive analytics, machine learning, and data
                   visualization. These tools empower researchers to derive
@@ -1770,7 +1763,7 @@ const Industries = () => {
                       justifyContent: "space-between",
                     }}
                   >
-                    <p style={{ margin: "0px" }}>
+                    <p className="faq">
                       How can organizations get started with implementing Data
                       Solutions for Life Sciences?
                     </p>
@@ -1797,7 +1790,7 @@ const Industries = () => {
                 aria-labelledby="headingTen"
                 data-parent="#accordionExample"
               >
-                <div class="card-body">
+                <div class="card-bodys">
                   To get started, organizations can reach out to our team for a
                   consultation. We offer a tailored approach to understand
                   specific needs, assess existing infrastructure, and create a

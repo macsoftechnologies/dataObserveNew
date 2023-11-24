@@ -213,7 +213,7 @@
   margin-top: 70px;
 }
 .headfinalsec-domonitor {
-  font-size: 25px;
+  font-size: 22px;
 }
 .zabbix-domonitor {
   height: 113px;
@@ -302,9 +302,9 @@ display: block;
   position: absolute;
     top: 0;
     left: -3px;
-    width: 22px;
+    width: 11px;
     height: 22px;
-    border-radius: 50%;
+    border-radius: 10%;
     /* border: 6px solid #fff; */
     background-color: #8e8f9c57;
     /* box-shadow: 0 4px 13px rgb(0 0 0 / 15%); */
@@ -350,6 +350,7 @@ display: block;
   justify-content: center;
 }
 
+
 .quality-image{
   margin-bottom: 56% ;
 }
@@ -357,4 +358,22 @@ display: block;
 .btn1-domonitor:hover{
   color: #0046e8;
   }
-
+  .scroll-to-top-button {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 21px;
+    z-index: 99;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color: #0046e8;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 30px;
+  }
+  
+  /* .scroll-to-top-button:hover {
+    background-color: #777;
+  } */
